@@ -1,0 +1,1 @@
+const t="Plagiarism Check",i=[{title:"Anti-Plagiarism: Lithuanian Proposal",link:"/Антиплагіат-Литовська-пропозиція.docx",date:"13.12.2018"},{title:"Cooperation Agreement with Unicheck",link:"/Договір-ІЧМ-НАНУ_Антиплагіат.pdf"}],a={title:t,data:i};export{i as data,a as default,t as title};

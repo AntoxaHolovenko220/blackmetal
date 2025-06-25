@@ -1,0 +1,1 @@
+const e="License",t=[{title:"License",link:"/Ліцензія.pdf",date:"13.12.2013"},{title:"Order of the Ministry of Education and Science of Ukraine No. 56-L",link:"/Наказ-МОН-України-56-Л.pdf"},{title:"Directive of the NAS of Ukraine",link:"/Розпорядження-НАНУ.jpg"}],i={title:e,data:t};export{t as data,i as default,e as title};
