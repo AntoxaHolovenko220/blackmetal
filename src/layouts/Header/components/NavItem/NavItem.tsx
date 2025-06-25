@@ -152,6 +152,8 @@ export const NavItem = ({
 											minHeight: '50px',
 											height: 'auto',
 											py: 1,
+											display: 'flex',
+											alignItems: 'center',
 											'&:hover': {
 												backgroundColor: '#2D7A84',
 												color: '#fff',
