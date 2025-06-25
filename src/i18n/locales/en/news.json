@@ -9,7 +9,33 @@
 		{
 			"id": 2,
 			"title": "EM-40-01 Equipment",
-			"text": "We are pleased to announce the arrival of new computer equipment that will help improve the quality of education and research work."
+			"text": "We are pleased to announce the arrival of new computer equipment that will help improve the quality of education and research work.",
+			"content": [
+				{
+					"type": "image",
+					"value": "/blackmetal/news2.png"
+				},
+				{
+					"type": "text",
+					"value": "The new modern EM-40-01 equipment is designed to increase the efficiency of the educational process. This high-tech equipment allows students and scientists to conduct complex research at a new level."
+				},
+				{
+					"type": "image",
+					"value": "/blackmetal/news1.png"
+				},
+				{
+					"type": "text",
+					"value": "Thanks to the implementation of this equipment, our institute has gained the opportunity to significantly expand the range of research in the field of metallurgy and materials science. Students will be able to master the most modern methods and technologies in practice."
+				},
+				{
+					"type": "image",
+					"value": "/blackmetal/news3.png"
+				},
+				{
+					"type": "text",
+					"value": "Particularly important is that the new equipment allows for research that was previously unavailable. This opens up new opportunities for scientific research and training of qualified specialists."
+				}
+			]
 		},
 		{
 			"id": 3,

@@ -26,9 +26,8 @@ const DevelopmentsPage = () => {
         sx={{
           mb: { xxs: 2, xs: 3, sm: 4, md: 5 },
           fontSize: {
-            xxs: '28px',
-            sm: '2.2rem',
-            md: '2.5rem',
+            xs: '28px',   
+            md: '36px',   
           },
         }}
       >
