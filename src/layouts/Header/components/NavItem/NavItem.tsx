@@ -89,7 +89,6 @@ export const NavItem = ({
 							py: 1.5,
 							width: '100%',
 							justifyContent: 'flex-start',
-
 							'&:hover': {
 								color: '#2D7A84',
 								backgroundColor: 'rgba(0,0,0,0.05)',
