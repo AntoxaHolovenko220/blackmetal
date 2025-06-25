@@ -1,0 +1,82 @@
+{
+	"title": "Syllabi 132",
+	"data": [
+		{
+			"title": "Documentation",
+			"link": "/1-1-Документування.pdf",
+			"date": "13.12.2013"
+		},
+		{
+			"title": "Information Technologies",
+			"link": "/1-2-Інформаційні-технології.pdf"
+		},
+		{
+			"title": "Research Methodology",
+			"link": "/1-3-Методологія-досліджень.pdf"
+		},
+		{
+			"title": "Patent Information Studies",
+			"link": "/1-4-Патентно-інформаційні.pdf"
+		},
+		{
+			"title": "Philosophy of NASU",
+			"link": "/1-5-Філослфія-НАНУ.pdf"
+		},
+		{
+			"title": "Foreign Language",
+			"link": "/1-6-Іноземна-мова.pdf"
+		},
+		{
+			"title": "Fundamentals of Heat Treatment for Carbon and Alloy Steels",
+			"link": "/2-1-Основи-термічної-обробки-вуглецевих-і-легованих-сталей.pdf"
+		},
+		{
+			"title": "Research and Teaching Practice",
+			"link": "/2-2-Науково-педагогічна-практика (1).pdf"
+		},
+		{
+			"title": "Models of Phase Structure Transformations",
+			"link": "/2-3-Модел_фаз_струк_перетворень.pdf"
+		},
+		{
+			"title": "Physical Fundamentals of Non-Destructive Material Testing",
+			"link": "/2-4-Фіз_основ_неруйн_контр_матер.pdf"
+		},
+		{
+			"title": "Materials Science in Additive Manufacturing",
+			"link": "/2-5-Матеріалознавство-у-адитивному-виробництві.pdf"
+		},
+		{
+			"title": "Materials Science of Railway Structural Steels",
+			"link": "/2-6-Матеріалознавство-конструкційних-сталей-залізничного-призначення.pdf"
+		},
+		{
+			"title": "Strength and Fracture of Materials",
+			"link": "/2-7-Міцність-та-руйнування-матеріалів.pdf"
+		},
+		{
+			"title": "Theoretical and Technological Foundations of Steel Rolled Product Manufacturing with Resource and Energy Saving",
+			"link": "/2-8-Теор_та_техн_осн_вигот_та_перер_стал_прок_на_зас_ресурсо-та-енергозбереження.pdf"
+		},
+		{
+			"title": "Fundamentals of Structure Formation in Metals and Alloys",
+			"link": "/2-9-Основи-структуроутворення-металів-і-сплавів (1).pdf"
+		},
+		{
+			"title": "Technology of Thermal Strengthening of Reinforcing Rolled Products for Building Structures",
+			"link": "/2-10-Техн_терм_зміц_армат_прок_для_буд_констр.pdf"
+		},
+		{
+			"title": "Structural Heredity in Steels and Alloys",
+			"link": "/2-11-Структурна-спадковість-в-сталях-і-сплавах (1).pdf"
+		},
+		{
+			"title": "Methods for Assessing Metal Product Quality",
+			"link": "/2-12-Методи-оцінки-якості-металопродукції (1).pdf"
+		},
+		{
+			"title": "Technologies and Equipment for Heat Treatment",
+			"link": "/2-13-Технології-та-обладнання-термічної-обробки-металопрокату (1).pdf"
+		}
+	]
+}

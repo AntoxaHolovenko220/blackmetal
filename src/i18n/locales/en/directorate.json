@@ -1,0 +1,83 @@
+{
+	"title": "Directorate",
+	"data": [
+		{
+			"photo": "/director.jpg",
+			"position": "Director of the Institute",
+			"name": "Babachenko Oleksandr Ivanovych",
+			"biography": "There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this.",
+			"contacts": [
+				{
+					"type": "Phone",
+					"value": "+38(056) 790-05-14"
+				},
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"photo": "/zamdir.webp",
+			"position": "Deputy Director for Scientific Affairs",
+			"name": "Merkulov Oleksii Yevhenovych",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Phone",
+					"value": "+38(056) 790-05-14"
+				},
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"photo": "/vozamdir.webp",
+			"position": "Acting Deputy Director for Scientific Affairs",
+			"name": "Parusov Eduard Volodymyrovych",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Phone",
+					"value": "+38(056) 790-05-14"
+				},
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"position": "Academic Secretary",
+			"name": "Harmash Larysa Ivanivna",
+			"description": "PhD in Technical Sciences",
+			"contacts": [
+				{
+					"type": "Phone",
+					"value": "+38(056) 790-57-84"
+				},
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"position": "Deputy Director for General Affairs",
+			"name": "Semerenko Yurii Ivanovych",
+			"description": "Doctor of Technical Sciences, Professor, Honored Worker of Science and Technology of Ukraine, Laureate of the State Prize of Ukraine in Science and Technology",
+			"contacts": [
+				{
+					"type": "Phone",
+					"value": "+38(056) 790-05-14"
+				},
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		}
+	]
+}

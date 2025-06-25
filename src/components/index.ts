@@ -1,0 +1,12 @@
+export { default as Loader } from './Loader'
+export { default as SocialLinks } from './SocialLinks'
+export { default as UniversalLogo } from './UniversalLogo'
+export { default as DocumentCard } from './DocumentCard'
+export { default as PersonCard } from './PersonCard'
+export { default as Header } from '@/layouts/Header'
+export { default as LanguageSwitcher } from './LanguageSwitcher'
+export { default as UniversalSearch } from './UniversalSearch'
+export { default as DocumentTitleSearch } from './DocumentTitleSearch'
+export { default as ImageSlider } from './ImageSlider'
+
+// export { default as PresentationPlayer } from './PresentationPlayer'

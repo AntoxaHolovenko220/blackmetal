@@ -1,0 +1,44 @@
+{
+	"header": {
+		"about": "Про нас",
+		"developments": "Основні розробки"
+	},
+	"routes": {
+		"HomePage": "Інститут чорної металургії",
+		"DashboardPage": "Панель",
+		"ServicesPage": "Сервіси",
+		"RepositoryPage": "Репозиторій",
+		"RemoteEducationPage": "Дистанційна освіта",
+		"ApplicantPage": "Абітурієнту",
+		"EntrantPage": "Вступнику",
+		"LibraryPage": "Бібліотека"
+	},
+	"components": {
+		"document-card": {
+			"see": "Подивитись",
+			"download": "Скачати"
+		},
+		"search": "Пошук"
+	},
+	"footer": {
+		"map": "Мапа сайту",
+		"about": "Про сайт",
+		"location": "МІСЦЕ ЗНАХОДЖЕННЯ",
+		"address": "Дніпро, площа академіка Стародубова 1",
+		"contacts": "КОНТАКТИ",
+		"question": "ЗАДАТИ ПИТАННЯ",
+		"questionButton": "Зворотній зв'язок",
+		"socials": "СОЦ.МЕРЕЖІ"
+	},
+
+	"logo": {
+		"text": "Інститут чорної металургії<br />ім. З.І. Некрасова<br />Національної академії наук України"
+	},
+	"buttonNews": {
+		"go": "Перейти"
+	},
+	"notFound": {
+		"title": "Сторінка не знайдена",
+		"backButton": "Повернутись на головну"
+	}
+}

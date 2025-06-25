@@ -1,0 +1,176 @@
+{
+	"HomePage": {
+		"path": "/",
+		"component": "HomePage",
+		"title": "Інститут чорної металургії",
+		"layout": "MainLayout"
+	},
+	"DevelopmentsPage": {
+		"path": "/about/developments",
+		"component": "DevelopmentsPage",
+		"title": "Розробки",
+		"layout": "MainLayout"
+	},
+	"ScientificDepartments": {
+		"path": "/scientific-departments",
+		"component": "ScientificDepartmentsPage",
+		"title": "Наукові відділи",
+		"layout": "MainLayout"
+	},
+	"TechnicalDepartments": {
+		"path": "/technical-departments",
+		"component": "TechnicalDepartmentsPage",
+		"title": "Наукові відділи",
+		"layout": "MainLayout"
+	},
+	"ServicesPage": {
+		"path": "/services",
+		"component": "ServicesPage",
+		"title": "Сервіси",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"RepositoryPage": {
+		"path": "/repository",
+		"component": "RepositoryPage",
+		"title": "Репозиторій",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"RemoteEducationPage": {
+		"path": "/remote-education",
+		"component": "RemoteEducationPage",
+		"title": "Дистанційна освіта",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"ApplicantPage": {
+		"path": "/applicant",
+		"component": "ApplicantPage",
+		"title": "Абітурієнту",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"EntrantPage": {
+		"path": "/entrant",
+		"component": "EntrantPage",
+		"title": "Вступнику",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"LibraryPage": {
+		"path": "/library",
+		"component": "LibraryPage",
+		"title": "Бібліотека",
+		"layout": "MainLayout",
+		"showIn": "Footer"
+	},
+	"DirectoratePage": {
+		"path": "/structure/directorate",
+		"component": "DirectoratePage",
+		"title": "Директорат",
+		"layout": "MainLayout"
+	},
+	"PostgraduateApplicantsPage": {
+		"path": "/training/postgraduate/applicants",
+		"component": "PostgraduateApplicantsPage",
+		"title": "Для вступників",
+		"layout": "MainLayout"
+	},
+	"MainCouncilPage": {
+		"path": "/structure/councils/main",
+		"component": "MainCouncilPage",
+		"title": "Вчена рада",
+		"layout": "MainLayout"
+	},
+	"YoungCouncilPage": {
+		"path": "/structure/councils/young",
+		"component": "YoungCouncilPage",
+		"title": "Рада молодих вчених",
+		"layout": "MainLayout"
+	},
+	"IndividualPlansPage": {
+		"path": "/training/postgraduate/plans",
+		"component": "IndividualPlansPage",
+		"title": "Індивідуальні плани",
+		"layout": "MainLayout"
+	},
+	"OrdersPage": {
+		"path": "/training/postgraduate/orders",
+		"component": "OrdersPage",
+		"title": "Накази",
+		"layout": "MainLayout"
+	},
+	"RegulationsPage": {
+		"path": "/training/postgraduate/regulations",
+		"component": "RegulationsPage",
+		"title": "Правила та положення",
+		"layout": "MainLayout"
+	},
+	"LicensePage": {
+		"path": "/training/postgraduate/license",
+		"component": "LicensePage",
+		"title": "Правила та положення",
+		"layout": "MainLayout"
+	},
+	"AntiPlagiarismPage": {
+		"path": "/training/postgraduate/antiplagiat",
+		"component": "AntiPlagiarismPage",
+		"title": "Перевірка антиплагіату",
+		"layout": "MainLayout"
+	},
+	"AccreditationPage": {
+		"path": "/training/postgraduate/accreditation",
+		"component": "AccreditationPage",
+		"title": "Акредитація",
+		"layout": "MainLayout"
+	},
+	"Syllabus136Page": {
+		"path": "/training/postgraduate/syllabus-136",
+		"component": "Syllabus136Page",
+		"title": "Силабуси 136",
+		"layout": "MainLayout"
+	},
+	"Syllabus132Page": {
+		"path": "/training/postgraduate/syllabus-132",
+		"component": "Syllabus132Page",
+		"title": "Силабуси 132",
+		"layout": "MainLayout"
+	},
+	"StakeholdersPage": {
+		"path": "/training/postgraduate/stakeholders",
+		"component": "StakeholdersPage",
+		"title": "Стейкхолдери",
+		"layout": "MainLayout"
+	},
+	"ContactsPage": {
+		"path": "/contacts",
+		"component": "ContactsPage",
+		"title": "Контакти",
+		"layout": "MainLayout"
+	},
+	"MonographsPage": {
+		"path": "/publishing/monographs",
+		"component": "MonographsPage",
+		"title": "Контакти",
+		"layout": "MainLayout"
+	},
+	"PersonPage": {
+		"path": "/person/:id",
+		"component": "PersonPage",
+		"title": "Інститут чорної металургії",
+		"layout": "MainLayout"
+	},
+	"NewsPage": {
+		"path": "/news/:id",
+		"component": "NewsPage",
+		"title": "Новини",
+		"layout": "MainLayout"
+	},
+	"NotFoundPage": {
+		"path": "*",
+		"component": "NotFoundPage",
+		"title": "Страница не найдена",
+		"layout": "HeaderOnlyLayout"
+	}
+}
