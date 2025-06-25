@@ -1,15 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Box, Container, Typography, CircularProgress, Alert } from '@mui/material'
+import {
+	Box,
+	Container,
+	Typography,
+	CircularProgress,
+	Alert,
+} from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { NewsItem, TranslatedNewsData } from '@/pages/HomePage/components/News/NewsTypes'
+import {
+	NewsItem,
+	TranslatedNewsData,
+} from '@/pages/HomePage/components/News/NewsTypes'
 import { ImageSlider } from '@/components'
 
 const NewsPage: React.FC = () => {
 	const { id } = useParams<{ id: string }>()
 	const { t } = useTranslation()
-	const { data: newsData, loading, error } = useTranslationData<TranslatedNewsData>('news')
+	const {
+		data: newsData,
+		loading,
+		error,
+	} = useTranslationData<TranslatedNewsData>('news')
 	const [newsItem, setNewsItem] = useState<NewsItem | null>(null)
 
 	useEffect(() => {
@@ -52,8 +65,8 @@ const NewsPage: React.FC = () => {
 		<Container
 			maxWidth='lg'
 			sx={{
-				py: 4,
-				px: { xs: 0, sm: 2 },
+				pr: '0 !important',
+				py: '30px',
 				pl: { xs: 0, sm: '50px' },
 				maxWidth: '100vw !important',
 				overflowX: 'hidden',
@@ -113,7 +126,11 @@ const NewsPage: React.FC = () => {
 			</Box>
 
 			{images.length > 0 && (
-				<ImageSlider images={images} title={newsItem.title} alt={newsItem.title} />
+				<ImageSlider
+					images={images}
+					title={newsItem.title}
+					alt={newsItem.title}
+				/>
 			)}
 
 			<Typography
