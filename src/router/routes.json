@@ -11,6 +11,12 @@
 		"title": "Розробки",
 		"layout": "MainLayout"
 	},
+	"InstituteStrategyPage": {
+		"path": "/about/strategy",
+		"component": "InstituteStrategyPage",
+		"title": "Стратегія Інституту",
+		"layout": "MainLayout"
+	},
 	"ScientificDepartments": {
 		"path": "/scientific-departments",
 		"component": "ScientificDepartmentsPage",
@@ -152,6 +158,12 @@
 	"MonographsPage": {
 		"path": "/publishing/monographs",
 		"component": "MonographsPage",
+		"title": "Контакти",
+		"layout": "MainLayout"
+	},
+	"ProcurementPage": {
+		"path": "/about/procurement",
+		"component": "ProcurementPage",
 		"title": "Контакти",
 		"layout": "MainLayout"
 	},

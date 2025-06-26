@@ -7,7 +7,7 @@ const HomePage = () => {
 	return (
 		<>
 			<HeroSection image={universityImage} />
-			<Container maxWidth='xl' sx={{ py: 4 }}>
+			<Container maxWidth='xl' sx={{ pb: '30px' }}>
 				<NewsGrid />
 			</Container>
 		</>
