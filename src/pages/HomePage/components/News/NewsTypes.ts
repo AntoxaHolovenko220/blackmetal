@@ -1,3 +1,8 @@
+export interface NewsContentItem {
+	type: 'image' | 'text'
+	value: string
+}
+
 export interface NewsItem {
 	id: number
 	title: string
@@ -5,6 +10,7 @@ export interface NewsItem {
 	imageUrl: string
 	images?: string[]
 	date: string
+	content?: NewsContentItem[]
 
 	onClick?: () => void
 }

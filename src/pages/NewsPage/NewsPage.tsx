@@ -12,6 +12,7 @@ import { useTranslationData } from '@/hooks/useTranslationData'
 import {
 	NewsItem,
 	TranslatedNewsData,
+	NewsContentItem,
 } from '@/pages/HomePage/components/News/NewsTypes'
 import { ImageSlider } from '@/components'
 
@@ -65,8 +66,8 @@ const NewsPage: React.FC = () => {
 		<Container
 			maxWidth='lg'
 			sx={{
-				pr: '0 !important',
-				py: '30px',
+				py: 4,
+				px: { xs: 0, sm: 2 },
 				pl: { xs: 0, sm: '50px' },
 				maxWidth: '100vw !important',
 				overflowX: 'hidden',
@@ -82,7 +83,6 @@ const NewsPage: React.FC = () => {
 					[theme.breakpoints.down(480)]: {
 						alignItems: 'center',
 						'& .MuiTypography-h4, & .MuiTypography-caption': {
-							// textAlign: 'center',
 							width: '100%',
 						},
 					},
@@ -125,25 +125,70 @@ const NewsPage: React.FC = () => {
 				</Typography>
 			</Box>
 
-			{images.length > 0 && (
-				<ImageSlider
-					images={images}
-					title={newsItem.title}
-					alt={newsItem.title}
-				/>
-			)}
+			{/* контент для новости с ID 2 */}
+			{newsItem.id === 2 && newsItem.content ? (
+				<Box sx={{ mb: 3 }}>
+					{newsItem.content.map((item: NewsContentItem, index: number) => (
+						<Box key={index} sx={{ mb: 4 }}>
+							{item.type === 'image' ? (
+								<Box
+									sx={{
+										width: '100%',
+										maxWidth: '600px',
+										mx: 'auto',
+										mb: 2,
+									}}
+								>
+									<img
+										src={item.value}
+										alt={`${newsItem.title} - изображение ${index + 1}`}
+										style={{
+											width: '100%',
+											height: '300px',
+											objectFit: 'contain',
+										}}
+									/>
+								</Box>
+							) : (
+								<Typography
+									variant='body1'
+									sx={{
+										fontSize: '1.1rem',
+										lineHeight: 1.7,
+										color: '#333',
+										mb: 2,
+										textAlign: 'justify',
+									}}
+								>
+									{item.value}
+								</Typography>
+							)}
+						</Box>
+					))}
+				</Box>
+			) : (
+				<>
+					{images.length > 0 && (
+						<ImageSlider
+							images={images}
+							title={newsItem.title}
+							alt={newsItem.title}
+						/>
+					)}
 
-			<Typography
-				variant='body1'
-				sx={{
-					fontSize: '1.1rem',
-					lineHeight: 1.7,
-					color: '#333',
-					mb: 3,
-				}}
-			>
-				{newsItem.text}
-			</Typography>
+					<Typography
+						variant='body1'
+						sx={{
+							fontSize: '1.1rem',
+							lineHeight: 1.7,
+							color: '#333',
+							mb: 3,
+						}}
+					>
+						{newsItem.text}
+					</Typography>
+				</>
+			)}
 		</Container>
 	)
 }
