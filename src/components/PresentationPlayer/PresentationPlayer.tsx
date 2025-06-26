@@ -133,9 +133,9 @@ export const PresentationPlayer: FC = () => {
         <Typography sx={{ color: '#fff', minWidth: 32, textAlign: 'center', fontWeight: 500 }}>
           {numPages}
         </Typography>
-        <IconButton sx={{ color: '#fff' }}>
+        {/* <IconButton sx={{ color: '#fff' }}>
           <SendIcon />
-        </IconButton>
+        </IconButton> */}
         <IconButton sx={{ color: '#fff' }} onClick={handleFullscreen}>
           <FullscreenIcon />
         </IconButton>

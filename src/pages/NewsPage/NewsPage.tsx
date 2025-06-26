@@ -1,25 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import {
-	Box,
-	Container,
-	Typography,
-	CircularProgress,
-	Alert,
-} from '@mui/material'
+import { Box, Container, Typography, CircularProgress, Alert } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { NewsItem, TranslatedNewsData } from '@/pages/HomePage/components/News/NewsTypes'
+import { NewsItem, TranslatedNewsData, NewsContentItem } from '@/pages/HomePage/components/News/NewsTypes'
 import { ImageSlider } from '@/components'
 
 const NewsPage: React.FC = () => {
 	const { id } = useParams<{ id: string }>()
 	const { t } = useTranslation()
-	const {
-		data: newsData,
-		loading,
-		error,
-	} = useTranslationData<TranslatedNewsData>('news')
+	const { data: newsData, loading, error } = useTranslationData<TranslatedNewsData>('news')
 	const [newsItem, setNewsItem] = useState<NewsItem | null>(null)
 
 	useEffect(() => {
@@ -62,8 +52,8 @@ const NewsPage: React.FC = () => {
 		<Container
 			maxWidth='lg'
 			sx={{
-				pr: '0 !important',
-				py: '30px',
+				py: 4,
+				px: { xs: 0, sm: 2 },
 				pl: { xs: 0, sm: '50px' },
 				maxWidth: '100vw !important',
 				overflowX: 'hidden',
@@ -121,9 +111,52 @@ const NewsPage: React.FC = () => {
 				</Typography>
 			</Box>
 
-			{images.length > 0 && (
-				<ImageSlider images={images} title={newsItem.title} alt={newsItem.title} />
-			)}
+			{/* контент для новости с ID 2 */}
+			{newsItem.id === 2 && newsItem.content ? (
+				<Box sx={{ mb: 3 }}>
+					{newsItem.content.map((item: NewsContentItem, index: number) => (
+						<Box key={index} sx={{ mb: 4 }}>
+							{item.type === 'image' ? (
+								<Box
+									sx={{
+										width: '100%',
+										maxWidth: '600px',
+										mx: 'auto',
+										mb: 2,
+									}}
+								>
+									<img
+										src={item.value}
+										alt={`${newsItem.title} - изображение ${index + 1}`}
+										style={{
+											width: '100%',
+											height: '300px',
+											objectFit: 'contain'
+										}}
+									/>
+								</Box>
+							) : (
+								<Typography
+									variant='body1'
+									sx={{
+										fontSize: '1.1rem',
+										lineHeight: 1.7,
+										color: '#333',
+										mb: 2,
+										textAlign: 'justify',
+									}}
+								>
+									{item.value}
+								</Typography>
+							)}
+						</Box>
+					))}
+				</Box>
+			) : (
+				<>
+					{images.length > 0 && (
+						<ImageSlider images={images} title={newsItem.title} alt={newsItem.title} />
+					)}
 
 					<Typography
 						variant='body1'
