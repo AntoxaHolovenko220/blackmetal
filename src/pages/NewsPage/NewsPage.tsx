@@ -1,15 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Box, Container, Typography, CircularProgress, Alert } from '@mui/material'
+import {
+	Box,
+	Container,
+	Typography,
+	CircularProgress,
+	Alert,
+} from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { NewsItem, TranslatedNewsData, NewsContentItem } from '@/pages/HomePage/components/News/NewsTypes'
+import {
+	NewsItem,
+	TranslatedNewsData,
+	NewsContentItem,
+} from '@/pages/HomePage/components/News/NewsTypes'
 import { ImageSlider } from '@/components'
 
 const NewsPage: React.FC = () => {
 	const { id } = useParams<{ id: string }>()
 	const { t } = useTranslation()
-	const { data: newsData, loading, error } = useTranslationData<TranslatedNewsData>('news')
+	const {
+		data: newsData,
+		loading,
+		error,
+	} = useTranslationData<TranslatedNewsData>('news')
 	const [newsItem, setNewsItem] = useState<NewsItem | null>(null)
 
 	useEffect(() => {
@@ -111,8 +125,8 @@ const NewsPage: React.FC = () => {
 				</Typography>
 			</Box>
 
-			{/* контент для новости с ID 2 */}
-			{newsItem.id === 2 && newsItem.content ? (
+			{/* контент для новости с подробным содержимым */}
+			{newsItem.content && Array.isArray(newsItem.content) && newsItem.content.length > 0 ? (
 				<Box sx={{ mb: 3 }}>
 					{newsItem.content.map((item: NewsContentItem, index: number) => (
 						<Box key={index} sx={{ mb: 4 }}>
@@ -131,7 +145,7 @@ const NewsPage: React.FC = () => {
 										style={{
 											width: '100%',
 											height: '300px',
-											objectFit: 'contain'
+											objectFit: 'contain',
 										}}
 									/>
 								</Box>
@@ -155,7 +169,11 @@ const NewsPage: React.FC = () => {
 			) : (
 				<>
 					{images.length > 0 && (
-						<ImageSlider images={images} title={newsItem.title} alt={newsItem.title} />
+						<ImageSlider
+							images={images}
+							title={newsItem.title}
+							alt={newsItem.title}
+						/>
 					)}
 
 					<Typography
