@@ -4,20 +4,23 @@ import { useTranslation } from 'react-i18next'
 
 interface DocumentTitleSearchProps {
 	title: string
-	onSearchSubmit: (query: string) => void
-	onSearchChange: (query: string) => void
+	search?: boolean
+	onSearchSubmit?: (query: string) => void
+	onSearchChange?: (query: string) => void
 }
 
 export const DocumentTitleSearch = ({
 	title,
-	onSearchSubmit,
-	onSearchChange,
+	search = true,
+	onSearchSubmit = () => {},
+	onSearchChange = () => {},
 }: DocumentTitleSearchProps) => {
 	const { t } = useTranslation()
 	return (
 		<Box
 			sx={{
-				py: '30px',
+				pt: '30px',
+				pb: '22px',
 				display: 'flex',
 				justifyContent: 'space-between',
 				gap: '25px',
@@ -25,27 +28,31 @@ export const DocumentTitleSearch = ({
 				flexWrap: 'wrap',
 			}}
 		>
-			<Typography
-				sx={{
-					fontSize: { xxs: '28px', xs: '36px' },
-					fontWeight: 600,
-					lineHeight: 1,
-					whiteSpace: 'nowrap',
-				}}
-			>
-				{title}
-			</Typography>
-			<UniversalSearch
-				onSearch={onSearchSubmit}
-				onChange={onSearchChange}
-				placeholderKey={t('components.search')}
-				sx={{
-					width: { xxs: '100%', xs: '250px' },
-					p: '5px',
-					border: '1px solid #DFDFDF',
-					bgcolor: '#FFFFFF ',
-				}}
-			/>
+			<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
+				<Typography
+					sx={{
+						fontSize: { xxs: '28px', xs: '36px' },
+						fontWeight: 600,
+						lineHeight: 1,
+						whiteSpace: 'nowrap',
+					}}
+				>
+					{title}
+				</Typography>
+			</Box>
+			{search && (
+				<UniversalSearch
+					onSearch={onSearchSubmit}
+					onChange={onSearchChange}
+					placeholderKey={t('components.search')}
+					sx={{
+						width: { xxs: '100%', xs: '250px' },
+						p: '5px',
+						border: '1px solid #DFDFDF',
+						bgcolor: '#FFFFFF ',
+					}}
+				/>
+			)}
 		</Box>
 	)
 }

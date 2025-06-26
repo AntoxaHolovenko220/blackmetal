@@ -155,6 +155,12 @@
 		"title": "Контакти",
 		"layout": "MainLayout"
 	},
+	"ProcurementPage": {
+		"path": "/about/procurement",
+		"component": "ProcurementPage",
+		"title": "Контакти",
+		"layout": "MainLayout"
+	},
 	"PersonPage": {
 		"path": "/person/:id",
 		"component": "PersonPage",
