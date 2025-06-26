@@ -17,7 +17,8 @@ export const loadTranslationData = async <T>(fileName: string): Promise<T> => {
 				return {
 					...commonItem,
 					title: translationItem?.title || '',
-					text: translationItem?.text || ''
+					text: translationItem?.text || '',
+					content: translationItem?.content || undefined
 				}
 			})
 			
@@ -43,7 +44,8 @@ export const loadTranslationData = async <T>(fileName: string): Promise<T> => {
 				return {
 					...commonItem,
 					title: translationItem?.title || '',
-					text: translationItem?.text || ''
+					text: translationItem?.text || '',
+					content: translationItem?.content || undefined
 				}
 			})
 			

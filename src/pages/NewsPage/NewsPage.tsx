@@ -125,8 +125,10 @@ const NewsPage: React.FC = () => {
 				</Typography>
 			</Box>
 
-			{/* контент для новости с ID 2 */}
-			{newsItem.id === 2 && newsItem.content ? (
+			{/* контент для новости с подробным содержимым */}
+			{newsItem.content &&
+			Array.isArray(newsItem.content) &&
+			newsItem.content.length > 0 ? (
 				<Box sx={{ mb: 3 }}>
 					{newsItem.content.map((item: NewsContentItem, index: number) => (
 						<Box key={index} sx={{ mb: 4 }}>
