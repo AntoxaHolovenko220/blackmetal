@@ -31,7 +31,7 @@ export const DocumentTitleSearch = ({
 			<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
 				<Typography
 					sx={{
-						fontSize: { xxs: '28px', xs: '36px' },
+						fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
 						fontWeight: 600,
 						lineHeight: 1,
 						whiteSpace: 'nowrap',
