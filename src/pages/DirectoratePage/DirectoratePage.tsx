@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import { DocumentTitleSearch, PersonCard } from '@/components'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { PersonCardData } from '@/components/PersonCard/PersonCardInterface'
