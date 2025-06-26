@@ -1,4 +1,5 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import { DocumentTitleSearch } from '@/components'
 import { PresentationPlayer } from '../../components/PresentationPlayer'
 import { useTranslationData } from '@/hooks/useTranslationData'
 
@@ -19,21 +20,8 @@ const DevelopmentsPage = () => {
   }
 
   return (
-    <Box sx={{ pt: '30px', pl: '50px' }}>
-      <Typography
-        variant='h3'
-        fontWeight='bold'
-        sx={{
-          mb: { xxs: 2, xs: 3, sm: 4, md: 5 },
-          fontSize: {
-            xs: '28px',   
-            md: '36px',   
-          },
-        }}
-      >
-        {data.title}
-      </Typography>
-
+    <Box sx={{ pb: '30px', pl: { xs: '20px', sm: '50px' } }}>
+      <DocumentTitleSearch title={`${data.title}`} search={false} />
       <PresentationPlayer />
     </Box>
   )

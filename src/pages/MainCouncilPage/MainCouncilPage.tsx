@@ -1,6 +1,6 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import { PersonCard, DocumentTitleSearch } from '@/components'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { DocumentTitleSearch, PersonCard } from '@/components'
 import { PersonCardData } from '@/components/PersonCard/PersonCardInterface'
 import {
 	PersonCardAdaptation,
@@ -15,7 +15,9 @@ const MainCouncilPage = () => {
 	}
 	return (
 		<Box sx={PersonCardWrapper}>
-			<DocumentTitleSearch title={`${data.title}`} search={false} />
+			<Box sx={{ py: '30px', display: 'flex', justifyContent: 'flex-start' }}>
+				<DocumentTitleSearch title={`${data.title}`} search={false} />
+			</Box>
 			<Box sx={{ maxWidth: '1817px', m: '0px auto' }}>
 				<Box sx={PersonCardAdaptation}>
 					{data.data.map((item, index) => (

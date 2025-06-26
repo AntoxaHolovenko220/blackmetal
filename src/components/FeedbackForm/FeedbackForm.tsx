@@ -1,4 +1,4 @@
-import { FC, useState, ChangeEvent } from 'react'
+import { FC, useState, ChangeEvent, useEffect } from 'react'
 import {
 	TextField,
 	Button,
@@ -8,11 +8,13 @@ import {
 	SlideProps,
 	MenuItem,
 	InputAdornment,
+	CircularProgress,
 } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline'
 import SendIcon from '@mui/icons-material/Send'
 import { useTranslationData } from '@/hooks/useTranslationData'
+import emailjs from '@emailjs/browser'
 
 interface ModalTranslation {
 	// lastName: string
@@ -23,7 +25,10 @@ interface ModalTranslation {
 	question: string
 	otherQuestion: string
 	submit: string
+	submitting: string
 	success: string
+	successNotification: string
+	errorNotification: string
 	questions: string[]
 	validation: {
 		// lastName: string
@@ -97,7 +102,13 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 	})
 
 	const [successOpen, setSuccessOpen] = useState(false)
+	const [errorOpen, setErrorOpen] = useState(false)
 	const [isSubmitting, setIsSubmitting] = useState(false)
+
+	// Инициализация EmailJS
+	useEffect(() => {
+		emailjs.init('kgqDklkUvrKoYkgYW')
+	}, [])
 
 	const formatPhoneNumber = (input: string): string => {
 		const digits = input.replace(/\D/g, '')
@@ -152,40 +163,51 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault()
-		if (!validate()) return
-		setIsSubmitting(true)
-
-		const dataToSend = {
-			// lastName: formData.lastName,
-			firstName: formData.firstName,
-			// middleName: formData.middleName,
-			phone: formData.phone,
-			email: formData.email,
-			question:
-				formData.question === 'other'
-					? formData.otherQuestion
-					: formData.question,
+		console.log('Form submitted')
+		
+		if (!validate()) {
+			console.log('Validation failed')
+			return
 		}
+		
+		setIsSubmitting(true)
+		console.log('Sending email via Web3Forms...')
+
+		const submitData = new FormData()
+		submitData.append('access_key', '5e16d64e-2df9-4da9-b887-491e6a6713b9') // ключ Web3Forms
+		submitData.append('name', formData.firstName)
+		submitData.append('phone', formData.phone)
+		submitData.append('email', formData.email)
+		submitData.append('message', formData.question === 'other' ? formData.otherQuestion : formData.question)
 
 		try {
-			await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+			const response = await fetch('https://api.web3forms.com/submit', {
 				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify(dataToSend),
+				body: submitData
 			})
-			setSuccessOpen(true)
-			setFormData({
-				// lastName: '',
-				firstName: '',
-				// middleName: '',
-				phone: '+38 (0',
-				email: '',
-				question: '',
-				otherQuestion: '',
-			})
-			onClose()
+			
+			const result = await response.json()
+			
+			if (result.success) {
+				console.log('Email sent successfully via Web3Forms')
+				setSuccessOpen(true)
+				setFormData({
+					firstName: '',
+					phone: '+38 (0',
+					email: '',
+					question: '',
+					otherQuestion: '',
+				})
+				// Закрыть модальное окно через 3 секунды, чтобы пользователь увидел уведомление
+				setTimeout(() => {
+					onClose()
+				}, 3000)
+			} else {
+				throw new Error('Web3Forms failed: ' + result.message)
+			}
 		} catch (error) {
-			console.error(error)
+			console.error('Email sending failed:', error)
+			setErrorOpen(true)
 		} finally {
 			setIsSubmitting(false)
 		}
@@ -279,23 +301,76 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 				<Button
 					type='submit'
 					variant='contained'
-					endIcon={<SendIcon />}
+					startIcon={isSubmitting ? <CircularProgress size={20} color="inherit" /> : null}
+					endIcon={!isSubmitting ? <SendIcon /> : null}
 					disabled={isSubmitting}
-					sx={{ height: '56px' }}
+					sx={{ 
+						height: '56px',
+						borderRadius: 0
+					}}
 				>
-					{t.submit}
+					{isSubmitting ? t.submitting : t.submit}
 				</Button>
 			</Form>
 
 			<Snackbar
 				open={successOpen}
-				autoHideDuration={6000}
+				autoHideDuration={4000}
 				onClose={() => setSuccessOpen(false)}
 				anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
 				TransitionComponent={SlideTransition}
 			>
-				<Alert severity='success' icon={<CheckCircleOutlineIcon />}>
-					{t.success}
+				<Alert 
+					severity='success' 
+					icon={<CheckCircleOutlineIcon />}
+					sx={{
+						borderRadius: 0,
+						backgroundColor: '#2D7A84',
+						color: '#fff',
+						fontSize: '1rem',
+						fontWeight: 500,
+						minWidth: '320px',
+						boxShadow: '0 4px 20px rgba(45, 122, 132, 0.25)',
+						border: 'none',
+						'& .MuiAlert-icon': {
+							color: '#fff',
+							fontSize: '1.5rem'
+						},
+						'& .MuiAlert-message': {
+							padding: '8px 0',
+							display: 'flex',
+							alignItems: 'center'
+						}
+					}}
+				>
+					{t.successNotification}
+				</Alert>
+			</Snackbar>
+
+			<Snackbar
+				open={errorOpen}
+				autoHideDuration={6000}
+				onClose={() => setErrorOpen(false)}
+				anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+				TransitionComponent={SlideTransition}
+			>
+				<Alert 
+					severity='error'
+					sx={{
+						borderRadius: 0,
+						fontSize: '1rem',
+						fontWeight: 500,
+						minWidth: '320px',
+						boxShadow: '0 4px 20px rgba(211, 47, 47, 0.25)',
+						border: 'none',
+						'& .MuiAlert-message': {
+							padding: '8px 0',
+							display: 'flex',
+							alignItems: 'center'
+						}
+					}}
+				>
+					{t.errorNotification}
 				</Alert>
 			</Snackbar>
 		</>

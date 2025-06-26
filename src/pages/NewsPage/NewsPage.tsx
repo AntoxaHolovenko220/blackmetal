@@ -7,6 +7,8 @@ import {
 	CircularProgress,
 	Alert,
 } from '@mui/material'
+
+import { DocumentTitleSearch } from '@/components'
 import { useTranslation } from 'react-i18next'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import {
@@ -63,11 +65,11 @@ const NewsPage: React.FC = () => {
 	}
 
 	return (
-		<Container
+		<Box
 			maxWidth='lg'
 			sx={{
-				py: 4,
-				px: { xs: 0, sm: 2 },
+				pb: '32px',
+				px: { xs: 0, sm: 0 },
 				pl: { xs: 0, sm: '50px' },
 				maxWidth: '100vw !important',
 				overflowX: 'hidden',
@@ -88,7 +90,9 @@ const NewsPage: React.FC = () => {
 					},
 				})}
 			>
-				<Typography
+				<DocumentTitleSearch title={`${newsItem.title}`} search={false} />
+				{/* <Typography
+>>>>>>> origin/kate
 					variant='h4'
 					component='h1'
 					sx={{
@@ -104,7 +108,7 @@ const NewsPage: React.FC = () => {
 					}}
 				>
 					{newsItem.title}
-				</Typography>
+				</Typography> */}
 				<Typography
 					variant='caption'
 					sx={{
@@ -124,8 +128,7 @@ const NewsPage: React.FC = () => {
 					{newsItem.date}
 				</Typography>
 			</Box>
-
-			{/* контент для новости с подробным содержимым */}
+			{/* новость с подробным содержимым */}
 			{newsItem.content &&
 			Array.isArray(newsItem.content) &&
 			newsItem.content.length > 0 ? (
@@ -191,7 +194,7 @@ const NewsPage: React.FC = () => {
 					</Typography>
 				</>
 			)}
-		</Container>
+		</Box>
 	)
 }
 

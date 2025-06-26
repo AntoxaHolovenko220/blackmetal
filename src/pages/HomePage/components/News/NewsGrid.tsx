@@ -1,5 +1,6 @@
 import { FC, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { DocumentTitleSearch } from '@/components'
 import {
 	Grid,
 	CircularProgress,
@@ -55,21 +56,7 @@ export const NewsGrid: FC = () => {
 
 	return (
 		<Box sx={{ width: '100%' }}>
-			<Typography
-				variant='h3'
-				fontWeight='bold'
-				sx={{
-					textAlign: 'left',
-					mb: { xs: 3, xxs: 3, sm: 4, md: 5 },
-					fontSize: {
-						xxs: '28px',
-						sm: '2.2rem',
-						md: '2.5rem',
-					},
-				}}
-			>
-				{translationData?.newsTitle}
-			</Typography>
+			<DocumentTitleSearch title={`${translationData?.newsTitle}`} search={false} />
 
 			<Grid container spacing={{ xs: 3, sm: 4, md: 5 }} sx={{ mb: { xs: 3, sm: 4, md: 5 } }}>
 				{displayedNews.map((item, idx) => (

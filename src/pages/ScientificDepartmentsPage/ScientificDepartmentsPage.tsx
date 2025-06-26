@@ -1,4 +1,5 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import { DocumentTitleSearch } from '@/components'
 import DepartmentElement from '@/components/Departments/DepartmentElement'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { DepartmentsData } from '@/components/Departments/interfaces'
@@ -7,7 +8,7 @@ const ScientificDepartmentsPage = () => {
 	const { data } = useTranslationData<DepartmentsData>('departments')
 
 	if (!data) {
-		return null // Или загрузочный индикатор
+		return null 
 	}
 	return (
 		<Box
@@ -20,22 +21,7 @@ const ScientificDepartmentsPage = () => {
 				pl: { xxs: '0px', sm: '50px' },
 			}}
 		>
-			<Typography
-				variant='h3'
-				fontWeight='bold'
-				sx={{
-					// textAlign: 'center',
-					mt: 3,
-					fontSize: {
-						xxs: '28px',
-						sm: '2.2rem',
-						md: '2.5rem',
-					},
-				}}
-			>
-				{data.titles.scientific}
-			</Typography>
-
+			<DocumentTitleSearch title={`${data.titles.scientific}`} search={false} />
 			<Box
 				sx={{
 					width: '100%',

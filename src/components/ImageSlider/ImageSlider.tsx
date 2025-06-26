@@ -96,7 +96,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, title, alt }) => {
 					overflow: 'hidden',
 					// height: '100vh',
 					maxWidth: '100%',
-					aspectRatio: '1 / 0.5',
+					aspectRatio: isMobile ? '1 / 0.85' : '1 / 0.5',
 					mx: 'auto',
 					display: 'flex',
 					alignItems: 'center',
