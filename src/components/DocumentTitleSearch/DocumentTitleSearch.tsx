@@ -34,6 +34,7 @@ export const DocumentTitleSearch = ({
 						fontSize: { xxs: '28px', xs: '36px' },
 						fontWeight: 600,
 						lineHeight: 1.2,
+						color: '#000'
 					}}
 				>
 					{title}

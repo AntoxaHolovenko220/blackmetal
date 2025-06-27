@@ -34,23 +34,14 @@ const ContactsPage = () => {
       <DocumentTitleSearch title={`${data.title}`} search={false} />
 
       <Box sx={{ maxWidth: '1400px', mt: 4, mx: 'auto' }}>
-        <Card
-          sx={{
-            mb: 4,
-            borderRadius: 0,
-            boxShadow: '0 4px 20px rgba(45, 122, 132, 0.1)',
-            border: `1px solid rgba(45, 122, 132, 0.2)`,
-            background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)'
-          }}
-        >
-          <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+        {/* <CardContent sx={{ p: { xs: 3, md: 4 } }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
-              <BusinessIcon sx={{ color: '#2D7A84', fontSize: '2rem' }} />
+              <BusinessIcon sx={{ color: '#000', fontSize: '2rem' }} />
               <Typography
                 variant="h4"
                 sx={{
                   fontWeight: 700,
-                  color: '#2D7A84',
+                  color: '#000',
                   fontSize: { xs: '1.5rem', md: '2rem' },
                   lineHeight: 1.2
                 }}
@@ -58,8 +49,7 @@ const ContactsPage = () => {
                 {data.instituteName}
               </Typography>
             </Box>
-          </CardContent>
-        </Card>
+          </CardContent> */}
 
         <Grid container spacing={4}>
 
@@ -247,7 +237,7 @@ const ContactsPage = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={12} lg={6}>
+          <Grid item xxs={12} lg={6}>
             <Card
               sx={{
                 borderRadius: 0,
