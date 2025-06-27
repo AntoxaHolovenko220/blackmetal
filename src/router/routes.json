@@ -95,6 +95,13 @@
 		"title": "Рада молодих вчених",
 		"layout": "MainLayout"
 	},
+	"SpecializedCouncilPage": {
+		"path": "/structure/councils/specialized",
+		"component": "SpecializedCouncilPage",
+		"title": "Спеціалізована вчена рада",
+		"layout": "MainLayout"
+	},
+
 	"IndividualPlansPage": {
 		"path": "/training/postgraduate/plans",
 		"component": "IndividualPlansPage",
@@ -147,6 +154,12 @@
 		"path": "/training/postgraduate/stakeholders",
 		"component": "StakeholdersPage",
 		"title": "Стейкхолдери",
+		"layout": "MainLayout"
+	},
+	"SpecCouncilsPage": {
+		"path": "/training/special-councils",
+		"component": "SpecCouncilsPage",
+		"title": "Разові спеціалізовані ради",
 		"layout": "MainLayout"
 	},
 	"ContactsPage": {

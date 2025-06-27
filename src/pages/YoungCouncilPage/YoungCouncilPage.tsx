@@ -15,9 +15,8 @@ const YoungCouncilPage = () => {
 	}
 	return (
 		<Box sx={PersonCardWrapper}>
-			<Box sx={{ py: '30px', display: 'flex', justifyContent: 'flex-start' }}>
-				<DocumentTitleSearch title={`${data.title}`} search={false} />
-			</Box>
+			<DocumentTitleSearch title={`${data.title}`} search={false} />
+
 			<Box sx={{ maxWidth: '1817px', m: '0px auto' }}>
 				<Box sx={PersonCardAdaptation}>
 					{data.data.map((item, index) => (

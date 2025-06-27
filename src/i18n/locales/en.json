@@ -1,8 +1,4 @@
 {
-	"header": {
-		"about": "About us",
-		"developments": "Basic developments"
-	},
 	"routes": {
 		"HomePage": "Institute of Ferrous Metallurgy",
 		"DashboardPage": "Dashboard",
@@ -11,7 +7,8 @@
 		"RemoteEducationPage": "Remote Education",
 		"ApplicantPage": "For Applicants",
 		"EntrantPage": "For Entrants",
-		"LibraryPage": "Library"
+		"LibraryPage": "Library",
+		"ProcurementPage": "Procurement"
 	},
 	"components": {
 		"document-card": {
@@ -30,8 +27,6 @@
 		"questionButton": "Feedback",
 		"socials": "SOCIALS"
 	},
-
-	"departments": {},
 
 	"logo": {
 		"text": "Institute of Black Metallurgy<br />named after Z.I. Nekrasov<br />National Academy of Sciences of Ukraine"

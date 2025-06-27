@@ -2,7 +2,10 @@ import { Box } from '@mui/material'
 import { PersonCard, DocumentTitleSearch } from '@/components'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { PersonCardData } from '@/components/PersonCard/PersonCardInterface'
-import { PersonCardAdaptation, PersonCardWrapper } from '@/components/PersonCard/styles'
+import {
+	PersonCardAdaptation,
+	PersonCardWrapper,
+} from '@/components/PersonCard/styles'
 
 const MainCouncilPage = () => {
 	const { data } = useTranslationData<PersonCardData>('maincouncil')

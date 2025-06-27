@@ -11,7 +11,8 @@
 		"RemoteEducationPage": "Дистанційна освіта",
 		"ApplicantPage": "Абітурієнту",
 		"EntrantPage": "Вступнику",
-		"LibraryPage": "Бібліотека"
+		"LibraryPage": "Бібліотека",
+		"ProcurementPage": "Закупівлі"
 	},
 	"components": {
 		"document-card": {

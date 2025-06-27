@@ -96,7 +96,7 @@ const DocumentCard = ({ title, link, date }: DocumentCardProps) => {
 					flexWrap: 'wrap',
 				}}
 			>
-				{['docx', 'doc'].includes(fileExtension) ? (
+				{['docx', 'doc', 'zip', 'rar'].includes(fileExtension) ? (
 					<>
 						<MUILink
 							href={fileLink}

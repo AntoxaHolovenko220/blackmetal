@@ -28,13 +28,14 @@ export const DocumentTitleSearch = ({
 				flexWrap: 'wrap',
 			}}
 		>
-			<Box sx={{ display: 'flex', alignItems: 'center' }}>
+			<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
 				<Typography
 					sx={{
-						fontSize: { xxs: '28px', xs: '36px' },
+						fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
 						fontWeight: 600,
-						lineHeight: 1.2,
-						color: '#000'
+						color: '#000',
+						lineHeight: 1.4,
+						whiteSpace: 'nowrap',
 					}}
 				>
 					{title}

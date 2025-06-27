@@ -7,6 +7,7 @@ import {
 	CircularProgress,
 	Alert,
 } from '@mui/material'
+
 import { DocumentTitleSearch } from '@/components'
 import { useTranslation } from 'react-i18next'
 import { useTranslationData } from '@/hooks/useTranslationData'
@@ -91,6 +92,7 @@ const NewsPage: React.FC = () => {
 			>
 				<DocumentTitleSearch title={`${newsItem.title}`} search={false} />
 				{/* <Typography
+>>>>>>> origin/kate
 					variant='h4'
 					component='h1'
 					sx={{
@@ -126,9 +128,10 @@ const NewsPage: React.FC = () => {
 					{newsItem.date}
 				</Typography>
 			</Box>
-
 			{/* новость с подробным содержимым */}
-			{newsItem.content && Array.isArray(newsItem.content) && newsItem.content.length > 0 ? (
+			{newsItem.content &&
+			Array.isArray(newsItem.content) &&
+			newsItem.content.length > 0 ? (
 				<Box sx={{ mb: 3 }}>
 					{newsItem.content.map((item: NewsContentItem, index: number) => (
 						<Box key={index} sx={{ mb: 4 }}>
