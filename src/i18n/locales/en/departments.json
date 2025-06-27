@@ -5,59 +5,48 @@
 	},
 	"ScientificDepartments": [
 		{
-			"shortName": "DFCP",
 			"fullName": "Department of Physicochemical Problems of Metallurgical Processes",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DIPM",
 			"fullName": "Department of Iron Production Metallurgy",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DLTI",
 			"fullName": "Department of Ladle Treatment of Iron",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DPTSP",
 			"fullName": "Department of Physical and Technical Problems of Steel Metallurgy",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DPMFM",
 			"fullName": "Department of Metal Forming Machines and Processes",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DDTHS",
 			"fullName": "Department of Deformation and Thermal Treatment of Structural Steels",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DHTM",
 			"fullName": "Department of Heat Treatment of Metals for Mechanical Engineering",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DTECS",
 			"fullName": "Department of Technological Equipment and Control Systems",
 			"img": "/blackmetal/FIT.svg"
 		}
 	],
 	"TechnicalDepartments": [
 		{
-			"shortName": "RDD",
 			"fullName": "Research and Development Department",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DSQMP",
 			"fullName": "Department of Standardization and Quality Management",
 			"img": "/blackmetal/FIT.svg"
 		},
 		{
-			"shortName": "DCM",
 			"fullName": "Department of Chief Metrologist",
 			"img": "/blackmetal/FIT.svg"
 		}

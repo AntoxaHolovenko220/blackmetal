@@ -16,7 +16,8 @@ const TechnicalDepartmentsPage = () => {
 				display: 'flex',
 				flexDirection: 'column',
 				// alignItems: 'center',
-				px: { xl: '190px' },
+				// px: { xl: '190px' },
+				pl: '30px',
 			}}
 		>
 			<DocumentTitleSearch title={`${data.titles.technical}`} search={false} />
@@ -49,7 +50,6 @@ const TechnicalDepartmentsPage = () => {
 						}}
 					>
 						<DepartmentElement
-							shortName={dep.shortName}
 							fullName={dep.fullName}
 							img={dep.img}
 							href={dep.href}

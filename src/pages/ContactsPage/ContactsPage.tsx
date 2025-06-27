@@ -70,24 +70,20 @@ const ContactsPage = () => {
               <Card
                 sx={{
                   borderRadius: 0,
-                  boxShadow: '0 4px 15px rgba(0, 0, 0, 0.08)',
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    boxShadow: '0 8px 25px rgba(45, 122, 132, 0.15)',
-                    transform: 'translateY(-2px)'
-                  }
+                  boxShadow: '0 4px 15px rgba(0, 0, 0, 0.08)'
                 }}
               >
                 <CardContent sx={{ p: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                     <Box sx={{
-                      width: 50,
-                      height: 50,
+                      minWidth: 50,
+                      minHeight: 50,
                       borderRadius: '50%',
                       backgroundColor: 'rgba(45, 122, 132, 0.1)',
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'center'
+                      justifyContent: 'center',
+                      flexShrink: 0
                     }}>
                       <PhoneIcon sx={{ color: '#2D7A84', fontSize: '1.5rem' }} />
                     </Box>
@@ -110,9 +106,6 @@ const ContactsPage = () => {
                           fontWeight: 600,
                           color: '#333',
                           textDecoration: 'none',
-                          '&:hover': {
-                            color: '#2D7A84'
-                          }
                         }}
                       >
                         {data.phoneNumber}
@@ -125,24 +118,20 @@ const ContactsPage = () => {
               <Card
                 sx={{
                   borderRadius: 0,
-                  boxShadow: '0 4px 15px rgba(0, 0, 0, 0.08)',
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    boxShadow: '0 8px 25px rgba(45, 122, 132, 0.15)',
-                    transform: 'translateY(-2px)'
-                  }
+                  boxShadow: '0 4px 15px rgba(0, 0, 0, 0.08)'
                 }}
               >
                 <CardContent sx={{ p: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                     <Box sx={{
-                      width: 50,
-                      height: 50,
+                      minWidth: 50,
+                      minHeight: 50,
                       borderRadius: '50%',
                       backgroundColor: 'rgba(45, 122, 132, 0.1)',
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'center'
+                      justifyContent: 'center',
+                      flexShrink: 0
                     }}>
                       <EmailIcon sx={{ color: '#2D7A84', fontSize: '1.5rem' }} />
                     </Box>
@@ -166,9 +155,6 @@ const ContactsPage = () => {
                           color: '#333',
                           textDecoration: 'none',
                           wordBreak: 'break-all',
-                          '&:hover': {
-                            color: '#2D7A84'
-                          }
                         }}
                       >
                         {data.emailAddress}
@@ -182,23 +168,19 @@ const ContactsPage = () => {
                 sx={{
                   borderRadius: 0,
                   boxShadow: '0 4px 15px rgba(0, 0, 0, 0.08)',
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    boxShadow: '0 8px 25px rgba(45, 122, 132, 0.15)',
-                    transform: 'translateY(-2px)'
-                  }
                 }}
               >
                 <CardContent sx={{ p: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                     <Box sx={{
-                      width: 50,
-                      height: 50,
+                      minWidth: 50,
+                      minHeight: 50,
                       borderRadius: '50%',
                       backgroundColor: 'rgba(45, 122, 132, 0.1)',
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'center'
+                      justifyContent: 'center',
+                      flexShrink: 0
                     }}>
                       <LocationOnIcon sx={{ color: '#2D7A84', fontSize: '1.5rem' }} />
                     </Box>
@@ -221,10 +203,7 @@ const ContactsPage = () => {
                           color: '#333',
                           lineHeight: 1.4,
                           cursor: 'pointer',
-                          transition: 'color 0.3s ease',
-                          '&:hover': {
-                            color: '#2D7A84'
-                          }
+                          transition: 'color 0.3s ease'
                         }}
                       >
                         {data.fullAddress}
@@ -237,7 +216,14 @@ const ContactsPage = () => {
             </Box>
           </Grid>
 
-          <Grid item xxs={12} lg={6}>
+          <Grid 
+            item 
+            xs={12} 
+            lg={6}
+            sx={{
+              width: { xxs: '100%' }
+            }}
+          >
             <Card
               sx={{
                 borderRadius: 0,
