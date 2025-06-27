@@ -198,7 +198,7 @@ export const NavItem = ({
 																{...(nestedItem.label ===
 																	'Collection of Scientific Works' ||
 																nestedItem.label === 'Збірник наукових праць'
-																	? { href: 'https://jrn.isi.gov.ua/' }
+																	? { href: 'https://jrn.isi.gov.ua/', target: '_blank'}
 																	: {
 																			onClick: () =>
 																				navigate(`${nestedItem.href}`),
@@ -252,7 +252,7 @@ export const NavItem = ({
 										}}
 										{...(subItem.label === 'Collection of Scientific Works' ||
 										subItem.label === 'Збірник наукових праць'
-											? { href: 'https://jrn.isi.gov.ua/' }
+											? { href: 'https://jrn.isi.gov.ua/', target: '_blank', rel: 'noopener noreferrer' }
 											: {
 													onClick: () => navigate(`${subItem.href}`),
 											  })}
