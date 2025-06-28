@@ -33,8 +33,8 @@ export const DocumentTitleSearch = ({
 					sx={{
 						fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
 						fontWeight: 600,
-						lineHeight: 1,
-						whiteSpace: 'nowrap',
+						lineHeight: 1.4,
+						whiteSpace: 'wrap',
 					}}
 				>
 					{title}
