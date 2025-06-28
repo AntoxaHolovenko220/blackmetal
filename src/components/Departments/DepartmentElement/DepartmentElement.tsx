@@ -3,14 +3,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 interface DepartmentElementProps {
-	shortName: string
 	fullName: string
 	img: string
 	href: string
 }
 
 const DepartmentElement: React.FC<DepartmentElementProps> = ({
-	shortName,
 	fullName,
 	img,
 	href,
@@ -20,7 +18,7 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 			component={Link}
 			to={href}
 			sx={{
-				flex: '1 1 calc(25% - 20px)', // по умолчанию 4 колонки
+				flex: '1 1 calc(25% - 20px)', 
 				maxWidth: {
 					xxl: '460px',
 				},
@@ -42,6 +40,9 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 					filter:
 						'brightness(0) saturate(100%) invert(30%) sepia(15%) saturate(1826%) hue-rotate(147deg) brightness(94%) contrast(87%)',
 				},
+				'&:hover .department-text': {
+					color: '#2D7A84',
+				},
 				'@media (max-width: 1900px)': { flex: '1 1 calc(33.33% - 20px)' },
 				'@media (max-width: 1536px)': { flex: '1 1 calc(33.33% - 20px)' },
 				'@media (max-width: 1200px)': { flex: '1 1 calc(50% - 20px)' },
@@ -61,14 +62,13 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 					ml: 2,
 					display: 'flex',
 					alignItems: 'center',
-					justifyContent: 'center', // добавлено
-					flexShrink: 0, // важно!
+					justifyContent: 'center', 
+					flexShrink: 0, 
 				}}
 			>
 				<Box
 					component='img'
 					src={img}
-					alt={shortName}
 					className='svg-logo'
 					sx={{
 						width: {
@@ -88,10 +88,16 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 			</Box>
 
 			<Box sx={{ mr: 2 }}>
-				<Box sx={{ fontSize: { xs: '19px', xxl: '21px' }, color: '#2D7A84', fontWeight: 'bold' }}>
-					{shortName}
-				</Box>
-				<Box sx={{ fontSize: { xs: '14px', xxl: '17px' }, color: 'black' }}>{fullName}</Box>
+			<Box
+				className='department-text'
+				sx={{
+				fontSize: { xs: '19px', xxl: '21px' },
+				// fontWeight: 'bold',
+				color: 'black',
+				transition: 'color 0.3s ease',
+				}}
+			>
+				{fullName}</Box>
 			</Box>
 		</Box>
 	)

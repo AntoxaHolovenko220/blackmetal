@@ -1,5 +1,5 @@
 // src/hooks/useTranslationData.ts
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { loadTranslationData } from '@/i18n/loadTranslations'
 
@@ -8,11 +8,16 @@ export const useTranslationData = <T>(fileName: string) => {
 	const [data, setData] = useState<T | null>(null)
 	const [loading, setLoading] = useState(true)
 	const [error, setError] = useState<Error | null>(null)
+	const isFirstLoad = useRef(true)
 
 	useEffect(() => {
 		const loadData = async () => {
 			try {
-				setLoading(true)
+				if (isFirstLoad.current) {
+					setLoading(true)
+					isFirstLoad.current = false
+				}
+				setError(null)
 				const result = await loadTranslationData<T>(fileName)
 				setData(result)
 			} catch (err) {
@@ -23,7 +28,7 @@ export const useTranslationData = <T>(fileName: string) => {
 		}
 
 		loadData()
-	}, [fileName, i18n.language]) // Перезагружаем данные при смене языка
-
-	return { data, loading, error }
+	}, [fileName, i18n.language]) 
+	
+	return useMemo(() => ({ data, loading, error }), [data, loading, error])
 }

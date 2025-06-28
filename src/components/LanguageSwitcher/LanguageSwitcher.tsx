@@ -35,6 +35,8 @@ const StyledMenu = styled(Menu)(() => ({
 		color: MAIN_COLOR,
 		minWidth: '180px',
 		boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
+		position: 'absolute',
+		zIndex: 9999,
 	},
 	'& .MuiMenuItem-root': {
 		margin: '0 8px',
@@ -65,7 +67,6 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
 			? Object.entries(langData.languages).map(([code, name]) => ({ code, name }))
 			: []
 
-	// безопасный useEffect
 	useEffect(() => {
 		if (initialLanguage && i18n.language !== initialLanguage) {
 			i18n.changeLanguage(initialLanguage)
@@ -91,11 +92,10 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
 		languages.find(lang => lang.code === currentLangCode)?.code.toUpperCase() ||
 		currentLangCode.toUpperCase()
 
-	// если всё ещё грузится — не рендерим ничего
 	if (loading || !languages.length) return null
 
 	return (
-		<div>
+		<div style={{ position: 'relative' }}>
 			<IconButton
 				onClick={handleClick}
 				size='small'
@@ -125,6 +125,16 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
 				transformOrigin={{
 					vertical: 'top',
 					horizontal: 'right',
+				}}
+				disableScrollLock={true}
+				disablePortal={false}
+				slotProps={{
+					paper: {
+						style: {
+							position: 'fixed',
+							zIndex: 9999,
+						}
+					}
 				}}
 			>
 				{languages.map(lang => (

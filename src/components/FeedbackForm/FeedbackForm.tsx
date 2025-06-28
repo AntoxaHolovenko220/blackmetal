@@ -190,17 +190,17 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 			
 			if (result.success) {
 				console.log('Email sent successfully via Web3Forms')
-				setSuccessOpen(true)
-				setFormData({
-					firstName: '',
-					phone: '+38 (0',
-					email: '',
-					question: '',
-					otherQuestion: '',
-				})
+			setSuccessOpen(true)
+			setFormData({
+				firstName: '',
+				phone: '+38 (0',
+				email: '',
+				question: '',
+				otherQuestion: '',
+			})
 				// Закрыть модальное окно через 3 секунды, чтобы пользователь увидел уведомление
 				setTimeout(() => {
-					onClose()
+			onClose()
 				}, 3000)
 			} else {
 				throw new Error('Web3Forms failed: ' + result.message)

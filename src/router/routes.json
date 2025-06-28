@@ -11,6 +11,12 @@
 		"title": "Розробки",
 		"layout": "MainLayout"
 	},
+	"InstituteHistoryPage": {
+		"path": "/about/history",
+		"component": "InstituteHistoryPage",
+		"title": "Історія інституту",
+		"layout": "MainLayout"
+	},
 	"InstituteStrategyPage": {
 		"path": "/about/strategy",
 		"component": "InstituteStrategyPage",
@@ -20,13 +26,13 @@
 	"ScientificDepartments": {
 		"path": "/scientific-departments",
 		"component": "ScientificDepartmentsPage",
-		"title": "Наукові відділи",
+		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
 	"TechnicalDepartments": {
 		"path": "/technical-departments",
 		"component": "TechnicalDepartmentsPage",
-		"title": "Наукові відділи",
+		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
 	"ServicesPage": {
@@ -160,6 +166,12 @@
 		"path": "/training/special-councils",
 		"component": "SpecCouncilsPage",
 		"title": "Разові спеціалізовані ради",
+		"layout": "MainLayout"
+	},
+	"TestingCenterPage": {
+		"path": "/services/testing-center",
+		"component": "TestingCenterPage",
+		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
 	"ContactsPage": {
