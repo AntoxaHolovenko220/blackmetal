@@ -4,7 +4,7 @@
 		{
 			"photo": "/director.jpg",
 			"position": "Director of the Institute",
-			"name": "Babachenko Oleksandr Ivanovych",
+			"name": "Babachenko Oleksandr",
 			"description": "Academic rank, academic title: Corresponding Member of NAS of Ukraine, Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -16,7 +16,7 @@
 		{
 			"photo": "/zamdir.webp",
 			"position": "Deputy Director",
-			"name": "Merkulov Oleksii Yevhenovych",
+			"name": "Merkulov Oleksii",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -28,7 +28,7 @@
 		{
 			"photo": "/vozamdir.webp",
 			"position": "Acting Deputy Director",
-			"name": "Parusov Eduard Volodymyrovych",
+			"name": "Parusov Eduard",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -39,7 +39,7 @@
 		},
 		{
 			"position": "Academic Secretary",
-			"name": "Harmash Larysa Ivanivna",
+			"name": "Harmash Larysa",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{
@@ -51,7 +51,7 @@
 		{
 			"photo": "/podol.png",
 			"position": "Chair of the Council of Young Scientists",
-			"name": "Podolskyi Rostyslav Vyacheslavovych",
+			"name": "Podolskyi Rostyslav",
 			"description": "Academic rank, academic title: Doctor of Philosophy (PhD)",
 			"contacts": [
 				{
@@ -62,7 +62,7 @@
 		},
 		{
 			"position": "Senior Researcher",
-			"name": "Baiul Kostiantyn Vasylovych",
+			"name": "Baiul Kostiantyn",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -74,7 +74,7 @@
 		{
 			"photo": "/bobr.jpg",
 			"position": "Leading Researcher",
-			"name": "Bobyr Serhii Volodymyrovych",
+			"name": "Bobyr Serhii",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -85,7 +85,7 @@
 		},
 		{
 			"position": "Senior Researcher",
-			"name": "Vorobei Serhii Oleksandrovych",
+			"name": "Vorobei Serhii",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -96,7 +96,7 @@
 		},
 		{
 			"position": "Head of VPOCh Department",
-			"name": "Kysliakov Volodymyr Hennadiiovych",
+			"name": "Kysliakov Volodymyr",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{
@@ -108,7 +108,7 @@
 		{
 			"photo": "/kononenko.jpg",
 			"position": "Head of VKS Department",
-			"name": "Kononenko Hanna Andriivna",
+			"name": "Kononenko Hanna",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Scientist",
 			"contacts": [
 				{
@@ -119,7 +119,7 @@
 		},
 		{
 			"position": "Senior Researcher",
-			"name": "Lebid Vitalii Vasylovych",
+			"name": "Lebid Vitalii",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{
@@ -130,7 +130,7 @@
 		},
 		{
 			"position": "Leading Researcher",
-			"name": "Lutsenko Vladyslav Anatoliiovych",
+			"name": "Lutsenko Vladyslav",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{
@@ -141,7 +141,7 @@
 		},
 		{
 			"position": "Head of VMS Department",
-			"name": "Molchanov Lavr Serhiiovych",
+			"name": "Molchanov Lavr",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences, Senior Scientist",
 			"contacts": [
 				{
@@ -152,7 +152,7 @@
 		},
 		{
 			"position": "Leading Researcher",
-			"name": "Muraviova Iryna Hennadiivna",
+			"name": "Muraviova Iryna",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -163,7 +163,7 @@
 		},
 		{
 			"position": "Head of VOMT Department",
-			"name": "Prykhodko Ihor Yuriiovych",
+			"name": "Prykhodko Ihor",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
@@ -174,7 +174,7 @@
 		},
 		{
 			"position": "Head of VTOSU Department",
-			"name": "Semenov Yurii Stanislavovych",
+			"name": "Semenov Yurii",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences, Senior Scientist",
 			"contacts": [
 				{
@@ -185,7 +185,7 @@
 		},
 		{
 			"position": "Head of VFKhP Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Stepanenko Dmytro",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{
@@ -196,7 +196,7 @@
 		},
 		{
 			"position": "Leading Researcher",
-			"name": "Tohobytska Daria Mykolaivna",
+			"name": "Tohobytska Daria",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Professor",
 			"contacts": [
 				{
@@ -207,7 +207,7 @@
 		},
 		{
 			"position": "Head of LTET Department",
-			"name": "Chaika Oleksii Leonidovych",
+			"name": "Chaika Oleksii",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences, Senior Scientist",
 			"contacts": [
 				{
@@ -218,7 +218,7 @@
 		},
 		{
 			"position": "Chief Researcher",
-			"name": "Chernyatevych Anatolii Hryhorovych",
+			"name": "Chernyatevych Anatolii",
 			"description": "Academic rank, academic title: Doctor of Technical Sciences, Professor",
 			"contacts": [
 				{
@@ -229,7 +229,7 @@
 		},
 		{
 			"position": "Chair of the Trade Union Committee",
-			"name": "Shevchenko Serhii Anatoliiovych",
+			"name": "Shevchenko Serhii",
 			"description": "Academic rank, academic title: Candidate of Technical Sciences",
 			"contacts": [
 				{

@@ -64,11 +64,6 @@
 							"id": "young-scientists",
 							"label": "Рада молодих вчених",
 							"href": "/structure/councils/young"
-						},
-						{
-							"id": "specialized-council",
-							"label": "Спеціалізована вчена рада",
-							"href": "/structure/councils/specialized"
 						}
 					]
 				}
@@ -154,6 +149,11 @@
 					"id": "special-councils",
 					"label": "Разові спеціалізовані ради",
 					"href": "/training/special-councils"
+				},
+				{
+					"id": "specialized-council",
+					"label": "Спеціалізована вчена рада Д 08.231.01",
+					"href": "/training/specialized"
 				}
 			]
 		},

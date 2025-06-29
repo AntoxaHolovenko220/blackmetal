@@ -4,7 +4,7 @@
 		{
 			"photo": "/director.jpg",
 			"position": "Director of the Institute",
-			"name": "Babachenko Oleksandr Ivanovych",
+			"name": "Babachenko Oleksandr",
 			"biography": "There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this. There should be some kind of biography about the person here, but I don't know this person, I don't know anything about them, so let it be this.",
 			"contacts": [
 				{
@@ -20,7 +20,7 @@
 		{
 			"photo": "/zamdir.webp",
 			"position": "Deputy Director for Scientific Affairs",
-			"name": "Merkulov Oleksii Yevhenovych",
+			"name": "Merkulov Oleksii",
 			"description": "Doctor of Technical Sciences, Senior Research Fellow",
 			"contacts": [
 				{
@@ -36,7 +36,7 @@
 		{
 			"photo": "/vozamdir.webp",
 			"position": "Acting Deputy Director for Scientific Affairs",
-			"name": "Parusov Eduard Volodymyrovych",
+			"name": "Parusov Eduard",
 			"description": "Doctor of Technical Sciences, Senior Research Fellow",
 			"contacts": [
 				{
@@ -51,7 +51,7 @@
 		},
 		{
 			"position": "Academic Secretary",
-			"name": "Harmash Larysa Ivanivna",
+			"name": "Harmash Larysa",
 			"description": "PhD in Technical Sciences",
 			"contacts": [
 				{
@@ -66,7 +66,7 @@
 		},
 		{
 			"position": "Deputy Director for General Affairs",
-			"name": "Semerenko Yurii Ivanovych",
+			"name": "Semerenko Yurii",
 			"description": "Doctor of Technical Sciences, Professor, Honored Worker of Science and Technology of Ukraine, Laureate of the State Prize of Ukraine in Science and Technology",
 			"contacts": [
 				{
