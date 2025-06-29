@@ -1,0 +1,1 @@
+import{j as e,T as r}from"./index-wJjL7dHx.js";const x=({subtitle:t,institute:n})=>e.jsxs(e.Fragment,{children:[e.jsx(r,{variant:"h4",sx:{textAlign:"center",mb:"16px",fontSize:{xs:"1.5rem",md:"2rem"}},children:t}),e.jsx(r,{variant:"h5",sx:{textAlign:"center",mb:"32px",fontSize:{xs:"1.2rem",md:"1.5rem"}},children:n})]});export{x as default};
