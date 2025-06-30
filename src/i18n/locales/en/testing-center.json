@@ -1,32 +1,62 @@
 {
-  "title": "Testing Center",
-  "subtitle": "Scientific and Technical Center",
-  "institute": "of the Iron and Steel Institute of the National Academy of Sciences of Ukraine",
-  "description": "Based on the ISI NAS of Ukraine, there is a Scientific and Technical Center for testing metal products, which has equipment and specialists for conducting tests:",
-  "tests": [
-    "tensile testing at room and elevated (150...800°C) temperatures;",
-    "dynamic three-point bending at room, elevated and reduced temperatures;",
-    "hardness according to Brinell, Rockwell, Vickers;",
-    "microhardness;",
-    "fracture toughness K₁c;",
-    "weight wear and contact fatigue;",
-    "steel hardenability;",
-    "cyclic loading tests;",
-    "microstructure studies with determination of grain size, layer thickness, phase composition, contamination with non-metallic inclusions;",
-    "corrosion resistance tests in a mildly aggressive environment with periodic immersion of samples in electrolyte;",
-    "other types of tests according to the center's authorization scope."
-  ],
-  "certification": "Tests are carried out on verified and calibrated equipment with the issuance of protocols. The Scientific and Technical Center is accredited by the State Standard of Ukraine.",
-  "deputy": "Deputy Head of the Scientific and Technical Center:",
-  "deputyName": "Kononenko Hanna Andriivna.",
-  "contacts": "Contact tel. +38 056 790 57 84, +38 056 790 05 14.",
-  "email": "E-mail: office.isi@nas.gov.ua",
-  "links": {
-    "certificate": "Certificate of Authorization",
-    "scope1": "Scope of Authorization",
-    "scope2": "Scope of Authorization 2",
-    "price": "Price List",
-    "certificateDoc": "Certificate",
-    "scope3": "Scope of Authorization 3"
-  }
+	"title": "Testing Center",
+	"subtitle": "Scientific and Technical Center",
+	"institute": "of the Iron and Steel Institute of the National Academy of Sciences of Ukraine",
+	"description": "Based on the ISI NAS of Ukraine, there is a Scientific and Technical Center for testing metal products, which has equipment and specialists for conducting tests:",
+	"tests": [
+		"tensile testing at room and elevated (150...800°C) temperatures;",
+		"dynamic three-point bending at room, elevated and reduced temperatures;",
+		"hardness according to Brinell, Rockwell, Vickers;",
+		"microhardness;",
+		"fracture toughness K₁c;",
+		"weight wear and contact fatigue;",
+		"steel hardenability;",
+		"cyclic loading tests;",
+		"microstructure studies with determination of grain size, layer thickness, phase composition, contamination with non-metallic inclusions;",
+		"corrosion resistance tests in a mildly aggressive environment with periodic immersion of samples in electrolyte;",
+		"other types of tests according to the center's authorization scope."
+	],
+	"certification": "Tests are carried out on verified and calibrated equipment with the issuance of protocols. The Scientific and Technical Center is accredited by the State Standard of Ukraine.",
+	"deputy": "Deputy Head of the Scientific and Technical Center:",
+	"deputyName": "Kononenko Hanna Andriivna",
+	"contacts": [
+		{
+			"type": "Phone",
+			"value": "+38(056) 790-05-14"
+		},
+		{
+			"type": "Phone",
+			"value": "+38(056) 790-57-84"
+		},
+		{
+			"type": "Email",
+			"value": "office.isi@nas.gov.ua"
+		}
+	],
+	"documents": [
+		{
+			"title": "Authorization Certificate",
+			"link": "/Свідоцтво.jpg"
+		},
+		{
+			"title": "Authorization Field",
+			"link": "/Галузь-1.jpg"
+		},
+		{
+			"title": "Authorization Field 2",
+			"link": "/Галузь-2.jpg"
+		},
+		{
+			"title": "Price List",
+			"link": "/Прайс.pdf"
+		},
+		{
+			"title": "Certificate",
+			"link": "/Свідоцтво-про-уповноваження.pdf"
+		},
+		{
+			"title": "Authorization Field 3",
+			"link": "/Галузь-уповноваження.pdf"
+		}
+	]
 }

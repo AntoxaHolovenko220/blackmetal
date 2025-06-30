@@ -12,8 +12,8 @@ interface DocumentTitleSearchProps {
 export const DocumentTitleSearch = ({
 	title,
 	search = true,
-	onSearchSubmit = () => { },
-	onSearchChange = () => { },
+	onSearchSubmit = () => {},
+	onSearchChange = () => {},
 }: DocumentTitleSearchProps) => {
 	const { t } = useTranslation()
 	return (
@@ -29,32 +29,30 @@ export const DocumentTitleSearch = ({
 			}}
 		>
 			<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
-				<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
-					<Typography
-						sx={{
-							fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
-							fontWeight: 600,
-							lineHeight: 1.4,
-							whiteSpace: 'wrap',
-						}}
-					>
-						{title}
-					</Typography>
-				</Box>
-				{search && (
-					<UniversalSearch
-						onSearch={onSearchSubmit}
-						onChange={onSearchChange}
-						placeholderKey={t('components.search')}
-						sx={{
-							width: { xxs: '100%', xs: '250px' },
-							p: '5px',
-							border: '1px solid #DFDFDF',
-							bgcolor: '#FFFFFF ',
-						}}
-					/>
-				)}
+				<Typography
+					sx={{
+						fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
+						fontWeight: 600,
+						lineHeight: 1.4,
+						whiteSpace: 'wrap',
+					}}
+				>
+					{title}
+				</Typography>
 			</Box>
+			{search && (
+				<UniversalSearch
+					onSearch={onSearchSubmit}
+					onChange={onSearchChange}
+					placeholderKey={t('components.search')}
+					sx={{
+						width: { xxs: '100%', xs: '250px' },
+						p: '5px',
+						border: '1px solid #DFDFDF',
+						bgcolor: '#FFFFFF ',
+					}}
+				/>
+			)}
 		</Box>
 	)
 }

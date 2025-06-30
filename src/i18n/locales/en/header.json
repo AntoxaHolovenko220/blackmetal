@@ -64,11 +64,6 @@
 							"id": "young-scientists",
 							"label": "Young Scientists Council",
 							"href": "/structure/councils/young"
-						},
-						{
-							"id": "specialized-council",
-							"label": "Specialized Academic Council",
-							"href": "/structure/councils/specialized"
 						}
 					]
 				}
@@ -154,6 +149,11 @@
 					"id": "special-councils",
 					"label": "Ad Hoc Specialized Councils",
 					"href": "/training/special-councils"
+				},
+				{
+					"id": "specialized-council",
+					"label": "Specialized Academic Council D 08.231.01",
+					"href": "/training/specialized"
 				}
 			]
 		},
@@ -190,4 +190,3 @@
 		}
 	]
 }
-

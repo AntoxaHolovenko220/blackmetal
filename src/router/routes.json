@@ -102,7 +102,7 @@
 		"layout": "MainLayout"
 	},
 	"SpecializedCouncilPage": {
-		"path": "/structure/councils/specialized",
+		"path": "/training/specialized",
 		"component": "SpecializedCouncilPage",
 		"title": "Спеціалізована вчена рада",
 		"layout": "MainLayout"
