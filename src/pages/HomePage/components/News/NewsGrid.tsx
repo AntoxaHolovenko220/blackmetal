@@ -21,7 +21,7 @@ export const NewsGrid: FC = () => {
 
 	const [news, setNews] = useState<NewsItem[]>([])
 	const [currentPage, setCurrentPage] = useState(1)
-	const newsContainerRef = useRef<HTMLDivElement>(null)
+	const newsTitleRef = useRef<HTMLDivElement>(null)
 
 	const theme = useTheme()
 	const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
@@ -42,8 +42,8 @@ export const NewsGrid: FC = () => {
 
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page)
-		if ((isMobile || isTablet) && newsContainerRef.current) {
-			newsContainerRef.current.scrollIntoView({
+		if ((isMobile || isTablet) && newsTitleRef.current) {
+			newsTitleRef.current.scrollIntoView({
 				behavior: 'smooth',
 				block: 'start'
 			})
@@ -63,10 +63,13 @@ export const NewsGrid: FC = () => {
 
 	return (
 		<Box sx={{ width: '100%' }}>
-			<DocumentTitleSearch title={`${translationData?.newsTitle}`} search={false} />
+			<DocumentTitleSearch 
+				ref={newsTitleRef}
+				title={`${translationData?.newsTitle}`} 
+				search={false} 
+			/>
 
 			<Grid 
-				ref={newsContainerRef}
 				container 
 				spacing={{ xs: 3, sm: 4, md: 5 }} 
 				sx={{ mb: { xs: 3, sm: 4, md: 5 } }}

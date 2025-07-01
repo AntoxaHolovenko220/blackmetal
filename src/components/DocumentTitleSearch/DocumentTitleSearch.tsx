@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import { UniversalSearch } from '@/components'
 import { useTranslation } from 'react-i18next'
+import { forwardRef } from 'react'
 
 interface DocumentTitleSearchProps {
 	title: string
@@ -9,15 +10,16 @@ interface DocumentTitleSearchProps {
 	onSearchChange?: (query: string) => void
 }
 
-export const DocumentTitleSearch = ({
+export const DocumentTitleSearch = forwardRef<HTMLDivElement, DocumentTitleSearchProps>(({
 	title,
 	search = true,
 	onSearchSubmit = () => {},
 	onSearchChange = () => {},
-}: DocumentTitleSearchProps) => {
+}, ref) => {
 	const { t } = useTranslation()
 	return (
 		<Box
+			ref={ref}
 			sx={{
 				pt: '30px',
 				pb: '22px',
@@ -55,6 +57,8 @@ export const DocumentTitleSearch = ({
 			)}
 		</Box>
 	)
-}
+})
+
+DocumentTitleSearch.displayName = 'DocumentTitleSearch'
 
 export default DocumentTitleSearch
