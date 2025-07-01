@@ -22,6 +22,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, title, alt }) => {
 	const [currentIndex, setCurrentIndex] = useState(0)
 	const theme = useTheme()
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'))
+	const isPhone = useMediaQuery(theme.breakpoints.down('sm'))
 
 	const handlePrevious = () => {
 		setCurrentIndex((prevIndex) => 
@@ -100,9 +101,27 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, title, alt }) => {
 					mx: 'auto',
 					display: 'flex',
 					alignItems: 'center',
-					justifyContent: 'center'
+					justifyContent: 'center',
+					gap: isPhone ? 2 : 0,
 				}}
 			>
+				{/* Левая стрелка для смартфонов - сбоку */}
+				{isPhone && (
+					<IconButton
+						onClick={handlePrevious}
+						sx={{
+							backgroundColor: 'rgba(255, 255, 255, 0.9)',
+							border: '1px solid #e0e0e0',
+							'&:hover': {
+								backgroundColor: 'rgba(255, 255, 255, 1)'
+							},
+						}}
+					>
+						<ChevronLeftIcon />
+					</IconButton>
+				)}
+
+				{/* Контейнер с изображением */}
 				<Box
 					sx={{
 						position: 'relative',
@@ -110,7 +129,8 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, title, alt }) => {
 						height: '100%',
 						display: 'flex',
 						alignItems: 'center',
-						justifyContent: 'center'
+						justifyContent: 'center',
+						flex: isPhone ? '1' : 'none',
 					}}
 				>
 					<img 
@@ -123,41 +143,62 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, title, alt }) => {
 							transition: 'transform 0.3s ease-in-out'
 						}}
 					/>
+
+					{/* Стрелки для планшетов и ПК - на изображении */}
+					{!isPhone && (
+						<>
+							<IconButton
+								onClick={handlePrevious}
+								sx={{
+									position: 'absolute',
+									left: 2,
+									top: '50%',
+									transform: 'translateY(-50%)',
+									backgroundColor: 'rgba(255, 255, 255, 0.9)',
+									'&:hover': {
+										backgroundColor: 'rgba(255, 255, 255, 1)'
+									},
+									zIndex: 2
+								}}
+							>
+								<ChevronLeftIcon />
+							</IconButton>
+
+							<IconButton
+								onClick={handleNext}
+								sx={{
+									position: 'absolute',
+									right: 4,
+									top: '50%',
+									transform: 'translateY(-50%)',
+									backgroundColor: 'rgba(255, 255, 255, 0.9)',
+									'&:hover': {
+										backgroundColor: 'rgba(255, 255, 255, 1)'
+									},
+									zIndex: 2
+								}}
+							>
+								<ChevronRightIcon />
+							</IconButton>
+						</>
+					)}
 				</Box>
 
-				<IconButton
-					onClick={handlePrevious}
-					sx={{
-						position: 'absolute',
-						left: 2,
-						top: '50%',
-						transform: 'translateY(-50%)',
-						backgroundColor: 'rgba(255, 255, 255, 0.9)',
-						'&:hover': {
-							backgroundColor: 'rgba(255, 255, 255, 1)'
-						},
-						zIndex: 2
-					}}
-				>
-					<ChevronLeftIcon />
-				</IconButton>
-
-				<IconButton
-					onClick={handleNext}
-					sx={{
-						position: 'absolute',
-						right: 4,
-						top: '50%',
-						transform: 'translateY(-50%)',
-						backgroundColor: 'rgba(255, 255, 255, 0.9)',
-						'&:hover': {
-							backgroundColor: 'rgba(255, 255, 255, 1)'
-						},
-						zIndex: 2
-					}}
-				>
-					<ChevronRightIcon />
-				</IconButton>
+				{/* Правая стрелка для смартфонов - сбоку */}
+				{isPhone && (
+					<IconButton
+						onClick={handleNext}
+						sx={{
+							backgroundColor: 'rgba(255, 255, 255, 0.9)',
+							border: '1px solid #e0e0e0',
+							'&:hover': {
+								backgroundColor: 'rgba(255, 255, 255, 1)'
+							},
+						}}
+					>
+						<ChevronRightIcon />
+					</IconButton>
+				)}
 			</Box>
 
 			<Box

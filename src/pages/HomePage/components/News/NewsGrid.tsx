@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from 'react'
+import { FC, useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { DocumentTitleSearch } from '@/components'
 import {
@@ -21,6 +21,7 @@ export const NewsGrid: FC = () => {
 
 	const [news, setNews] = useState<NewsItem[]>([])
 	const [currentPage, setCurrentPage] = useState(1)
+	const newsContainerRef = useRef<HTMLDivElement>(null)
 
 	const theme = useTheme()
 	const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
@@ -41,6 +42,12 @@ export const NewsGrid: FC = () => {
 
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page)
+		if ((isMobile || isTablet) && newsContainerRef.current) {
+			newsContainerRef.current.scrollIntoView({
+				behavior: 'smooth',
+				block: 'start'
+			})
+		}
 	}
 
 	const startIndex = (currentPage - 1) * ITEMS_PER_PAGE
@@ -58,7 +65,12 @@ export const NewsGrid: FC = () => {
 		<Box sx={{ width: '100%' }}>
 			<DocumentTitleSearch title={`${translationData?.newsTitle}`} search={false} />
 
-			<Grid container spacing={{ xs: 3, sm: 4, md: 5 }} sx={{ mb: { xs: 3, sm: 4, md: 5 } }}>
+			<Grid 
+				ref={newsContainerRef}
+				container 
+				spacing={{ xs: 3, sm: 4, md: 5 }} 
+				sx={{ mb: { xs: 3, sm: 4, md: 5 } }}
+			>
 				{displayedNews.map((item, idx) => (
 					<Grid
 						item
