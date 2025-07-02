@@ -44,6 +44,7 @@ const MonographsPage = () => {
 							title={item.title}
 							link={item.link}
 							date={item.date}
+							image={item.image}
 						/>
 					))}
 				</Box>

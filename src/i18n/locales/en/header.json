@@ -99,6 +99,11 @@
 							"href": "/training/postgraduate/applicants"
 						},
 						{
+							"id": "schedule",
+							"label": "Class Schedule",
+							"href": "/training/postgraduate/schedule"
+						},
+						{
 							"id": "individual-plans",
 							"label": "Individual Plans",
 							"href": "/training/postgraduate/plans"

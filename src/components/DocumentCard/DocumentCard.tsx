@@ -2,7 +2,7 @@ import { Box, Button, Link as MUILink, Typography } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { DocumentCardProps } from './DocumentCardInterface'
 
-const DocumentCard = ({ title, link, date }: DocumentCardProps) => {
+const DocumentCard = ({ title, link, date, image }: DocumentCardProps) => {
 	const { t } = useTranslation()
 
 	const getFileNameFromUrl = (url: string): string => {
@@ -20,6 +20,7 @@ const DocumentCard = ({ title, link, date }: DocumentCardProps) => {
 	const fileName = getFileNameFromUrl(link)
 	const fileExtension = getFileExtensionFromUrl(fileName)
 	const fileLink = `/blackmetal${link}`
+	const imageLink = `/blackmetal${image}`
 
 	return (
 		<Box
@@ -34,7 +35,7 @@ const DocumentCard = ({ title, link, date }: DocumentCardProps) => {
 				display: 'flex',
 				flexDirection: 'column',
 				justifyContent: 'space-between',
-				gap: '40px',
+				gap: '30px',
 				border: '1px solid #DFDFDF',
 				bgcolor: '#FFFFFF',
 			}}
@@ -68,6 +69,20 @@ const DocumentCard = ({ title, link, date }: DocumentCardProps) => {
 			>
 				{fileExtension}
 			</Typography>
+
+			{image && (
+				<Box
+					component='img'
+					src={imageLink}
+					sx={{
+						width: '304px',
+						height: '304px',
+						m: '0px auto',
+						objectFit: 'contain',
+					}}
+				/>
+			)}
+
 			<Typography
 				sx={{
 					maxWidth: '304px',
