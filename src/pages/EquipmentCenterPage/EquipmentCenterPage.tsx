@@ -9,7 +9,7 @@ import { EquipmentCenterData } from './types'
 
 const EquipmentCenterPage = () => {
   const { data } = useTranslationData<EquipmentCenterData>('equipment-center')
-  
+
   const handleViewRegulation = () => {
     window.open(
       'https://isi.gov.ua/wp-content/uploads/2021/10/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE-%D0%A6%D0%9A%D0%9F%D0%9F-2018.pdf',
@@ -33,7 +33,7 @@ const EquipmentCenterPage = () => {
         viewRegulation={data.viewRegulation}
         onViewRegulation={handleViewRegulation}
       />
-
+        
       <EquipmentItem
         title={data.equipment1}
         imageSrc="/blackmetal/SREC_img2.png"
@@ -77,7 +77,7 @@ const EquipmentCenterPage = () => {
           stage: data.equipment3Stage,
         }}
       />
-
+          
       <EquipmentCenterContact
         contactTitle={data.contactTitle}
         contactName={data.contactName}
