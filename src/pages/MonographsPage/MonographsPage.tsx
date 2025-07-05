@@ -1,15 +1,15 @@
-import { DocumentCard, DocumentTitleSearch } from '@/components'
+import { MonoCard, DocumentTitleSearch } from '@/components'
 import { Box } from '@mui/material'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { DocumentCardData } from '@/components/DocumentCard/DocumentCardInterface'
-import {
-	DocumentCardAdaptation,
-	DocumentCardWrapper,
-} from '@/components/DocumentCard/styles'
 import { useState } from 'react'
+import {
+	MonoCardAdaptation,
+	MonoCardWrapper,
+} from '@/components/MonoCard/styles'
+import { MonoCardData } from '@/components/MonoCard/MonoCardInterface'
 
 const MonographsPage = () => {
-	const { data } = useTranslationData<DocumentCardData>('monographs')
+	const { data } = useTranslationData<MonoCardData>('monographs')
 
 	const [searchQuery, setSearchQuery] = useState('')
 
@@ -29,21 +29,21 @@ const MonographsPage = () => {
 		setSearchQuery(query.trim())
 	}
 	return (
-		<Box sx={DocumentCardWrapper}>
+		<Box sx={MonoCardWrapper}>
 			<DocumentTitleSearch
 				title={data.title}
 				onSearchSubmit={handleSearchSubmit}
 				onSearchChange={handleSearchChange}
 			/>
 
-			<Box sx={{ maxWidth: '1220px', m: '0px auto' }}>
-				<Box sx={DocumentCardAdaptation}>
+			<Box sx={{ maxWidth: '1850px', m: '0px auto' }}>
+				<Box sx={MonoCardAdaptation}>
 					{filteredData.map((item, index) => (
-						<DocumentCard
+						<MonoCard
 							key={index}
 							title={item.title}
+							description={item.description}
 							link={item.link}
-							date={item.date}
 							image={item.image}
 						/>
 					))}

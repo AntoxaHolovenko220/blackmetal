@@ -1,5 +1,5 @@
 export { default as Loader } from './Loader'
-export {default as DepartmentElement} from './Departments/DepartmentElement'
+export { default as DepartmentElement } from './Departments/DepartmentElement'
 export { default as SocialLinks } from './SocialLinks'
 export { default as UniversalLogo } from './UniversalLogo'
 export { default as DocumentCard } from './DocumentCard'
@@ -10,5 +10,6 @@ export { default as UniversalSearch } from './UniversalSearch'
 export { default as DocumentTitleSearch } from './DocumentTitleSearch'
 export { default as ImageSlider } from './ImageSlider'
 export { default as CustomTable } from './CustomTable'
+export { default as MonoCard } from './MonoCard'
 
 // export { default as PresentationPlayer } from './PresentationPlayer'
