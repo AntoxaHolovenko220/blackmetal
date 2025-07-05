@@ -26,10 +26,11 @@ const PersonPage = () => {
 	return (
 		<Box
 			sx={{
-				pl: '50px',
+				pl: { xxs: '0px', sm: '50px' },
+				pt: { xxs: '20px', sm: '96px'}
 			}}
 		>
-			<DocumentTitleSearch title={`${person.position}`} search={false} />
+			{/* <DocumentTitleSearch title={`${person.position}`} search={false} /> */}
 			<Box
 				sx={{
 					// maxWidth: '1200px',
@@ -54,10 +55,10 @@ const PersonPage = () => {
 				>
 					<Box
 						sx={{
-							minWidth: '300px',
-							maxWidth: '300px',
+							minWidth: '400px',
+							maxWidth: '400px',
 							backgroundColor: '#2D7A84',
-							padding: '40px',
+							padding: '30px',
 							display: 'flex',
 							flexDirection: 'column',
 							alignItems: 'center',
@@ -198,12 +199,24 @@ const PersonPage = () => {
 						sx={{
 							flex: 1,
 							backgroundColor: 'white',
-							padding: '40px',
+							padding: '30px',
 							'@media (max-width: 1024px)': {
 								padding: '30px',
 							},
 						}}
 					>
+
+						<Typography
+							sx={{
+								fontSize: '18px',
+								fontWeight: 500,
+								color: '#555',
+								marginBottom: '25px',
+								lineHeight: 1.4,
+							}}
+						>
+							{person.position}
+						</Typography>
 
 						<Typography
 							sx={{
@@ -223,7 +236,7 @@ const PersonPage = () => {
 						<Typography
 							sx={{
 								fontSize: '18px',
-								fontWeight: 600,
+								fontWeight: 500,
 								color: '#555',
 								marginBottom: '25px',
 								lineHeight: 1.4,
@@ -251,7 +264,7 @@ const PersonPage = () => {
 										color: '#333',
 										lineHeight: 1.6,
 										marginBottom: '25px',
-										textAlign: 'justify',
+										textAlign: 'left',
 									}}
 								>
 									{person.researchDirection}
