@@ -9,7 +9,7 @@ import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = '/blackmetal/pdf.worker.min.js';
 
-const PlayerContainer = styled(Box)({
+const PlayerContainer = styled(Box)(({ theme }) => ({
   width: '100%',
   maxWidth: '680px',
   margin: '0 auto',
@@ -17,7 +17,11 @@ const PlayerContainer = styled(Box)({
   borderRadius: 0,
   overflow: 'hidden',
   boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
-});
+  [theme.breakpoints.up('md')]: {
+    maxWidth: 'none',
+    margin: '0',
+  },
+}));
 
 const SlideContent = styled(Box)({
   height: '100%',

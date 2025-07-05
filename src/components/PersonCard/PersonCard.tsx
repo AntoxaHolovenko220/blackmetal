@@ -1,4 +1,4 @@
-import { Box, Link as MUILink, Typography } from '@mui/material'
+import { Box, Link as MUILink, Typography, Button } from '@mui/material'
 import { PersonCardInterface } from './PersonCardInterface'
 import PersonIcon from '@mui/icons-material/Person'
 import { useNavigate } from 'react-router-dom'
@@ -12,13 +12,20 @@ const PersonCard = ({
 	contacts = [],
 }: PersonCardInterface) => {
 	const navigate = useNavigate()
+	
+	const handleDetailsClick = (e: React.MouseEvent) => {
+		e.stopPropagation()
+		navigate(`/person/${id}`)
+	}
+
 	return (
-		<MUILink
+		<Box
 			sx={{
 				maxWidth: '589px',
 				textDecoration: 'none',
 				color: '#000000',
 				cursor: 'pointer',
+				position: 'relative',
 			}}
 			onClick={() => navigate(`/person/${id}`)}
 		>
@@ -141,7 +148,34 @@ const PersonCard = ({
 					)}
 				</Box>
 			</Box>
-		</MUILink>
+			
+			<Button
+				variant="contained"
+				onClick={handleDetailsClick}
+				sx={{
+					position: 'absolute',
+					bottom: 8,
+					right: 8,
+					backgroundColor: '#2D7A84',
+					color: '#fff',
+					fontSize: '12px',
+					fontWeight: 500,
+					textTransform: 'none',
+					padding: '6px 12px',
+					minWidth: 'auto',
+					borderRadius: '4px',
+					'&:hover': {
+						backgroundColor: '#1f5a60',
+					},
+					'@media (max-width: 600px)': {
+						fontSize: '11px',
+						padding: '5px 10px',
+					},
+				}}
+			>
+				Детальніше
+			</Button>
+		</Box>
 	)
 }
 
