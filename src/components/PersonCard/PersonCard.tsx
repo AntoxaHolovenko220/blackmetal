@@ -74,7 +74,9 @@ const PersonCard = ({
 					sx={{
 						width: '57%',
 						px: '30px',
-						py: '30px',
+						pt: '30px',
+						pr: '30px',
+						pb: '30px',
 						display: 'flex',
 						flexDirection: 'column',
 						height: '100%',
@@ -93,7 +95,7 @@ const PersonCard = ({
 
 					<Typography
 						sx={{
-							mt: position ? '13px' : '0px',
+							mt: '10px',
 							fontSize: '22px',
 							fontWeight: 700,
 							lineHeight: 1,
@@ -118,7 +120,7 @@ const PersonCard = ({
 					)}
 
 					{contacts?.length > 0 && (
-						<Box>
+						<Box sx={{ mt: '10px' }}>
 							{contacts.map((contact, index) => (
 								<Box
 									key={index}
@@ -146,35 +148,32 @@ const PersonCard = ({
 							))}
 						</Box>
 					)}
+
+					<Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: '30px' }}>
+						<Button
+							variant="contained"
+							onClick={handleDetailsClick}
+							sx={{
+								backgroundColor: '#2D7A84',
+								color: '#fff',
+								fontSize: '12px',
+								fontWeight: 500,
+								textTransform: 'none',
+								borderRadius: 0,
+								'&:hover': {
+									backgroundColor: '#1f5a60',
+								},
+								'@media (max-width: 600px)': {
+									fontSize: '11px',
+									padding: '5px 10px',
+								},
+							}}
+						>
+							Детальніше
+						</Button>
+					</Box>
 				</Box>
 			</Box>
-			
-			<Button
-				variant="contained"
-				onClick={handleDetailsClick}
-				sx={{
-					position: 'absolute',
-					bottom: 8,
-					right: 8,
-					backgroundColor: '#2D7A84',
-					color: '#fff',
-					fontSize: '12px',
-					fontWeight: 500,
-					textTransform: 'none',
-					padding: '6px 12px',
-					minWidth: 'auto',
-					borderRadius: '4px',
-					'&:hover': {
-						backgroundColor: '#1f5a60',
-					},
-					'@media (max-width: 600px)': {
-						fontSize: '11px',
-						padding: '5px 10px',
-					},
-				}}
-			>
-				Детальніше
-			</Button>
 		</Box>
 	)
 }
