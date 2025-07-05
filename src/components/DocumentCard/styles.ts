@@ -11,7 +11,7 @@ export const DocumentCardAdaptation: SxProps = {
 }
 
 export const DocumentCardWrapper: SxProps = {
-	pl: { xxs: '0px', xs: '50px' },
+	pl: { xxs: '0px', sm: '50px' },
 	pb: '30px',
 	// display: 'flex',
 	// flexDirection: 'column',
