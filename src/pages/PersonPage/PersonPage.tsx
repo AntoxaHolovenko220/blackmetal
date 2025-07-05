@@ -27,7 +27,8 @@ const PersonPage = () => {
 		<Box
 			sx={{
 				pl: { xxs: '0px', sm: '50px' },
-				pt: { xxs: '20px', sm: '96px'}
+				pt: { xxs: '20px', sm: '96px' },
+				pb: '30px',
 			}}
 		>
 			{/* <DocumentTitleSearch title={`${person.position}`} search={false} /> */}
@@ -111,8 +112,9 @@ const PersonPage = () => {
 								{data.labels.contacts}
 							</Typography>
 
-							<Box sx={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-
+							<Box
+								sx={{ display: 'flex', flexDirection: 'column', gap: '12px' }}
+							>
 								{person.contacts?.map((contact, index) => (
 									<Box
 										key={index}
@@ -132,13 +134,20 @@ const PersonPage = () => {
 												justifyContent: 'center',
 											}}
 										>
-											{contact.type === 'Phone' || contact.type === 'Телефон' ? (
-												<PhoneOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+											{contact.type === 'Phone' ||
+											contact.type === 'Телефон' ? (
+												<PhoneOutlinedIcon
+													sx={{ color: '#2D7A84', fontSize: '20px' }}
+												/>
 											) : (
-												<EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+												<EmailOutlinedIcon
+													sx={{ color: '#2D7A84', fontSize: '20px' }}
+												/>
 											)}
 										</Box>
-										<Typography sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}>
+										<Typography
+											sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
+										>
 											{contact.value}
 										</Typography>
 									</Box>
@@ -163,7 +172,9 @@ const PersonPage = () => {
 									>
 										<SchoolIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 									</Box>
-									<Typography sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}>
+									<Typography
+										sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
+									>
 										Google Scholar
 									</Typography>
 								</Box>
@@ -187,7 +198,9 @@ const PersonPage = () => {
 									>
 										<PublicIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 									</Box>
-									<Typography sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}>
+									<Typography
+										sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
+									>
 										ORCID iD
 									</Typography>
 								</Box>
@@ -205,7 +218,6 @@ const PersonPage = () => {
 							},
 						}}
 					>
-
 						<Typography
 							sx={{
 								fontSize: '18px',

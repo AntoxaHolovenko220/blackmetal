@@ -12,7 +12,7 @@ const PersonCard = ({
 	contacts = [],
 }: PersonCardInterface) => {
 	const navigate = useNavigate()
-	
+
 	const handleDetailsClick = (e: React.MouseEvent) => {
 		e.stopPropagation()
 		navigate(`/person/${id}`)
@@ -79,10 +79,9 @@ const PersonCard = ({
 						pb: '30px',
 						display: 'flex',
 						flexDirection: 'column',
-						height: '100%',
+						minHeight: '100%',
 						'@media (max-width: 600px)': {
 							width: '100%',
-							pl: 0,
 						},
 					}}
 				>
@@ -152,7 +151,7 @@ const PersonCard = ({
 
 					<Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: '30px' }}>
 						<Button
-							variant="contained"
+							variant='contained'
 							onClick={handleDetailsClick}
 							sx={{
 								backgroundColor: '#2D7A84',
