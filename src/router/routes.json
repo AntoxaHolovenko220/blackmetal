@@ -107,7 +107,12 @@
 		"title": "Спеціалізована вчена рада",
 		"layout": "MainLayout"
 	},
-
+	"SchedulePage": {
+		"path": "/training/postgraduate/schedule",
+		"component": "SchedulePage",
+		"title": "Розклад Занять",
+		"layout": "MainLayout"
+	},
 	"IndividualPlansPage": {
 		"path": "/training/postgraduate/plans",
 		"component": "IndividualPlansPage",

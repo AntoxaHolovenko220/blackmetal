@@ -20,6 +20,7 @@ export { default as ProcurementPage } from './ProcurementPage'
 export { default as SpecializedCouncilPage } from './SpecializedCouncilPage'
 export { default as SpecCouncilsPage } from './SpecCouncilsPage'
 export { default as InstituteHistoryPage } from './InstituteHistoryPage'
-export { default as TestingCenterPage } from "./TestingCenterPage"
-export { default as EquipmentCenterPage } from "./EquipmentCenterPage"
-export { default as ScientificServicesPage } from "./ScientificServicesPage"
+export { default as TestingCenterPage } from './TestingCenterPage'
+export { default as SchedulePage } from './SchedulePage'
+export { default as EquipmentCenterPage } from './EquipmentCenterPage'
+export { default as ScientificServicesPage } from './ScientificServicesPage'

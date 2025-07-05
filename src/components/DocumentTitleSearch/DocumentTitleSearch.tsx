@@ -10,54 +10,62 @@ interface DocumentTitleSearchProps {
 	onSearchChange?: (query: string) => void
 }
 
-export const DocumentTitleSearch = forwardRef<HTMLDivElement, DocumentTitleSearchProps>(({
-	title,
-	search = true,
-	onSearchSubmit = () => {},
-	onSearchChange = () => {},
-}, ref) => {
-	const { t } = useTranslation()
-	return (
-		<Box
-			ref={ref}
-			sx={{
-				pt: '30px',
-				pb: '22px',
-				display: 'flex',
-				justifyContent: 'space-between',
-				gap: '25px',
-				alignItems: 'center',
-				flexWrap: 'wrap',
-			}}
-		>
-			<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
-				<Typography
-					sx={{
-						fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
-						fontWeight: 600,
-						lineHeight: 1.4,
-						whiteSpace: 'wrap',
-					}}
-				>
-					{title}
-				</Typography>
+export const DocumentTitleSearch = forwardRef<
+	HTMLDivElement,
+	DocumentTitleSearchProps
+>(
+	(
+		{
+			title,
+			search = true,
+			onSearchSubmit = () => {},
+			onSearchChange = () => {},
+		},
+		ref
+	) => {
+		const { t } = useTranslation()
+		return (
+			<Box
+				ref={ref}
+				sx={{
+					pt: '30px',
+					pb: '22px',
+					display: 'flex',
+					justifyContent: 'space-between',
+					gap: '25px',
+					alignItems: 'center',
+					flexWrap: 'wrap',
+				}}
+			>
+				<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
+					<Typography
+						sx={{
+							fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
+							fontWeight: 600,
+							lineHeight: 1.4,
+							whiteSpace: 'wrap',
+						}}
+					>
+						{title}
+					</Typography>
+				</Box>
+				{search && (
+					<UniversalSearch
+						onSearch={onSearchSubmit}
+						onChange={onSearchChange}
+						placeholderKey={t('components.search')}
+						sx={{
+							width: { xxs: '100%', xs: '250px' },
+							p: '5px',
+							border: '1px solid #DFDFDF',
+							bgcolor: '#FFFFFF ',
+						}}
+					/>
+				)}
 			</Box>
-			{search && (
-				<UniversalSearch
-					onSearch={onSearchSubmit}
-					onChange={onSearchChange}
-					placeholderKey={t('components.search')}
-					sx={{
-						width: { xxs: '100%', xs: '250px' },
-						p: '5px',
-						border: '1px solid #DFDFDF',
-						bgcolor: '#FFFFFF ',
-					}}
-				/>
-			)}
-		</Box>
-	)
-})
+		)
+	}
+)
 
 DocumentTitleSearch.displayName = 'DocumentTitleSearch'
 
