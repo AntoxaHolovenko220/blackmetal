@@ -23,6 +23,12 @@
 		"title": "Стратегія Інституту",
 		"layout": "MainLayout"
 	},
+	"DocumentsPage": {
+		"path": "/about/documents",
+		"component": "DocumentsPage",
+		"title": "Нормативні документи",
+		"layout": "MainLayout"
+	},
 	"ScientificDepartments": {
 		"path": "/scientific-departments",
 		"component": "ScientificDepartmentsPage",

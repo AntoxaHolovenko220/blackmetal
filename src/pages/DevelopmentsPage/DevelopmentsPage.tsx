@@ -1,6 +1,5 @@
 import { Box } from '@mui/material'
-import { DocumentTitleSearch } from '@/components'
-import { PresentationPlayer } from '../../components/PresentationPlayer'
+import { DocumentTitleSearch, PresentationPlayer } from '@/components'
 import { useTranslationData } from '@/hooks/useTranslationData'
 
 interface DevelopmentsData {
@@ -22,7 +21,7 @@ const DevelopmentsPage = () => {
   return (
     <Box sx={{ pb: '30px', pl: { xs: '20px', sm: '50px' } }}>
       <DocumentTitleSearch title={`${data.title}`} search={false} />
-      <PresentationPlayer />
+      <PresentationPlayer pdfUrl="/blackmetal/presentation.pdf" />
     </Box>
   )
 }

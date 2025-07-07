@@ -1,1 +1,2 @@
-export { default as PresentationPlayer } from './PresentationPlayer'
+export { default } from './PresentationPlayer'
+export { PresentationPlayer } from './PresentationPlayer'

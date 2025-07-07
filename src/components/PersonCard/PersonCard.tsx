@@ -149,29 +149,29 @@ const PersonCard = ({
 							))}
 						</Box>
 					)}
-
+			
 					<Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: '30px' }}>
-						<Button
-							variant="contained"
-							onClick={handleDetailsClick}
-							sx={{
-								backgroundColor: '#2D7A84',
-								color: '#fff',
-								fontSize: '12px',
-								fontWeight: 500,
-								textTransform: 'none',
+			<Button
+				variant="contained"
+				onClick={handleDetailsClick}
+				sx={{
+					backgroundColor: '#2D7A84',
+					color: '#fff',
+					fontSize: '12px',
+					fontWeight: 500,
+					textTransform: 'none',
 								borderRadius: 0,
-								'&:hover': {
-									backgroundColor: '#1f5a60',
-								},
-								'@media (max-width: 600px)': {
-									fontSize: '11px',
-									padding: '5px 10px',
-								},
-							}}
-						>
-							Детальніше
-						</Button>
+					'&:hover': {
+						backgroundColor: '#1f5a60',
+					},
+					'@media (max-width: 600px)': {
+						fontSize: '11px',
+						padding: '5px 10px',
+					},
+				}}
+			>
+				Детальніше
+			</Button>
 					</Box>
 				</Box>
 			</Box>

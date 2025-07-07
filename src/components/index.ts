@@ -12,4 +12,4 @@ export { default as ImageSlider } from './ImageSlider'
 export { default as CustomTable } from './CustomTable'
 export { default as MonoCard } from './MonoCard'
 
-// export { default as PresentationPlayer } from './PresentationPlayer'
+export { default as PresentationPlayer } from './PresentationPlayer'

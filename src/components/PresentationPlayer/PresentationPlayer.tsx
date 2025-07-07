@@ -6,6 +6,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import SendIcon from '@mui/icons-material/Send';
 import FullscreenIcon from '@mui/icons-material/Fullscreen';
 import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
+import { PresentationPlayerProps } from './types';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = '/blackmetal/pdf.worker.min.js';
 
@@ -61,7 +62,7 @@ const ProgressBar = styled(LinearProgress)({
   },
 });
 
-export const PresentationPlayer: FC = () => {
+const PresentationPlayer: FC<PresentationPlayerProps> = ({ pdfUrl }) => {
   const [numPages, setNumPages] = useState(0);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
@@ -71,21 +72,21 @@ export const PresentationPlayer: FC = () => {
   useEffect(() => {
     let pdfDoc: any = null;
     setLoading(true);
-    pdfjsLib.getDocument('/blackmetal/presentation.pdf').promise.then((doc: any) => {
+    pdfjsLib.getDocument(pdfUrl).promise.then((doc: any) => {
       pdfDoc = doc;
       setNumPages(doc.numPages);
       setLoading(false);
       renderPage(doc, page);
     });
-  }, []);
+  }, [pdfUrl]);
 
   useEffect(() => {
     if (numPages > 0) {
-      pdfjsLib.getDocument('/blackmetal/presentation.pdf').promise.then((doc: any) => {
+      pdfjsLib.getDocument(pdfUrl).promise.then((doc: any) => {
         renderPage(doc, page);
       });
     }
-  }, [page, numPages]);
+  }, [page, numPages, pdfUrl]);
 
   const renderPage = (doc: any, pageNum: number) => {
     doc.getPage(pageNum).then((pdfPage: any) => {
@@ -137,9 +138,6 @@ export const PresentationPlayer: FC = () => {
         <Typography sx={{ color: '#fff', minWidth: 32, textAlign: 'center', fontWeight: 500 }}>
           {numPages}
         </Typography>
-        <IconButton sx={{ color: '#fff' }}>
-          <SendIcon />
-        </IconButton>
         <IconButton sx={{ color: '#fff' }} onClick={handleFullscreen}>
           <FullscreenIcon />
         </IconButton>
@@ -148,4 +146,5 @@ export const PresentationPlayer: FC = () => {
   );
 };
 
+export { PresentationPlayer };
 export default PresentationPlayer;
