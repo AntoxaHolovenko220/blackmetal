@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Typography, Link } from '@mui/material'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { PersonCardData } from '@/components/PersonCard/PersonCardInterface'
 import { useParams } from 'react-router-dom'
@@ -7,6 +7,9 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
 import PersonIcon from '@mui/icons-material/Person'
 import SchoolIcon from '@mui/icons-material/School'
 import PublicIcon from '@mui/icons-material/Public'
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks'
+import ContactsIcon from '@mui/icons-material/Contacts'
+import LanguageIcon from '@mui/icons-material/Language'
 import { DocumentTitleSearch } from '@/components'
 
 const PersonPage = () => {
@@ -21,6 +24,50 @@ const PersonPage = () => {
 
 	if (!person) {
 		return null
+	}
+
+	const getContactIcon = (contactType: string) => {
+		if (contactType === 'Phone' || contactType === 'Телефон') {
+			return <PhoneOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (contactType === 'E-mail' || contactType === 'Email') {
+			return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (contactType === 'Google Scholar') {
+			return <SchoolIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (contactType === 'ORCID iD') {
+			return <PublicIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (contactType === 'Scopus Author ID') {
+			return <LibraryBooksIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (contactType === 'ResearcherID') {
+			return <ContactsIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else if (
+			contactType === 'Encyclopedia' ||
+			contactType === 'Енциклопедія'
+		) {
+			return <LanguageIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		} else {
+			return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+		}
+	}
+
+	const isUrl = (value: string) => {
+		return value.startsWith('http://') || value.startsWith('https://')
+	}
+
+	const getContactDisplayValue = (contactType: string) => {
+		switch (contactType) {
+			case 'Encyclopedia':
+				return 'Енциклопедія про Корнієнка В.І.'
+			case 'Google Scholar':
+				return 'Google Scholar'
+			case 'ORCID iD':
+				return 'ORCID iD'
+			case 'Scopus Author ID':
+				return 'Scopus Author ID'
+			case 'ResearcherID':
+				return 'ResearcherID'
+			default:
+				return null
+		}
 	}
 
 	return (
@@ -134,76 +181,33 @@ const PersonPage = () => {
 												justifyContent: 'center',
 											}}
 										>
-											{contact.type === 'Phone' ||
-											contact.type === 'Телефон' ? (
-												<PhoneOutlinedIcon
-													sx={{ color: '#2D7A84', fontSize: '20px' }}
-												/>
-											) : (
-												<EmailOutlinedIcon
-													sx={{ color: '#2D7A84', fontSize: '20px' }}
-												/>
-											)}
+											{getContactIcon(contact.type)}
 										</Box>
 										<Typography
 											sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
 										>
-											{contact.value}
+											{isUrl(contact.value) ? (
+												<Link
+													href={contact.value}
+													target='_blank'
+													rel='noopener noreferrer'
+													sx={{
+														color: 'white',
+														textDecoration: 'none',
+														'&:hover': {
+															color: '#f0f0f0',
+														},
+													}}
+												>
+													{getContactDisplayValue(contact.type) ||
+														contact.value}
+												</Link>
+											) : (
+												contact.value
+											)}
 										</Typography>
 									</Box>
 								))}
-
-								<Box
-									sx={{
-										display: 'flex',
-										alignItems: 'center',
-										gap: '15px',
-									}}
-								>
-									<Box
-										sx={{
-											width: '35px',
-											height: '35px',
-											backgroundColor: 'white',
-											display: 'flex',
-											alignItems: 'center',
-											justifyContent: 'center',
-										}}
-									>
-										<SchoolIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-									</Box>
-									<Typography
-										sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
-									>
-										Google Scholar
-									</Typography>
-								</Box>
-
-								<Box
-									sx={{
-										display: 'flex',
-										alignItems: 'center',
-										gap: '15px',
-									}}
-								>
-									<Box
-										sx={{
-											width: '35px',
-											height: '35px',
-											backgroundColor: 'white',
-											display: 'flex',
-											alignItems: 'center',
-											justifyContent: 'center',
-										}}
-									>
-										<PublicIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-									</Box>
-									<Typography
-										sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
-									>
-										ORCID iD
-									</Typography>
-								</Box>
 							</Box>
 						</Box>
 					</Box>

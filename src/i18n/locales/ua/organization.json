@@ -1,0 +1,172 @@
+{
+	"title": "Науково-організаційний відділ",
+	"firstPersonCard": {
+		"id": "organization-head",
+		"photo": "/blackmetal/department-heads/organization-head.jpg",
+		"position": "Керівник відділу",
+		"name": "Тубольцев Леонід Григорович",
+		"description": "Кандидат технічних наук.",
+		"contacts": [
+			{
+				"type": "Email",
+				"value": " isi.tubol@gmail.com"
+			}
+		]
+	},
+	"activities": {
+		"items": [
+			"Науково-методичне та організаційне забезпечення виконання науково-дослідних робіт інституту.",
+			"Виконання наукових досліджень щодо виявлення тенденцій розвитку світової та вітчизняної металургії.",
+			"Науково-методичне забезпечення охорони об'єктів інтелектуальної власності, проведення патентних досліджень і оформлення матеріалів на винаходи, «ноу — хау», продаж ліцензій в співпраці з Державним департаментом інтелектуальної власності МОН.",
+			"Підготовка звітних матеріалів з виконання плану НДР, річних звітів про наукову та науково-організаційну діяльність інституту.",
+			"Редагування та випуск збірника наукових праць \"Фундаментальні і прикладні проблеми металургії\", монографій, навчальних посібників тощо.",
+			"Організація роботи з підготовки наукових кадрів в докторантурі і аспірантурі; контроль виконання робочих планів підготовки дисертаційних робіт на здобуття наукових ступенів, проведення щорічної атестації докторантів та аспірантів.",
+			"Допомога підрозділам інституту з підготовки і проведення конкурсів на заміщення вакансій наукових посад та оформлення матеріалів до ДАК України з присудження наукових звань."
+		]
+	},
+	"staffCards": [
+		{
+			"id": "organization-deputy",
+			"photo": "/tohobitska.jpg",
+			"position": "Провідний науковий співробітник",
+			"name": "Тогобицька Дар'я Миколаївна",
+			"description": "Професор, доктор технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "dntog@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-1",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-2",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-3",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-4",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-5",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-6",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alla2904b8@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-7",
+			"photo": "/researcher1.jpg",
+			"position": "Завідуючий відділом",
+			"name": "Сепаненко Дмитро Олександрович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-8",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-9",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "organization-researcher-10",
+			"photo": "/researcher1.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		}
+	]
+} 

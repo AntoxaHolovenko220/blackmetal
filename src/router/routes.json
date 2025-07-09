@@ -23,16 +23,34 @@
 		"title": "Стратегія Інституту",
 		"layout": "MainLayout"
 	},
+	"DocumentsPage": {
+		"path": "/about/documents",
+		"component": "DocumentsPage",
+		"title": "Нормативні документи",
+		"layout": "MainLayout"
+	},
 	"ScientificDepartments": {
 		"path": "/scientific-departments",
 		"component": "ScientificDepartmentsPage",
 		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
+	"ScientificDepartmentPage": {
+		"path": "/scientific-departments/:departmentId",
+		"component": "ScientificDepartmentPage",
+		"title": "Науковий відділ",
+		"layout": "MainLayout"
+	},
 	"TechnicalDepartments": {
 		"path": "/technical-departments",
 		"component": "TechnicalDepartmentsPage",
 		"title": "Випробувальний центр",
+		"layout": "MainLayout"
+	},
+	"TechnicalDepartmentPage": {
+		"path": "/technical-departments/:departmentId",
+		"component": "TechnicalDepartmentPage",
+		"title": "Науково-технічний відділ",
 		"layout": "MainLayout"
 	},
 	"ServicesPage": {

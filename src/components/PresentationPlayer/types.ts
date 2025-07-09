@@ -3,5 +3,5 @@ export interface Slide {
 }
 
 export interface PresentationPlayerProps {
-  presentationUrl: string;
+  pdfUrl: string;
 } 

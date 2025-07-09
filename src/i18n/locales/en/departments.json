@@ -3,52 +3,78 @@
 		"scientific": "Scientific Departments",
 		"technical": "Technical Departments"
 	},
+	"common": {
+		"staffTitle": "Department staff:",
+		"activitiesTitle": "Main activity directions:"
+	},
 	"ScientificDepartments": [
 		{
-			"fullName": "Department of Physicochemical Problems of Metallurgical Processes",
-			"img": "/blackmetal/FIT.svg"
+			"id": 1,
+			"fullName": "Department of Physical and Chemical Problems of Metallurgical Processes",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/phys-chem"
 		},
 		{
-			"fullName": "Department of Iron Production Metallurgy",
-			"img": "/blackmetal/FIT.svg"
+			"id": 2,
+			"fullName": "Department of Pig Iron Metallurgy",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/pig-iron"
 		},
 		{
-			"fullName": "Department of Ladle Treatment of Iron",
-			"img": "/blackmetal/FIT.svg"
+			"id": 3,
+			"fullName": "Department of Out-of-Furnace Treatment of Cast Iron",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/iron-refining"
 		},
 		{
+			"id": 4,
 			"fullName": "Department of Physical and Technical Problems of Steel Metallurgy",
-			"img": "/blackmetal/FIT.svg"
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/phys-tech"
 		},
 		{
-			"fullName": "Department of Metal Forming Machines and Processes",
-			"img": "/blackmetal/FIT.svg"
+			"id": 5,
+			"fullName": "Department of Processes and Machines for Metal Pressure Treatment",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/pressure"
 		},
 		{
-			"fullName": "Department of Deformation and Thermal Treatment of Structural Steels",
-			"img": "/blackmetal/FIT.svg"
+			"id": 6,
+			"fullName": "Department of Problems of Deformation-Thermal Treatment of Structural Steels",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/dto-steel"
 		},
 		{
-			"fullName": "Department of Heat Treatment of Metals for Mechanical Engineering",
-			"img": "/blackmetal/FIT.svg"
+			"id": 7,
+			"fullName": "Department of Heat Treatment of Metal for Mechanical Engineering",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/ht-machinery"
 		},
 		{
+			"id": 8,
 			"fullName": "Department of Technological Equipment and Control Systems",
-			"img": "/blackmetal/FIT.svg"
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/equipment"
 		}
 	],
 	"TechnicalDepartments": [
 		{
-			"fullName": "Research and Development Department",
-			"img": "/blackmetal/FIT.svg"
+			"id": 1,
+			"fullName": "Scientific and Organizational Department",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/technical-departments/organization"
 		},
 		{
+			"id": 2,
 			"fullName": "Department of Standardization and Quality Management",
-			"img": "/blackmetal/FIT.svg"
+			"img": "/blackmetal/FIT.svg",
+			"href": "/technical-departments/quality"
 		},
 		{
-			"fullName": "Department of Chief Metrologist",
-			"img": "/blackmetal/FIT.svg"
+			"id": 3,
+			"fullName": "Chief Metrologist Department",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/technical-departments/metrologist"
 		}
 	]
 }
