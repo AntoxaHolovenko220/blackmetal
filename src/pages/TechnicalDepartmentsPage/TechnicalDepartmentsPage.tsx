@@ -7,7 +7,7 @@ const TechnicalDepartmentsPage = () => {
 	const { data } = useTranslationData<DepartmentsData>('departments')
 
 	if (!data) {
-		return null 
+		return null
 	}
 	return (
 		<Box
@@ -17,7 +17,7 @@ const TechnicalDepartmentsPage = () => {
 				flexDirection: 'column',
 				// alignItems: 'center',
 				// px: { xl: '190px' },
-				pl: '30px',
+				pl: { xxs: 0, sm: '50px' },
 			}}
 		>
 			<DocumentTitleSearch title={`${data.titles.technical}`} search={false} />
@@ -30,7 +30,6 @@ const TechnicalDepartmentsPage = () => {
 					gridTemplateColumns: {
 						xxs: '1fr',
 						sm: 'repeat(2, 1fr)',
-						md: 'repeat(2, 1fr)',
 						lg: 'repeat(3, 1fr)',
 					},
 					gap: '20px',
