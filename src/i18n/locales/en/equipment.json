@@ -1,0 +1,173 @@
+{
+	"title": "Department of Technological Equipment and Control Systems",
+	"firstPersonCard": {
+		"id": "equipment-head",
+		"photo": "/blackmetal/department-heads/equipment-head.jpg",
+		"position": "Head of Department",
+		"name": "Semenov Yuriy Stanislavovych",
+		"description": "Candidate of Technical Sciences",
+		"contacts": [
+			{
+				"type": "Email",
+				"value": "metall729321@gmail.com"
+			}
+		]
+	},
+	"activities": {
+		"items": [
+			"Theoretical and experimental studies of the influence of physical-mechanical and technological characteristics of fine-fraction charge materials on the pressing process, quality of finished products (briquettes) and their metallurgical properties; development of technological briquetting modes; work on improving the design and technical characteristics of pressing equipment.",
+			"Scientific research of technological equipment operation modes in combination with drive and automated control systems in blast furnace, steelmaking and rolling shops when improving existing and implementing new technological processes, as well as when mastering the production of new types of products.",
+			"Development of information systems for blast furnace smelting process control systems, including mathematical models of the process and their software implementation.",
+			"Development of charge material loading technology in blast furnace with its adaptation to specific objects.",
+			"Development of methods and ways of diagnosing technical condition of rolling mill equipment based on regularities of changes in transient process parameters.",
+			"Statistical modeling of dynamic loads, determination of load spectrum and development of methods for predicting residual equipment life.",
+			"Development of methods to reduce impact loads during strip capture by rolls and level of vibration processes in rolling mills.",
+			"Investigation of dynamics of interaction through the rolled strip of multi-stand mill group and influence of disturbances on inter-stand tensions and longitudinal thickness variation and reduction of the latter."
+		]
+	},
+	"staffCards": [
+		{
+			"id": "equipment-deputy",
+			"photo": "/tohobitska.jpg",
+			"position": "Leading Research Fellow",
+			"name": "Tohobitska Darya Mykolaivna",
+			"description": "Professor, Doctor of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "dntog@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-1",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-2",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-3",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-4",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-5",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-6",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alla2904b8@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-7",
+			"photo": "/researcher1.jpg",
+			"position": "Head of Department",
+			"name": "Stepanenko Dmytro Oleksandrovych",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-8",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-9",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "equipment-researcher-10",
+			"photo": "/researcher1.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		}
+	]
+} 

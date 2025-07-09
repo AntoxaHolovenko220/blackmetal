@@ -35,10 +35,22 @@
 		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
+	"ScientificDepartmentPage": {
+		"path": "/scientific-departments/:departmentId",
+		"component": "ScientificDepartmentPage",
+		"title": "Науковий відділ",
+		"layout": "MainLayout"
+	},
 	"TechnicalDepartments": {
 		"path": "/technical-departments",
 		"component": "TechnicalDepartmentsPage",
 		"title": "Випробувальний центр",
+		"layout": "MainLayout"
+	},
+	"TechnicalDepartmentPage": {
+		"path": "/technical-departments/:departmentId",
+		"component": "TechnicalDepartmentPage",
+		"title": "Науково-технічний відділ",
 		"layout": "MainLayout"
 	},
 	"ServicesPage": {

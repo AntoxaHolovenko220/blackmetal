@@ -15,7 +15,7 @@ const MainCouncilPage = () => {
 	}
 	return (
 		<Box sx={PersonCardWrapper}>
-			<Box sx={{ py: '30px', display: 'flex', justifyContent: 'flex-start' }}>
+			<Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
 				<DocumentTitleSearch title={`${data.title}`} search={false} />
 			</Box>
 			<Box sx={{ maxWidth: '1817px', m: '0px auto' }}>

@@ -122,7 +122,7 @@ const PersonCard = ({
 
 					{contacts?.length > 0 && (
 						<Box sx={{ mt: '10px' }}>
-							{contacts.map((contact, index) => (
+							{contacts.slice(0, 2).map((contact, index) => (
 								<Box
 									key={index}
 									sx={{
@@ -149,8 +149,9 @@ const PersonCard = ({
 							))}
 						</Box>
 					)}
+				</Box>
+			</Box>
 			
-					<Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: '30px' }}>
 			<Button
 				variant="contained"
 				onClick={handleDetailsClick}
@@ -160,21 +161,23 @@ const PersonCard = ({
 					fontSize: '12px',
 					fontWeight: 500,
 					textTransform: 'none',
-								borderRadius: 0,
+					borderRadius: 0,
+					position: 'absolute',
+					bottom: '30px',
+					right: '30px',
 					'&:hover': {
 						backgroundColor: '#1f5a60',
 					},
 					'@media (max-width: 600px)': {
 						fontSize: '11px',
 						padding: '5px 10px',
+						bottom: '15px',
+						right: '15px',
 					},
 				}}
 			>
 				Детальніше
 			</Button>
-					</Box>
-				</Box>
-			</Box>
 		</Box>
 	)
 }
