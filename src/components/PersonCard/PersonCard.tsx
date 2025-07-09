@@ -79,9 +79,10 @@ const PersonCard = ({
 						pb: '30px',
 						display: 'flex',
 						flexDirection: 'column',
-						minHeight: '100%',
+						height: '100%',
 						'@media (max-width: 600px)': {
 							width: '100%',
+							pl: 0,
 						},
 					}}
 				>
