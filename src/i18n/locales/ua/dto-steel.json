@@ -2,7 +2,6 @@
 	"title": "Відділ проблем деформаційно-термічної обробки конструкційних сталей",
 	"firstPersonCard": {
 		"id": "dto-steel-head",
-		"photo": "/blackmetal/department-heads/dto-steel-head.jpg",
 		"position": "Завідувач відділом",
 		"name": "Кононенко Ганна Андріївна",
 		"description": "Доктор технічних наук",
@@ -36,7 +35,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-1",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -49,7 +47,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-2",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -62,7 +59,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-3",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -75,7 +71,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-4",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -88,7 +83,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-5",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -101,7 +95,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-6",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -114,7 +107,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-7",
-			"photo": "/researcher1.jpg",
 			"position": "Завідуючий відділом",
 			"name": "Сепаненко Дмитро Олександрович",
 			"description": "Кандидат технічних наук",
@@ -127,7 +119,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-8",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -140,7 +131,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-9",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
@@ -153,7 +143,6 @@
 		},
 		{
 			"id": "dto-steel-researcher-10",
-			"photo": "/researcher1.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",

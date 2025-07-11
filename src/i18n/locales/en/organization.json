@@ -2,7 +2,6 @@
 	"title": "Scientific and Organizational Department",
 	"firstPersonCard": {
 		"id": "organization-head",
-		"photo": "/blackmetal/department-heads/organization-head.jpg",
 		"position": "Head of Department",
 		"name": "Tuboltsev Leonid Hryhorovych",
 		"description": "Candidate of Technical Sciences.",
@@ -40,7 +39,6 @@
 		},
 		{
 			"id": "organization-researcher-1",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -53,7 +51,6 @@
 		},
 		{
 			"id": "organization-researcher-2",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -66,7 +63,6 @@
 		},
 		{
 			"id": "organization-researcher-3",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -79,7 +75,6 @@
 		},
 		{
 			"id": "organization-researcher-4",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -92,7 +87,6 @@
 		},
 		{
 			"id": "organization-researcher-5",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -105,7 +99,6 @@
 		},
 		{
 			"id": "organization-researcher-6",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -118,7 +111,6 @@
 		},
 		{
 			"id": "organization-researcher-7",
-			"photo": "/researcher1.jpg",
 			"position": "Head of Department",
 			"name": "Stepanenko Dmytro Oleksandrovych",
 			"description": "Candidate of Technical Sciences",
@@ -131,7 +123,6 @@
 		},
 		{
 			"id": "organization-researcher-8",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -144,7 +135,6 @@
 		},
 		{
 			"id": "organization-researcher-9",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",
@@ -157,7 +147,6 @@
 		},
 		{
 			"id": "organization-researcher-10",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Belkova Alla Ivanivna",
 			"description": "Senior Research Fellow",

@@ -39,7 +39,6 @@
 		},
 		{
 			"id": "phys-chem-researcher-1",
-			"photo": "/researcher1.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Petrov Ivan Sergeevich",
 			"description": "Candidate of Technical Sciences, specializes in physical metallurgy and thermodynamics of metallurgical processes",
@@ -56,7 +55,6 @@
 		},
 		{
 			"id": "phys-chem-researcher-2",
-			"photo": "/researcher2.jpg",
 			"position": "Research Fellow",
 			"name": "Kovalenko Anna Mikhailovna",
 			"description": "Doctor of Technical Sciences, expert in chemical modeling of metallurgical systems",

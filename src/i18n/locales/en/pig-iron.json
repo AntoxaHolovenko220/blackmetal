@@ -2,7 +2,6 @@
 	"title": "Department of Pig Iron Metallurgy",
 	"firstPersonCard": {
 		"id": "pig-iron-head",
-		"photo": "/blackmetal/department-heads/pig-iron-head.jpg",
 		"position": "Head of Department",
 		"name": "Sidorov Sergey Sergeevich",
 		"description": "Doctor of Technical Sciences, Professor. Leading specialist in blast furnace production and pig iron metallurgy. Author of more than 200 scientific papers.",
@@ -53,7 +52,6 @@
 	},
 	"secondPersonCard": {
 		"id": "pig-iron-deputy",
-		"photo": "/blackmetal/department-heads/pig-iron-deputy.jpg",
 		"position": "Deputy Head of Department",
 		"name": "Kovalenko Aleksey Alekseevich",
 		"description": "Candidate of Technical Sciences, Leading Research Fellow. Specializes in raw material preparation for blast furnace production.",

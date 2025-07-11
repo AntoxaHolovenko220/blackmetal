@@ -2,7 +2,6 @@
 	"title": "Відділ стандартизації та управління якістю продукції",
 	"firstPersonCard": {
 		"id": "quality-head",
-		"photo": "/blackmetal/department-heads/quality-head.jpg",
 		"position": "Керівник відділу",
 		"name": "Рибалка Євгенія Михайлівна",
 		"description": "Кандидат технічних наук.",
@@ -42,7 +41,6 @@
 		},
 		{
 			"id": "quality-researcher-1",
-			"photo": "/researcher2.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Петренко Олена Василівна",
 			"description": "Кандидат технічних наук, спеціаліст з контролю якості",
@@ -55,7 +53,6 @@
 		},
 		{
 			"id": "quality-researcher-2",
-			"photo": "/researcher3.jpg",
 			"position": "Науковий співробітник",
 			"name": "Іваненко Микола Петрович",
 			"description": "Спеціаліст зі стандартизації",
@@ -68,7 +65,6 @@
 		},
 		{
 			"id": "quality-researcher-3",
-			"photo": "/researcher4.jpg",
 			"position": "Молодший науковий співробітник",
 			"name": "Коваленко Анна Сергіївна",
 			"description": "Лаборант-дослідник",
@@ -81,7 +77,6 @@
 		},
 		{
 			"id": "quality-researcher-4",
-			"photo": "/researcher5.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Мельник Володимир Іванович",
 			"description": "Доктор технічних наук, експерт з якості",
@@ -94,7 +89,6 @@
 		},
 		{
 			"id": "quality-researcher-5",
-			"photo": "/researcher6.jpg",
 			"position": "Науковий співробітник",
 			"name": "Шевченко Марія Олександрівна",
 			"description": "Кандидат технічних наук",
@@ -107,7 +101,6 @@
 		},
 		{
 			"id": "quality-researcher-6",
-			"photo": "/researcher7.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Лисенко Олександр Миколайович",
 			"description": "Спеціаліст з сертифікації",
@@ -120,7 +113,6 @@
 		},
 		{
 			"id": "quality-researcher-7",
-			"photo": "/researcher8.jpg",
 			"position": "Завідуючий лабораторією",
 			"name": "Степаненко Дмитро Олександрович",
 			"description": "Кандидат технічних наук",
@@ -133,7 +125,6 @@
 		},
 		{
 			"id": "quality-researcher-8",
-			"photo": "/researcher9.jpg",
 			"position": "Молодший науковий співробітник",
 			"name": "Гончарук Тетяна Петрівна",
 			"description": "Лаборант",
@@ -146,7 +137,6 @@
 		},
 		{
 			"id": "quality-researcher-9",
-			"photo": "/researcher10.jpg",
 			"position": "Науковий співробітник",
 			"name": "Кравець Сергій Вікторович",
 			"description": "Інженер-метролог",
@@ -159,7 +149,6 @@
 		},
 		{
 			"id": "quality-researcher-10",
-			"photo": "/researcher11.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Власенко Ірина Олегівна",
 			"description": "Кандидат технічних наук, експерт з метрології",
