@@ -3,6 +3,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import XIcon from '@mui/icons-material/X'
 import YouTubeIcon from '@mui/icons-material/YouTube'
+
 const SocialLinks = () => {
 	const iconsStyle = {
 		width: '28px',
@@ -13,6 +14,7 @@ const SocialLinks = () => {
 			color: '#2D7A84',
 		},
 	}
+	
 	return (
 		<Box sx={{ display: 'flex', gap: '10px' }}>
 			<MUILink href='' target='_blank' rel='noopener noreferrer'>
