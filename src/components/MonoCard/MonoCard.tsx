@@ -1,10 +1,10 @@
-import { Box, Link as MUILink, Typography, Button } from '@mui/material'
+import React from 'react'
+import { Box, Typography, Link as MUILink } from '@mui/material'
 import PlagiarismIcon from '@mui/icons-material/Plagiarism'
 import { MonoCardProps } from './MonoCardInterface'
-import { useTranslation } from 'react-i18next'
+import { CommonTextStyles, CommonButtonStyles } from '../../utils'
 
 const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
-	const { t } = useTranslation()
 	const getFileNameFromUrl = (url: string): string => {
 		if (!url) return 'document'
 		const parts = url.split('/')
@@ -76,8 +76,7 @@ const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
 			>
 				<Typography
 					sx={{
-						fontSize: '22px',
-						fontWeight: 700,
+						...CommonTextStyles.title,
 						lineHeight: 1.2,
 					}}
 				>
@@ -87,10 +86,8 @@ const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
 				{description && (
 					<Typography
 						sx={{
+							...CommonTextStyles.caption,
 							mt: '10px',
-							fontSize: '13px',
-							fontWeight: 400,
-							color: '#707070',
 							flex: 1,
 						}}
 					>
@@ -109,91 +106,57 @@ const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
 					}}
 				>
 					{['docx', 'doc', 'zip', 'rar'].includes(fileExtension) ? (
-						<>
-							<MUILink
-								href={fileLink}
-								rel='noopener noreferrer'
-								sx={{ width: { xxs: '100%', xs: '150px' } }}
-							>
-								<Button
-									variant='outlined'
-									sx={{
-										width: '100%',
-										height: '42px',
-										borderRadius: 0,
-										textTransform: 'none',
-										color: '#000000',
-									}}
-								>
-									{t('components.document-card.download')}
-								</Button>
-							</MUILink>
-						</>
+						<MUILink
+							href={fileLink}
+							rel='noopener noreferrer'
+							sx={{
+								...CommonButtonStyles.primary,
+								display: 'inline-block',
+								px: 2,
+								py: 1,
+								textDecoration: 'none',
+								fontSize: '14px',
+								fontWeight: 500,
+							}}
+						>
+							Скачати
+						</MUILink>
 					) : ['pdf', 'jpg', 'svg', 'jpeg', 'png', 'webp', 'jfif'].includes(
 							fileExtension
 					  ) ? (
-						<>
-							<MUILink
-								target='_blank'
-								href={fileLink}
-								rel='noopener noreferrer'
-								sx={{ width: { xxs: '100%', xs: '140px' } }}
-							>
-								<Button
-									variant='contained'
-									sx={{
-										width: '100%',
-										height: '42px',
-										borderRadius: 0,
-										boxShadow: 'none',
-										textTransform: 'none',
-									}}
-								>
-									{t('components.document-card.see')}
-								</Button>
-							</MUILink>
-							<MUILink
-								href={fileLink}
-								rel='noopener noreferrer'
-								download={fileName}
-								sx={{ width: { xxs: '100%', xs: '140px' } }}
-							>
-								<Button
-									variant='outlined'
-									sx={{
-										width: '100%',
-										height: '42px',
-										borderRadius: 0,
-										textTransform: 'none',
-										color: '#000000',
-									}}
-								>
-									{t('components.document-card.download')}
-								</Button>
-							</MUILink>
-						</>
+						<MUILink
+							target='_blank'
+							href={fileLink}
+							rel='noopener noreferrer'
+							sx={{
+								...CommonButtonStyles.primary,
+								display: 'inline-block',
+								px: 2,
+								py: 1,
+								textDecoration: 'none',
+								fontSize: '14px',
+								fontWeight: 500,
+							}}
+						>
+							Переглянути
+						</MUILink>
 					) : (
-						<>
-							<MUILink
-								target='_blank'
-								href={link}
-								rel='noopener noreferrer'
-								sx={{ width: { xxs: '100%', xs: '140px' } }}
-							>
-								<Button
-									variant='contained'
-									sx={{
-										width: '100%',
-										height: '42px',
-										borderRadius: 0,
-										boxShadow: 'none',
-										textTransform: 'none',
-									}}
-								>
-									{t('components.document-card.see')}
-								</Button>
-							</MUILink>
-						</>
+						<MUILink
+							target='_blank'
+							href={link}
+							rel='noopener noreferrer'
+							sx={{
+								...CommonButtonStyles.primary,
+								display: 'inline-block',
+								px: 2,
+								py: 1,
+								textDecoration: 'none',
+								fontSize: '14px',
+								fontWeight: 500,
+							}}
+						>
+							Переглянути
+						</MUILink>
 					)}
 				</Box>
 			</Box>
