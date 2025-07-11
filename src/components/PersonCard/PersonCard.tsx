@@ -85,7 +85,8 @@ const PersonCard = ({
 						textAlign: 'center',
 						'@media (max-width: 600px)': {
 							width: '100%',
-							pl: 0,
+							// pl: 0,
+							pb: '55px',
 						},
 					}}
 				>

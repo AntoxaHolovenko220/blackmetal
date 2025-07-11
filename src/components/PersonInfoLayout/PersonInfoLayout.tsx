@@ -37,8 +37,9 @@ const PersonInfoLayout = ({
 	laboratoryTests,
 	staffCards,
 }: PersonInfoLayoutProps) => {
-	const { data: departmentsData } = useTranslationData<DepartmentsData>('departments')
-	
+	const { data: departmentsData } =
+		useTranslationData<DepartmentsData>('departments')
+
 	return (
 		<Box
 			sx={{
@@ -53,10 +54,10 @@ const PersonInfoLayout = ({
 				onSearchChange={onSearchChange}
 			/>
 
-			<Box sx={{ mb: 3 }}>
+			<Box sx={{ pt: { xxs: '30px', xs: '20px', sm: '10px' }, mb: 3 }}>
 				<PersonCard {...firstPersonCard} />
 			</Box>
-			
+
 			<Box sx={{ mb: 3 }}>
 				<Typography
 					sx={{
@@ -67,14 +68,15 @@ const PersonInfoLayout = ({
 						textAlign: 'center',
 					}}
 				>
-					{departmentsData?.common?.activitiesTitle || 'Main activity directions:'}
+					{departmentsData?.common?.activitiesTitle ||
+						'Main activity directions:'}
 				</Typography>
 			</Box>
 
 			{activities && activities.items && activities.items.length > 0 && (
 				<Box sx={{ mb: 3 }}>
 					<Box
-						component="ol"
+						component='ol'
 						sx={{
 							pl: 2,
 							'& li': {
@@ -97,11 +99,14 @@ const PersonInfoLayout = ({
 						}}
 					>
 						{activities.items.map((item, index) => {
-							const isSubItem = item.length > 0 && item[0] === item[0].toLowerCase() && /[а-яё]/.test(item[0])
-							
+							const isSubItem =
+								item.length > 0 &&
+								item[0] === item[0].toLowerCase() &&
+								/[а-яё]/.test(item[0])
+
 							return (
-								<Typography 
-									component="li" 
+								<Typography
+									component='li'
 									key={index}
 									className={isSubItem ? 'sub-item' : ''}
 								>
@@ -113,43 +118,45 @@ const PersonInfoLayout = ({
 				</Box>
 			)}
 
-			{laboratoryTests && laboratoryTests.items && laboratoryTests.items.length > 0 && (
-				<Box sx={{ mb: 3 }}>
-					<Box sx={{ mb: 2 }}>
-						<Typography
+			{laboratoryTests &&
+				laboratoryTests.items &&
+				laboratoryTests.items.length > 0 && (
+					<Box sx={{ mb: 3 }}>
+						<Box sx={{ mb: 2 }}>
+							<Typography
+								sx={{
+									fontSize: '18px',
+									fontWeight: 700,
+									lineHeight: 1.4,
+									color: '#333333',
+									textAlign: 'center',
+								}}
+							>
+								{laboratoryTests.title}
+							</Typography>
+						</Box>
+						<Box
+							component='ul'
 							sx={{
-								fontSize: '18px',
-								fontWeight: 700,
-								lineHeight: 1.4,
-								color: '#333333',
-								textAlign: 'center',
+								pl: 2,
+								'& li': {
+									fontSize: '16px',
+									fontWeight: 400,
+									lineHeight: 1.6,
+									color: '#333333',
+									mb: 1,
+								},
 							}}
 						>
-							{laboratoryTests.title}
-						</Typography>
+							{laboratoryTests.items.map((item, index) => (
+								<Typography component='li' key={index}>
+									{item}
+								</Typography>
+							))}
+						</Box>
 					</Box>
-					<Box
-						component="ul"
-						sx={{
-							pl: 2,
-							'& li': {
-								fontSize: '16px',
-								fontWeight: 400,
-								lineHeight: 1.6,
-								color: '#333333',
-								mb: 1,
-							},
-						}}
-					>
-						{laboratoryTests.items.map((item, index) => (
-							<Typography component="li" key={index}>
-								{item}
-							</Typography>
-						))}
-					</Box>
-				</Box>
-			)}
-			
+				)}
+
 			<Divider
 				sx={{
 					mb: 3,
@@ -192,4 +199,4 @@ const PersonInfoLayout = ({
 	)
 }
 
-export default PersonInfoLayout 
+export default PersonInfoLayout

@@ -2,7 +2,6 @@
 	"title": "Відділ металургії чавуну",
 	"firstPersonCard": {
 		"id": "pig-iron-head",
-		"photo": "/blackmetal/department-heads/pig-iron-head.jpg",
 		"position": "Завідувач відділом",
 		"name": "Сидоров Сергій Сергійович",
 		"description": "Доктор технічних наук, професор. Провідний фахівець в області доменного виробництва та металургії чавуну. Автор понад 200 наукових праць.",
@@ -14,7 +13,7 @@
 			{
 				"type": "Email",
 				"value": "pig-iron@ukr.net"
-		}
+			}
 		]
 	},
 	"activities": {
@@ -53,7 +52,6 @@
 	},
 	"secondPersonCard": {
 		"id": "pig-iron-deputy",
-		"photo": "/blackmetal/department-heads/pig-iron-deputy.jpg",
 		"position": "Заступник завідувача відділом",
 		"name": "Коваленко Олексій Олексійович",
 		"description": "Кандидат технічних наук, провідний науковий співробітник. Спеціалізується на підготовці сировини для доменного виробництва.",
@@ -65,7 +63,7 @@
 			{
 				"type": "Email",
 				"value": "pig-iron-deputy@ukr.net"
-		}
+			}
 		]
 	}
-} 
+}

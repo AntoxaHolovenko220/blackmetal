@@ -40,7 +40,7 @@ export const DocumentTitleSearch = forwardRef<
 				<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
 					<Typography
 						sx={{
-							fontSize: { xxs: '28px', xs: '30px', sm: '32px', md: '36px' },
+							fontSize: { xxs: '24px', xs: '26px', sm: '32px', md: '34px' },
 							fontWeight: 600,
 							lineHeight: 1.4,
 							whiteSpace: 'wrap',
