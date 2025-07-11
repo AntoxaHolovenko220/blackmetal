@@ -77,7 +77,7 @@ const PersonCard = ({
 						px: '30px',
 						pt: '30px',
 						pr: '30px',
-						pb: '30px',
+						pb: '55px',
 						display: 'flex',
 						flexDirection: 'column',
 						height: '100%',
@@ -86,7 +86,6 @@ const PersonCard = ({
 						'@media (max-width: 600px)': {
 							width: '100%',
 							// pl: 0,
-							pb: '55px',
 						},
 					}}
 				>
@@ -162,8 +161,8 @@ const PersonCard = ({
 					fontSize: '12px',
 					fontWeight: 500,
 					position: 'absolute',
-					bottom: '30px',
-					right: '30px',
+					bottom: '15px',
+					right: '15px',
 					'@media (max-width: 600px)': {
 						fontSize: '11px',
 						padding: '5px 10px',
