@@ -1,0 +1,1 @@
+const t="Відділ головного метролога",e={id:"metrologist-head",photo:"/blackmetal/department-heads/metrologist-head.jpg",position:"Керівник відділу",name:"Метрологічний Максим Максимович",description:"Кандидат технічних наук.",contacts:[{type:"Email",value:"tk-4dnepr@i.ua"}]},o={title:t,firstPersonCard:e};export{o as default,e as firstPersonCard,t as title};
