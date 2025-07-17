@@ -3,16 +3,12 @@
 	"firstPersonCard": {
 		"id": "pig-iron-head",
 		"position": "Завідувач відділом",
-		"name": "Сидоров Сергій Сергійович",
-		"description": "Доктор технічних наук, професор. Провідний фахівець в області доменного виробництва та металургії чавуну. Автор понад 200 наукових праць.",
+		"name": "Нестеров Олександр Станіславович",
+		"description": "Кандидат технічних наук.",
 		"contacts": [
 			{
-				"type": "Телефон",
-				"value": "+380 (56) 745-32-15"
-			},
-			{
 				"type": "Email",
-				"value": "pig-iron@ukr.net"
+				"value": "asn.dnepr@gmail.com"
 			}
 		]
 	},
@@ -50,20 +46,217 @@
 			"Визначення зон розм'якшення, плавлення і краплинної течії"
 		]
 	},
-	"secondPersonCard": {
-		"id": "pig-iron-deputy",
-		"position": "Заступник завідувача відділом",
-		"name": "Коваленко Олексій Олексійович",
-		"description": "Кандидат технічних наук, провідний науковий співробітник. Спеціалізується на підготовці сировини для доменного виробництва.",
-		"contacts": [
-			{
-				"type": "Телефон",
-				"value": "+380 (56) 745-32-16"
-			},
-			{
-				"type": "Email",
-				"value": "pig-iron-deputy@ukr.net"
-			}
-		]
-	}
+	"staffCards": [
+		{
+			"id": "phys-chem-deputy",
+			"position": "Провідний науковий співробітник",
+			"name": "Нестеров Олександр Станіславович",
+			"description": "Професор, доктор технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "dntog@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Кандидат технічних наук",
+			"name": "Бєлькова Алла Іванівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alla2904b8@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Завідуючий відділом",
+			"name": "Степаненко Дмитро Олександрович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Науковий співробітник",
+			"name": "Кукса Олег Володимирович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "olegsteelmaster@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Цюпа Наталя Олександрівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Поворотня Ірина Романівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Ліхачов Юрій Михайлович ",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alla2904b8@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Завідуючий відділом",
+			"name": "Ходотова Надія Євстахівна",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Гришин Олександр Михайлович",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Черський Сергій Сергійович",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Малієнко Валентина Олександрівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		}
+	],
+	"laboratoryStaff": [
+		{
+			"id": "lab-chaika",
+			"position": "Науковий співробітник",
+			"name": "Чайка Олексій Леонідович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-dzhigota",
+			"position": "Науковий співробітник",
+			"name": "Джигота Марина Георгіївна",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-lebid",
+			"position": "Науковий співробітник",
+			"name": "Лебідь Віталій Васильович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-kornilov",
+			"position": "Науковий співробітник",
+			"name": "Корнілов Богдан Володимирович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-moskalina",
+			"position": "Науковий співробітник",
+			"name": "Москалина Андрій Олександрович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-iziumskyi",
+			"position": "Науковий співробітник",
+			"name": "Ізюмський Микола Микитович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-merkulov",
+			"position": "Науковий співробітник",
+			"name": "Меркулов Олексій Євгенович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-gubinskyi",
+			"position": "Науковий співробітник",
+			"name": "Губинський Михайло Володимирович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-sybir",
+			"position": "Науковий співробітник",
+			"name": "Сибір Артем Віталійович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-fedorov",
+			"position": "Науковий співробітник",
+			"name": "Федоров Сергій Сергійович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-shatoha",
+			"position": "Науковий співробітник",
+			"name": "Шатоха Володимир Іванович",
+			"description": "",
+			"contacts": []
+		}
+	]
 }

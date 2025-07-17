@@ -3,9 +3,7 @@ import {
 	Box,
 	useTheme,
 	useMediaQuery,
-	IconButton,
-	Typography,
-	Container,
+	IconButton
 } from '@mui/material'
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material'
 import { useTranslation } from 'react-i18next'
@@ -30,7 +28,7 @@ const LatestNews = () => {
 	const [activeStep, setActiveStep] = useState(0)
 
 	const theme = useTheme()
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+	const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 
 	useEffect(() => {
 		if (newsData?.news) {
@@ -159,7 +157,7 @@ const LatestNews = () => {
 	}
 
 	return (
-		<Box sx={{ display: 'flex', flexDirection: 'column', pl: '20px' }}>
+		<Box sx={{ display: 'flex', flexDirection: 'column' }}>
 			<DocumentTitleSearch title={`${newsData?.newsTitle}`} search={false} />
 
 			<Box

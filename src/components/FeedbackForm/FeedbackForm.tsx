@@ -1,25 +1,22 @@
-import { FC, useState, ChangeEvent, useEffect } from 'react'
+import React, { useState, ChangeEvent, FC } from 'react'
 import {
+	Box,
 	TextField,
 	Button,
+	Typography,
 	Snackbar,
 	Alert,
-	Slide,
-	SlideProps,
-	MenuItem,
-	InputAdornment,
 	CircularProgress,
+	MenuItem,
 } from '@mui/material'
 import { styled } from '@mui/material/styles'
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline'
+import { Slide, SlideProps } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send'
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import emailjs from '@emailjs/browser'
 
 interface ModalTranslation {
-	// lastName: string
 	firstName: string
-	// middleName: string
 	phone: string
 	email: string
 	question: string
@@ -31,9 +28,7 @@ interface ModalTranslation {
 	errorNotification: string
 	questions: string[]
 	validation: {
-		// lastName: string
 		firstName: string
-		// middleName: string
 		phone: string
 		email: string
 		question: string
@@ -41,7 +36,6 @@ interface ModalTranslation {
 	}
 }
 
-const phoneRegex = /^\+38 \(0\d{2}\) \d{3}-\d{2}-\d{2}$/
 const allowedPrefixes = [
 	'039',
 	'067',
@@ -67,7 +61,6 @@ const isValidName = (val: string) => /^[A-Za-zА-Яа-яЁёІіЇїЄє\s-]+$/.
 const Form = styled('form')({
 	display: 'flex',
 	flexDirection: 'column',
-	// rowGap: '12px',
 })
 
 const SlideTransition = (props: SlideProps) => (
@@ -82,9 +75,7 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 	const { data: t, loading } = useTranslationData<ModalTranslation>('modal')
 
 	const [formData, setFormData] = useState({
-		// lastName: '',
 		firstName: '',
-		// middleName: '',
 		phone: '+38 (0',
 		email: '',
 		question: '',
@@ -92,9 +83,7 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 	})
 
 	const [errors, setErrors] = useState({
-		// lastName: false,
 		firstName: false,
-		// middleName: false,
 		phone: false,
 		email: false,
 		question: false,
@@ -104,11 +93,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 	const [successOpen, setSuccessOpen] = useState(false)
 	const [errorOpen, setErrorOpen] = useState(false)
 	const [isSubmitting, setIsSubmitting] = useState(false)
-
-	// Инициализация EmailJS
-	useEffect(() => {
-		emailjs.init('kgqDklkUvrKoYkgYW')
-	}, [])
 
 	const formatPhoneNumber = (input: string): string => {
 		const digits = input.replace(/\D/g, '')
@@ -144,9 +128,7 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 		const validOperator = allowedPrefixes.includes(operator)
 
 		const errs = {
-			// lastName: !isValidName(formData.lastName.trim()),
 			firstName: !isValidName(formData.firstName.trim()),
-			// middleName: !isValidName(formData.middleName.trim()),
 			phone: phoneDigits.length !== 12 || !validOperator,
 			email: !emailRegex.test(formData.email),
 			question: !formData.question,
@@ -163,18 +145,15 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault()
-		console.log('Form submitted')
 		
 		if (!validate()) {
-			console.log('Validation failed')
 			return
 		}
 		
 		setIsSubmitting(true)
-		console.log('Sending email via Web3Forms...')
 
 		const submitData = new FormData()
-		submitData.append('access_key', '5e16d64e-2df9-4da9-b887-491e6a6713b9') // ключ Web3Forms
+		submitData.append('access_key', '5e16d64e-2df9-4da9-b887-491e6a6713b9')
 		submitData.append('name', formData.firstName)
 		submitData.append('phone', formData.phone)
 		submitData.append('email', formData.email)
@@ -189,7 +168,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 			const result = await response.json()
 			
 			if (result.success) {
-				console.log('Email sent successfully via Web3Forms')
 			setSuccessOpen(true)
 			setFormData({
 				firstName: '',
@@ -198,7 +176,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 				question: '',
 				otherQuestion: '',
 			})
-				// Закрыть модальное окно через 3 секунды, чтобы пользователь увидел уведомление
 				setTimeout(() => {
 			onClose()
 				}, 3000)
@@ -218,14 +195,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 	return (
 		<>
 			<Form onSubmit={handleSubmit}>
-				{/* <TextField
-					label={t.lastName}
-					value={formData.lastName}
-					onChange={e => handleChange('lastName', e.target.value)}
-					error={errors.lastName}
-					helperText={errors.lastName ? t.validation.lastName : ' '}
-					fullWidth
-				/> */}
 				<TextField
 					label={t.firstName}
 					value={formData.firstName}
@@ -234,14 +203,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 					helperText={errors.firstName ? t.validation.firstName : ' '}
 					fullWidth
 				/>
-				{/* <TextField
-					label={t.middleName}
-					value={formData.middleName}
-					onChange={e => handleChange('middleName', e.target.value)}
-					error={errors.middleName}
-					helperText={errors.middleName ? t.validation.middleName : ' '}
-					fullWidth
-				/> */}
 				<TextField
 					label={t.phone}
 					value={formData.phone}
@@ -249,17 +210,6 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 					error={errors.phone}
 					helperText={errors.phone ? t.validation.phone : ' '}
 					fullWidth
-					InputProps={{
-						startAdornment: (
-							<InputAdornment position='start'>
-								<img
-									alt='flag'
-									src='http://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg'
-									style={{ width: '24px', height: '16px', marginRight: '8px' }}
-								/>
-							</InputAdornment>
-						),
-					}}
 				/>
 				<TextField
 					label={t.email}

@@ -38,67 +38,7 @@
 		},
 		{
 			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
+			"position": "Кандидат технічних наук",
 			"name": "Бєлькова Алла Іванівна",
 			"description": "Старший науковий співробітник",
 			"contacts": [
@@ -111,7 +51,67 @@
 		{
 			"id": "phys-chem-researcher-1",
 			"position": "Завідуючий відділом",
-			"name": "Сепаненко Дмитро Олександрович",
+			"name": "Степаненко Дмитро Олександрович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Науковий співробітник",
+			"name": "Кукса Олег Володимирович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "olegsteelmaster@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Цюпа Наталя Олександрівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Поворотня Ірина Романівна",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Старший науковий співробітник",
+			"name": "Ліхачов Юрій Михайлович ",
+			"description": "Старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alla2904b8@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "phys-chem-researcher-1",
+			"position": "Завідуючий відділом",
+			"name": "Ходотова Надія Євстахівна",
 			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
@@ -123,7 +123,7 @@
 		{
 			"id": "phys-chem-researcher-1",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
+			"name": "Гришин Олександр Михайлович",
 			"description": "Старший науковий співробітник",
 			"contacts": [
 				{
@@ -135,7 +135,7 @@
 		{
 			"id": "phys-chem-researcher-1",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
+			"name": "Черський Сергій Сергійович",
 			"description": "Старший науковий співробітник",
 			"contacts": [
 				{
@@ -147,7 +147,7 @@
 		{
 			"id": "phys-chem-researcher-1",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
+			"name": "Малієнко Валентина Олександрівна",
 			"description": "Старший науковий співробітник",
 			"contacts": [
 				{

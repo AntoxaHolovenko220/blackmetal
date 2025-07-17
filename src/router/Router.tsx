@@ -1,4 +1,3 @@
-// Router.tsx
 import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import routes from '@/router/routes.json'
@@ -23,7 +22,6 @@ const Router = () => (
 
 				const Component = lazy(() => {
 					if (!importPage) {
-						console.error('❌ Страница не найдена:', importPath)
 						return Promise.reject(new Error(`Page not found: ${route.component}`))
 					}
 					return importPage()

@@ -1,7 +1,7 @@
 type LogoType = 'icon' | 'icon-text'
 
 export interface UniversalLogoProps {
-	size?: number // размер в пикселях (работает только для type="icon")
+	size?: number
 	type?: LogoType
 	className?: string
 }

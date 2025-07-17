@@ -1,7 +1,8 @@
+import React from 'react'
 import { Box, Typography, Button } from '@mui/material'
-import { PersonCardInterface } from './PersonCardInterface'
-import PersonIcon from '@mui/icons-material/Person'
 import { useNavigate } from 'react-router-dom'
+import PersonIcon from '@mui/icons-material/Person'
+import { PersonCardInterface } from './PersonCardInterface'
 import { CommonTextStyles, CommonButtonStyles } from '../../utils'
 
 const PersonCard = ({
@@ -10,13 +11,26 @@ const PersonCard = ({
   position,
   name,
   description = '',
-  contacts = [],
+  contacts = {},
 }: PersonCardInterface) => {
   const navigate = useNavigate()
 
   const handleDetailsClick = (e: React.MouseEvent) => {
     e.stopPropagation()
     navigate(`/person/${id}`)
+  }
+
+  let contactItems: Array<{ type: string; value: string }> = []
+  
+  if (Array.isArray(contacts)) {
+    contactItems = contacts.filter(item => item.value && typeof item.value === 'string' && item.value.trim() !== '')
+  } else if (contacts && typeof contacts === 'object') {
+    contactItems = Object.entries(contacts)
+      .map(([key, value]) => ({
+        type: key,
+        value: value as string
+      }))
+      .filter(item => item.value && typeof item.value === 'string' && item.value.trim() !== '')
   }
 
   return (
@@ -85,7 +99,6 @@ const PersonCard = ({
             textAlign: 'center',
             '@media (max-width: 600px)': {
               width: '100%',
-              // pl: 0,
             },
           }}
         >
@@ -121,9 +134,9 @@ const PersonCard = ({
             </Typography>
           )}
 
-          {contacts?.length > 0 && (
+          {contactItems.length > 0 && (
             <Box sx={{ mt: '10px' }}>
-              {contacts.slice(0, 2).map((contact, index) => (
+              {contactItems.slice(0, 2).map((contact, index) => (
                 <Box
                   key={index}
                   sx={{

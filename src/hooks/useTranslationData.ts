@@ -1,4 +1,3 @@
-// src/hooks/useTranslationData.ts
 import { useEffect, useState, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { loadTranslationData } from '@/i18n/loadTranslations'

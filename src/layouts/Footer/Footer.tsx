@@ -1,8 +1,5 @@
-import { Box, List, ListItem, Typography, Link as MUILink, Divider, Button } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Box, Typography, Button, Link as MUILink } from '@mui/material'
 import { SocialLinks, UniversalLogo } from '@/components'
-import routes from '@/router/routes.json'
-import { RouteConfig, RoutesConfig } from '@/router/types'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import { Modal } from '@components/Modal'
@@ -17,36 +14,13 @@ const Footer = () => {
 	const { t } = useTranslation()
 	const { data: tt, loading } = useTranslationData<ModalTranslation>('modal')
 
-	const listItemStyle = {
-		width: 'fit-content',
-		minWidth: 'unset',
-		p: 0,
-		display: 'flex',
-		justifyContent: 'center',
-		whiteSpace: 'nowrap',
-		color: '#333333',
-		textDecoration: 'none',
-		transition: 'color 0.3s ease',
-		'&:hover': {
-			color: '#2D7A84',
-		},
-	}
 	const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false)
-	const listTypographyStyle = { fontSize: '15px', fontWeight: 400 }
 	const titleStyles = { fontSize: '15px', fontWeight: 700, color: '#363636' }
 	const boxStyles = {
 		height: '54px',
 		display: 'flex',
 		alignItems: 'center',
 		mb: '5px',
-	}
-
-	const footerLinks = Object.values(routes as RoutesConfig).filter(
-		(route): route is RouteConfig & { showIn: string } => route.showIn === 'Footer'
-	)
-
-	const getTranslatedTitle = (routeKey: string) => {
-		return t(`routes.${routeKey}`)
 	}
 
 	return (
@@ -56,8 +30,6 @@ const Footer = () => {
 				display: 'flex',
 				justifyContent: 'center',
 				minHeight: '171px',
-				// px: { xxs: '20px', xl: '190px' },
-				// pb: '20px',
 				bgcolor: '#ffffff',
 			}}
 		>
@@ -190,7 +162,7 @@ const Footer = () => {
 			<Modal
 				open={isFeedbackModalOpen}
 				onClose={() => setIsFeedbackModalOpen(false)}
-				title={tt?.title} // Добавьте это поле в ваши JSON-файлы переводов
+				title={tt?.title}
 			>
 				<FeedbackForm onClose={() => setIsFeedbackModalOpen(false)} />
 			</Modal>

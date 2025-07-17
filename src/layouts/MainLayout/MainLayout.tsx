@@ -13,7 +13,7 @@ interface MainLayoutProps {
 const MainLayout = ({ children }: MainLayoutProps) => {
 	const { pathname } = useLocation()
 	const theme = useTheme()
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+	const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 
 	const showLatest =
 		pathname !== routes.HomePage.path && pathname !== routes.ContactsPage.path
@@ -30,11 +30,12 @@ const MainLayout = ({ children }: MainLayoutProps) => {
 					display: 'flex',
 					flex: 1,
 					m: '0 auto',
-					flexDirection: isMobile ? 'column-reverse' : 'row',
+					flexDirection: isMobile ? 'column' : 'row',
 				}}
 			>
-				{showLatest && <LatestNews />}
+				{!isMobile && showLatest && <LatestNews />}
 				<Box sx={{ flex: 1 }}>{children}</Box>
+				{isMobile && showLatest && <LatestNews />}
 			</Box>
 			<Footer />
 		</Box>

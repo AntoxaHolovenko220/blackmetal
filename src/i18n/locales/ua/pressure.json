@@ -161,5 +161,84 @@
 				}
 			]
 		}
+	],
+	"laboratoryStaff": [
+		{
+			"id": "lab-chaika",
+			"position": "Науковий співробітник",
+			"name": "Чайка Олексій Леонідович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-dzhigota",
+			"position": "Науковий співробітник",
+			"name": "Джигота Марина Георгіївна",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-lebid",
+			"position": "Науковий співробітник",
+			"name": "Лебідь Віталій Васильович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-kornilov",
+			"position": "Науковий співробітник",
+			"name": "Корнілов Богдан Володимирович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-moskalina",
+			"position": "Науковий співробітник",
+			"name": "Москалина Андрій Олександрович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-iziumskyi",
+			"position": "Науковий співробітник",
+			"name": "Ізюмський Микола Микитович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-merkulov",
+			"position": "Науковий співробітник",
+			"name": "Меркулов Олексій Євгенович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-gubinskyi",
+			"position": "Науковий співробітник",
+			"name": "Губинський Михайло Володимирович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-sybir",
+			"position": "Науковий співробітник",
+			"name": "Сибір Артем Віталійович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-fedorov",
+			"position": "Науковий співробітник",
+			"name": "Федоров Сергій Сергійович",
+			"description": "",
+			"contacts": []
+		},
+		{
+			"id": "lab-shatoha",
+			"position": "Науковий співробітник",
+			"name": "Шатоха Володимир Іванович",
+			"description": "",
+			"contacts": []
+		}
 	]
 }  

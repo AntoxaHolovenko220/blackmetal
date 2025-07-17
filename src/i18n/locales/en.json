@@ -17,6 +17,13 @@
 		},
 		"search": "Search"
 	},
+	"contacts": {
+		"encyclopedia": "Encyclopedia about Kornienko V.I.",
+		"googleScholar": "Google Scholar",
+		"orcid": "ORCID iD",
+		"scopus": "Scopus Author ID",
+		"researcherId": "ResearcherID"
+	},
 	"footer": {
 		"map": "Site map",
 		"about": "About site",

@@ -1,6 +1,11 @@
-interface Contact {
-	type: string
-	value: string
+interface ContactData {
+	phone?: string
+	email?: string
+	googleScholar?: string
+	orcid?: string
+	scopus?: string
+	researcherId?: string
+	encyclopedia?: string
 }
 
 export interface PersonCardInterface {
@@ -12,7 +17,7 @@ export interface PersonCardInterface {
 	biography?: string
 	researchDirection?: string
 	teachingSubjects?: string
-	contacts?: Contact[]
+	contacts?: ContactData | Array<{ type: string; value: string }>
 }
 
 export interface PersonCardLabels {

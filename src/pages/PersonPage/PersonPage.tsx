@@ -1,16 +1,8 @@
-import { Box, Typography, Link } from '@mui/material'
+import { Box } from '@mui/material'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { PersonCardData } from '@/components/PersonCard/PersonCardInterface'
 import { useParams } from 'react-router-dom'
-import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined'
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
-import PersonIcon from '@mui/icons-material/Person'
-import SchoolIcon from '@mui/icons-material/School'
-import PublicIcon from '@mui/icons-material/Public'
-import LibraryBooksIcon from '@mui/icons-material/LibraryBooks'
-import ContactsIcon from '@mui/icons-material/Contacts'
-import LanguageIcon from '@mui/icons-material/Language'
-import { DocumentTitleSearch } from '@/components'
+import { PersonSidebar, PersonContent } from './components'
 
 const PersonPage = () => {
 	const { id } = useParams<{ id: string }>()
@@ -26,50 +18,6 @@ const PersonPage = () => {
 		return null
 	}
 
-	const getContactIcon = (contactType: string) => {
-		if (contactType === 'Phone' || contactType === 'Телефон') {
-			return <PhoneOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (contactType === 'E-mail' || contactType === 'Email') {
-			return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (contactType === 'Google Scholar') {
-			return <SchoolIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (contactType === 'ORCID iD') {
-			return <PublicIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (contactType === 'Scopus Author ID') {
-			return <LibraryBooksIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (contactType === 'ResearcherID') {
-			return <ContactsIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else if (
-			contactType === 'Encyclopedia' ||
-			contactType === 'Енциклопедія'
-		) {
-			return <LanguageIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		} else {
-			return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-		}
-	}
-
-	const isUrl = (value: string) => {
-		return value.startsWith('http://') || value.startsWith('https://')
-	}
-
-	const getContactDisplayValue = (contactType: string) => {
-		switch (contactType) {
-			case 'Encyclopedia':
-				return 'Енциклопедія про Корнієнка В.І.'
-			case 'Google Scholar':
-				return 'Google Scholar'
-			case 'ORCID iD':
-				return 'ORCID iD'
-			case 'Scopus Author ID':
-				return 'Scopus Author ID'
-			case 'ResearcherID':
-				return 'ResearcherID'
-			default:
-				return null
-		}
-	}
-
 	return (
 		<Box
 			sx={{
@@ -78,10 +26,8 @@ const PersonPage = () => {
 				pb: '30px',
 			}}
 		>
-			{/* <DocumentTitleSearch title={`${person.position}`} search={false} /> */}
 			<Box
 				sx={{
-					// maxWidth: '1200px',
 					width: '100%',
 					zIndex: 1,
 				}}
@@ -101,246 +47,21 @@ const PersonPage = () => {
 						},
 					}}
 				>
-					<Box
-						sx={{
-							minWidth: '400px',
-							maxWidth: '400px',
-							backgroundColor: '#2D7A84',
-							padding: '30px',
-							display: 'flex',
-							flexDirection: 'column',
-							alignItems: 'center',
-							justifyContent: 'flex-start',
-							'@media (max-width: 1024px)': {
-								minWidth: '100%',
-								maxWidth: '100%',
-								padding: '30px',
-							},
-						}}
-					>
-						<Box
-							sx={{
-								width: '100%',
-								aspectRatio: '0.75 / 1',
-								overflow: 'hidden',
-								backgroundColor: '#2D7A84',
-								backgroundImage: person.photo
-									? `url(/blackmetal${person.photo})`
-									: 'none',
-								backgroundRepeat: 'no-repeat',
-								backgroundPosition: 'center',
-								backgroundSize: 'cover',
-								display: 'flex',
-								justifyContent: 'center',
-								alignItems: 'center',
-								marginBottom: '30px',
-							}}
-						>
-							{!person.photo && (
-								<PersonIcon
-									sx={{
-										fontSize: '120px',
-										color: 'white',
-									}}
-								/>
-							)}
-						</Box>
+					<PersonSidebar 
+						photo={person.photo}
+						contacts={person.contacts}
+						contactsLabel={data.labels.contacts}
+					/>
 
-						<Box sx={{ width: '100%' }}>
-							<Typography
-								sx={{
-									fontSize: '18px',
-									fontWeight: 600,
-									color: 'white',
-									marginBottom: '15px',
-									textAlign: 'center',
-								}}
-							>
-								{data.labels.contacts}
-							</Typography>
-
-							<Box
-								sx={{ display: 'flex', flexDirection: 'column', gap: '12px' }}
-							>
-								{person.contacts?.map((contact, index) => (
-									<Box
-										key={index}
-										sx={{
-											display: 'flex',
-											alignItems: 'center',
-											gap: '15px',
-										}}
-									>
-										<Box
-											sx={{
-												width: '35px',
-												height: '35px',
-												backgroundColor: 'white',
-												display: 'flex',
-												alignItems: 'center',
-												justifyContent: 'center',
-											}}
-										>
-											{getContactIcon(contact.type)}
-										</Box>
-										<Typography
-											sx={{ fontSize: '16px', fontWeight: 600, color: 'white' }}
-										>
-											{isUrl(contact.value) ? (
-												<Link
-													href={contact.value}
-													target='_blank'
-													rel='noopener noreferrer'
-													sx={{
-														color: 'white',
-														textDecoration: 'none',
-														'&:hover': {
-															color: '#f0f0f0',
-														},
-													}}
-												>
-													{getContactDisplayValue(contact.type) ||
-														contact.value}
-												</Link>
-											) : (
-												contact.value
-											)}
-										</Typography>
-									</Box>
-								))}
-							</Box>
-						</Box>
-					</Box>
-
-					<Box
-						sx={{
-							flex: 1,
-							backgroundColor: 'white',
-							padding: '30px',
-							'@media (max-width: 1024px)': {
-								padding: '30px',
-							},
-						}}
-					>
-						<Typography
-							sx={{
-								fontSize: '18px',
-								fontWeight: 500,
-								color: '#555',
-								marginBottom: '25px',
-								lineHeight: 1.4,
-							}}
-						>
-							{person.position}
-						</Typography>
-
-						<Typography
-							sx={{
-								fontSize: '28px',
-								fontWeight: 700,
-								color: '#1a1a1a',
-								marginBottom: '20px',
-								lineHeight: 1.2,
-								'@media (max-width: 768px)': {
-									fontSize: '24px',
-								},
-							}}
-						>
-							{person.name}
-						</Typography>
-
-						<Typography
-							sx={{
-								fontSize: '18px',
-								fontWeight: 500,
-								color: '#555',
-								marginBottom: '25px',
-								lineHeight: 1.4,
-							}}
-						>
-							{person.description}
-						</Typography>
-
-						{person.researchDirection && (
-							<>
-								<Typography
-									sx={{
-										fontSize: '18px',
-										fontWeight: 600,
-										color: '#2D7A84',
-										marginBottom: '15px',
-									}}
-								>
-									{data.labels.researchDirection}
-								</Typography>
-
-								<Typography
-									sx={{
-										fontSize: '18px',
-										color: '#333',
-										lineHeight: 1.6,
-										marginBottom: '25px',
-										textAlign: 'left',
-									}}
-								>
-									{person.researchDirection}
-								</Typography>
-							</>
-						)}
-
-						{person.teachingSubjects && (
-							<>
-								<Typography
-									sx={{
-										fontSize: '18px',
-										fontWeight: 600,
-										color: '#2D7A84',
-										marginBottom: '15px',
-									}}
-								>
-									{data.labels.teachingSubjects}
-								</Typography>
-
-								<Typography
-									sx={{
-										fontSize: '18px',
-										color: '#333',
-										lineHeight: 1.6,
-										marginBottom: '25px',
-										textAlign: 'justify',
-									}}
-								>
-									{person.teachingSubjects}
-								</Typography>
-							</>
-						)}
-
-						{person.biography && (
-							<>
-								<Typography
-									sx={{
-										fontSize: '18px',
-										fontWeight: 600,
-										color: '#2D7A84',
-										marginBottom: '15px',
-									}}
-								>
-									{data.labels.biography}
-								</Typography>
-								<Typography
-									sx={{
-										fontSize: '18px',
-										color: '#333',
-										lineHeight: 1.6,
-										marginBottom: '25px',
-										textAlign: 'justify',
-									}}
-								>
-									{person.biography}
-								</Typography>
-							</>
-						)}
-					</Box>
+					<PersonContent 
+						position={person.position || ''}
+						name={person.name || ''}
+						description={person.description || ''}
+						researchDirection={person.researchDirection}
+						teachingSubjects={person.teachingSubjects}
+						biography={person.biography}
+						labels={data.labels}
+					/>
 				</Box>
 			</Box>
 		</Box>

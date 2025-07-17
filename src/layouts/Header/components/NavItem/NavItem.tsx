@@ -5,7 +5,7 @@ import { NavItem as NavItemType } from '../../interface'
 import { DropdownMenu, NestedDropdownMenu, LineDivider } from '../'
 import { useTheme } from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery'
-import { useTranslation } from 'react-i18next' // Добавляем импорт
+import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 
 interface NavItemProps {
@@ -30,13 +30,11 @@ export const NavItem = ({
 	onSubItemMouseLeave,
 }: NavItemProps) => {
 	const navigate = useNavigate()
-	const { t } = useTranslation() // Добавляем хук перевода
+	const { t } = useTranslation() 
 	const theme = useTheme()
 	const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
-	// Функция для получения переведенного текста
 	const getLabel = () => {
-		// Если есть labelKey, используем перевод
 		if ('label' in item) {
 			return t(item.label)
 		}
@@ -67,7 +65,7 @@ export const NavItem = ({
 				}}
 				onClick={() => navigate(`${item.href}`)}
 			>
-				{getLabel()} {/* Используем функцию getLabel вместо item.label */}
+				{getLabel()} 
 			</Button>
 		)
 	}
@@ -95,7 +93,7 @@ export const NavItem = ({
 							},
 						}}
 					>
-						{getLabel()} {/* Используем функцию getLabel вместо item.label */}
+						{getLabel()} 
 					</Button>
 
 					<Box sx={{ pl: 2, mt: 1 }}>
@@ -138,7 +136,7 @@ export const NavItem = ({
 						},
 					}}
 				>
-					{getLabel()} {/* Используем функцию getLabel вместо item.label */}
+					{getLabel()}
 				</Button>
 
 				<Fade in={isOpen} timeout={300}>

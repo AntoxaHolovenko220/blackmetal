@@ -22,8 +22,28 @@
 					"value": "+38(056) 790-05-14"
 				},
 				{
-					"type": "Email",
+					"type": "E-mail",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": "https://uk.wikipedia.org/wiki/Корнієнко_В.І."
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com/citations?user=example"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0000-0000-0000-0000"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=12345678900"
+				},
+				{
+					"type": "ResearcherID",
+					"value": "https://www.webofscience.com/wos/author/record/ABC-1234-2024"
 				}
 			]
 		},

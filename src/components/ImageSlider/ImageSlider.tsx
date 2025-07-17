@@ -1,18 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import {
-	Box,
-	IconButton,
-	Paper,
-	Typography,
-	useTheme,
-	useMediaQuery,
-	LinearProgress
-} from '@mui/material'
-import {
-	ChevronLeft as ChevronLeftIcon,
-	ChevronRight as ChevronRightIcon,
-	Fullscreen
-} from '@mui/icons-material'
+import { Box, IconButton, Typography, LinearProgress } from '@mui/material'
+import { useTheme } from '@mui/material/styles'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
+import ChevronRightIcon from '@mui/icons-material/ChevronRight'
+import FullscreenIcon from '@mui/icons-material/Fullscreen'
 
 interface ImageSliderProps {
 	images?: string[]
@@ -32,7 +24,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 	const isPhone = useMediaQuery(theme.breakpoints.down('sm'))
 
-	// Если useRegDocs = true, используем стандартные изображения документов
 	const defaultImages = useRegDocs ? [
 		'/blackmetal/reg_doc1.png',
 		'/blackmetal/reg_doc2.png',
@@ -137,7 +128,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 					gap: isPhone ? 2 : 0,
 				}}
 			>
-				{/* Левая стрелка для смартфонов - сбоку */}
 				{isPhone && (
 					<IconButton
 						onClick={handlePrevious}
@@ -153,7 +143,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 					</IconButton>
 				)}
 
-				{/* Контейнер с изображением */}
 				<Box
 					sx={{
 						position: 'relative',
@@ -179,7 +168,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 						}}
 					/>
 
-					{/* Стрелки для планшетов и ПК - на изображении */}
 					{!isPhone && (
 						<>
 							<IconButton
@@ -219,7 +207,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 					)}
 				</Box>
 
-				{/* Правая стрелка для смартфонов - сбоку */}
 				{isPhone && (
 					<IconButton
 						onClick={handleNext}
@@ -236,7 +223,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 				)}
 			</Box>
 
-			{/* Прогресс-бар и счетчик */}
 			<Box
 				sx={{
 					display: 'flex',
@@ -244,37 +230,41 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 					justifyContent: 'center',
 					gap: 2,
 					mt: 2,
-					px: 2
+					flexWrap: 'wrap'
 				}}
 			>
-				<Typography sx={{ color: '#2D7A84', fontWeight: 500, minWidth: 32 }}>
-					{currentIndex + 1}
-				</Typography>
-				<LinearProgress 
-					variant="determinate" 
-					value={finalImages.length ? ((currentIndex + 1) / finalImages.length) * 100 : 0}
+				<LinearProgress
+					variant="determinate"
+					value={(currentIndex / (finalImages.length - 1)) * 100}
 					sx={{
 						flex: 1,
-						height: 6,
-						borderRadius: 3,
-						background: '#e0e0e0',
+						maxWidth: '200px',
+						height: 4,
+						borderRadius: 2,
+						backgroundColor: '#e0e0e0',
 						'& .MuiLinearProgress-bar': {
-							background: '#2D7A84',
-						},
+							backgroundColor: '#2D7A84',
+							borderRadius: 2
+						}
 					}}
 				/>
-				<Typography sx={{ color: '#2D7A84', fontWeight: 500, minWidth: 32 }}>
-					{finalImages.length}
+				<Typography variant="body2" color="text.secondary">
+					{currentIndex + 1} / {finalImages.length}
 				</Typography>
-				<IconButton 
-					sx={{ color: '#2D7A84' }} 
+				<IconButton
 					onClick={handleFullscreen}
+					size="small"
+					sx={{
+						color: '#666',
+						'&:hover': {
+							color: '#2D7A84'
+						}
+					}}
 				>
-					<Fullscreen />
+					<FullscreenIcon />
 				</IconButton>
 			</Box>
 
-			{/* Точки навигации */}
 			<Box
 				sx={{
 					display: 'flex',
@@ -288,18 +278,14 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 						key={index}
 						onClick={() => handleDotClick(index)}
 						sx={{
-							width: 12,
-							height: 12,
+							width: 8,
+							height: 8,
 							borderRadius: '50%',
-							backgroundColor: index === currentIndex 
-								? '#2D7A84' 
-								: 'rgba(0, 0, 0, 0.3)',
+							backgroundColor: index === currentIndex ? '#2D7A84' : '#e0e0e0',
 							cursor: 'pointer',
-							transition: 'all 0.3s ease',
+							transition: 'background-color 0.3s ease',
 							'&:hover': {
-								backgroundColor: index === currentIndex 
-									? '#1f5a60' 
-									: 'rgba(0, 0, 0, 0.5)'
+								backgroundColor: index === currentIndex ? '#2D7A84' : '#bdbdbd'
 							}
 						}}
 					/>
