@@ -4,7 +4,6 @@
 		"id": "quality-head",
 		"position": "Head of Department",
 		"name": "Rybalka Yevheniia Mykhailivna",
-		"description": "Candidate of Technical Sciences.",
 		"contacts": [
 			{
 				"type": "Email",
@@ -27,137 +26,12 @@
 	},
 	"staffCards": [
 		{
-			"id": "quality-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
+			"id": "1",
+			"name": "Surovtseva Tetiana Yevheniivna"
 		},
 		{
-			"id": "quality-researcher-1",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-2",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-7",
-			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
-			"description": "Candidate of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-8",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-9",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "quality-researcher-10",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "2",
+			"name": "Budilova Yelyzaveta Borysivna"
 		}
 	]
 } 

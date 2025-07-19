@@ -2,10 +2,9 @@
 	"title": "Department of Processes and Machines for Metal Pressure Treatment",
 	"firstPersonCard": {
 		"id": "pressure-head",
-		"photo": "/stepanenko.webp",
 		"position": "Head of Department",
 		"name": "Prykhodko Ihor Yuriiovych",
-		"description": "Doctor of Technical Sciences",
+		"description": "Doctor of Technical Sciences, Senior Research Fellow",
 		"contacts": [
 			{
 				"type": "Email",
@@ -29,135 +28,81 @@
 	},
 	"staffCards": [
 		{
-			"id": "pressure-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-1",
+			"id": "1",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-2",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "pressure-researcher-7",
-			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Razdobrieiev Valerii Huriiovych",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "v_razdobreev@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "pressure-researcher-8",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"id": "2",
+			"position": "Junior Research Fellow",
+			"name": "Kliuchnykov Kyrylo Yuriiovych",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "kirill.shaman.k@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "pressure-researcher-9",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"id": "3",
+			"position": "Junior Research Fellow",
+			"name": "Palamar Dmytro Hryhorovych",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "damjan@i.ua"
 				}
 			]
 		},
 		{
-			"id": "pressure-researcher-10",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
+			"id": "4",
+			"position": "Junior Research Fellow",
+			"name": "Tokmakov Pavlo Vadymovych",
 			"description": "Senior Research Fellow",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "pvtokmakov0902@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Junior Research Fellow",
+			"name": "Leshchenko Oleksandr Ivanovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "leschenko.a.73@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Research Fellow",
+			"name": "Korennoi Volodymyr Vitaliiovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "koren_noy@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"position": "Junior Research Fellow",
+			"name": "Mazur Viacheslav Valeriiovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
 				}
 			]
 		}

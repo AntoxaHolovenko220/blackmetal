@@ -25,8 +25,8 @@
 	},
 	"staffCards": [
 		{
-			"id": "phys-chem-deputy",
-			"photo": "/tohobitska.jpg",
+			"id": "1",
+			"photo": "/employees/tohobitska.jpg",
 			"position": "Leading Research Fellow",
 			"name": "Tohobitska Daria Mykolaivna",
 			"description": "Professor, Doctor of Technical Sciences",
@@ -38,52 +38,114 @@
 			]
 		},
 		{
-			"id": "phys-chem-researcher-1",
-			"position": "Senior Research Fellow",
-			"name": "Petrov Ivan Sergeevich",
-			"description": "Candidate of Technical Sciences, specializes in physical metallurgy and thermodynamics of metallurgical processes",
+			"id": "2",
+			"photo": "/employees/belkova.jpg",
+			"position": "Candidate of Technical Sciences",
+			"name": "Belkova Alla Ivanivna",
+			"description": "Senior Research Fellow, Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "i.petrov@example.com"
-				},
-				{
-					"type": "Phone",
-					"value": "+380 67 123 4567"
+					"value": "alla2904b8@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-2",
+			"id": "3",
+			"photo": "/employees/stepanenko.jpg",
+			"position": "Head of Department",
+			"name": "Stepanenko Dmytro Oleksandrovych",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "d.gorodenskiy@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"photo": "/employees/kuksa.jpg",
 			"position": "Research Fellow",
-			"name": "Kovalenko Anna Mikhailovna",
-			"description": "Doctor of Technical Sciences, expert in chemical modeling of metallurgical systems",
+			"name": "Kuksa Oleh Volodymyrovych",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "a.kovalenko@institute.ua"
+					"value": "olegsteelmaster@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-3",
-			"position": "Junior Research Fellow",
-			"name": "Sidorov Maksim Alexandrovich",
-			"description": "Master of Science, working on computational methods in metallurgy",
+			"id": "5",
+			"photo": "/employees/tsiupa.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Tsiupa Natalia Oleksandrivna",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "m.sidorov@institute.ua"
-				},
-				{
-					"type": "Phone",
-					"value": "+380 50 987 6543"
-				},
-				{
-					"type": "Skype",
-					"value": "sidorov.maksim"
+					"value": "tysya6669@gmail.com"
 				}
 			]
+		},
+		{
+			"id": "6",
+			"photo": "/employees/povorotnia.jpg",
+			"position": "Research Fellow",
+			"name": "Povorotnia Iryna Romanivna",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "iro4ka01091990@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"photo": "/employees/likhachov.jpg",
+			"position": "Research Fellow",
+			"name": "Likhachov Yurii Mykhailovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "lanchic327@i.ua"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"photo": "/employees/khodotova.jpg",
+			"position": "Junior Research Fellow",
+			"name": "Khodotova Nadiia Yevstakhivna",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi-ofhp@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Senior Research Fellow",
+			"name": "Hryshyn Oleksandr Mykhailovych",
+			"description": "Associate Professor, Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"name": "Cherskyi Serhii Serhiiovych"
+		},
+		{
+			"id": "11",
+			"name": "Malienko Valentyna Oleksandrivna"
 		}
 	]
 } 

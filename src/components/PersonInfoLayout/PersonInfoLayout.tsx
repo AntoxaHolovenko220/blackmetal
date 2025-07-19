@@ -4,9 +4,8 @@ import { PersonCardInterface } from '../PersonCard/PersonCardInterface'
 import { useTranslationData } from '@/hooks/useTranslationData'
 import { 
   ActivitiesSection, 
-  LaboratoryTestsSection, 
-  StaffSection, 
-  LaboratorySection 
+  LaboratoryTestsSection,
+  StaffSection
 } from './components'
 
 interface DepartmentsData {
@@ -29,9 +28,7 @@ export interface PersonInfoLayoutProps {
 		title: string
 		items: string[]
 	}
-	staffCards: PersonCardInterface[],
-	showLaboratorySection?: boolean
-	laboratoryStaff?: PersonCardInterface[]
+	staffCards: PersonCardInterface[]
 }
 
 const PersonInfoLayout = ({
@@ -42,9 +39,7 @@ const PersonInfoLayout = ({
 	firstPersonCard,
 	activities,
 	laboratoryTests,
-	staffCards,
-	showLaboratorySection = false,
-	laboratoryStaff = [],
+	staffCards
 }: PersonInfoLayoutProps) => {
 	const { data: departmentsData } =
 		useTranslationData<DepartmentsData>('departments')
@@ -74,21 +69,10 @@ const PersonInfoLayout = ({
 
 			<LaboratoryTestsSection laboratoryTests={laboratoryTests} />
 
-			<Divider
-				sx={{
-					mb: 3,
-					borderColor: '#e0e0e0',
-				}}
-			/>
-
 			<StaffSection 
 				staffCards={staffCards}
 				staffTitle={departmentsData?.common?.staffTitle}
 			/>
-
-			{showLaboratorySection && (
-				<LaboratorySection laboratoryStaff={laboratoryStaff} />
-			)}
 		</Box>
 	)
 }

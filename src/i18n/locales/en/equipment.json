@@ -4,13 +4,7 @@
 		"id": "equipment-head",
 		"position": "Head of Department",
 		"name": "Semenov Yuriy Stanislavovych",
-		"description": "Candidate of Technical Sciences",
-		"contacts": [
-			{
-				"type": "Email",
-				"value": "metall729321@gmail.com"
-			}
-		]
+		"description": "Candidate of Technical Sciences"
 	},
 	"activities": {
 		"items": [
@@ -26,137 +20,116 @@
 	},
 	"staffCards": [
 		{
-			"id": "equipment-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-1",
+			"id": "1",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Baiul Kostiantyn Vasylovych",
+			"description": "Doctor of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "baiulkonstantin@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-2",
+			"id": "2",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Vereniov Valentyn Volodymyrovych",
+			"description": "Doctor of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "verenev0704@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-7",
+			"id": "3",
 			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Semenov Yuriy Stanislavovych",
+			"description": "Candidate of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "yuriy.semenov.isi@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"position": "Senior Research Fellow",
+			"name": "Vashchenko Serhii Volodymyrovych",
+			"description": "Candidate of Technical Sciences, Senior Researcher",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "sergeyvaschenko.sv@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Research Fellow",
+			"name": "Solodka Natalia Oleksandrivna",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "office.isi@nas.gov.ua"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-8",
+			"id": "6",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Khudyakov Oleksandr Yuriiovych",
+			"description": "Candidate of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "khudyakovsashko@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-9",
+			"id": "7",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Shumelchyk Yevhen Ihorovych",
+			"description": "Candidate of Technical Sciences, Senior Researcher",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "ievgen.shumelchyk@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-10",
+			"id": "8",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Frolova Liliia Anatoliivna",
+			"description": "Professor, Doctor of Technical Sciences"
+		},
+		{
+			"id": "9",
+			"photo": "/employees/horupakha.jpg",
+			"position": "Research Fellow",
+			"name": "Horupakha Viktor Volodymyrovych",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "gorupaha.viktor@gmail.com"
 				}
 			]
+		},
+		{
+			"id": "10",
+			"position": "Technician 1st Category",
+			"name": "Berelet Tamara Serhiivna"
+		},
+		{
+			"id": "11",
+			"position": "Engineer 2nd Category",
+			"name": "Prokudina Elvira Borysivna"
 		}
 	]
 } 

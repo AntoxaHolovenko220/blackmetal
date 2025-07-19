@@ -200,6 +200,18 @@
 					"value": "https://www.webofscience.com/wos/author/record/ABC-1234-2024"
 				}
 			]
-		}
+		},
+		{
+			"id": "example",
+			"position": "Lorem ipsum dolor sit amet",
+			"name": "Example",
+			"description": "Lorem ipsum dolor sit amet",
+			"contacts": [
+				{
+					"type": "Телефон",
+					"value": "+38(056) 790-05-14"
+				}
+			]
+		}		
 	]
 }

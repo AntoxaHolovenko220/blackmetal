@@ -4,7 +4,7 @@
 		"id": "organization-head",
 		"position": "Head of Department",
 		"name": "Tuboltsev Leonid Hryhorovych",
-		"description": "Candidate of Technical Sciences.",
+		"description": "Candidate of Technical Sciences, Senior Research Fellow",
 		"contacts": [
 			{
 				"type": "Email",
@@ -25,137 +25,40 @@
 	},
 	"staffCards": [
 		{
-			"id": "organization-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-1",
+			"id": "1",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-2",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-7",
-			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Tuboltsev Leonid Hryhorovych",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "isi.tubol@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "organization-researcher-8",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "2",
+			"name": "Perkov Oleh Mykolaiovych"
 		},
 		{
-			"id": "organization-researcher-9",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "3",
+			"name": "Hupalo Olena Viacheslavivna"
 		},
 		{
-			"id": "organization-researcher-10",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "4",
+			"name": "Kuzmychov Viacheslav Mykhailovych"
+		},
+		{
+			"id": "5",
+			"name": "Riaskova Nadiia Spyrydonivna"
+		},
+		{
+			"id": "6",
+			"name": "Horokhova Viktoria Oleksandrivna"
+		},
+		{
+			"id": "7",
+			"name": "Kyselova Valentyna Viktorivna"
 		}
 	]
 } 

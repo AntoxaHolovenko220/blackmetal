@@ -23,10 +23,14 @@ const MainCouncilPage = () => {
 					{data.data.map((item, index) => (
 						<PersonCard
 							key={index}
+							id={item.id}
 							photo={item.photo}
 							position={item.position}
 							name={item.name}
 							description={item.description}
+							biography={item.biography}
+							researchDirection={item.researchDirection}
+							teachingSubjects={item.teachingSubjects}
 							contacts={item.contacts}
 						/>
 					))}

@@ -4,13 +4,7 @@
 		"id": "dto-steel-head",
 		"position": "Head of Department",
 		"name": "Kononenko Hanna Andriivna",
-		"description": "Doctor of Technical Sciences",
-		"contacts": [
-			{
-				"type": "Email",
-				"value": "metall729321@gmail.com"
-			}
-		]
+		"description": "Doctor of Technical Sciences, Senior Researcher"
 	},
 	"activities": {
 		"items": [
@@ -21,137 +15,153 @@
 	},
 	"staffCards": [
 		{
-			"id": "dto-steel-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-1",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-2",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-7",
+			"id": "1",
 			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Babachenko Oleksandr Ivanovych",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "a_babachenko@i.ua"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"position": "Senior Research Fellow",
+			"name": "Filonenko Natalia Yuriivna",
+			"description": "Candidate of Physical and Mathematical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "natph2016@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"position": "Senior Research Fellow",
+			"name": "Kononenko Hanna Andriivna",
+			"description": "Doctor of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "perlit@ua.fm"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"position": "Senior Research Fellow",
+			"name": "Uzlov Oleh Volodymyrovych",
+			"description": "Associate Professor, Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "oleg.uzlov@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Research Fellow",
+			"name": "Dementieva Zhanna Andriivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Senior Research Fellow",
+			"name": "Puchikov Oleksandr Volodymyrovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"position": "Junior Research Fellow",
+			"name": "Safronov Oleksandr Leonidovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"position": "Junior Research Fellow",
+			"name": "Sukhoi Andrii Pavlovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Leading Engineer",
+			"name": "Klynova Olha Pylypivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"position": "Junior Research Fellow",
+			"name": "Shpak Olena Adolfivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "okc.testcenter@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "11",
+			"photo": "/employees/podolskyi.jpg",
+			"position": "Junior Research Fellow",
+			"name": "Podolskyi Rostyslav Viacheslavovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "rostislavpodolskij@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "12",
+			"position": "Junior Research Fellow",
+			"name": "Safronova Olena Anatoliivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "alena.safronova1997@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "13",
+			"position": "Research Fellow",
+			"name": "Kimstach Tetiana Volodymyrivna",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "13misstatyana@gmail.com"
 				}
 			]
-		},
-		{
-			"id": "dto-steel-researcher-8",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-9",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "dto-steel-researcher-10",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		}
+		}					
 	]
 } 

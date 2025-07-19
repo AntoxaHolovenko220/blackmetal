@@ -39,6 +39,9 @@ const StaffSection = ({ staffCards, staffTitle }: StaffSectionProps) => {
               position={card.position}
               name={card.name}
               description={card.description}
+              biography={card.biography}
+              researchDirection={card.researchDirection}
+              teachingSubjects={card.teachingSubjects}
               contacts={card.contacts}
             />
           ))}

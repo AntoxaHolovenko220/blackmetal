@@ -4,7 +4,7 @@
 		"id": "ht-machinery-head",
 		"position": "Head of Department",
 		"name": "Parusov Eduard Volodymyrovych",
-		"description": "Doctor of Technical Sciences",
+		"description": "Doctor of Technical Sciences, Senior Research Fellow",
 		"contacts": [
 			{
 				"type": "Email",
@@ -31,135 +31,120 @@
 	},
 	"staffCards": [
 		{
-			"id": "ht-machinery-deputy",
-			"photo": "/tohobitska.jpg",
+			"id": "1",
+			"position": "Head of Department",
+			"name": "Parusov Eduard Volodymyrovych",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "tometal@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "2",
 			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
+			"name": "Lutsenko Vladyslav Anatoliiovych",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "lutsenko-VA@i.ua"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"position": "Senior Research Fellow",
+			"name": "Hubenko Svitlana Ivanivna",
 			"description": "Professor, Doctor of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-1",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
 					"value": "petrov@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-2",
+			"id": "4",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-7",
-			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Parusov Oleh Volodymyrovych",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "termet@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-8",
+			"id": "5",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Chuiko Ihor Mykolaiovych",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "ferrosplav@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-9",
+			"id": "6",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Sahura Liudmyla Volodymyrivna",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "slv_metal@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-10",
+			"id": "7",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Holubenko Tetiana Mykolaivna",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "sumer@i.ua"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"position": "Research Fellow",
+			"name": "Lutsenko Olha Vladyslavivna",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "olya.lutsenko2009@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Research Fellow",
+			"name": "Sivak Hanna Ivanivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "tometal@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"position": "Leading Engineer",
+			"name": "Oliinyk Eduard Vadymovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "ediknsk@gmail.com"
 				}
 			]
 		}

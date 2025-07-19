@@ -4,7 +4,7 @@
 		"id": "ht-machinery-head",
 		"position": "Керівник відділу",
 		"name": "Парусов Едуард Володимирович",
-		"description": "Доктор технічних наук.",
+		"description": "Доктор технічних наук, старший науковий співробітник",
 		"contacts": [
 			{
 				"type": "Email",
@@ -31,216 +31,122 @@
 	},
 	"staffCards": [
 		{
-			"id": "ht-machinery-deputy",
-			"photo": "/tohobitska.jpg",
+			"id": "1",
+			"position": "Завідуючий відділом",
+			"name": "Парусов Едуард Володимирович",
+			"description": "Доктор технічних наук, старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "tometal@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "2",
 			"position": "Провідний науковий співробітник",
-			"name": "Тогобицька Дар'я Миколаївна",
+			"name": "Луценко Владислав Анатолійович",
+			"description": "Доктор технічних наук, старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "lutsenko-VA@i.ua"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"position": "Старший науковий співробітник",
+			"name": "Губенко Світлана Іванівна",
 			"description": "Професор, доктор технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
 					"value": "petrov@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-2",
+			"id": "4",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-3",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-4",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-5",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-6",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "ht-machinery-researcher-7",
-			"position": "Завідуючий відділом",
-			"name": "Сепаненко Дмитро Олександрович",
+			"name": "Парусов Олег Володимирович",
 			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "termet@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-8",
+			"id": "5",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Чуйко Ігор Миколайович",
+			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "ferrosplav@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-9",
+			"id": "6",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Сагура Людмила Володимирівна",
+			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "slv_metal@ukr.net"
 				}
 			]
 		},
 		{
-			"id": "ht-machinery-researcher-10",
+			"id": "7",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Голубенко Тетяна Миколаївна",
+			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "sumer@i.ua"
 				}
 			]
-		}
-	],
-		"laboratoryStaff": [
-		{
-			"id": "lab-chaika",
-			"position": "Науковий співробітник",
-			"name": "Чайка Олексій Леонідович",
-			"description": "",
-			"contacts": []
 		},
 		{
-			"id": "lab-dzhigota",
+			"id": "8",
 			"position": "Науковий співробітник",
-			"name": "Джигота Марина Георгіївна",
-			"description": "",
-			"contacts": []
+			"name": "Луценко Ольга Владиславівна",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "olya.lutsenko2009@gmail.com"
+				}
+			]
 		},
 		{
-			"id": "lab-lebid",
+			"id": "9",
 			"position": "Науковий співробітник",
-			"name": "Лебідь Віталій Васильович",
-			"description": "",
-			"contacts": []
+			"name": "Сівак Ганна Іванівна",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "tometal@ukr.net"
+				}
+			]
 		},
 		{
-			"id": "lab-kornilov",
-			"position": "Науковий співробітник",
-			"name": "Корнілов Богдан Володимирович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-moskalina",
-			"position": "Науковий співробітник",
-			"name": "Москалина Андрій Олександрович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-iziumskyi",
-			"position": "Науковий співробітник",
-			"name": "Ізюмський Микола Микитович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-merkulov",
-			"position": "Науковий співробітник",
-			"name": "Меркулов Олексій Євгенович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-gubinskyi",
-			"position": "Науковий співробітник",
-			"name": "Губинський Михайло Володимирович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-sybir",
-			"position": "Науковий співробітник",
-			"name": "Сибір Артем Віталійович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-fedorov",
-			"position": "Науковий співробітник",
-			"name": "Федоров Сергій Сергійович",
-			"description": "",
-			"contacts": []
-		},
-		{
-			"id": "lab-shatoha",
-			"position": "Науковий співробітник",
-			"name": "Шатоха Володимир Іванович",
-			"description": "",
-			"contacts": []
+			"id": "10",
+			"position": "Провідний інженер",
+			"name": "Олійник Едуард Вадимович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "ediknsk@gmail.com"
+				}
+			]
 		}
 	]
 } 

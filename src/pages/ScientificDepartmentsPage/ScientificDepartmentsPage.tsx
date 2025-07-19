@@ -48,10 +48,46 @@ const ScientificDepartmentsPage = () => {
 						}}
 					>
 						<DepartmentElement
-							shortName={dep.shortName}
 							fullName={dep.fullName}
 							img={dep.img}
 							href={dep.href}
+						/>
+					</Box>
+				))}
+			</Box>
+			<DocumentTitleSearch title={`${data.titles.laboratories}`} search={false} />
+			<Box
+				sx={{
+					width: '100%',
+					mt: 3,
+					mb: 3,
+					display: 'grid',
+					gridTemplateColumns: {
+						xxs: '1fr',
+						sm: 'repeat(2, 1fr)',
+						md: 'repeat(2, 1fr)',
+						lg: 'repeat(3, 1fr)',
+					},
+					gap: '20px',
+					justifyItems: 'center',
+					maxWidth: '1440px',
+					mx: 'auto',
+				}}
+			>
+				{data.Laboratories.map(lab => (
+					<Box
+						key={lab.id}
+						sx={{
+							width: '100%',
+							maxWidth: {
+								xxl: '460px',
+							},
+						}}
+					>
+						<DepartmentElement
+							fullName={lab.fullName}
+							img={lab.img}
+							href={lab.href}
 						/>
 					</Box>
 				))}

@@ -11,13 +11,20 @@ const PersonCard = ({
   position,
   name,
   description = '',
+  biography,
+  researchDirection,
+  teachingSubjects,
   contacts = {},
 }: PersonCardInterface) => {
   const navigate = useNavigate()
 
+  const hasDetailedInfo = !!(biography || researchDirection || teachingSubjects)
+
   const handleDetailsClick = (e: React.MouseEvent) => {
     e.stopPropagation()
-    navigate(`/person/${id}`)
+    if (hasDetailedInfo) {
+      navigate(`/person/${id}`)
+    }
   }
 
   let contactItems: Array<{ type: string; value: string }> = []
@@ -39,10 +46,14 @@ const PersonCard = ({
         maxWidth: '589px',
         textDecoration: 'none',
         color: '#000000',
-        cursor: 'pointer',
+        cursor: hasDetailedInfo ? 'pointer' : 'default',
         position: 'relative',
       }}
-      onClick={() => navigate(`/person/${id}`)}
+      onClick={() => {
+        if (hasDetailedInfo) {
+          navigate(`/person/${id}`)
+        }
+      }}
     >
       <Box
         sx={{
@@ -166,27 +177,29 @@ const PersonCard = ({
         </Box>
       </Box>
 
-
-      <Button
-        variant='contained'
-        onClick={handleDetailsClick}
-        sx={{
-          ...CommonButtonStyles.primary,
-          fontSize: '12px',
-          fontWeight: 500,
-          position: 'absolute',
-          bottom: '15px',
-          right: '15px',
-          '@media (max-width: 600px)': {
-            fontSize: '11px',
-            padding: '5px 10px',
+      {/* Показываем кнопку только если есть детальная информация */}
+      {hasDetailedInfo && (
+        <Button
+          variant='contained'
+          onClick={handleDetailsClick}
+          sx={{
+            ...CommonButtonStyles.primary,
+            fontSize: '12px',
+            fontWeight: 500,
+            position: 'absolute',
             bottom: '15px',
             right: '15px',
-          },
-        }}
-      >
-        Детальніше
-      </Button>
+            '@media (max-width: 600px)': {
+              fontSize: '11px',
+              padding: '5px 10px',
+              bottom: '15px',
+              right: '15px',
+            },
+          }}
+        >
+          Детальніше
+        </Button>
+      )}
     </Box>
   )
 }

@@ -4,7 +4,7 @@
 		"id": "organization-head",
 		"position": "Керівник відділу",
 		"name": "Тубольцев Леонід Григорович",
-		"description": "Кандидат технічних наук.",
+		"description": "Кандидат технічних наук, старший науковий співробітник",
 		"contacts": [
 			{
 				"type": "Email",
@@ -25,137 +25,40 @@
 	},
 	"staffCards": [
 		{
-			"id": "organization-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Провідний науковий співробітник",
-			"name": "Тогобицька Дар'я Миколаївна",
-			"description": "Професор, доктор технічних наук",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-1",
+			"id": "1",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-2",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-3",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-4",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-5",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-6",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "organization-researcher-7",
-			"position": "Завідуючий відділом",
-			"name": "Сепаненко Дмитро Олександрович",
+			"name": "ТУБОЛЬЦЕВ Леонід Григорович",
 			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "isi.tubol@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "organization-researcher-8",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "2",
+			"name": "Перков Олег Миколайович"
 		},
 		{
-			"id": "organization-researcher-9",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "3",
+			"name": "Гупало Олена Вячеславівна"
 		},
 		{
-			"id": "organization-researcher-10",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
+			"id": "4",
+			"name": "Кузьмичов В’ячеслав Михайлович"
+		},
+		{
+			"id": "5",
+			"name": "Ряскова Надія Спирідонівна"
+		},
+		{
+			"id": "6",
+			"name": "Горохова Вікторія Олександрівна"
+		},
+		{
+			"id": "7",
+			"name": "Кисельова Валентина Вікторівна"
 		}
 	]
 } 

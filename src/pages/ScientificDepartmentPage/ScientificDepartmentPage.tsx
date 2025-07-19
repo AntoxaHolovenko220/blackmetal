@@ -17,7 +17,6 @@ interface DepartmentData {
 	}
 	secondPersonCard?: PersonInfoLayoutProps['firstPersonCard'] 
 	staffCards?: PersonInfoLayoutProps['staffCards']
-	laboratoryStaff?: PersonInfoLayoutProps['laboratoryStaff']
 }
 
 const ScientificDepartmentPage = () => {
@@ -40,8 +39,6 @@ const ScientificDepartmentPage = () => {
 
 	const staffCards = data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
 	
-	const showLaboratorySection = ['pig-iron', 'pressure', 'ht-machinery'].includes(departmentId)
-
 	return (
 		<PersonInfoLayout
 			title={data.title}
@@ -50,8 +47,6 @@ const ScientificDepartmentPage = () => {
 			activities={data.activities}
 			laboratoryTests={data.laboratoryTests}
 			staffCards={staffCards}
-			showLaboratorySection={showLaboratorySection}
-			laboratoryStaff={data.laboratoryStaff || []}
 		/>
 	)
 }
