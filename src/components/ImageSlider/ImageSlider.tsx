@@ -46,10 +46,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 		)
 	}
 
-	const handleDotClick = (index: number) => {
-		setCurrentIndex(index)
-	}
-
 	const handleFullscreen = () => {
 		const elem = document.documentElement
 		if (elem.requestFullscreen) {
@@ -263,33 +259,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 				>
 					<FullscreenIcon />
 				</IconButton>
-			</Box>
-
-			<Box
-				sx={{
-					display: 'flex',
-					justifyContent: 'center',
-					gap: 1,
-					mt: 2
-				}}
-			>
-				{finalImages.map((_, index) => (
-					<Box
-						key={index}
-						onClick={() => handleDotClick(index)}
-						sx={{
-							width: 8,
-							height: 8,
-							borderRadius: '50%',
-							backgroundColor: index === currentIndex ? '#2D7A84' : '#e0e0e0',
-							cursor: 'pointer',
-							transition: 'background-color 0.3s ease',
-							'&:hover': {
-								backgroundColor: index === currentIndex ? '#2D7A84' : '#bdbdbd'
-							}
-						}}
-					/>
-				))}
 			</Box>
 		</Box>
 	)

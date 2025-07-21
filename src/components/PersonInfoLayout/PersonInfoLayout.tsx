@@ -20,7 +20,7 @@ export interface PersonInfoLayoutProps {
 	searchEnabled?: boolean
 	onSearchSubmit?: (query: string) => void
 	onSearchChange?: (query: string) => void
-	firstPersonCard: PersonCardInterface
+	firstPersonCard?: PersonCardInterface
 	activities?: {
 		items: string[]
 	}
