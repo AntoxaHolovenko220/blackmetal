@@ -134,7 +134,13 @@
 	"IndividualPlansPage": {
 		"path": "/training/postgraduate/plans",
 		"component": "IndividualPlansPage",
-		"title": "Індивідуальні плани",
+		"title": "Навчальні плани",
+		"layout": "MainLayout"
+	},
+	"EducationProgramsPage": {
+		"path": "/training/postgraduate/programs",
+		"component": "EducationProgramsPage",
+		"title": "Навчальні плани",
 		"layout": "MainLayout"
 	},
 	"OrdersPage": {

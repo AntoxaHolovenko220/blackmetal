@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import { AppBar, Toolbar, Box, Divider, useTheme } from '@mui/material'
-import { UniversalLogo, LanguageSwitcher, UniversalSearch } from '@/components'
+import {
+	UniversalLogo,
+	LanguageSwitcher,
+	UniversalSearch,
+	SocialLinks,
+} from '@/components'
 import { NavItem } from './components/NavItem'
 import { BurgerMenu } from './components/BurgerMenu'
 import { useTranslationData } from '@/hooks/useTranslationData'
@@ -11,7 +16,8 @@ const Header = () => {
 
 	// Move all hook calls to the top
 	const { data: navigationData } = useTranslationData<NavigationData>('header')
-	const { data: headerData, loading } = useTranslationData<HeaderTranslation>('header')
+	const { data: headerData, loading } =
+		useTranslationData<HeaderTranslation>('header')
 
 	const [hoveredItem, setHoveredItem] = useState<string | null>(null)
 	const [hoveredSubItem, setHoveredSubItem] = useState<string | null>(null)
@@ -91,7 +97,9 @@ const Header = () => {
 				>
 					<UniversalLogo type='icon-text' />
 
-					<Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+					<Box
+						sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
+					>
 						<Box
 							sx={{
 								display: { xxs: 'none', sm: 'flex' },
@@ -107,7 +115,8 @@ const Header = () => {
 							}}
 							tabIndex={-1}
 						>
-							<UniversalSearch
+							<SocialLinks />
+							{/* <UniversalSearch
 								placeholderKey={headerData?.searchPlaceholder}
 								onSearch={() => {}}
 								isExpanded={isSearchExpanded}
@@ -131,10 +140,10 @@ const Header = () => {
 										borderColor: '#C7C7C7',
 									},
 								}}
-							/>
+							/> */}
 						</Box>
 
-						<LanguageSwitcher />
+						{/* <LanguageSwitcher /> */}
 
 						<BurgerMenu navItems={navigationData.navItems} />
 					</Box>

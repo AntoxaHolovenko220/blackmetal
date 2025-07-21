@@ -105,8 +105,13 @@
 						},
 						{
 							"id": "individual-plans",
-							"label": "Індивідуальні плани",
+							"label": "Навчальні плани",
 							"href": "/training/postgraduate/plans"
+						},
+						{
+							"id": "education-programs",
+							"label": "Освітньо наукові програми",
+							"href": "/training/postgraduate/programs"
 						},
 						{
 							"id": "orders",
@@ -152,7 +157,7 @@
 				},
 				{
 					"id": "special-councils",
-					"label": "Разові спеціалізовані ради",
+					"label": "Разові спеціалізовані вчені ради",
 					"href": "/training/special-councils"
 				},
 				{

@@ -105,8 +105,13 @@
 						},
 						{
 							"id": "individual-plans",
-							"label": "Individual Plans",
+							"label": "Training Plans",
 							"href": "/training/postgraduate/plans"
+						},
+						{
+							"id": "education-programs",
+							"label": "Educational and Research Plans",
+							"href": "/training/postgraduate/programs"
 						},
 						{
 							"id": "orders",
@@ -152,7 +157,7 @@
 				},
 				{
 					"id": "special-councils",
-					"label": "Ad Hoc Specialized Councils",
+					"label": "Ad Hoc Specialized Academic Councils",
 					"href": "/training/special-councils"
 				},
 				{
