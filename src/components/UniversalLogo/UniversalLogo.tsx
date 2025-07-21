@@ -20,7 +20,6 @@ const UniversalLogo: React.FC<UniversalLogoProps> = ({ size, type = 'icon' }) =>
 		}
 	}
 
-	// Получаем переведенный текст с HTML-тегами
 	const logoText = t('logo.text')
 
 	return (
@@ -62,7 +61,6 @@ const UniversalLogo: React.FC<UniversalLogoProps> = ({ size, type = 'icon' }) =>
 							width: { xxs: '40px', sm: '60px' },
 						}}
 					/>
-					{/* Используем dangerouslySetInnerHTML для вставки HTML */}
 					<Box
 						component='span'
 						dangerouslySetInnerHTML={{ __html: logoText }}

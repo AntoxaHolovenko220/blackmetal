@@ -1,7 +1,8 @@
+import React from 'react'
 import { Box, Typography, Button } from '@mui/material'
-import { PersonCardInterface } from './PersonCardInterface'
-import PersonIcon from '@mui/icons-material/Person'
 import { useNavigate } from 'react-router-dom'
+import PersonIcon from '@mui/icons-material/Person'
+import { PersonCardInterface } from './PersonCardInterface'
 import { CommonTextStyles, CommonButtonStyles } from '../../utils'
 
 const PersonCard = ({
@@ -10,13 +11,41 @@ const PersonCard = ({
 	position,
 	name,
 	description = '',
-	contacts = [],
+	biography,
+	researchDirection,
+	teachingSubjects,
+	contacts = {},
 }: PersonCardInterface) => {
 	const navigate = useNavigate()
 
+	const hasDetailedInfo = !!(biography || researchDirection || teachingSubjects)
+
 	const handleDetailsClick = (e: React.MouseEvent) => {
 		e.stopPropagation()
-		navigate(`/person/${id}`)
+		if (hasDetailedInfo) {
+			navigate(`/person/${id}`)
+		}
+	}
+
+	let contactItems: Array<{ type: string; value: string }> = []
+
+	if (Array.isArray(contacts)) {
+		contactItems = contacts.filter(
+			item =>
+				item.value && typeof item.value === 'string' && item.value.trim() !== ''
+		)
+	} else if (contacts && typeof contacts === 'object') {
+		contactItems = Object.entries(contacts)
+			.map(([key, value]) => ({
+				type: key,
+				value: value as string,
+			}))
+			.filter(
+				item =>
+					item.value &&
+					typeof item.value === 'string' &&
+					item.value.trim() !== ''
+			)
 	}
 
 	return (
@@ -25,10 +54,14 @@ const PersonCard = ({
 				maxWidth: '589px',
 				textDecoration: 'none',
 				color: '#000000',
-				cursor: 'pointer',
+				cursor: hasDetailedInfo ? 'pointer' : 'default',
 				position: 'relative',
 			}}
-			onClick={() => navigate(`/person/${id}`)}
+			onClick={() => {
+				if (hasDetailedInfo) {
+					navigate(`/person/${id}`)
+				}
+			}}
 		>
 			<Box
 				sx={{
@@ -85,7 +118,6 @@ const PersonCard = ({
 						textAlign: 'center',
 						'@media (max-width: 600px)': {
 							width: '100%',
-							// pl: 0,
 						},
 					}}
 				>
@@ -121,9 +153,9 @@ const PersonCard = ({
 						</Typography>
 					)}
 
-					{contacts?.length > 0 && (
+					{contactItems.length > 0 && (
 						<Box sx={{ mt: '10px' }}>
-							{contacts.slice(0, 2).map((contact, index) => (
+							{contactItems.slice(0, 2).map((contact, index) => (
 								<Box
 									key={index}
 									sx={{
@@ -153,26 +185,29 @@ const PersonCard = ({
 				</Box>
 			</Box>
 
-			<Button
-				variant='contained'
-				onClick={handleDetailsClick}
-				sx={{
-					...CommonButtonStyles.primary,
-					fontSize: '12px',
-					fontWeight: 500,
-					position: 'absolute',
-					bottom: '15px',
-					right: '15px',
-					'@media (max-width: 600px)': {
-						fontSize: '11px',
-						padding: '5px 10px',
+			{/* Показываем кнопку только если есть детальная информация */}
+			{hasDetailedInfo && (
+				<Button
+					variant='contained'
+					onClick={handleDetailsClick}
+					sx={{
+						...CommonButtonStyles.primary,
+						fontSize: '12px',
+						fontWeight: 500,
+						position: 'absolute',
 						bottom: '15px',
 						right: '15px',
-					},
-				}}
-			>
-				Детальніше
-			</Button>
+						'@media (max-width: 600px)': {
+							fontSize: '11px',
+							padding: '5px 10px',
+							bottom: '15px',
+							right: '15px',
+						},
+					}}
+				>
+					Детальніше
+				</Button>
+			)}
 		</Box>
 	)
 }

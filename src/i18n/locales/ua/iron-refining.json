@@ -2,14 +2,13 @@
 	"title": "Відділ позапічної обробки чавуну",
 	"firstPersonCard": {
 		"id": "iron-refining-head",
-		"photo": "/stepanenko.webp",
 		"position": "Керівник відділу",
-		"name": "Степаненко Дмитро Олександрович",
+		"name": "Кисляков Володимир Геннадійович",
 		"description": "Кандидат технічних наук",
 		"contacts": [
 			{
 				"type": "Email",
-				"value": "d.gorodenskiy@gmail.com"
+				"value": "vovkadragon12@gmail.com"
 			}
 		]
 	},
@@ -25,135 +24,109 @@
 	},
 	"staffCards": [
 		{
-			"id": "phys-chem-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Провідний науковий співробітник",
-			"name": "Тогобицька Дар'я Миколаївна",
-			"description": "Професор, доктор технічних наук",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
+			"id": "1",
 			"position": "Завідуючий відділом",
-			"name": "Сепаненко Дмитро Олександрович",
+			"name": "Кисляков Володимир Геннадійович",
 			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "vovkadragon12@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-1",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"id": "2",
+			"position": "Провідний науковий співробітник",
+			"name": "Шевченко Анатолій Пилипович",
+			"description": "Професор, доктор технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-1",
+			"id": "3",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Двоскін Борис Вульфович",
+			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-1",
+			"id": "4",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Єлісєєв Володимир Іванович",
+			"description": "Кандидат фізико-математичних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Старший науковий співробітник",
+			"name": "МАНАЧИН Іван Олександрович",
+			"description": "Кандидат технічних наук, старший дослідник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "imanachyn@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Старший науковий співробітник",
+			"name": "Руденко Олександр Леонідович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"position": "Старший науковий співробітник",
+			"name": "ШЕВЧЕНКО Сергій Анатолійович",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "shev_serg@i.ua"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"position": "Молодший науковий співробітник",
+			"name": "Петруша Вікторія  Петрівна",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Науковий співробітник",
+			"name": "ЧУБІН Костянтин Іванович",
+			"description": "Доцент, кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		}

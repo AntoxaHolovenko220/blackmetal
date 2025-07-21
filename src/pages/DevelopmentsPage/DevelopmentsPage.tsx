@@ -19,7 +19,7 @@ const DevelopmentsPage = () => {
   }
 
   return (
-    <Box sx={{ pb: '30px', pl: { xs: '20px', sm: '50px' } }}>
+    <Box sx={{ pb: '30px', pl: { xs: '20px', md: '50px' } }}>
       <DocumentTitleSearch title={`${data.title}`} search={false} />
       <PresentationPlayer pdfUrl="/blackmetal/presentation.pdf" />
     </Box>

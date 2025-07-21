@@ -14,7 +14,6 @@ import { NavigationData, HeaderTranslation } from './interface'
 const Header = () => {
 	const theme = useTheme()
 
-	// Move all hook calls to the top
 	const { data: navigationData } = useTranslationData<NavigationData>('header')
 	const { data: headerData, loading } =
 		useTranslationData<HeaderTranslation>('header')

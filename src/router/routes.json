@@ -35,6 +35,30 @@
 		"title": "Випробувальний центр",
 		"layout": "MainLayout"
 	},
+	"HeatTechLabPage": {
+		"path": "/scientific-departments/lab-heat-tech",
+		"component": "HeatTechLabPage",
+		"title": "Лабораторія теплотехніки",
+		"layout": "MainLayout"
+	},
+	"FlatRollingLabPage": {
+		"path": "/scientific-departments/lab-flat-rolling",
+		"component": "FlatRollingLabPage",
+		"title": "Лабораторія плоского прокату",
+		"layout": "MainLayout"
+	},
+	"StructurePropertiesLabPage": {
+		"path": "/scientific-departments/lab-structure-properties",
+		"component": "StructurePropertiesLabPage",
+		"title": "Лабораторія структуроутворення",
+		"layout": "MainLayout"
+	},
+	"TestPage": {
+		"path": "/test",
+		"component": "TestPage",
+		"title": "Тестова сторінка",
+		"layout": "MainLayout"
+	},
 	"ScientificDepartmentPage": {
 		"path": "/scientific-departments/:departmentId",
 		"component": "ScientificDepartmentPage",

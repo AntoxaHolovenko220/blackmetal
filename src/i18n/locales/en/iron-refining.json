@@ -2,14 +2,13 @@
 	"title": "Department of Out-of-Furnace Treatment of Cast Iron",
 	"firstPersonCard": {
 		"id": "iron-refining-head",
-		"photo": "/stepanenko.webp",
 		"position": "Head of Department",
-		"name": "Stepanenko Dmytro Oleksandrovych",
+		"name": "Kysliakov Volodymyr Hennadiiovych",
 		"description": "Candidate of Technical Sciences",
 		"contacts": [
 			{
 				"type": "Email",
-				"value": "d.gorodenskiy@gmail.com"
+				"value": "vovkadragon12@gmail.com"
 			}
 		]
 	},
@@ -25,135 +24,109 @@
 	},
 	"staffCards": [
 		{
-			"id": "phys-chem-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Leading Research Fellow",
-			"name": "Tohobitska Darya Mykolaivna",
-			"description": "Professor, Doctor of Technical Sciences",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-1",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-2",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-3",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-4",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-5",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-6",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "phys-chem-researcher-7",
+			"id": "1",
 			"position": "Head of Department",
-			"name": "Stepanenko Dmytro Oleksandrovych",
+			"name": "Kysliakov Volodymyr Hennadiiovych",
 			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "vovkadragon12@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-8",
-			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"id": "2",
+			"position": "Leading Research Fellow",
+			"name": "Shevchenko Anatolii Pylypovych",
+			"description": "Professor, Doctor of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-9",
+			"id": "3",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Dvoskin Boris Vulfovych",
+			"description": "Candidate of Technical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "phys-chem-researcher-10",
+			"id": "4",
 			"position": "Senior Research Fellow",
-			"name": "Belkova Alla Ivanivna",
-			"description": "Senior Research Fellow",
+			"name": "Yelisieiev Volodymyr Ivanovych",
+			"description": "Candidate of Physical and Mathematical Sciences",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Senior Research Fellow",
+			"name": "Manachyn Ivan Oleksandrovych",
+			"description": "Candidate of Technical Sciences, Senior Researcher",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "imanachyn@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Senior Research Fellow",
+			"name": "Rudenko Oleksandr Leonidovych",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"position": "Senior Research Fellow",
+			"name": "Shevchenko Serhii Anatoliiovych",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "shev_serg@i.ua"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"position": "Junior Research Fellow",
+			"name": "Petrusha Viktoria Petrivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Research Fellow",
+			"name": "Chubin Kostiantyn Ivanovych",
+			"description": "Associate Professor, Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "isi.ovoch@gmail.com"
 				}
 			]
 		}

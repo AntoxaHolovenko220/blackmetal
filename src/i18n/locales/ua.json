@@ -21,6 +21,13 @@
 		},
 		"search": "Пошук"
 	},
+	"contacts": {
+		"encyclopedia": "Енциклопедія про Корнієнка В.І.",
+		"googleScholar": "Google Scholar",
+		"orcid": "ORCID iD",
+		"scopus": "Scopus Author ID",
+		"researcherId": "ResearcherID"
+	},
 	"departments": {
 		"common": {
 			"staffTitle": "Наукові співробітники відділу:",

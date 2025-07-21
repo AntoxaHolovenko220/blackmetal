@@ -2,17 +2,14 @@
 	"title": "Відділ металургії чавуну",
 	"firstPersonCard": {
 		"id": "pig-iron-head",
-		"position": "Завідувач відділом",
-		"name": "Сидоров Сергій Сергійович",
-		"description": "Доктор технічних наук, професор. Провідний фахівець в області доменного виробництва та металургії чавуну. Автор понад 200 наукових праць.",
+		"photo": "/employees/nesterov.jpg",
+		"position": "Керівник відділу",
+		"name": "Нестеров Олександр Станіславович",
+		"description": "Кандидат технічних наук.",
 		"contacts": [
 			{
-				"type": "Телефон",
-				"value": "+380 (56) 745-32-15"
-			},
-			{
 				"type": "Email",
-				"value": "pig-iron@ukr.net"
+				"value": "asn.dnepr@gmail.com"
 			}
 		]
 	},
@@ -50,20 +47,159 @@
 			"Визначення зон розм'якшення, плавлення і краплинної течії"
 		]
 	},
-	"secondPersonCard": {
-		"id": "pig-iron-deputy",
-		"position": "Заступник завідувача відділом",
-		"name": "Коваленко Олексій Олексійович",
-		"description": "Кандидат технічних наук, провідний науковий співробітник. Спеціалізується на підготовці сировини для доменного виробництва.",
-		"contacts": [
-			{
-				"type": "Телефон",
-				"value": "+380 (56) 745-32-16"
-			},
-			{
-				"type": "Email",
-				"value": "pig-iron-deputy@ukr.net"
-			}
-		]
-	}
+	"staffCards": [
+		{
+			"id": "1",
+			"photo": "/employees/nesterov.jpg",
+			"position": "Завідуючий відділом",
+			"name": "Нестеров Олександр Станіславович",
+			"description": "Кандидат технічних наук, старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "asn.dnepr@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"photo": "/employees/harmash.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Гармаш Лариса Іванівна",
+			"description": "Кандидат технічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "larysagar@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"position": "Провідний науковий співробітник",
+			"name": "Муравйова Ірина Геннадіївна",
+			"description": "Доктор технічних наук, старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "irinamuravyova@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"position": "Старший науковий співробітник",
+			"name": "Іванча Микола Григорович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Молодший науковий співробітник",
+			"name": "Білошапка Олена Олексіївна",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "bel_lena81@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Науковий співробітник",
+			"name": "Вишняков Валерій Іванович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"name": "Єрмоліна Катерина Петрівна"
+		},
+		{
+			"id": "8",
+			"position": "Науковий співробітник",
+			"name": "Вишинська Олена Дмитрівна",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "lesiklena50@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Науковий співробітник",
+			"name": "Лопатенко Костянтин Петрович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "LopKonst@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"position": "Молодший науковий співробітник",
+			"name": "Півненко Андрій Володимирович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "11",
+			"position": "Молодший науковий співробітник",
+			"name": "Болденко Михайло Григорович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "12",
+			"position": "Молодший науковий співробітник",
+			"name": "Литар Едуард Ігорович",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "13",
+			"position": "Молодший науковий співробітник",
+			"name": "Негода Валентин Іванович",
+			"description": "Кандидат хімічних наук",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "14",
+			"position": "Провідний інженер",
+			"name": "Заговорська Наталія Михайлівна",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "zahorovska.nataliia@gmail.co"
+				}
+			]
+		}
+	]
 }

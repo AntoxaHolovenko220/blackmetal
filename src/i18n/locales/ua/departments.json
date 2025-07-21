@@ -1,6 +1,7 @@
 {
 	"titles": {
 		"scientific": "Наукові відділи",
+		"laboratories": "Лабораторії",
 		"technical": "Науково-технічні відділи"
 	},
 	"common": {
@@ -57,6 +58,26 @@
 			"href": "/scientific-departments/equipment"
 		}
 	],
+	"Laboratories": [
+		{
+			"id": 1,
+			"fullName": "Лабораторія теплотехніки та енергозберігаючих технологій доменної плавки",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/lab-heat-tech"
+		},
+		{
+			"id": 2,
+			"fullName": "Лабораторія проблем виробництва плоского прокату",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/lab-flat-rolling"
+		},
+		{
+			"id": 3,
+			"fullName": "Лабораторія проблем структуроутворення і властивостей чорних металів",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/scientific-departments/lab-structure-properties"
+		}
+	],
 	"TechnicalDepartments": [
 		{
 			"id": 1,
@@ -69,12 +90,6 @@
 			"fullName": "Відділ стандартизації та управління якістю продукції",
 			"img": "/blackmetal/FIT.svg",
 			"href": "/technical-departments/quality"
-		},
-		{
-			"id": 3,
-			"fullName": "Відділ головного метролога",
-			"img": "/blackmetal/FIT.svg",
-			"href": "/technical-departments/metrologist"
 		}
 	]
 }

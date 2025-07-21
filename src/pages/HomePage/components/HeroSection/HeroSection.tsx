@@ -124,9 +124,6 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 						<Container maxWidth='lg' sx={{ display: 'flex', alignItems: 'center' }}>
 							<ContentWrapper>
 								<Hashtag variant='h1'>#IЧM</Hashtag>
-								{/* <StyledButton variant='outlined' size='large' onClick={handleButtonClick}>
-									Зворотний зв'язок
-								</StyledButton> */}
 							</ContentWrapper>
 						</Container>
 					</Overlay>

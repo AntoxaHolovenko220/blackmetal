@@ -11,7 +11,7 @@ interface DepartmentData {
 	activities?: {
 		items: string[]
 	}
-	secondPersonCard?: PersonInfoLayoutProps['firstPersonCard'] // for backward compatibility
+	secondPersonCard?: PersonInfoLayoutProps['firstPersonCard']
 	staffCards?: PersonInfoLayoutProps['staffCards']
 }
 
@@ -33,7 +33,6 @@ const TechnicalDepartmentPage = () => {
 		)
 	}
 
-	// Handle backward compatibility: if secondPersonCard exists, convert to staffCards array
 	const staffCards = data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
 
 	return (
@@ -41,7 +40,6 @@ const TechnicalDepartmentPage = () => {
 			title={data.title}
 			searchEnabled={false}
 			firstPersonCard={data.firstPersonCard}
-			middleText={data.middleText}
 			activities={data.activities}
 			staffCards={staffCards}
 		/>

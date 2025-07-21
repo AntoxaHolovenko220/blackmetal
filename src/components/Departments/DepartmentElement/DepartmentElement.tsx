@@ -92,7 +92,6 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 				className='department-text'
 				sx={{
 				fontSize: { xs: '19px', xxl: '21px' },
-				// fontWeight: 'bold',
 				color: 'black',
 				transition: 'color 0.3s ease',
 				}}

@@ -1,6 +1,7 @@
 {
 	"titles": {
 		"scientific": "Scientific Departments",
+		"laboratories": "Laboratories",
 		"technical": "Technical Departments"
 	},
 	"common": {
@@ -57,6 +58,26 @@
 			"href": "/scientific-departments/equipment"
 		}
 	],
+	"Laboratories": [
+		{
+			"id": 1,
+			"fullName": "Laboratory of heat engineering and energy-saving technologies of blast furnace smelting",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/laboratories/heat-tech"
+		},
+		{
+			"id": 2,
+			"fullName": "Laboratory of Flat Rolling Production Problems",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/laboratories/flat-rolling"
+		},
+		{
+			"id": 3,
+			"fullName": "Laboratory of Structure Formation and Properties of Ferrous Metals Problems (LSV)",
+			"img": "/blackmetal/FIT.svg",
+			"href": "/laboratories/structure-properties"
+		}
+	],
 	"TechnicalDepartments": [
 		{
 			"id": 1,
@@ -69,12 +90,6 @@
 			"fullName": "Department of Standardization and Quality Management",
 			"img": "/blackmetal/FIT.svg",
 			"href": "/technical-departments/quality"
-		},
-		{
-			"id": 3,
-			"fullName": "Chief Metrologist Department",
-			"img": "/blackmetal/FIT.svg",
-			"href": "/technical-departments/metrologist"
 		}
 	]
 }

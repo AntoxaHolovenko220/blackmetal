@@ -26,6 +26,9 @@ const DirectoratePage = () => {
 							position={item.position}
 							name={item.name}
 							description={item.description}
+							biography={item.biography}
+							researchDirection={item.researchDirection}
+							teachingSubjects={item.teachingSubjects}
 							contacts={item.contacts}
 						/>
 					))}

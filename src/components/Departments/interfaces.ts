@@ -9,8 +9,10 @@ export interface Department {
 export interface DepartmentsData {
 	titles: {
 		scientific: string
+		laboratories: string
 		technical: string
 	}
 	ScientificDepartments: Department[]
+	Laboratories: Department[]
 	TechnicalDepartments: Department[]
 }

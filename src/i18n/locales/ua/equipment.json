@@ -4,13 +4,7 @@
 		"id": "equipment-head",
 		"position": "Керівник відділу",
 		"name": "Семенов Юрій Станіславович",
-		"description": "кандидат технічних наук",
-		"contacts": [
-			{
-				"type": "Email",
-				"value": "metall729321@gmail.com"
-			}
-		]
+		"description": "Кандидат технічних наук"
 	},
 	"activities": {
 		"items": [
@@ -26,137 +20,116 @@
 	},
 	"staffCards": [
 		{
-			"id": "equipment-deputy",
-			"photo": "/tohobitska.jpg",
-			"position": "Провідний науковий співробітник",
-			"name": "Тогобицька Дар'я Миколаївна",
-			"description": "Професор, доктор технічних наук",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "dntog@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-1",
+			"id": "1",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Баюл Костянтин  Васильович",
+			"description": "Доктор технічних наук, старший дослідник",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "baiulkonstantin@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-2",
+			"id": "2",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Вереньов Валентин Володимирович",
+			"description": "Доктор технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "verenev0704@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-3",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-4",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-5",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "petrov@ukr.net"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-6",
-			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "alla2904b8@gmail.com"
-				}
-			]
-		},
-		{
-			"id": "equipment-researcher-7",
+			"id": "3",
 			"position": "Завідуючий відділом",
-			"name": "Сепаненко Дмитро Олександрович",
+			"name": "Семенов Юрій Станіславович ",
+			"description": "Кандидат технічних наук, старший науковий співробітник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "yuriy.semenov.isi@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"position": "Старший науковий співробітник",
+			"name": "Ващенко Сергій Володимирович",
+			"description": "Кандидат технічних наук, старший дослідник",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "sergeyvaschenko.sv@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Науковий співробітник",
+			"name": "Солодка Наталія Олександрівна",
 			"description": "Кандидат технічних наук",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
+					"value": "office.isi@nas.gov.ua"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-8",
+			"id": "6",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Худяков Олександр Юрійович",
+			"description": "Кандидат технічних наук, старший дослідник",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "khudyakovsashko@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-9",
+			"id": "7",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Шумельчик Євген Ігорович",
+			"description": "Кандидат технічних наук, старший дослідник",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "ievgen.shumelchyk@gmail.com"
 				}
 			]
 		},
 		{
-			"id": "equipment-researcher-10",
+			"id": "8",
 			"position": "Старший науковий співробітник",
-			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник",
+			"name": "Фролова Лілія Анатоліївна",
+			"description": "Професор, доктор технічних наук"
+		},
+		{
+			"id": "9",
+			"photo": "/employees/horupakha.jpg",
+			"position": "Науковий співробітник",
+			"name": "Горупаха Віктор Володимирович",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "petrov@ukr.net"
+					"value": "gorupaha.viktor@gmail.com"
 				}
 			]
+		},
+		{
+			"id": "10",
+			"position": "технік 1 категорії",
+			"name": "Берелет Тамара Сергіївна"
+		},
+		{
+			"id": "11",
+			"position": "інженер 2 категорії",
+			"name": "Прокудина Ельвіра Борисівна"
 		}
 	]
 } 

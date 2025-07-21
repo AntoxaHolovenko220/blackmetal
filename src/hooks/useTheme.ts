@@ -6,9 +6,9 @@ export const useTheme = () => {
 	useEffect(() => {
 		const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null
 		if (savedTheme) {
-			setTheme(savedTheme) // Если тема сохранена в localStorage - используем её
+			setTheme(savedTheme)
 		} else {
-			setTheme('light') // Иначе всегда устанавливаем светлую тему
+			setTheme('light')
 		}
 	}, [])
 

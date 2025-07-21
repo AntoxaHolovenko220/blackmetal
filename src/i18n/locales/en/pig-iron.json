@@ -2,17 +2,14 @@
 	"title": "Department of Pig Iron Metallurgy",
 	"firstPersonCard": {
 		"id": "pig-iron-head",
+		"photo": "/employees/nesterov.jpg",
 		"position": "Head of Department",
-		"name": "Sidorov Sergey Sergeevich",
-		"description": "Doctor of Technical Sciences, Professor. Leading specialist in blast furnace production and pig iron metallurgy. Author of more than 200 scientific papers.",
+		"name": "Nesterov Oleksandr Stanislavovych",
+		"description": "Candidate of Technical Sciences.",
 		"contacts": [
 			{
-				"type": "Phone",
-				"value": "+380 (56) 745-32-15"
-			},
-			{
 				"type": "Email",
-				"value": "pig-iron@ukr.net"
+				"value": "asn.dnepr@gmail.com"
 			}
 		]
 	},
@@ -50,20 +47,159 @@
 			"Determination of softening, melting and dripping zones"
 		]
 	},
-	"secondPersonCard": {
-		"id": "pig-iron-deputy",
-		"position": "Deputy Head of Department",
-		"name": "Kovalenko Aleksey Alekseevich",
-		"description": "Candidate of Technical Sciences, Leading Research Fellow. Specializes in raw material preparation for blast furnace production.",
-		"contacts": [
-			{
-				"type": "Phone",
-				"value": "+380 (56) 745-32-16"
-			},
-			{
-				"type": "Email",
-				"value": "pig-iron-deputy@ukr.net"
-			}
-		]
-	}
+	"staffCards": [
+		{
+			"id": "1",
+			"photo": "/employees/nesterov.jpg",
+			"position": "Head of Department",
+			"name": "Nesterov Oleksandr Stanislavovych",
+			"description": "Candidate of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "asn.dnepr@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"photo": "/employees/harmash.jpg",
+			"position": "Senior Research Fellow",
+			"name": "Harmash Larysa Ivanivna",
+			"description": "Candidate of Technical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "larysagar@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"position": "Leading Research Fellow",
+			"name": "Muraviova Iryna Hennadiivna",
+			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "irinamuravyova@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"position": "Senior Research Fellow",
+			"name": "Ivancha Mykola Hryhorovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"position": "Junior Research Fellow",
+			"name": "Biloshapka Olena Oleksiivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "bel_lena81@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"position": "Research Fellow",
+			"name": "Vyshniakov Valerii Ivanovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "petrov@ukr.net"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"name": "Yermolina Kateryna Petrivna"
+		},
+		{
+			"id": "8",
+			"position": "Research Fellow",
+			"name": "Vyshynska Olena Dmytrivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "lesiklena50@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"position": "Research Fellow",
+			"name": "Lopatenko Kostiantyn Petrovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "LopKonst@gmail.com"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"position": "Junior Research Fellow",
+			"name": "Pivnenko Andrii Volodymyrovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "11",
+			"position": "Junior Research Fellow",
+			"name": "Boldenko Mykhailo Hryhorovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "12",
+			"position": "Junior Research Fellow",
+			"name": "Lytar Eduard Ihorovych",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "13",
+			"position": "Junior Research Fellow",
+			"name": "Nehoda Valentyn Ivanovych",
+			"description": "Candidate of Chemical Sciences",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "office.isi@nas.gov.ua"
+				}
+			]
+		},
+		{
+			"id": "14",
+			"position": "Leading Engineer",
+			"name": "Zahovorska Nataliia Mykhailivna",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "zahorovska.nataliia@gmail.co"
+				}
+			]
+		}
+	]
 } 
