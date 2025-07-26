@@ -1,15 +1,39 @@
 {
 	"title": "Department of Pig Iron Metallurgy",
+	"labels": {
+		"contacts": "Contacts:",
+		"researchDirection": "Research Direction:",
+		"biography": "Biography:",
+		"specialization": "Scientific Specialty:"
+	},
 	"firstPersonCard": {
-		"id": "pig-iron-head",
+		"id": "nesterov",
 		"photo": "/employees/nesterov.jpg",
 		"position": "Head of Department",
 		"name": "Nesterov Oleksandr Stanislavovych",
-		"description": "Candidate of Technical Sciences.",
+		"description": "Candidate of Technical Sciences",
+		"researchDirection": "Development of methods for control and management of metallurgical properties of charge materials based on their experimental research and modeling with subsequent use for the formation of rational technology for raw material pelletizing and pig iron smelting, including with a high proportion of secondary resources. Development and technological support of techniques and measures aimed at extending the campaign of blast furnaces, which ensure the formation of stable hearth in the lower zone of the shaft, shoulders and hearth of blast furnaces, as well as washing the blast furnace hearth from fine coke fractions.",
+		"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 		"contacts": [
 			{
 				"type": "Email",
 				"value": "asn.dnepr@gmail.com"
+			},
+			{
+				"type": "ORCID ID",
+				"value": "https://orcid.org/0000-0002-0183-0327"
+			},
+			{
+				"type": "Google Scholar",
+				"value": "https://scholar.google.com.ua/citations?user=zaBZXuIAAAAJ"
+			},
+			{
+				"type": "UA Patents ID",
+				"value": "https://uapatents.com/patents/nesterov-oleksandr-stanislavovich"
+			},
+			{
+				"type": "Scopus Author ID",
+				"value": "https://www.scopus.com/authid/detail.uri?authorId=7101991279"
 			}
 		]
 	},
@@ -49,106 +73,224 @@
 	},
 	"staffCards": [
 		{
-			"id": "1",
+			"id": "nesterov",
 			"photo": "/employees/nesterov.jpg",
 			"position": "Head of Department",
 			"name": "Nesterov Oleksandr Stanislavovych",
-			"description": "Candidate of Technical Sciences, Senior Research Fellow",
+			"description": "Candidate of Technical Sciences",
+			"researchDirection": "Development of methods for control and management of metallurgical properties of charge materials based on their experimental research and modeling with subsequent use for the formation of rational technology for raw material pelletizing and pig iron smelting, including with a high proportion of secondary resources. Development and technological support of techniques and measures aimed at extending the campaign of blast furnaces, which ensure the formation of stable hearth in the lower zone of the shaft, shoulders and hearth of blast furnaces, as well as washing the blast furnace hearth from fine coke fractions.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "asn.dnepr@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-0183-0327"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=zaBZXuIAAAAJ"
+				},
+				{
+					"type": "UA Patents ID",
+					"value": "https://uapatents.com/patents/nesterov-oleksandr-stanislavovich"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=7101991279"
 				}
 			]
 		},
 		{
-			"id": "2",
+			"id": "harmash",
 			"photo": "/employees/harmash.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Harmash Larysa Ivanivna",
 			"description": "Candidate of Technical Sciences",
+			"researchDirection": "Research of metallurgical properties of iron ore raw materials and fuel used in agglomeration-blast furnace production, with the aim of improving their quality and the possibility of using new types of raw materials (including secondary resources) in ferrous metallurgy.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "larysagar@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-6873-6685"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=-lIS5x0AAAAJ"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602438520"
 				}
 			]
 		},
 		{
-			"id": "3",
+			"id": "muraviova",
 			"position": "Leading Research Fellow",
 			"name": "Muraviova Iryna Hennadiivna",
 			"description": "Doctor of Technical Sciences, Senior Research Fellow",
+			"researchDirection": "Development: of comprehensive techniques and methods for blast furnace management, including using new control means; mathematical models of charge material loading processes and their distribution in the blast furnace; intelligent decision support systems for blast furnace smelting management; technology for loading blast furnaces with multicomponent charge materials.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "irinamuravyova@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0001-5926-7787"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=AMMEhCsAAAAJ&hl=uk"
+				},
+				{
+					"type": "UA Patents ID",
+					"value": "https://uapatents.com/patents/muravjjova-irina-gennadivna"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6603854838"
 				}
 			]
 		},
 		{
-			"id": "4",
+			"id": "ivancha",
 			"position": "Senior Research Fellow",
 			"name": "Ivancha Mykola Hryhorovych",
+			"researchDirection": "Development of technology for loading blast furnaces with multicomponent portions of charge materials. Improvement of blast furnace smelting technology under conditions of variable quality of charge materials and when using various fuel additives. Development of rational loading regimes for blast furnaces",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-5366-9328"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?hl=ru&user=qu9g_J0AAAAJ"
+				},
+				{
+					"type": "UA Patents ID",
+					"value": "https://uapatents.com/patents/ivancha-mikola-grigorovich"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6506980615"
 				}
 			]
 		},
 		{
-			"id": "5",
+			"id": "biloshapka",
 			"position": "Junior Research Fellow",
 			"name": "Biloshapka Olena Oleksiivna",
+			"researchDirection": "Development: of comprehensive techniques and methods for blast furnace management, including using new control means; mathematical models of charge material loading processes and their distribution in the blast furnace; intelligent decision support systems for blast furnace smelting management; technology for loading blast furnaces with multicomponent charge materials.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "bel_lena81@ukr.net"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0003-3103-0512"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?hl=ru&user=q02lVDkAAAAJ"
+				},
+				{
+					"type": "UA Patents ID",
+					"value": "https://uapatents.com/patents/biloshapka-olena-oleksivna"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=8297517300"
 				}
 			]
 		},
 		{
-			"id": "6",
+			"id": "vyshniakov",
 			"position": "Research Fellow",
 			"name": "Vyshniakov Valerii Ivanovych",
+			"researchDirection": "Development: of comprehensive techniques and methods for blast furnace management, including using new control means; mathematical models of charge material loading processes and their distribution in the blast furnace; intelligent decision support systems for blast furnace smelting management; technology for loading blast furnaces with multicomponent charge materials.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "petrov@ukr.net"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-5538-6962"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?hl=ru&user=7hzQbX0AAAAJ"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57200949795"
 				}
 			]
 		},
 		{
-			"id": "7",
+			"id": "yermolina",
 			"name": "Yermolina Kateryna Petrivna"
 		},
 		{
-			"id": "8",
+			"id": "vyshynska",
 			"position": "Research Fellow",
 			"name": "Vyshynska Olena Dmytrivna",
+			"researchDirection": "Development of new methods for diagnostics and management of gas-dynamic regime of blast furnace smelting, aimed at optimizing technical and economic indicators of the process. Creation of algorithms and programs for selecting optimal composition of multicomponent charge based on patterns of physical-chemical transformations taking into account distribution of components in the blast furnace based on material-heat balance models.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "lesiklena50@gmail.com"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6507225711"
 				}
 			]
 		},
 		{
-			"id": "9",
+			"id": "lopatenko",
 			"position": "Research Fellow",
 			"name": "Lopatenko Kostiantyn Petrovych",
+			"researchDirection": "Organization and conduct of research on studying properties of iron ore materials, sintering of various types of agglomeration raw materials under laboratory conditions.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "LopKonst@gmail.com"
-				}
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0009-0005-3061-4964"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6508134704"
+				}		
 			]
 		},
 		{
-			"id": "10",
+			"id": "pivnenko",
 			"position": "Junior Research Fellow",
 			"name": "Pivnenko Andrii Volodymyrovych",
+			"researchDirection": "Experimental research under laboratory conditions (sintering of agglomerates of different composition, research of high-temperature properties of raw materials, etc.).",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
@@ -157,47 +299,79 @@
 			]
 		},
 		{
-			"id": "11",
+			"id": "boldenko",
 			"position": "Junior Research Fellow",
 			"name": "Boldenko Mykhailo Hryhorovych",
+			"researchDirection": "Experimental research under laboratory conditions (sintering of agglomerates of different composition, research of high-temperature properties of raw materials). Organization of laboratory equipment operation.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0009-0007-9375-2074"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6506976923"
 				}
 			]
 		},
 		{
-			"id": "12",
+			"id": "lytar",
 			"position": "Junior Research Fellow",
 			"name": "Lytar Eduard Ihorovych",
+			"researchDirection": "Research of carbon lining destruction processes in blast furnaces with development of technological recommendations based on assessment of carbon saturation state in pig iron. Search for optimal operating regimes of blast furnaces and carbon lining with the aim of preventing its active destruction. Study of composition and properties of various types of secondary resources in agglomeration and blast furnace charge. Improvement of solutions for diagnostics and management of blast furnace smelting under modern fuel-raw material conditions.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=l1f7S9gAAAAJ"
 				}
 			]
 		},
 		{
-			"id": "13",
+			"id": "nehoda",
 			"position": "Junior Research Fellow",
 			"name": "Nehoda Valentyn Ivanovych",
 			"description": "Candidate of Chemical Sciences",
+			"researchDirection": "Setup and repair of production base for conducting research on studying properties of iron ore materials and sintering of various types of agglomeration raw materials under laboratory conditions.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602308860"
 				}
 			]
 		},
 		{
-			"id": "14",
+			"id": "zahovorska",
 			"position": "Leading Engineer",
 			"name": "Zahovorska Nataliia Mykhailivna",
+			"researchDirection": "Search for regimes aimed at optimizing technical and economic indicators of blast furnace production under modern fuel-raw material conditions. Improvement of blast furnace smelting technology under conditions of variable quality of charge materials and when using various fuel additives.",
+			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "zahorovska.nataliia@gmail.co"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0009-0002-0712-1123"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?hl=uk&user=iLlujL4AAAAJ"
 				}
 			]
 		}

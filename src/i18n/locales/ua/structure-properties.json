@@ -1,3 +1,52 @@
 {
-    "title": "Лабораторія проблем структуроутворення і властивостей чорних металів"
+    "title": "Лабораторія проблем структуроутворення і властивостей чорних металів",
+    "labels": {
+        "contacts": "Контакти",
+        "researchDirection": "Наукові інтереси",
+        "teachingSubjects": "Викладацька діяльність",
+        "biography": "Біографія"
+    },
+    "staffCards": [
+        { 
+            "id": "levchenko-gennadij-vasilovich",
+            "name": "Левченко Геннадій Васильович", 
+            "position": "Завідуючий лабораторією",
+            "email": "gvlevchenko2018@gmail.com",
+            "description": "Структурна спадковість в сталях і сплавах та її вплив на формування властивостей прокату. Розробка комплексних режимів термічного оброблення сталей та сплавів з підвищеною зносо- та термостійкістю.",
+            "degree": "доктор технічних наук",
+            "title": "професор",
+            "contacts": {
+                "email": "gvlevchenko2018@gmail.com",
+                "orcid": "https://orcid.org/0000-0003-1173-5320",
+                "googleScholar": "https://scholar.google.com.ua/citations?user=lGv7cNsAAAAJ&hl=uk",
+                "scopus": "https://www.scopus.com/authid/detail.uri?authorId=7004337743",
+                "patents": "https://uapatents.com/patents/levchenko-gennadijj-vasilovich"
+            }
+        },
+        { 
+            "id": "bobyr-sergij-volodimirovich",
+            "name": "Бобирь Сергій Володимирович", 
+            "position": "Провідний науковий співробітник" 
+        },
+        { 
+            "id": "borisenko-andrij-jurijovich",
+            "name": "Борисенко Андрій Юрійович", 
+            "position": "Провідний науковий співробітник" 
+        },
+        { 
+            "id": "balahanova-tetjana-valerijivna",
+            "name": "Балаханова Тетяна Валеріївна", 
+            "position": "Провідний науковий співробітник" 
+        },
+        { 
+            "id": "baranivska-olena-jevgenivna",
+            "name": "Барановська Олена Євгенівна", 
+            "position": "Провідний науковий співробітник" 
+        },
+        { 
+            "id": "loshkarjov-dmitro-valerijovich",
+            "name": "Лошкарьов Дмитро Валерійович", 
+            "position": "Провідний науковий співробітник" 
+        }
+    ]
 }

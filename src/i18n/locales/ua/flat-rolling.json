@@ -1,3 +1,15 @@
 {
-    "title": "Лабораторія проблем виробництва плоского прокату"
+    "title": "Лабораторія проблем виробництва плоского прокату",
+    "labels": {
+        "contacts": "Контакти",
+        "researchDirection": "Наукові інтереси",
+        "teachingSubjects": "Викладацька діяльність",
+        "biography": "Біографія"
+    },
+    "staffCards": [
+        { "id": "pryhodjko-igor-jurijovich", "name": "ПРИХОДЬКО Ігор Юрійович", "position": "" },
+        { "id": "vorobej-sergij-oleksandrovich", "name": "ВОРОБЕЙ Сергій Олександрович", "position": "" },
+        { "id": "raznosilin-valentin-vjacheslavovich", "name": "РАЗНОСІЛІН Валентин В'ячеславович", "position": "" },
+        { "id": "klemeshov-jevgen-sergijovich", "name": "КЛЕМЕШОВ Євген Сергійович", "position": "" }
+    ]
 }

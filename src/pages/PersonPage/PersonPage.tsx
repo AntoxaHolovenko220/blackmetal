@@ -6,16 +6,82 @@ import { PersonSidebar, PersonContent } from './components'
 
 const PersonPage = () => {
 	const { id } = useParams<{ id: string }>()
-	const { data } = useTranslationData<PersonCardData>('directorate')
-
-	if (!data) {
-		return null
+	
+	// Call all hooks at the top level
+	const { data: directorateData } = useTranslationData<PersonCardData>('directorate')
+	const { data: heatTechData } = useTranslationData<PersonCardData>('heat-tech')
+	const { data: flatRollingData } = useTranslationData<PersonCardData>('flat-rolling')
+	const { data: structurePropertiesData } = useTranslationData<PersonCardData>('structure-properties')
+	const { data: physTechData } = useTranslationData<PersonCardData>('phys-tech')
+	const { data: htMachineryData } = useTranslationData<PersonCardData>('ht-machinery')
+	const { data: equipmentData } = useTranslationData<PersonCardData>('equipment')
+	const { data: dtoSteelData } = useTranslationData<PersonCardData>('dto-steel')
+	const { data: pressureData } = useTranslationData<PersonCardData>('pressure')
+	const { data: ironRefiningData } = useTranslationData<PersonCardData>('iron-refining')
+	const { data: pigIronData } = useTranslationData<PersonCardData>('pig-iron')
+	const { data: physChemData } = useTranslationData<PersonCardData>('phys-chem')
+	const { data: organizationData } = useTranslationData<PersonCardData>('organization')
+	const { data: qualityData } = useTranslationData<PersonCardData>('quality')
+	
+	// Ищем сотрудника во всех источниках данных
+	let person = null
+	let labels = null
+	
+	const dataSources = [
+		directorateData,
+		heatTechData,
+		flatRollingData,
+		structurePropertiesData,
+		physTechData,
+		htMachineryData,
+		equipmentData,
+		dtoSteelData,
+		pressureData,
+		ironRefiningData,
+		pigIronData,
+		physChemData,
+		organizationData,
+		qualityData
+	]
+	
+	for (const data of dataSources) {
+		if (data) {
+			console.log('Checking data source:', data.title)
+			
+			// Check for both 'data' and 'staffCards' properties
+			const personArray = data.data || data.staffCards
+			if (personArray && Array.isArray(personArray)) {
+				console.log('Checking array with', personArray.length, 'items')
+				const foundPerson = personArray.find(item => item.id === id)
+			if (foundPerson) {
+					console.log('Found person in array:', foundPerson.name)
+				person = foundPerson
+					labels = data.labels
+					break
+				}
+			}
+			
+			// Also check for firstPersonCard
+			if (data.firstPersonCard && data.firstPersonCard.id === id) {
+				console.log('Found person in firstPersonCard:', data.firstPersonCard.name)
+				person = data.firstPersonCard
+				labels = data.labels
+				break
+			}
+		}
 	}
 
-	const person = data.data.find(item => item.id === id)
-
 	if (!person) {
-		return null
+		return (
+			<Box sx={{ 
+				pl: { xxs: '0px', sm: '50px' },
+				pt: 4,
+				fontSize: '18px',
+				color: '#666'
+			}}>
+				Співробітника не знайдено
+			</Box>
+		)
 	}
 
 	return (
@@ -50,7 +116,7 @@ const PersonPage = () => {
 					<PersonSidebar 
 						photo={person.photo}
 						contacts={person.contacts}
-						contactsLabel={data.labels.contacts}
+						contactsLabel={labels?.contacts || 'Контакти'}
 					/>
 
 					<PersonContent 
@@ -60,7 +126,13 @@ const PersonPage = () => {
 						researchDirection={person.researchDirection}
 						teachingSubjects={person.teachingSubjects}
 						biography={person.biography}
-						labels={data.labels}
+						specialization={person.specialization}
+						labels={labels || {
+							researchDirection: 'Наукові інтереси',
+							teachingSubjects: 'Викладацька діяльність',
+							biography: 'Біографія',
+							specialization: 'Наукова спеціальність'
+						}}
 					/>
 				</Box>
 			</Box>
