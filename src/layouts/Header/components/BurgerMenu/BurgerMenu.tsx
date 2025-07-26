@@ -25,7 +25,7 @@ export const BurgerMenu = ({ navItems }: BurgerMenuProps) => {
 	const toggleDrawer = (newOpen: boolean) => () => {
 		setOpen(newOpen)
 		if (!newOpen) {
-			setExpandedItems({}) // Сбрасываем состояние при закрытии
+			setExpandedItems({})
 		}
 	}
 
@@ -36,11 +36,11 @@ export const BurgerMenu = ({ navItems }: BurgerMenuProps) => {
 		}))
 	}
 
-	// Новый обработчик для навигации
+
 	const handleNavigation = (path: string) => {
-		setExpandedItems({}) // Сбрасываем все открытые подменю
-		setOpen(false) // Закрываем меню
-		navigate(path) // Переходим по ссылке
+		setExpandedItems({})
+		setOpen(false)
+		navigate(path)
 	}
 
 	const renderMobileNavItems = (items: NavigationData['navItems'], level = 0) => {

@@ -7,7 +7,7 @@ import { PersonSidebar, PersonContent } from './components'
 const PersonPage = () => {
 	const { id } = useParams<{ id: string }>()
 	
-	// Call all hooks at the top level
+
 	const { data: directorateData } = useTranslationData<PersonCardData>('directorate')
 	const { data: heatTechData } = useTranslationData<PersonCardData>('heat-tech')
 	const { data: flatRollingData } = useTranslationData<PersonCardData>('flat-rolling')
@@ -23,7 +23,7 @@ const PersonPage = () => {
 	const { data: organizationData } = useTranslationData<PersonCardData>('organization')
 	const { data: qualityData } = useTranslationData<PersonCardData>('quality')
 	
-	// Ищем сотрудника во всех источниках данных
+
 	let person = null
 	let labels = null
 	
@@ -48,7 +48,7 @@ const PersonPage = () => {
 		if (data) {
 			console.log('Checking data source:', data.title)
 			
-			// Check for both 'data' and 'staffCards' properties
+
 			const personArray = data.data || data.staffCards
 			if (personArray && Array.isArray(personArray)) {
 				console.log('Checking array with', personArray.length, 'items')
@@ -61,7 +61,7 @@ const PersonPage = () => {
 				}
 			}
 			
-			// Also check for firstPersonCard
+
 			if (data.firstPersonCard && data.firstPersonCard.id === id) {
 				console.log('Found person in firstPersonCard:', data.firstPersonCard.name)
 				person = data.firstPersonCard
