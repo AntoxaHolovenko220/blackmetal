@@ -64,8 +64,9 @@ const TestingCenterContacts = ({
 					},
 				}}
 			>
-				{contacts.map(contact => (
+				{contacts.map((contact, index) => (
 					<Box
+						key={index}
 						sx={{
 							display: 'flex',
 							gap: '8px',

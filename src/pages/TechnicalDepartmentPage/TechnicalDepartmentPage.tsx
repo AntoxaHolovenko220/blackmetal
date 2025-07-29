@@ -24,7 +24,7 @@ const TechnicalDepartmentPage = () => {
 		return (
 			<Box
 				sx={{
-					pl: { xxs: '0px', md: '50px' },
+					pl: { md: '50px' },
 					pt: 4,
 					fontSize: '18px',
 					color: '#666',

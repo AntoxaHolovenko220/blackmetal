@@ -50,7 +50,7 @@ export const PageContent = ({ data }: PageContentProps) => {
 	]
 
 	return (
-		<Box sx={{ pb: '30px', pl: { xs: '20px', md: '50px' } }}>
+		<Box sx={{ pb: '30px', pl: { md: '50px' } }}>
 			<DocumentTitleSearch title={data.title} search={false} />
 
 			<Box>
