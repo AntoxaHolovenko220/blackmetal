@@ -1,11 +1,5 @@
 {
     "title": "Laboratory of heat technology and energy-saving technologies of blast furnace smelting",
-    "labels": {
-        "contacts": "Contacts:",
-        "researchDirection": "Research Direction:",
-        "biography": "Biography:",
-        "specialization": "Scientific Specialty:"
-    },
     "staffCards": [
         {
             "id": "chajka",

@@ -1,11 +1,5 @@
 {
 	"title": "Directorate",
-	"labels": {
-		"contacts": "Contacts:",
-		"researchDirection": "Research Direction:",
-		"biography": "Biography:",
-		"teachingSubjects": "Teaching Subjects:"
-	},
 	"data": [
 		{
 			"id": "babachenko",

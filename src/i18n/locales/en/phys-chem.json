@@ -1,11 +1,5 @@
 {
 	"title": "Department of Physical and Chemical Problems of Metallurgical Processes",
-	"labels": {
-		"contacts": "Contacts:",
-		"researchDirection": "Research Direction:",
-		"biography": "Biography:",
-		"specialization": "Scientific Specialty:"
-	},
 	"firstPersonCard": {
 		"id": "stepanenko",
 		"photo": "/employees/stepanenko.jpg",

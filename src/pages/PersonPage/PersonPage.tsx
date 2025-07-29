@@ -22,8 +22,14 @@ const PersonPage = () => {
 	const { data: physChemData } = useTranslationData<PersonCardData>('phys-chem')
 	const { data: organizationData } = useTranslationData<PersonCardData>('organization')
 	const { data: qualityData } = useTranslationData<PersonCardData>('quality')
+	const { data: labelsData } = useTranslationData<{
+		contacts: string
+		researchDirection: string
+		teachingSubjects: string
+		biography: string
+		specialization: string
+	}>('labels')
 	
-
 	let person = null
 	let labels = null
 	
@@ -116,7 +122,7 @@ const PersonPage = () => {
 					<PersonSidebar 
 						photo={person.photo}
 						contacts={person.contacts}
-						contactsLabel={labels?.contacts || 'Контакти'}
+						contactsLabel={labels?.contacts || labelsData?.contacts || 'Контакти'}
 					/>
 
 					<PersonContent 
@@ -127,12 +133,7 @@ const PersonPage = () => {
 						teachingSubjects={person.teachingSubjects}
 						biography={person.biography}
 						specialization={person.specialization}
-						labels={labels || {
-							researchDirection: 'Наукові інтереси',
-							teachingSubjects: 'Викладацька діяльність',
-							biography: 'Біографія',
-							specialization: 'Наукова спеціальність'
-						}}
+						labels={labels || labelsData}
 					/>
 				</Box>
 			</Box>

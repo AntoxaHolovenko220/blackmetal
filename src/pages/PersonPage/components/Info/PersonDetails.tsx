@@ -5,7 +5,7 @@ interface PersonDetailsProps {
 	teachingSubjects?: string
 	biography?: string
 	specialization?: string
-	labels: {
+	labels?: {
 		researchDirection: string
 		teachingSubjects: string
 		biography: string
@@ -22,7 +22,7 @@ export const PersonDetails = ({
 }: PersonDetailsProps) => {
 	return (
 		<>
-			{researchDirection && (
+			{researchDirection && labels && (
 				<>
 					<Typography
 						sx={{
@@ -49,7 +49,7 @@ export const PersonDetails = ({
 				</>
 			)}
 
-			{specialization && (
+			{specialization && labels && (
 				<>
 					<Typography
 						sx={{
@@ -76,7 +76,7 @@ export const PersonDetails = ({
 				</>
 			)}
 
-			{teachingSubjects && (
+			{teachingSubjects && labels && (
 				<>
 					<Typography
 						sx={{
@@ -103,7 +103,7 @@ export const PersonDetails = ({
 				</>
 			)}
 
-			{biography && (
+			{biography && labels && (
 				<>
 					<Typography
 						sx={{

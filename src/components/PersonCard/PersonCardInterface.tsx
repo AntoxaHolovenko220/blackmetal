@@ -19,6 +19,7 @@ export interface PersonCardInterface {
 	teachingSubjects?: string
 	specialization?: string
 	contacts?: ContactData | Array<{ type: string; value: string }>
+	labels?: PersonCardLabels
 }
 
 export interface PersonCardLabels {

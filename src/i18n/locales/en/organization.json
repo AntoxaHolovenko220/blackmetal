@@ -1,7 +1,7 @@
 {
 	"title": "Scientific and Organizational Department",
 	"firstPersonCard": {
-		"id": "organization-head",
+		"id": "tuboltsev-leonid-hryhorovych",
 		"position": "Head of Department",
 		"name": "Tuboltsev Leonid Hryhorovych",
 		"description": "Candidate of Technical Sciences, Senior Research Fellow",
@@ -25,7 +25,7 @@
 	},
 	"staffCards": [
 		{
-			"id": "1",
+			"id": "tuboltsev-leonid-hryhorovych",
 			"position": "Senior Research Fellow",
 			"name": "Tuboltsev Leonid Hryhorovych",
 			"description": "Candidate of Technical Sciences",
@@ -37,27 +37,27 @@
 			]
 		},
 		{
-			"id": "2",
+			"id": "perkov-oleh-mykolaiovych",
 			"name": "Perkov Oleh Mykolaiovych"
 		},
 		{
-			"id": "3",
+			"id": "hupalo-olena-viacheslavivna",
 			"name": "Hupalo Olena Viacheslavivna"
 		},
 		{
-			"id": "4",
+			"id": "kuzmychov-viacheslav-mykhailovych",
 			"name": "Kuzmychov Viacheslav Mykhailovych"
 		},
 		{
-			"id": "5",
+			"id": "riaskova-nadiia-spyrydonivna",
 			"name": "Riaskova Nadiia Spyrydonivna"
 		},
 		{
-			"id": "6",
+			"id": "horokhova-viktoria-oleksandrivna",
 			"name": "Horokhova Viktoria Oleksandrivna"
 		},
 		{
-			"id": "7",
+			"id": "kyselova-valentyna-viktorivna",
 			"name": "Kyselova Valentyna Viktorivna"
 		}
 	]

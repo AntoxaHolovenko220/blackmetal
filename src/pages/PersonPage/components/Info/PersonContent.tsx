@@ -10,7 +10,7 @@ interface PersonContentProps {
 	teachingSubjects?: string
 	biography?: string
 	specialization?: string
-	labels: {
+	labels?: {
 		researchDirection: string
 		teachingSubjects: string
 		biography: string

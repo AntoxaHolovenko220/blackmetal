@@ -1,11 +1,5 @@
 {
 	"title": "Відділ фізико-хімічних проблем металургійних процесів",
-	"labels": {
-		"contacts": "Контакти:",
-		"researchDirection": "Напрямок наукової діяльності:",
-		"biography": "Біографія:",
-		"specialization": "Наукова спеціальність:"
-	},
 	"firstPersonCard": {
 		"id": "stepanenko",
 		"photo": "/employees/stepanenko.jpg",

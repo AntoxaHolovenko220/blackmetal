@@ -15,6 +15,7 @@ const PersonCard = ({
   researchDirection,
   teachingSubjects,
   contacts = {},
+  labels,
 }: PersonCardInterface) => {
   const navigate = useNavigate()
 

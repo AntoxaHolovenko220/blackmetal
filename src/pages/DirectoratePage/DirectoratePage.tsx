@@ -9,6 +9,13 @@ import {
 
 const DirectoratePage = () => {
 	const { data } = useTranslationData<PersonCardData>('directorate')
+	const { data: labelsData } = useTranslationData<{
+		contacts: string
+		researchDirection: string
+		teachingSubjects: string
+		biography: string
+		specialization: string
+	}>('labels')
 
 	if (!data) {
 		return null
@@ -18,7 +25,7 @@ const DirectoratePage = () => {
 			<DocumentTitleSearch title={`${data.title}`} search={false} />
 			<Box sx={{ maxWidth: '1817px', m: '0px auto' }}>
 				<Box sx={PersonCardAdaptation}>
-					{data.data.map((item, index) => (
+					{data.data?.map((item, index) => (
 						<PersonCard
 							key={index}
 							id={item.id}
@@ -30,6 +37,7 @@ const DirectoratePage = () => {
 							researchDirection={item.researchDirection}
 							teachingSubjects={item.teachingSubjects}
 							contacts={item.contacts}
+							labels={data.labels || labelsData}
 						/>
 					))}
 				</Box>
