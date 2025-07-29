@@ -9,10 +9,12 @@ interface PersonContentProps {
 	researchDirection?: string
 	teachingSubjects?: string
 	biography?: string
-	labels: {
+	specialization?: string
+	labels?: {
 		researchDirection: string
 		teachingSubjects: string
 		biography: string
+		specialization?: string
 	}
 }
 
@@ -23,6 +25,7 @@ export const PersonContent = ({
 	researchDirection, 
 	teachingSubjects, 
 	biography, 
+	specialization,
 	labels 
 }: PersonContentProps) => {
 	return (
@@ -41,6 +44,7 @@ export const PersonContent = ({
 				researchDirection={researchDirection}
 				teachingSubjects={teachingSubjects}
 				biography={biography}
+				specialization={specialization}
 				labels={labels}
 			/>
 		</Box>

@@ -1,11 +1,5 @@
 {
 	"title": "Дирекція",
-	"labels": {
-		"contacts": "Контакти:",
-		"researchDirection": "Напрямок наукової діяльності:",
-		"biography": "Біографія:",
-		"teachingSubjects": "Викладає дисципліни:"
-	},
 	"data": [
 		{
 			"id": "babachenko",

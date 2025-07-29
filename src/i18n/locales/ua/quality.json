@@ -1,7 +1,7 @@
 {
 	"title": "Відділ стандартизації та управління якістю продукції",
 	"firstPersonCard": {
-		"id": "quality-head",
+		"id": "rybalka-yevheniia-mykhailivna",
 		"position": "Керівник відділу",
 		"name": "Рибалка Євгенія Михайлівна",
 		"contacts": [
@@ -26,11 +26,11 @@
 	},
 	"staffCards": [
 		{
-			"id": "1",
+			"id": "surovtseva-tetiana-yevheniivna",
 			"name": "Суровцева Тетяна Євгеніївна"
 		},
 		{
-			"id": "2",
+			"id": "budilova-yelyzaveta-borysivna",
 			"name": "Буділова Єлізавета Борисівна"
 		}
 	]

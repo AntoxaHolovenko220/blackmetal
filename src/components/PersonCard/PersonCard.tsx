@@ -15,10 +15,16 @@ const PersonCard = ({
 	researchDirection,
 	teachingSubjects,
 	contacts = {},
+	labels,
 }: PersonCardInterface) => {
 	const navigate = useNavigate()
 
-	const hasDetailedInfo = !!(biography || researchDirection || teachingSubjects)
+	const hasDetailedInfo = !!(
+		biography ||
+		researchDirection ||
+		teachingSubjects ||
+		description
+	)
 
 	const handleDetailsClick = (e: React.MouseEvent) => {
 		e.stopPropagation()
@@ -47,6 +53,18 @@ const PersonCard = ({
 					item.value.trim() !== ''
 			)
 	}
+
+	const displayContacts = contactItems.filter(contact => {
+		const type = contact.type.toLowerCase()
+		return (
+			type.includes('email') ||
+			type.includes('телефон') ||
+			type.includes('phone') ||
+			type.includes('мобільний')
+		)
+	})
+
+	const contactsToShow = displayContacts.slice(0, 2)
 
 	return (
 		<Box
@@ -140,22 +158,9 @@ const PersonCard = ({
 						{name}
 					</Typography>
 
-					{description && (
-						<Typography
-							sx={{
-								...CommonTextStyles.caption,
-								mt: '10px',
-								flex: 1,
-								mb: '15px',
-							}}
-						>
-							{description}
-						</Typography>
-					)}
-
-					{contactItems.length > 0 && (
+					{contactsToShow.length > 0 && (
 						<Box sx={{ mt: '10px' }}>
-							{contactItems.slice(0, 2).map((contact, index) => (
+							{contactsToShow.map((contact, index) => (
 								<Box
 									key={index}
 									sx={{
@@ -185,7 +190,6 @@ const PersonCard = ({
 				</Box>
 			</Box>
 
-			{/* Показываем кнопку только если есть детальная информация */}
 			{hasDetailedInfo && (
 				<Button
 					variant='contained'

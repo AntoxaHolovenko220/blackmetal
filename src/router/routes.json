@@ -37,19 +37,19 @@
 	},
 	"HeatTechLabPage": {
 		"path": "/scientific-departments/lab-heat-tech",
-		"component": "HeatTechLabPage",
+		"component": "LaboratoryPage",
 		"title": "Лабораторія теплотехніки",
 		"layout": "MainLayout"
 	},
 	"FlatRollingLabPage": {
 		"path": "/scientific-departments/lab-flat-rolling",
-		"component": "FlatRollingLabPage",
+		"component": "LaboratoryPage",
 		"title": "Лабораторія плоского прокату",
 		"layout": "MainLayout"
 	},
 	"StructurePropertiesLabPage": {
 		"path": "/scientific-departments/lab-structure-properties",
-		"component": "StructurePropertiesLabPage",
+		"component": "LaboratoryPage",
 		"title": "Лабораторія структуроутворення",
 		"layout": "MainLayout"
 	},

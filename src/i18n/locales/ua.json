@@ -26,7 +26,8 @@
 		"googleScholar": "Google Scholar",
 		"orcid": "ORCID iD",
 		"scopus": "Scopus Author ID",
-		"researcherId": "ResearcherID"
+		"researcherId": "ResearcherID",
+		"uaPatents": "UA Patents ID"
 	},
 	"departments": {
 		"common": {

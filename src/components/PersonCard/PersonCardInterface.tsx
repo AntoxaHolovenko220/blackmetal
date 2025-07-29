@@ -11,13 +11,15 @@ interface ContactData {
 export interface PersonCardInterface {
 	id?: string
 	photo?: string
-	position: string
+	position?: string
 	name: string
 	description?: string
 	biography?: string
 	researchDirection?: string
 	teachingSubjects?: string
+	specialization?: string
 	contacts?: ContactData | Array<{ type: string; value: string }>
+	labels?: PersonCardLabels
 }
 
 export interface PersonCardLabels {
@@ -25,10 +27,13 @@ export interface PersonCardLabels {
 	researchDirection: string
 	biography: string
 	teachingSubjects: string
+	specialization?: string
 }
 
 export interface PersonCardData {
 	title: string
-	labels: PersonCardLabels
-	data: PersonCardInterface[]
+	labels?: PersonCardLabels
+	data?: PersonCardInterface[]
+	staffCards?: PersonCardInterface[]
+	firstPersonCard?: PersonCardInterface
 }

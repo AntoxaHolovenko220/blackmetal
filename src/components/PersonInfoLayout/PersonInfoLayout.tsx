@@ -59,7 +59,9 @@ const PersonInfoLayout = ({
 			/>
 
 			<Box sx={{ pt: { xxs: '30px', xs: '20px', sm: '10px' }, mb: 3 }}>
+				{firstPersonCard && firstPersonCard.name && (
 				<PersonCard {...firstPersonCard} />
+				)}
 			</Box>
 
 			<ActivitiesSection 

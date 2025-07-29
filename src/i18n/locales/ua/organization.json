@@ -1,7 +1,7 @@
 {
 	"title": "Науково-організаційний відділ",
 	"firstPersonCard": {
-		"id": "organization-head",
+		"id": "tuboltsev-leonid-hryhorovych",
 		"position": "Керівник відділу",
 		"name": "Тубольцев Леонід Григорович",
 		"description": "Кандидат технічних наук, старший науковий співробітник",
@@ -25,7 +25,7 @@
 	},
 	"staffCards": [
 		{
-			"id": "1",
+			"id": "tuboltsev-leonid-hryhorovych",
 			"position": "Старший науковий співробітник",
 			"name": "ТУБОЛЬЦЕВ Леонід Григорович",
 			"description": "Кандидат технічних наук",
@@ -37,27 +37,27 @@
 			]
 		},
 		{
-			"id": "2",
+			"id": "perkov-oleh-mykolaiovych",
 			"name": "Перков Олег Миколайович"
 		},
 		{
-			"id": "3",
+			"id": "hupalo-olena-viacheslavivna",
 			"name": "Гупало Олена Вячеславівна"
 		},
 		{
-			"id": "4",
+			"id": "kuzmychov-viacheslav-mykhailovych",
 			"name": "Кузьмичов В’ячеслав Михайлович"
 		},
 		{
-			"id": "5",
+			"id": "riaskova-nadiia-spyrydonivna",
 			"name": "Ряскова Надія Спирідонівна"
 		},
 		{
-			"id": "6",
+			"id": "horokhova-viktoria-oleksandrivna",
 			"name": "Горохова Вікторія Олександрівна"
 		},
 		{
-			"id": "7",
+			"id": "kyselova-valentyna-viktorivna",
 			"name": "Кисельова Валентина Вікторівна"
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	"title": "Department of Standardization and Product Quality Management",
 	"firstPersonCard": {
-		"id": "quality-head",
+		"id": "rybalka-yevheniia-mykhailivna",
 		"position": "Head of Department",
 		"name": "Rybalka Yevheniia Mykhailivna",
 		"contacts": [
@@ -26,11 +26,11 @@
 	},
 	"staffCards": [
 		{
-			"id": "1",
+			"id": "surovtseva-tetiana-yevheniivna",
 			"name": "Surovtseva Tetiana Yevheniivna"
 		},
 		{
-			"id": "2",
+			"id": "budilova-yelyzaveta-borysivna",
 			"name": "Budilova Yelyzaveta Borysivna"
 		}
 	]

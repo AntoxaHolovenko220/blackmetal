@@ -20,6 +20,8 @@ export const getContactDisplayValue = (contactType: string, t: (key: string) => 
 		return t('contacts.scopus')
 	} else if (type === 'researcherid') {
 		return t('contacts.researcherId')
+	} else if (type === 'ua patents id') {
+		return t('contacts.uaPatents')
 	} else {
 		return null
 	}
