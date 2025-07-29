@@ -275,6 +275,12 @@
 		"title": "Новини",
 		"layout": "MainLayout"
 	},
+	"KimstachPage": {
+		"path": "/training/specialized/kimstach",
+		"component": "KimstachPage",
+		"title": "Захист Кімстач",
+		"layout": "MainLayout"
+	},
 	"NotFoundPage": {
 		"path": "*",
 		"component": "NotFoundPage",

@@ -1,8 +1,6 @@
 import { Box, Button } from '@mui/material'
 import { DocumentTitleSearch } from '@/components'
 import { BlockRenderer } from './BlockRenderer'
-import { useNavigate } from 'react-router-dom'
-import routes from '@/router/routes.json'
 
 interface BlockData {
 	title?: string
@@ -29,7 +27,6 @@ interface PageContentProps {
 }
 
 export const PageContent = ({ data }: PageContentProps) => {
-	const navigate = useNavigate()
 	return (
 		<Box sx={{ pl: { xxs: '0px', sm: '50px' }, pb: '30px' }}>
 			<DocumentTitleSearch title={data.title} search={false} />
@@ -39,21 +36,6 @@ export const PageContent = ({ data }: PageContentProps) => {
 						<BlockRenderer block={block} />
 					</Box>
 				))}
-				<Box sx={{ display: 'flex' }}>
-					<Button
-						onClick={() => navigate(routes.KimstachPage.path)}
-						variant='contained'
-						sx={{
-							width: '200px',
-							height: '42px',
-							m: '0px auto',
-							borderRadius: 0,
-							boxShadow: 'none',
-						}}
-					>
-						Захист Кімстач
-					</Button>
-				</Box>
 			</Box>
 		</Box>
 	)
