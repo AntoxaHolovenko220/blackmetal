@@ -1,1 +1,0 @@
-const t="Chief Metrologist Department",e={id:"metrologist-head",position:"Head of Department",name:"Maksym Metrologichny",description:"Candidate of Technical Sciences.",contacts:[{type:"Email",value:"tk-4dnepr@i.ua"}]},o={title:t,firstPersonCard:e};export{o as default,e as firstPersonCard,t as title};

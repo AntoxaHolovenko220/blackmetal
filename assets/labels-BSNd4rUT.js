@@ -1,0 +1,1 @@
+const t="Контакти:",c="Напрямок наукової діяльності:",s="Викладацька діяльність:",o="Біографія:",n="Наукова спеціальність:",a={contacts:t,researchDirection:c,teachingSubjects:s,biography:o,specialization:n};export{o as biography,t as contacts,a as default,c as researchDirection,n as specialization,s as teachingSubjects};

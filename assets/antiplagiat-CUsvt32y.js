@@ -1,0 +1,1 @@
+const t="Перевірка антиплагіату",a=[{title:"Антиплагіат Литовська пропозиція",link:"/antiplagiat/Антиплагіат-Литовська-пропозиція.docx",date:"13.12.2018"},{title:"Договір про співпрацю з Unicheck",link:"/antiplagiat/Договір-ІЧМ-НАНУ_Антиплагіат.pdf"}],i={title:t,data:a};export{a as data,i as default,t as title};

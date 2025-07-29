@@ -1,0 +1,1 @@
+const c="Contacts:",t="Research Direction:",i="Teaching Activity:",e="Biography:",a="Scientific Specialty:",n={contacts:c,researchDirection:t,teachingSubjects:i,biography:e,specialization:a};export{e as biography,c as contacts,n as default,t as researchDirection,a as specialization,i as teachingSubjects};

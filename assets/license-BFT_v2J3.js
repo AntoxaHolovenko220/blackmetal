@@ -1,0 +1,1 @@
+const e="Ліцензія",t=[{title:"Ліцензія",link:"/license/Ліцензія.pdf",date:"13.12.2013"},{title:"Наказ МОН України 56-Л",link:"/license/Наказ-МОН-України-56-Л.pdf"},{title:"Розпорядження",link:"/license/Розпорядження-НАНУ.jpg"}],l={title:e,data:t};export{t as data,l as default,e as title};
