@@ -130,7 +130,7 @@ export const CommonTextStyles = {
 
 export const CommonLayoutStyles = {
 	wrapper: {
-		pl: { xxs: '0px', xs: '50px' },
+		pl: { xxs: '0px', md: '50px' },
 		pb: '30px',
 	},
 	
