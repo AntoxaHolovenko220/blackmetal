@@ -31,7 +31,7 @@ const SpecCouncilsPage = () => {
 		return null
 	}
 	return (
-		<Box sx={{ pl: { xxs: '0px', sm: '50px' }, pb: '30px' }}>
+		<Box sx={{ pl: { xxs: '0px', md: '50px' }, pb: '30px' }}>
 			<DocumentTitleSearch title={data.title} search={false} />
 			<Box>
 				{data.blocks.map((block, index) => (

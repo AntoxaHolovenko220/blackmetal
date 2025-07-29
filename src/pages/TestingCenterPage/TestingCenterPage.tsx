@@ -36,7 +36,7 @@ const TestingCenterPage = () => {
 		<Box
 			sx={{
 				pb: '30px',
-				pl: { xxs: '0px', sm: '50px' },
+				pl: { xxs: '0px', md: '50px' },
 			}}
 		>
 			<DocumentTitleSearch title={data.title} search={false} />

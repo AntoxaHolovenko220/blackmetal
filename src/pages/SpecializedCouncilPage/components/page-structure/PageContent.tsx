@@ -31,7 +31,7 @@ interface PageContentProps {
 export const PageContent = ({ data }: PageContentProps) => {
 	const navigate = useNavigate()
 	return (
-		<Box sx={{ pl: { xxs: '0px', sm: '50px' }, pb: '30px' }}>
+		<Box sx={{ pl: { xxs: '0px', md: '50px' }, pb: '30px' }}>
 			<DocumentTitleSearch title={data.title} search={false} />
 			<Box>
 				{data.blocks.map((block, index) => (
@@ -49,6 +49,7 @@ export const PageContent = ({ data }: PageContentProps) => {
 							m: '0px auto',
 							borderRadius: 0,
 							boxShadow: 'none',
+							textTransform: 'none',
 						}}
 					>
 						Захист Кімстач

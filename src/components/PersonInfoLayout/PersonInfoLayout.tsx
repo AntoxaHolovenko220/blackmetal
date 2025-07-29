@@ -2,10 +2,10 @@ import { Box, Divider } from '@mui/material'
 import { DocumentTitleSearch, PersonCard } from '@/components'
 import { PersonCardInterface } from '../PersonCard/PersonCardInterface'
 import { useTranslationData } from '@/hooks/useTranslationData'
-import { 
-  ActivitiesSection, 
-  LaboratoryTestsSection,
-  StaffSection
+import {
+	ActivitiesSection,
+	LaboratoryTestsSection,
+	StaffSection,
 } from './components'
 
 interface DepartmentsData {
@@ -39,7 +39,7 @@ const PersonInfoLayout = ({
 	firstPersonCard,
 	activities,
 	laboratoryTests,
-	staffCards
+	staffCards,
 }: PersonInfoLayoutProps) => {
 	const { data: departmentsData } =
 		useTranslationData<DepartmentsData>('departments')
@@ -47,7 +47,7 @@ const PersonInfoLayout = ({
 	return (
 		<Box
 			sx={{
-				pl: { xxs: '0px', sm: '50px' },
+				pl: { xxs: '0px', md: '50px' },
 				width: '100%',
 			}}
 		>
@@ -60,18 +60,18 @@ const PersonInfoLayout = ({
 
 			<Box sx={{ pt: { xxs: '30px', xs: '20px', sm: '10px' }, mb: 3 }}>
 				{firstPersonCard && firstPersonCard.name && (
-				<PersonCard {...firstPersonCard} />
+					<PersonCard {...firstPersonCard} />
 				)}
 			</Box>
 
-			<ActivitiesSection 
+			<ActivitiesSection
 				activities={activities}
 				activitiesTitle={departmentsData?.common?.activitiesTitle}
 			/>
 
 			<LaboratoryTestsSection laboratoryTests={laboratoryTests} />
 
-			<StaffSection 
+			<StaffSection
 				staffCards={staffCards}
 				staffTitle={departmentsData?.common?.staffTitle}
 			/>

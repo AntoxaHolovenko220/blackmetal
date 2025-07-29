@@ -5,10 +5,10 @@ const DocumentsPage = () => {
 	return (
 		<Box
 			sx={{
-				pl: { xxs: '0px', sm: '50px' }
+				pl: { xxs: '0px', md: '50px' },
 			}}
 		>
-			<DocumentTitleSearch title="Нормативні документи" search={false} />
+			<DocumentTitleSearch title='Нормативні документи' search={false} />
 			<Box
 				sx={{
 					width: '100%',
@@ -16,7 +16,7 @@ const DocumentsPage = () => {
 					mb: '30px',
 				}}
 			>
-				<PresentationPlayer pdfUrl="/blackmetal/reg_doc.pdf" />
+				<PresentationPlayer pdfUrl='/blackmetal/reg_doc.pdf' />
 			</Box>
 
 			<Box
@@ -36,8 +36,8 @@ const DocumentsPage = () => {
 					}}
 				>
 					<img
-						src="/blackmetal/certificate1.png"
-						alt="Сертифікат 1"
+						src='/blackmetal/certificate1.png'
+						alt='Сертифікат 1'
 						style={{
 							width: '100%',
 							height: 'auto',
@@ -55,8 +55,8 @@ const DocumentsPage = () => {
 					}}
 				>
 					<img
-						src="/blackmetal/certificate2.png"
-						alt="Сертифікат 2"
+						src='/blackmetal/certificate2.png'
+						alt='Сертифікат 2'
 						style={{
 							width: '100%',
 							height: 'auto',
@@ -70,4 +70,4 @@ const DocumentsPage = () => {
 	)
 }
 
-export default DocumentsPage 
+export default DocumentsPage

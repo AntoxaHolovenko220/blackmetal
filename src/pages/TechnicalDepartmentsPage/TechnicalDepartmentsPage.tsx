@@ -14,7 +14,7 @@ const TechnicalDepartmentsPage = () => {
 			sx={{
 				display: 'flex',
 				flexDirection: 'column',
-				pl: { xxs: 0, sm: '50px' },
+				pl: { xxs: 0, md: '50px' },
 			}}
 		>
 			<DocumentTitleSearch title={`${data.titles.technical}`} search={false} />

@@ -8,14 +8,14 @@ const ScientificDepartmentsPage = () => {
 	const { data } = useTranslationData<DepartmentsData>('departments')
 
 	if (!data) {
-		return null 
+		return null
 	}
 	return (
 		<Box
 			sx={{
 				display: 'flex',
 				flexDirection: 'column',
-				pl: { xxs: '0px', sm: '50px' },
+				pl: { xxs: '0px', md: '50px' },
 			}}
 		>
 			<DocumentTitleSearch title={`${data.titles.scientific}`} search={false} />
@@ -55,7 +55,10 @@ const ScientificDepartmentsPage = () => {
 					</Box>
 				))}
 			</Box>
-			<DocumentTitleSearch title={`${data.titles.laboratories}`} search={false} />
+			<DocumentTitleSearch
+				title={`${data.titles.laboratories}`}
+				search={false}
+			/>
 			<Box
 				sx={{
 					width: '100%',

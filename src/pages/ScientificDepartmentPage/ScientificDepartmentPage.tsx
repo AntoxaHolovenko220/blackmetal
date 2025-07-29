@@ -15,30 +15,33 @@ interface DepartmentData {
 		title: string
 		items: string[]
 	}
-	secondPersonCard?: PersonInfoLayoutProps['firstPersonCard'] 
+	secondPersonCard?: PersonInfoLayoutProps['firstPersonCard']
 	staffCards?: PersonInfoLayoutProps['staffCards']
 }
 
 const ScientificDepartmentPage = () => {
 	const { departmentId } = useParams<{ departmentId: string }>()
-	
+
 	const { data } = useTranslationData<DepartmentData>(departmentId || '')
 
 	if (!data || !departmentId) {
 		return (
-			<Box sx={{ 
-				pl: { xxs: '0px', sm: '50px' },
-				pt: 4,
-				fontSize: '18px',
-				color: '#666'
-			}}>
+			<Box
+				sx={{
+					pl: { xxs: '0px', md: '50px' },
+					pt: 4,
+					fontSize: '18px',
+					color: '#666',
+				}}
+			>
 				Відділ не знайдено
 			</Box>
 		)
 	}
 
-	const staffCards = data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
-	
+	const staffCards =
+		data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
+
 	return (
 		<PersonInfoLayout
 			title={data.title}
@@ -51,4 +54,4 @@ const ScientificDepartmentPage = () => {
 	)
 }
 
-export default ScientificDepartmentPage 
+export default ScientificDepartmentPage

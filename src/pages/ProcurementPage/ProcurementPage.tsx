@@ -8,7 +8,7 @@ const ProcurementPage = () => {
 		<Box
 			sx={{
 				height: '100%',
-				pl: { xxs: '0px', sm: '50px' },
+				pl: { xxs: '0px', md: '50px' },
 				pb: '30px',
 			}}
 		>

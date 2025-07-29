@@ -5,18 +5,18 @@ import { InstituteHistoryData } from './types'
 import { HistoryContent } from './components'
 
 const InstituteHistoryPage = () => {
-  const { data } = useTranslationData<InstituteHistoryData>('history')
+	const { data } = useTranslationData<InstituteHistoryData>('history')
 
-  if (!data) {
-    return null
-  }
+	if (!data) {
+		return null
+	}
 
-  return (
-    <Box sx={{ pb: '30px', pl: { xs: '20px', sm: '50px' }}}>
-      <DocumentTitleSearch title={data.title} search={false} />
-      <HistoryContent data={data} />
-    </Box>
-  )
+	return (
+		<Box sx={{ pb: '30px', pl: { xxs: '0px', md: '50px' } }}>
+			<DocumentTitleSearch title={data.title} search={false} />
+			<HistoryContent data={data} />
+		</Box>
+	)
 }
 
 export default InstituteHistoryPage

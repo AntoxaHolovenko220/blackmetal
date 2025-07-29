@@ -17,23 +17,26 @@ interface DepartmentData {
 
 const TechnicalDepartmentPage = () => {
 	const { departmentId } = useParams<{ departmentId: string }>()
-	
+
 	const { data } = useTranslationData<DepartmentData>(departmentId || '')
 
 	if (!data || !departmentId) {
 		return (
-			<Box sx={{ 
-				pl: { xxs: '0px', sm: '50px' },
-				pt: 4,
-				fontSize: '18px',
-				color: '#666'
-			}}>
+			<Box
+				sx={{
+					pl: { xxs: '0px', md: '50px' },
+					pt: 4,
+					fontSize: '18px',
+					color: '#666',
+				}}
+			>
 				Відділ не знайдено
 			</Box>
 		)
 	}
 
-	const staffCards = data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
+	const staffCards =
+		data.staffCards || (data.secondPersonCard ? [data.secondPersonCard] : [])
 
 	return (
 		<PersonInfoLayout
@@ -46,4 +49,4 @@ const TechnicalDepartmentPage = () => {
 	)
 }
 
-export default TechnicalDepartmentPage 
+export default TechnicalDepartmentPage
