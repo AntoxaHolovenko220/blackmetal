@@ -37,7 +37,7 @@ const DirectoratePage = () => {
 							researchDirection={item.researchDirection}
 							teachingSubjects={item.teachingSubjects}
 							contacts={item.contacts}
-							labels={data.labels || labelsData}
+							labels={data.labels! || labelsData }
 						/>
 					))}
 				</Box>
