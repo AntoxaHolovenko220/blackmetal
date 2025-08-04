@@ -1,0 +1,1 @@
+import{j as o,T as s}from"./index-BNKqNZzx.js";const r=({children:t})=>{const e={fontSize:"18px",color:"#333",mb:"24px",textAlign:"justify",lineHeight:1.6};return o.jsx(s,{sx:e,children:t})};export{r as default};

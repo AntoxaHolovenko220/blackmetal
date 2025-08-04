@@ -1,0 +1,1 @@
+import{j as x,T as s}from"./index-BNKqNZzx.js";const i=({content:t,variant:e="text"})=>{const o={text:{mb:"14px",fontSize:"16px",fontWeight:400},small:{mb:"14px",fontSize:"13px",fontWeight:400,lineHeight:1.8,color:"#666666"}};return x.jsx(s,{sx:o[e],children:t})};export{i as TextBlock};

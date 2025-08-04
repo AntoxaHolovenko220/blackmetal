@@ -1,0 +1,1 @@
+import{j as e,B as s}from"./index-BNKqNZzx.js";import{ServiceItem as i}from"./ServiceItem-Ct15Nokt.js";import{SimpleServiceItem as p}from"./SimpleServiceItem-CNJaod1s.js";const c=({services:o,numbered:t=!1})=>e.jsx(s,{sx:{display:"flex",flexDirection:"column",gap:2,mb:4},children:o.map((m,r)=>t?e.jsx(i,{service:m,index:r},r):e.jsx(p,{service:m},r))});export{c as ServiceList};
