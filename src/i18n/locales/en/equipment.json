@@ -21,10 +21,6 @@
         "value": "https://scholar.google.com.ua/citations?hl=ru&user=T91etI4AAAAJ"
       },
       {
-        "type": "UA Patents ID",
-        "value": "https://uapatents.com/patents/semenov-yurijj-stanislavovich"
-      },
-      {
         "type": "Scopus Author ID",
         "value": "https://www.scopus.com/authid/detail.uri?authorId=57194100443"
       }
@@ -56,16 +52,16 @@
           "value": "baiulkonstantin@gmail.com"
         },
         {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878710"
+				},
+        {
           "type": "ORCID ID",
           "value": "https://orcid.org/0000-0003-1426-7956"
         },
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=oSs1UWIAAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": ""
         },
         {
           "type": "Scopus Author ID",
@@ -86,16 +82,16 @@
           "value": "verenev0704@gmail.com"
         },
         {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878714"
+				},
+        {
           "type": "ORCID ID",
           "value": "https://orcid.org/0000-0002-2561-5365"
         },
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=quTCBfoAAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/verenov-valentin-volodimirovich"
         },
         {
           "type": "Scopus Author ID",
@@ -124,10 +120,6 @@
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=T91etI4AAAAJ"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/semenov-yurijj-stanislavovich"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=57194100443"
         }
@@ -152,10 +144,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=CV9KP54AAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": ""
         },
         {
           "type": "Scopus Author ID",
@@ -184,10 +172,6 @@
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=JE0zX8YAAAAJ"
         },
         {
-          "type": "UA Patents ID",
-          "value": ""
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=57217833042"
         }
@@ -212,10 +196,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=gwlxwpwAAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/khudyakov-oleksandr-yurijjovich"
         },
         {
           "type": "Scopus Author ID",
@@ -244,10 +224,6 @@
           "value": "https://scholar.google.com.ua/citations?hl=ru&user=BW8nbmkAAAAJ"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/shumelchik-ehvgen-igorovich"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=55580859800"
         }
@@ -274,10 +250,6 @@
           "value": "https://scholar.google.com.ua/citations?user=kzzoASUAAAAJ&hl=uk"
         },
         {
-          "type": "UA Patents ID",
-          "value": ""
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=56725733400"
         }
@@ -302,10 +274,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?user=XTorPLIAAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": ""
         },
         {
           "type": "Scopus Author ID",

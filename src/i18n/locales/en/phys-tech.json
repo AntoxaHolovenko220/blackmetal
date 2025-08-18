@@ -2,6 +2,7 @@
 	"title": "Department of Physical-Technical Problems of Steel Metallurgy",
 	"firstPersonCard": {
 		"id": "molchanov-lavr-sergiyovych",
+		"photo": "/employees/molchanov.jpg",
 		"position": "Head of Department",
 		"name": "Molchanov Lavr Serhiyovych",
 		"description": "Candidate of Technical Sciences",
@@ -74,6 +75,7 @@
 		},
 		{
 			"id": "chernyatevych-anatolii-hryhorovych",
+			"photo": "/employees/chernyatevych.jpg",			
 			"position": "Leading Research Fellow",
 			"name": "Chernyatevych Anatolii Hryhorovych",
 			"description": "Professor, Doctor of Technical Sciences",
@@ -83,6 +85,10 @@
 				{
 					"type": "Email",
 					"value": "agchern@ua.fm"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-884322"
 				},
 				{
 					"type": "ORCID ID",
@@ -104,6 +110,7 @@
 		},
 		{
 			"id": "piptiuk-vitalii-petrovych",
+			"photo": "/employees/piptiuk.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Piptiuk Vitalii Petrovych",
 			"description": "Candidate of Technical Sciences",
@@ -134,6 +141,7 @@
 		},
 		{
 			"id": "semykin-serhii-ivanovych",
+			"photo": "/employees/semykin.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Semykin Serhii Ivanovych",
 			"description": "Candidate of Technical Sciences",
@@ -175,6 +183,10 @@
 					"value": "dove@email.ua"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-9269-2953"
 				},
@@ -202,6 +214,10 @@
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": ""
 				},
 				{
 					"type": "ORCID ID",
@@ -234,6 +250,10 @@
 					"value": "S.dudchenko@meta.ua"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-7319-9896"
 				},
@@ -264,6 +284,10 @@
 					"value": "vvvakulchuk@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-7887-2843"
 				},
@@ -290,6 +314,10 @@
 					"value": "ISI.DPS.R@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-2675-0737"
 				},
@@ -305,6 +333,7 @@
 		},
 		{
 			"id": "samokhvalov-serhii-yevhenovych",
+			"photo": "/employees/samokhvalov.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Samokhvalov Serhii Yevhenovych",
 			"description": "Professor, Doctor of Technical Sciences",
@@ -314,6 +343,10 @@
 				{
 					"type": "Email",
 					"value": "serg_samokhval@ukr.net"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": ""
 				},
 				{
 					"type": "ORCID ID",

@@ -13,6 +13,7 @@ interface ContactIconProps {
 
 export const ContactIcon = ({ contactType }: ContactIconProps) => {
 	const type = contactType.toLowerCase()
+	const normalized = type.replace(/\s+/g, '')
 	
 	if (type === 'phone' || type === 'телефон') {
 		return <PhoneOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
@@ -24,7 +25,7 @@ export const ContactIcon = ({ contactType }: ContactIconProps) => {
 		return <PublicIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else if (type === 'scopus author id') {
 		return <LibraryBooksIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-	} else if (type === 'researcherid') {
+	} else if (normalized === 'webofscience' || normalized === 'webofscienceid' || normalized === 'researcherid') {
 		return <ContactsIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else if (type === 'encyclopedia' || type === 'енциклопедія') {
 		return <LanguageIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />

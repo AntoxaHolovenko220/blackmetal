@@ -13,6 +13,10 @@
 				"value": "perlit@ua.fm"
 			},
 			{
+				"type": "Encyclopedia",
+				"value": "https://esu.com.ua/article-885097"
+			},
+			{
 				"type": "ORCID ID",
 				"value": "https://orcid.org/0000-0001-7446-4105"
 			},
@@ -21,14 +25,14 @@
 				"value": "https://scholar.google.com.ua/citations?user=BJW8bsEAAAAJ&hl=ru"
 			},
 			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/kononenko-ganna-andrivna"
-			},
-			{
 				"type": "Scopus Author ID",
 				"value": "https://www.scopus.com/authid/detail.uri?authorId=7007038178"
+			},
+			{
+				"type": "webofscience",
+				"value": "https://www.webofscience.com/wos/author/record/23626556"
 			}
-		]		
+		]
 	},
 	"activities": {
 		"items": [
@@ -51,6 +55,10 @@
 					"value": "a_babachenko@i.ua"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878708"
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0003-4710-0343"
 				},
@@ -59,12 +67,12 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=0P3Q8GUAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/babachenko-oleksandr-ivanovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602718336"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/2510193"
 				}
 			]
 		},
@@ -74,11 +82,15 @@
 			"name": "Філоненко Наталія Юріївна",
 			"description": "Кандидат фізико-математичних наук",
 			"researchDirection": "Встановлення фізичних закономірностей фазових перетворень та структуроутворення в сплавах та сталях при їх кристалізації з рівноважного та не рівноважного станів, що дозволить розробити металеві сплави з прогнозованими властивостями шляхом зміни їх фазового складу та керування фазовими перетвореннями, що здійснюються в них. Розвиток наукових, теоретичних та технологічних положень впливу умов кристалізації сплавів з урахуванням флуктаційних процесів на фізичні властивості сплавів та сталей. Дослідження механізму та кінетики фазових перетворень в сплавах легованих бором.",
-			"specialization": "01.04.07 − Фізика твердого тіла",			
+			"specialization": "01.04.07 − Фізика твердого тіла",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "natph2016@gmail.com"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": ""
 				},
 				{
 					"type": "ORCID ID",
@@ -91,6 +103,10 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602449305"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/610758"
 				}
 			]
 		},
@@ -107,6 +123,10 @@
 					"value": "perlit@ua.fm"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-885097"
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-7446-4105"
 				},
@@ -115,14 +135,14 @@
 					"value": "https://scholar.google.com.ua/citations?user=BJW8bsEAAAAJ&hl=ru"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/kononenko-ganna-andrivna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=7007038178"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/23626556"
 				}
-			]	
+			]
 		},
 		{
 			"id": "uzlov-oleh-volodymyrovych",
@@ -137,6 +157,10 @@
 					"value": "oleg.uzlov@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0003-1329-5576"
 				},
@@ -145,12 +169,12 @@
 					"value": "https://scholar.google.com.ua/citations?user=Ey66V_QAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/uzlov-oleg-volodimirovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6504710171"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
 				}
 			]
 		},
@@ -166,6 +190,10 @@
 					"value": "okc.testcenter@ukr.net"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0009-0002-3194-9975"
 				},
@@ -174,12 +202,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/dementehva-zhanna-andrivna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6603027804"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/7189462"
 				}
 			]
 		},
@@ -188,11 +216,15 @@
 			"position": "Старший науковий співробітник",
 			"name": "Пучиков Олександр Володимирович",
 			"researchDirection": "Розвиток наукових і технологічних положень ефективних процесів формування структури і заданого комплексу властивостей сортового і листового прокату шляхом їх термо-механічного зміцнення. Дослідження голчастого фериту.",
-			"specialization": "05.16.01 – металознавство та термічна обробка металів",			
+			"specialization": "05.16.01 – металознавство та термічна обробка металів",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "okc.testcenter@ukr.net"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": ""
 				},
 				{
 					"type": "ORCID ID",
@@ -203,12 +235,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/puchikov-oleksandr-volodimirovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57221958802"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
 				}
 			]
 		},
@@ -224,6 +256,10 @@
 					"value": "okc.testcenter@ukr.net"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0009-0007-1308-5380"
 				},
@@ -232,12 +268,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": ""
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=59479087100"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/14247681"
 				}
 			]
 		},
@@ -253,6 +289,10 @@
 					"value": "okc.testcenter@ukr.net"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": ""
 				},
@@ -261,12 +301,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/sukhijj-andrijj-pavlovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/results/authorNamesList.uri?st1=sukhoy&st2=A.P.&origin=searchauthorlookup"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
 				}
 			]
 		},
@@ -282,6 +322,10 @@
 					"value": "okc.testcenter@ukr.net"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0009-0005-4514-0992"
 				},
@@ -290,11 +334,11 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
+					"type": "Scopus Author ID",
 					"value": ""
 				},
 				{
-					"type": "Scopus Author ID",
+					"type": "webofscience",
 					"value": ""
 				}
 			]
@@ -311,6 +355,10 @@
 					"value": "okc.testcenter@ukr.net"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0009-0005-2797-4790"
 				},
@@ -319,12 +367,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": ""
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=58927093000"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/56617740"
 				}
 			]
 		},
@@ -341,6 +389,10 @@
 					"value": "rostislavpodolskij@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-0288-0641"
 				},
@@ -349,12 +401,12 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=xUHD_2wAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
+					"type": "Scopus Author ID",
 					"value": ""
 				},
 				{
-					"type": "Scopus Author ID",
-					"value": ""
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/32788823"
 				}
 			]
 		},
@@ -370,6 +422,10 @@
 					"value": "alena.safronova1997@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-4032-4275"
 				},
@@ -378,12 +434,12 @@
 					"value": ""
 				},
 				{
-					"type": "UA Patents ID",
-					"value": ""
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57324547800"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/27284234"
 				}
 			]
 		},
@@ -400,6 +456,10 @@
 					"value": "13misstatyana@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-8993-201X"
 				},
@@ -408,14 +468,14 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=6_Y5mq0AAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": ""
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57216829671"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
 				}
 			]
-		}					
+		}
 	]
-} 
+}

@@ -18,11 +18,11 @@
 		"search": "Search"
 	},
 	"contacts": {
-		"encyclopedia": "Encyclopedia about Kornienko V.I.",
+		"encyclopedia": "Encyclopedia",
 		"googleScholar": "Google Scholar",
 		"orcid": "ORCID iD",
 		"scopus": "Scopus Author ID",
-		"researcherId": "ResearcherID",
+		"webofscience": "Web of Science",
 		"uaPatents": "UA Patents ID"
 	},
 	"footer": {

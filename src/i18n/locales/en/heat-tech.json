@@ -34,7 +34,7 @@
         {
             "id": "dzhigota",
             "position": "Leading Engineer",
-            "name": "DZHIGOTA Marina Heorhivna",
+            "name": "Dzhigota Marina Heorhivna",
             "description": "",
             "researchDirection": "Research of metallurgical properties and behavior of coke in blast furnace, improving efficiency of using various types of fuel in blast furnace production.",
             "contacts": [
@@ -51,7 +51,7 @@
         {
             "id": "lebid",
             "position": "Senior Research Fellow",
-            "name": "LEBID Vitalii Vasylovych",
+            "name": "Lebid Vitalii Vasylovych",
             "description": "Candidate of Technical Sciences",
             "researchDirection": "Development of theoretical foundations of technology for loading charge materials into blast furnace using modern charging devices, means of controlling gas flow parameters and automated control systems.",
             "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
@@ -77,7 +77,7 @@
         {
             "id": "kornilov",
             "position": "Senior Research Fellow",
-            "name": "KORNILOV Bohdan Volodymyrovych",
+            "name": "Kornilov Bohdan Volodymyrovych",
             "description": "Candidate of Technical Sciences",
             "researchDirection": "Research of thermal and gas-dynamic operation of blast furnaces, technology of rational use of pulverized coal fuel and other fuel additives.",
             "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
@@ -103,7 +103,7 @@
         {
             "id": "moskalina",
             "position": "",
-            "name": "MOSKALINA Andrii Oleksandrovych",
+            "name": "Moskalina Andrii Oleksandrovych",
             "description": "Candidate of Technical Sciences",
             "researchDirection": "Research of thermal operation of blast furnaces aimed at improving energy efficiency and reducing harmful emissions to the atmosphere when injecting pulverized coal fuel.",
             "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
@@ -129,7 +129,7 @@
         {
             "id": "izjumsjkyj",
             "position": "Directorate Advisor for Agglomeration-Blast Furnace Production",
-            "name": "IZIUMSKYI Mykola Mykytovych",
+            "name": "Iziumskyi Mykola Mykytovych",
             "description": "",
             "researchDirection": "Development and mastering of rational loading regimes and measures for improving operation of charging system equipment, ensuring achievement of resource-saving and energy-efficient smelting regime.",
             "specialization": "",
@@ -147,7 +147,7 @@
         {
             "id": "merkulov",
             "position": "Senior Research Fellow",
-            "name": "MERKULOV Oleksii Yevhenovych",
+            "name": "Merkulov Oleksii Yevhenovych",
             "description": "Doctor of Technical Sciences",
             "researchDirection": "System analysis of processes and prospects for development of iron and alloy metallurgy.",
             "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
@@ -156,6 +156,10 @@
                     "type": "Email",
                     "value": "merkulov1@ukr.net"
                 },
+                {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-885114"
+				},
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0002-7867-0659"
@@ -177,7 +181,7 @@
         {
             "id": "gubinskij",
             "position": "Leading Research Fellow",
-            "name": "GUBINSKYI Mykhailo Volodymyrovych",
+            "name": "Gubinskyi Mykhailo Volodymyrovych",
             "description": "Professor, Doctor of Technical Sciences",
             "researchDirection": "High-temperature electrothermal processes in fluidized bed. Chemical catalysis processes based on fluidized and dense bed. Thermal methods of graphite refining. Technologies for hydrogen and carbon production based on hydrocarbons. Optimization of thermal regimes of metallurgical furnaces. Development of innovative research equipment for laboratory testing",
             "specialization": "05.14.06 \"Technical thermophysics and industrial heat power engineering\"",
@@ -186,6 +190,10 @@
                     "type": "Email",
                     "value": "gubinm58@gmail.com"
                 },
+                {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-32219"
+				},
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-3770-4397"
@@ -207,7 +215,7 @@
         {
             "id": "sibir",
             "position": "Senior Research Fellow",
-            "name": "SYBIR Artem Vitaliovych",
+            "name": "Sybir Artem Vitaliovych",
             "description": "Associate Professor, Candidate of Technical Sciences",
             "researchDirection": "High-temperature electrothermal processes in fluidized bed. Chemical catalysis processes based on fluidized and dense bed. Thermal methods of graphite refining. Technologies for hydrogen and carbon production based on hydrocarbons. Optimization of thermal regimes of metallurgical furnaces. Development of innovative research equipment for laboratory testing",
             "specialization": "05.14.06 \"Technical thermophysics and industrial heat power engineering\"",
@@ -267,7 +275,7 @@
         {
             "id": "shatoha",
             "position": "Leading Research Fellow",
-            "name": "SHATOKHA Volodymyr Ivanovych",
+            "name": "Shatokha Volodymyr Ivanovych",
             "description": "Professor, Doctor of Technical Sciences",
             "researchDirection": "Heat and mass transfer in metallurgical processes. High-temperature properties of iron ore materials. Thermodynamic modeling of metal-slag interaction. Gasification of solid fuel. Utilization of iron-containing waste. Sustainable development of metallurgical industry.",
             "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",

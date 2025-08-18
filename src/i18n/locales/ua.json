@@ -22,11 +22,11 @@
 		"search": "Пошук"
 	},
 	"contacts": {
-		"encyclopedia": "Енциклопедія про Корнієнка В.І.",
+		"encyclopedia": "Encyclopedia",
 		"googleScholar": "Google Scholar",
 		"orcid": "ORCID iD",
 		"scopus": "Scopus Author ID",
-		"researcherId": "ResearcherID",
+		"webofscience": "Web of Science",
 		"uaPatents": "UA Patents ID"
 	},
 	"departments": {
