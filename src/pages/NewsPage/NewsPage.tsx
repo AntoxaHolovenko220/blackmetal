@@ -13,7 +13,7 @@ import {
 	SimpleNewsContent,
 	LoadingState,
 	ErrorState,
-	useNewsImages
+	useNewsImages,
 } from './components'
 
 const NewsPage: React.FC = () => {
@@ -49,8 +49,8 @@ const NewsPage: React.FC = () => {
 			maxWidth='lg'
 			sx={{
 				pb: '32px',
-				px: { xs: 0, sm: 0 },
-				pl: { xs: 0, sm: '50px' },
+				px: { xxs: 0, sm: 0 },
+				pl: { xxs: 0, md: '50px' },
 				maxWidth: '100vw !important',
 				overflowX: 'hidden',
 			}}
@@ -62,7 +62,7 @@ const NewsPage: React.FC = () => {
 			newsItem.content.length > 0 ? (
 				<NewsContent content={newsItem.content} title={newsItem.title} />
 			) : (
-				<SimpleNewsContent 
+				<SimpleNewsContent
 					images={images}
 					title={newsItem.title}
 					text={newsItem.text}

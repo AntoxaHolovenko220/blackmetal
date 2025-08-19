@@ -37,7 +37,7 @@ export const DocumentTitleSearch = forwardRef<
 					flexWrap: 'wrap',
 				}}
 			>
-				<Box sx={{ height: '44px', display: 'flex', alignItems: 'center' }}>
+				<Box sx={{ minHeight: '44px', display: 'flex', alignItems: 'center' }}>
 					<Typography
 						sx={{
 							fontSize: { xxs: '24px', xs: '26px', sm: '32px', md: '34px' },
