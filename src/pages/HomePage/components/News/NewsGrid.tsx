@@ -15,6 +15,11 @@ import { NewsItem, TranslatedNewsData } from './NewsTypes'
 import { Pagination } from '@/components/Pagination/Pagination'
 import { useTranslationData } from '@/hooks/useTranslationData'
 
+const parseDate = (dateString: string) => {
+	const [day, month, year] = dateString.split('.')
+	return new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+}
+
 export const NewsGrid: FC = () => {
 	const navigate = useNavigate()
 	const { data: translationData, loading, error } = useTranslationData<TranslatedNewsData>('news')
@@ -31,12 +36,18 @@ export const NewsGrid: FC = () => {
 
 	useEffect(() => {
 		if (translationData?.news) {
-			const loadedNews = translationData.news.map(item => ({
+			const sorted = [...translationData.news].sort(
+				(a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime()
+			)
+
+			const loadedNews = sorted.map(item => ({
 				...item,
 				imageUrl: Array.isArray(item.imageUrl) ? item.imageUrl[0] : item.imageUrl,
 				onClick: () => navigate(`/news/${item.id}`),
 			}))
+
 			setNews(loadedNews)
+			setCurrentPage(1)
 		}
 	}, [translationData, navigate])
 
