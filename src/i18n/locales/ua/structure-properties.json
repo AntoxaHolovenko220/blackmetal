@@ -3,6 +3,7 @@
     "staffCards": [
         { 
             "id": "levchenko-gennadij-vasilovich",
+            "photo": "/employees/levchenko-gennadij-vasilovich.jpg",
             "position": "Завідувач лабораторією",
             "name": "Левченко Геннадій Васильович", 
             "email": "gvlevchenko2018@gmail.com",
@@ -42,6 +43,7 @@
         },
         { 
             "id": "bobyr-sergij-volodimirovich",
+            "photo": "/employees/bobyr-sergij-volodimirovich.jpg",
             "position": "Провідний науковий співробітник",
             "name": "Бобирь Сергій Володимирович", 
             "description": "Доктор технічних наук, старший науковий співробітник",
@@ -76,6 +78,7 @@
         },
         { 
             "id": "borisenko-andrij-jurijovich",
+            "photo": "/employees/borisenko-andrij-jurijovich.jpg",
             "position": "Старший науковий співробітник",
             "name": "Борисенко Андрій Юрійович", 
             "description": "Кандидат технічних наук",
@@ -110,6 +113,7 @@
         },
         { 
             "id": "balahanova-tetjana-valerijivna",
+            "photo": "/employees/balahanova-tetjana-valerijivna.jpg",
             "position": "Старший науковий співробітник",
             "name": "Балаханова Тетяна Валеріївна", 
             "description": "Кандидат технічних наук",
@@ -144,6 +148,7 @@
         },
         { 
             "id": "baranivska-olena-jevgenivna",
+            "photo": "/employees/baranivska-olena-jevgenivna.jpg",
             "position": "Науковий співробітник",
             "name": "Барановська Олена Євгенівна", 
             "description": "Кандидат технічних наук",

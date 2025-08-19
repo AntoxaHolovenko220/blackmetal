@@ -2,9 +2,10 @@
 	"title": "Відділ технологічного обладнання та систем управління",
 	"firstPersonCard": {
 		"id": "semenov-yuriy-stanislavovych",
-		"position": "Керівник відділу",
+		"photo":"/employees/semenov-yuriy-stanislavovych.jpg",
+		"position": "Завідувач відділу, старший науковий співробітник",
 		"name": "Семенов Юрій Станіславович",
-		"description": "Кандидат технічних наук, старший науковий співробітник",
+		"description": "Кандидат технічних наук",
 		"researchDirection": "Розробка: комплексних прийомів та способів управління доменною піччю, в тому числі, з використанням нових засобів контролю; математичних моделей процесів завантаження шихтових матеріалів і їх розподілу в доменній печі; інтелектуальних систем підтримки прийняття рішень з управління доменної плавкою; технології завантаження доменних печей багатокомпонентними шихтовими матеріалами.",
 		"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів»",
 		"contacts": [
@@ -45,6 +46,7 @@
 	"staffCards": [
 		{
 			"id": "baiul-kostiantyn-vasylovych",
+			"photo":"/employees/baiul-kostiantyn-vasylovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Баюл Костянтин  Васильович",
 			"description": "Доктор технічних наук, старший дослідник",
@@ -75,6 +77,7 @@
 		},
 		{
 			"id": "vereniov-valentyn-volodymyrovych",
+			"photo":"/employees/vereniov-valentyn-volodymyrovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Вереньов Валентин Володимирович",
 			"description": "Доктор технічних наук",
@@ -105,9 +108,10 @@
 		},
 		{
 			"id": "semenov-yuriy-stanislavovych",
-			"position": "Завідуючий відділом",
+			"photo":"/employees/semenov-yuriy-stanislavovych.jpg",
+			"position": "Завідувач відділу, старший науковий співробітник",
 			"name": "Семенов Юрій Станіславович ",
-			"description": "Кандидат технічних наук, старший науковий співробітник",
+			"description": "Кандидат технічних наук",
 			"researchDirection": "Розробка: комплексних прийомів та способів управління доменною піччю, в тому числі, з використанням нових засобів контролю; математичних моделей процесів завантаження шихтових матеріалів і їх розподілу в доменній печі; інтелектуальних систем підтримки прийняття рішень з управління доменної плавкою; технології завантаження доменних печей багатокомпонентними шихтовими матеріалами.",
 			"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів»",
 			"contacts": [
@@ -135,6 +139,7 @@
 		},
 		{
 			"id": "vashchenko-serhii-volodymyrovych",
+			"photo":"/employees/vashchenko-serhii-volodymyrovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Ващенко Сергій Володимирович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -165,6 +170,7 @@
 		},
 		{
 			"id": "solodka-natalia-oleksandrivna",
+			"photo":"/employees/solodka-natalia-oleksandrivna.jpg",
 			"position": "Науковий співробітник",
 			"name": "Солодка Наталія Олександрівна",
 			"description": "Кандидат технічних наук",
@@ -195,6 +201,7 @@
 		},
 		{
 			"id": "khudyakov-oleksandr-yuriiovych",
+			"photo":"/employees/khudyakov-oleksandr-yuriiovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Худяков Олександр Юрійович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -225,6 +232,7 @@
 		},
 		{
 			"id": "shumelchyk-yevhen-ihorovych",
+			"photo":"/employees/shumelchyk-yevhen-ihorovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Шумельчик Євген Ігорович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -255,6 +263,7 @@
 		},
 		{
 			"id": "frolova-liliia-anatoliivna",
+			"photo":"/employees/frolova-liliia-anatoliivna.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Фролова Лілія Анатоліївна",
 			"description": "Професор, доктор технічних наук",
@@ -312,16 +321,6 @@
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56725733400"
 				}
 			]
-		},
-		{
-			"id": "berelet-tamara-serhiivna",
-			"position": "Технік 1 категорії",
-			"name": "Берелет Тамара Сергіївна"
-		},
-		{
-			"id": "prokudina-elvira-borysivna",
-			"position": "Інженер 2 категорії",
-			"name": "Прокудина Ельвіра Борисівна"
 		}
 	]
 } 

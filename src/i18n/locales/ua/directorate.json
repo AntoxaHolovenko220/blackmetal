@@ -3,7 +3,7 @@
 	"data": [
 		{
 			"id": "babachenko",
-			"photo": "/director.jpg",
+			"photo":"/employees/babachenko.jpg",
 			"position": "Директор, старший науковий співробітник",
 			"name": "Бабаченко Олександр Іванович",
 			"description": " Доктор технічних наук, член-кореспондент НАН України",
@@ -38,7 +38,7 @@
 		},
 		{
 			"id": "merkulov",
-			"photo": "/zamdir.webp",
+			"photo":"/employees/merkulov.jpg",
 			"position": "Заступник директора з наукової роботи,  старший науковий співробітник",
 			"name": "Меркулов Олексій Євгенович",
 			"description": "Доктор технічних наук",
@@ -72,8 +72,8 @@
 			]
 		},
 		{
-			"id": "parusov",
-			"photo": "/vozamdir.webp",
+			"id": "parusov-eduard-volodymyrovych",
+			"photo":"/employees/parusov.jpg",
 			"position": "Заступник директора з наукової роботи, завідуючий відділом",
 			"name": "Парусов Едуард Володимирович",
 			"description": "Доктор технічних наук, старший науковий співробітник",
@@ -107,7 +107,8 @@
 			]
 		},
 		{
-			"id": "garmash",
+			"id": "harmash",
+			"photo":"/employees/harmash.jpg",
 			"position": "Вчений секретар, старший науковий співробітник",
 			"name": "Гармаш Лариса Іванівна",
 			"description": "Кандидат технічних наук",
