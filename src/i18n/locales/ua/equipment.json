@@ -13,16 +13,16 @@
 				"value": "yuriy.semenov.isi@gmail.com"
 			},
 			{
+				"type": "Encyclopedia",
+				"value": ""
+			},
+			{
 				"type": "ORCID ID",
 				"value": "https://orcid.org/0000-0003-2299-5742"
 			},
 			{
 				"type": "Google Scholar",
 				"value": "https://scholar.google.com.ua/citations?hl=ru&user=T91etI4AAAAJ"
-			},
-			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/semenov-yurijj-stanislavovich"
 			},
 			{
 				"type": "Scopus Author ID",
@@ -56,16 +56,16 @@
 					"value": "baiulkonstantin@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878710"
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0003-1426-7956"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=oSs1UWIAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": ""
 				},
 				{
 					"type": "Scopus Author ID",
@@ -86,16 +86,16 @@
 					"value": "verenev0704@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878714"
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-2561-5365"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=quTCBfoAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/verenov-valentin-volodimirovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -116,16 +116,16 @@
 					"value": "yuriy.semenov.isi@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0003-2299-5742"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=T91etI4AAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/semenov-yurijj-stanislavovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -146,16 +146,16 @@
 					"value": "sergeyvaschenko.sv@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-8344-961X"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=CV9KP54AAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": ""
 				},
 				{
 					"type": "Scopus Author ID",
@@ -176,16 +176,16 @@
 					"value": "office.isi@nas.gov.ua"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-7545-4969"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=JE0zX8YAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": ""
 				},
 				{
 					"type": "Scopus Author ID",
@@ -206,16 +206,16 @@
 					"value": "khudyakovsashko@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0002-6507-1120"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=gwlxwpwAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/khudyakov-oleksandr-yurijjovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -236,16 +236,16 @@
 					"value": "ievgen.shumelchyk@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-5350-6425"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=BW8nbmkAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/shumelchik-ehvgen-igorovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -266,16 +266,16 @@
 					"value": ""
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-7970-2264"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?user=kzzoASUAAAAJ&hl=uk"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": ""
 				},
 				{
 					"type": "Scopus Author ID",
@@ -296,16 +296,16 @@
 					"value": "gorupaha.viktor@gmail.com"
 				},
 				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0003-0531-1871"
 				},
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?user=XTorPLIAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": ""
 				},
 				{
 					"type": "Scopus Author ID",

@@ -2,6 +2,7 @@
 	"title": "Відділ фізико-технічних проблем металургії сталі",
 	"firstPersonCard": {
 		"id": "molchanov-lavr-sergiyovych",
+		"photo": "/employees/molchanov.jpg",
 		"position": "Керівник відділу",
 		"name": "Молчанов Лавр Сергійович",
 		"description": "Кандидат технічних наук",
@@ -74,6 +75,7 @@
 		},
 		{
 			"id": "chernyatevych-anatolii-hryhorovych",
+			"photo": "/employees/chernyatevych.jpg",
 			"position": "Головний науковий співробітник",
 			"name": "Чернятевич Анатолій Григорович",
 			"description": "Професор, доктор технічних наук",
@@ -83,6 +85,10 @@
 				{
 					"type": "Email",
 					"value": "agchern@ua.fm"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-884322"
 				},
 				{
 					"type": "ORCID ID",
@@ -104,6 +110,7 @@
 		},
 		{
 			"id": "piptiuk-vitalii-petrovych",
+			"photo": "/employees/piptiuk.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Піптюк Віталій Петрович",
 			"description": "Кандидат технічних наук",
@@ -134,6 +141,7 @@
 		},
 		{
 			"id": "semykin-serhii-ivanovych",
+			"photo": "/employees/semykin.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Семикін Сергій Іванович",
 			"description": "Кандидат технічних наук",
@@ -305,6 +313,7 @@
 		},
 		{
 			"id": "samokhvalov-serhii-yevhenovych",
+			"photo": "/employees/samokhvalov.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Самохвалов Сергій Євгенович",
 			"description": "Професор, доктор технічних наук",
@@ -326,6 +335,50 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "http://www.scopus.com/authid/detail.uri?authorId=6603561863"
+				}
+			]
+		},
+		{
+			"id": "vakulchuk-volodymyr-viktorovych",
+			"position": "Науковий співробітник",
+			"name": "Вакульчук Володимир Вікторович",
+			"description": "Кандидат технічних наук",
+			"researchDirection": "Теорія та практика конвертерних процесів щодо удосконалення технології верхньої продувки конвертерної ванни різноімпульсними газовими струменями.",
+			"specialization": "05.16.02 - Металургія чорних і кольорових металів та спеціальних сплавів",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "vvvakulchuk@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/ 0000-0001-7887-2843"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?hl=ru&user=z_EXiWUAAAAJ&view_op=list_works&sortby=pubdate"
+				}
+			]
+		},
+		{
+			"id": "kakushkin-yevhenii-zvitozarovych",
+			"position": "Провідний інженер",
+			"name": "Какушкін Євгеній Світозарович",
+			"description": "Кандидат технічних наук",
+			"researchDirection": "Створення моделей для проведення фізичного натурного моделювання процесів виплавки та  обробки сталі, участь у проведенні досліджень щодо ресурсо- та енергозбереження за технологічним маршрутом виробництва сталі доменна піч - кисневий конвертер",
+			"specialization": "05.16.02 - Металургія чорних і кольорових металів та спеціальних сплавів",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "vvvakulchuk@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0009-0004-2158-8947"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?view_op=new_articles&hl=uk&imq=%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9&authuser=1#"
 				}
 			]
 		}

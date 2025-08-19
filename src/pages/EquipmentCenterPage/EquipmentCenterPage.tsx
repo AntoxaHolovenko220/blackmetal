@@ -25,7 +25,7 @@ const EquipmentCenterPage = () => {
 		<Box
 			sx={{
 				pb: '30px',
-				pl: { xs: '0px', md: '50px' },
+				pl: { xs: '0ъpx', md: '50px' },
 			}}
 		>
 			<EquipmentCenterHeader

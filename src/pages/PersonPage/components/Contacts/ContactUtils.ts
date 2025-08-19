@@ -9,6 +9,7 @@ export const isUrl = (value: string) => {
 
 export const getContactDisplayValue = (contactType: string, t: (key: string) => string) => {
 	const type = contactType.toLowerCase()
+	const normalized = type.replace(/\s+/g, '')
 	
 	if (type === 'encyclopedia' || type === 'енциклопедія') {
 		return t('contacts.encyclopedia')
@@ -18,8 +19,8 @@ export const getContactDisplayValue = (contactType: string, t: (key: string) => 
 		return t('contacts.orcid')
 	} else if (type === 'scopus author id') {
 		return t('contacts.scopus')
-	} else if (type === 'researcherid') {
-		return t('contacts.researcherId')
+	} else if (normalized === 'webofscience' || normalized === 'webofscienceid' || normalized === 'researcherid') {
+		return t('contacts.webofscience')
 	} else if (type === 'ua patents id') {
 		return t('contacts.uaPatents')
 	} else {

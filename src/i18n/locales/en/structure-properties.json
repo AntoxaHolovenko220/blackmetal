@@ -1,170 +1,187 @@
 {
-    "title": "Laboratory of Structure Formation and Properties of Ferrous Metals",
-    "labels": {
-        "contacts": "Contacts",
-        "researchDirection": "Directly to scientific activities:",
-        "teachingSubjects": "Teaching Activities",
-        "biography": "Biography",
-        "specialization": "Scientific Specialty:"
-    },
+    "title": "Laboratory of Structure Formation Problems and Properties of Ferrous Metals",
     "staffCards": [
         { 
             "id": "levchenko-gennadij-vasilovich",
             "position": "Head of Laboratory",
-            "name": "Levchenko Gennadii Vasylovych", 
+            "name": "Hennadii Vasylovych Levchenko", 
             "email": "gvlevchenko2018@gmail.com",
             "description": "Professor, Doctor of Technical Sciences",
-            "researchDirection": "Structural inheritance in steels and alloys and its influence on the formation of rolled product properties. Development of complex heat treatment regimes for steels and alloys with increased wear and heat resistance.",
-            "specialization": "05.16.01 «Metal Science and Heat Treatment of Metals»",
+            "researchDirection": "Structural heredity in steels and alloys and its influence on the formation of rolled product properties. Development of complex thermal treatment regimes for steels and alloys with enhanced wear and heat resistance.",
+            "specialization": "05.16.01 'Metallurgy and Heat Treatment of Metals'",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "gvlevchenko2018@gmail.com"
                 },
                 {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-53945"
+				},
+                {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-1173-5320"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=lGv7cNsAAAAJ&hl=uk"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/levchenko-gennadijj-vasilovich"
+                    "value": "https://scholar.google.com.ua/citations?user=lGv7cNsAAAAJ&hl=en"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=7004337743"
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": "https://www.webofscience.com/wos/author/record/15075996"
+				},
+                {
+					"type": "Web of Science",
+					"value": "https://www.webofscience.com/wos/author/record/15075996"
+				}
             ]
         },
         { 
             "id": "bobyr-sergij-volodimirovich",
             "position": "Leading Researcher",
-            "name": "Bobyr Serhii Volodymyrovych", 
+            "name": "Serhii Volodymyrovych Bobyr", 
             "description": "Doctor of Technical Sciences, Senior Researcher",
-            "researchDirection": "Influence of chemical composition of steels and alloys on their wear and heat resistance. Features of structure and property formation in wear-resistant low-chromium cast irons. Research of non-equilibrium phase-structural transformations in steels and alloys. Modeling of phase-structural transformations and properties in steels and alloys. Development of complex heat treatment regimes to improve wear and heat resistance of finished metal products.",
-            "specialization": "05.16.01 «Metal Science and Heat Treatment of Metals»",
+            "researchDirection": "Influence of chemical composition of steels and alloys on their wear and heat resistance. Features of structure and property formation in wear-resistant low-chromium cast irons. Study of nonequilibrium phase-structural transformations in steels and alloys. Modeling of phase-structural transformations and properties in steels and alloys. Development of complex heat treatment regimes aimed at improving wear and heat resistance of finished metal products.",
+            "specialization": "05.16.01 'Metallurgy and Heat Treatment of Metals'",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "svbobyr07@gmail.com"
                 },
+				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878711"
+				},
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0001-6816-1554"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?hl=uk&user=otI1cPUAAAAJ"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/bobir-sergijj-volodimirovich"
+                    "value": "https://scholar.google.com.ua/citations?hl=en&user=otI1cPUAAAAJ"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=55556749700"
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": "https://www.webofscience.com/wos/author/record/2510802"
+				}
             ]
         },
         { 
             "id": "borisenko-andrij-jurijovich",
             "position": "Senior Researcher",
-            "name": "Borisenko Andrii Yuriiovych", 
+            "name": "Andrii Yuriiovych Borysenko", 
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Features of phase and structural transformations in metals and alloys. Development of methods for controlled influence on reducing the manifestation of structural inheritance in finished metal products.",
-            "specialization": "05.16.01 «Metal Science and Heat Treatment of Metals»",
+            "researchDirection": "Features of phase and structural transformations in metals and alloys. Development of methods for controlled influence to reduce the manifestation of structural heredity in finished metal products.",
+            "specialization": "05.16.01 'Metallurgy and Heat Treatment of Metals'",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "asbor@ua.fm"
                 },
                 {
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-878712"
+				},
+                {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-2120-0944"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?hl=uk&user=HdQGZB8AAAAJ"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/borisenko-andrijj-yurijjovich"
+                    "value": "https://scholar.google.com.ua/citations?hl=en&user=HdQGZB8AAAAJ"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=7102498619"
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": ""
+				}
             ]
         },
         { 
             "id": "balahanova-tetjana-valerijivna",
             "position": "Senior Researcher",
-            "name": "Balakhanova Tetiana Valeriivna", 
+            "name": "Tetiana Valeriivna Balakhanova", 
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Influence of structural inheritance of primary cast steel structure on rolled product quality indicators. Research of features of dispersed and uniform structure formation in carbon and low-alloy steels during deformation-thermal treatment.",
-            "specialization": "05.16.01 «Metal Science and Heat Treatment of Metals»",
+            "researchDirection": "Influence of structural heredity of the primary structure of cast steel on rolled product quality indicators. Study of peculiarities of dispersed and uniform structure formation in carbon and low-alloy steels during deformation-thermal treatment.",
+            "specialization": "05.16.01 'Metallurgy and Heat Treatment of Metals'",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "tatja.balakhanova@gmail.com"
                 },
                 {
+					"type": "Encyclopedia",
+					"value": ""
+				},
+                {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-2493-218x"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?hl=uk&user=xP2iY-oAAAAJ"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/gricajj-tetyana-valerivna"
+                    "value": "https://scholar.google.com.ua/citations?hl=en&user=xP2iY-oAAAAJ"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=58298399500"
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": "https://www.webofscience.com/wos/author/record/48576176"
+				}
             ]
         },
         { 
             "id": "baranivska-olena-jevgenivna",
             "position": "Researcher",
-            "name": "Baranovska Olena Yevhenivna", 
+            "name": "Olena Yevhenivna Baranivska", 
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Features of phase and structural transformations in steels and alloys with increased wear and heat resistance. Improvement of heat treatment regimes for metal products for hot deformation tools.",
-            "specialization": "05.16.01 «Metal Science and Heat Treatment of Metals»",
+            "researchDirection": "Features of phase and structural transformations in steels and alloys with enhanced wear and heat resistance. Improvement of heat treatment regimes for metal products used in hot deformation tooling.",
+            "specialization": "05.16.01 'Metallurgy and Heat Treatment of Metals'",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "elena15dnepr@gmail.com"
                 },
                 {
+					"type": "Encyclopedia",
+					"value": ""
+				},
+                {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0002-4106-5797"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?hl=uk&user=gOda9vkAAAAJ"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/nefedehva-olena-ehvgenivna"
+                    "value": "https://scholar.google.com.ua/citations?hl=en&user=gOda9vkAAAAJ"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=58555247300"
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": "https://www.webofscience.com/wos/author/record/72680200"
+				}
             ] 
         },
         { 
             "id": "loshkarjov-dmitro-valerijovich",
             "position": "Leading Engineer",
-            "name": "Loshkariov Dmytro Valeriiovych", 
+            "name": "Dmytro Valeriiovych Loshkarov", 
             "description": "",
-            "researchDirection": "Modeling of phase-structural transformations, including using methods of non-equilibrium thermodynamics, during cooling of alloyed steels under continuous cooling or cooling in isothermal conditions; predictive determination of mechanical properties of alloyed steels after heat treatment.",
+            "researchDirection": "Modeling of phase-structural transformations, including by means of nonequilibrium thermodynamics, during cooling of alloy steels under continuous or isothermal conditions; predictive determination of mechanical properties of alloy steels after heat treatment.",
             "specialization": "",
             "contacts": [
                 {
@@ -172,21 +189,25 @@
                     "value": "kashtanp10@gmail.com"
                 },
                 {
+					"type": "Encyclopedia",
+					"value": ""
+				},
+                {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-3817-7840"
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=ZOIMtEQAAAAJ&hl=uk"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": ""
+                    "value": "https://scholar.google.com.ua/citations?user=ZOIMtEQAAAAJ&hl=en"
                 },
                 {
                     "type": "Scopus Author ID",
                     "value": ""
-                }
+                },
+				{
+					"type": "Web of Science",
+					"value": ""
+				}
             ] 
         }
     ]
