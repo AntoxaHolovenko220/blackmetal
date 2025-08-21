@@ -2,6 +2,7 @@
 	"title": "Відділ процесів і машин обробки металів тиском",
 	"firstPersonCard": {
 		"id": "prykhodko-ihor-yuriiovych",
+		"photo": "/employees/prykhodko.jpg",
 		"position": "Керівник відділу, завідуючий лабораторією",
 		"name": "Приходько Ігор Юрійович",
 		"description": "Доктор технічних наук, старший науковий співробітник",
@@ -66,10 +67,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=TSYO5asAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/razdobrehehv-valerijj-gurijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602379313"
 				}				
@@ -77,22 +74,20 @@
 		},
 		{
 			"id": "kliuchnykov-kyrylo-yuriiovych",
+			"photo": "/employees/kliuchnykov.jpg",
 			"position": "Молодший науковий співробітник",
-			"name": "Ключников Кирило Юрійович",
+			"name": "Ключніков Кирило Юрійович",
 			"researchDirection": "Дослідження та розробка технологій отримання високоточних профілів для машинобудування методами холодної прокатки і прокатки-волочіння у роликових проводках",
 			"contacts": [
 				{
 					"type": "Email",
 					"value": "kirill.shaman.k@gmail.com"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/klyuchnikov-kirilo-yurijjovich"
-				}				
+				}			
 			]
 		},
 		{
 			"id": "palamar-dmytro-hryhorovych",
+			"photo": "/employees/palamar.jpg",
 			"position": "Молодший науковий співробітник",
 			"name": "Паламар Дмитро Григорович",
 			"researchDirection": "Удосконалення існуючих та розробка технологічних режимів прокатки сортових профілів в умовах безперервних дрібносортних станів",
@@ -163,32 +158,25 @@
 					"value": "https://scholar.google.com.ua/citations?user=Inxha04AAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/korennojj-volodimir-vitalijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56028846800"
 				}
 			]
 		},
 		{
-			"id": "mazur-viacheslav-valeriiovych",
-			"position": "Молодший науковий співробітник",
-			"name": "Мазур Вячеслав Валерійович",
-			"researchDirection": "Математичне моделювання динамічних процесів в прокатному обладнанні. Розробка методів діагностування технічного стану лінії приводу прокатних клітей на основі вимірів параметрів вібрації обладнання. Розробка технічних рішень, спрямованих на зменшення паразитних динамічних навантажень в прокатному обладнанні.",
+			"id": "ivanov-oleksandr-ivanovych  ",
+			"position": "Провідний інженер",
+			"name": "Іванов Олександр Іванович",
+			"description": "Доцент",
+			"researchDirection": "Математичне моделювання процесів обробки металів тиском.",
 			"contacts": [
 				{
-					"type": "Email",
-					"value": "office.isi@nas.gov.ua"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/mazur-vyacheslav-valerijjovich"
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0003-1259-6377"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=10040843300"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57195566216"
 				}
 			]
 		}

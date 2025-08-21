@@ -3,6 +3,7 @@
     "staffCards": [
         {
             "id": "prykhodko-ihor-yuriiovych",
+            "photo": "/employees/prykhodko.jpg",
             "position": "Керівник відділу, завідуючий лабораторією",
             "name": "Приходько Ігор Юрійович",
             "description": "Доктор технічних наук, старший науковий співробітник",
@@ -33,6 +34,7 @@
         },
         {
             "id": "vorobej-sergij-oleksandrovich",
+            "photo": "/employees/vorobej-sergij-oleksandrovich.jpg",
             "name": "Воробей Сергій Олександрович",
             "position": "Старший науковий співробітник",
             "description": "Доктор технічних наук",
@@ -91,6 +93,7 @@
         },
         {
             "id": "klemeshov-jevgen-sergijovich",
+            "photo": "/employees/klemeshov-jevgen-sergijovich.jpg",
             "name": "Клемешов Євген Сергійович",
             "position": "Науковий співробітник",
             "description": "Кандидат технічних наук",

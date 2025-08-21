@@ -123,7 +123,7 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 					<Overlay>
 						<Container maxWidth='lg' sx={{ display: 'flex', alignItems: 'center' }}>
 							<ContentWrapper>
-								<Hashtag variant='h1'>#IЧM</Hashtag>
+								<Hashtag variant='h1'>Інститут чорної металургії ім. З.І. Некрасова НАН України</Hashtag>
 							</ContentWrapper>
 						</Container>
 					</Overlay>

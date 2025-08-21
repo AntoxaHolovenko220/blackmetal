@@ -22,10 +22,6 @@
 				"value": "https://scholar.google.com.ua/citations?user=zaBZXuIAAAAJ"
 			},
 			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/nesterov-oleksandr-stanislavovich"
-			},
-			{
 				"type": "Scopus Author ID",
 				"value": "https://www.scopus.com/authid/detail.uri?authorId=7101991279"
 			}
@@ -88,10 +84,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=zaBZXuIAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/nesterov-oleksandr-stanislavovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=7101991279"
 				}
@@ -145,10 +137,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=AMMEhCsAAAAJ&hl=uk"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/muravjjova-irina-gennadivna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6603854838"
 				}
@@ -174,10 +162,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=qu9g_J0AAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/ivancha-mikola-grigorovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6506980615"
 				}
@@ -201,10 +185,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=q02lVDkAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/biloshapka-olena-oleksivna"
 				},
 				{
 					"type": "Scopus Author ID",

@@ -2,7 +2,8 @@
 	"title": "Відділ позапічної обробки чавуну",
 	"firstPersonCard": {
 		"id": "kysliakov",
-		"position": "Керівник відділу",
+		"photo": "/employees/kysliakov.jpg",
+		"position": "Завідуючий відділом",
 		"name": "Кисляков Володимир Геннадійович",
 		"description": "Кандидат технічних наук",
 		"researchDirection": "Розрахунково-теоретичні та експериментальні дослідження, а також технологічні розробки у напрямку позапічного рафінування чавуну і масообмінних процесів системи «рідкий чавун-ковшовий шлак- реагент, що вводиться». Виконання комплексних робіт при налагодженні, доведенні і освоєнні промислових об’єктів позапічної десульфурації чавуну",
@@ -43,6 +44,7 @@
 	"staffCards": [
 		{
 			"id": "kysliakov",
+			"photo": "/employees/kysliakov.jpg",
 			"position": "Керівник відділу",
 			"name": "Кисляков Володимир Геннадійович",
 			"description": "Кандидат технічних наук",
@@ -72,66 +74,6 @@
 			]
 		},
 		{
-			"id": "shevchenko-anatolii-pylypovych",
-			"position": "Провідний науковий співробітник",
-			"name": "Шевченко Анатолій Пилипович",
-			"description": "Професор, доктор технічних наук",
-			"researchDirection": "Наукове керівництво і розробка комплексу процесів та апаратури позапічної обробки чавуну, тепло-масообмінних процесів підготовки чавуну до конвертерного переділу.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів»",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "isi.ovoch@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0003-0867-6825"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=g2z8WMkAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/shevchenko-anatolijj-pilipovich"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=7201468398"
-				}
-			]
-		},
-		{
-			"id": "dvoskin",
-			"position": "Старший науковий співробітник",
-			"name": "Двоскін Борис Вульфович",
-			"description": "Кандидат технічних наук",
-			"researchDirection": "Дослідження закономірностей і параметрів ряду процесів комплексу позапічної десульфурації чавуну, розробка та оптимізація комплексу технологій позапічної обробки чавуну. Виконання робіт налагодження, освоєння і вдосконалення комплексів десульфурації.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів»",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "isi.ovoch@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0003-2891-7833"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?hl=uk&user=Cja-Sf8AAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/dvoskin-boris-vulfovich"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=6601986071"
-				}
-			]
-		},
-		{
 			"id": "yelisieiev",
 			"position": "Старший науковий співробітник",
 			"name": "Єлісєєв Володимир Іванович",
@@ -155,6 +97,7 @@
 		},
 		{
 			"id": "manachyn",
+			"photo": "/employees/manachyn.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Маначин Іван Олександрович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -207,6 +150,7 @@
 		},
 		{
 			"id": "shevchenko-serhii-anatoliiovych",
+			"photo": "/employees/shevchenko.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Шевченко Сергій Анатолійович",
 			"researchDirection": "Розрахунково-теоретичні та експериментальні дослідження закономірностей гідро-аеродинаміки інжекційного введення диспергованих реагентів в ванну чавуну. Учасник промислового освоєння і вдосконалення процесів десульфурації.",
@@ -247,26 +191,19 @@
 			]
 		},
 		{
-			"id": "chubin",
+			"id": "chubina-o-a",
 			"position": "Науковий співробітник",
-			"name": "Чубін Костянтин Іванович",
-			"description": "Доцент, кандидат технічних наук",
+			"name": "Чубіна О.А. ",
+			"description": "Кандидат технічних наук",
+			"researchDirection": "Оцінка ролі ковшового шлаку в процесі десульфурації чавуну, вплив кількості та складу ковшового шлаку на ефективність процесу десульфурації, розробка рекомендацій щодо оптимізації технології десульфурації чавуну магнієм. Підготовка та забезпечення проведення лабораторних досліджень на «холодних» та «горячих моделях».",
 			"contacts": [
 				{
-					"type": "Email",
-					"value": "isi.ovoch@gmail.com"
-				},
-				{
 					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0001-5939-4479"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/chubin-kostyantin-ivanovich"
+					"value": "https://orcid.org/0000-0003-2213-5013"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=6507581280"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=15044135700"
 				}
 			]
 		}

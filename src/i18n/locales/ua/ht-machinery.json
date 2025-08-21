@@ -2,6 +2,7 @@
 	"title": "Відділ термічної обробки металу для машинобудування",
 	"firstPersonCard": {
 		"id": "parusov-eduard-volodymyrovych",
+		"photo": "/employees/parusov.jpg",
 		"position": "Завідувач відділом",
 		"name": "Парусов Едуард Володимирович",
 		"description": "Доктор технічних наук, старший науковий співробітник",
@@ -54,6 +55,7 @@
 	"staffCards": [
 		{
 			"id": "parusov-eduard-volodymyrovych",
+			"photo": "/employees/parusov.jpg",
 			"position": "Завідувач відділом",
 			"name": "Парусов Едуард Володимирович",
 			"description": "Доктор технічних наук, старший науковий співробітник",
@@ -88,6 +90,7 @@
 		},
 		{
 			"id": "lutsenko-vladyslav-anatoliiovych",
+			"photo": "/employees/lutsenko-vladyslav-anatoliiovych.jpg",
 			"position": "Провідний науковий співробітник",
 			"name": "Луценко Владислав Анатолійович",
 			"description": "Доктор технічних наук, старший науковий співробітник",
@@ -122,6 +125,7 @@
 		},
 		{
 			"id": "hubenko-svitlana-ivanivna",
+			"photo": "/employees/hubenko-svitlana-ivanivna.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Губенко Світлана Іванівна",
 			"description": "Професор, доктор технічних наук",
@@ -156,6 +160,7 @@
 		},
 		{
 			"id": "parusov-oleh-volodymyrovych",
+			"photo": "/employees/parusov-oleh-volodymyrovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Парусов Олег Володимирович",
 			"researchDirection": "Деформаційно-термічна обробка складнолегованих сталей зварювального призначення та сталей для холодного об’ємного штампування, які характеризуються підвищеною технологічною пластичністю. Розробка і промислове впровадження технологій виготовлення бунтового прокату з вуглецевих сталей.",
@@ -190,6 +195,7 @@
 		},
 		{
 			"id": "chuiko-ihor-mykolaiovych",
+			"photo": "/employees/chuiko-ihor-mykolaiovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Чуйко Ігор Миколайович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -224,6 +230,7 @@
 		},
 		{
 			"id": "sahura-liudmyla-volodymyrivna",
+			"photo": "/employees/sahura-liudmyla-volodymyrivna.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Сагура Людмила Володимирівна",
 			"description": "Кандидат технічних наук",
@@ -258,6 +265,7 @@
 		},
 		{
 			"id": "holubenko-tetiana-mykolaivna",
+			"photo": "/employees/holubenko-tetiana-mykolaivna.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Голубенко Тетяна Миколаївна",
 			"description": "Кандидат технічних наук",
@@ -292,6 +300,7 @@
 		},
 		{
 			"id": "lutsenko-olha-vladyslavivna",
+			"photo": "/employees/lutsenko-olha-vladyslavivna.jpg",
 			"position": "Науковий співробітник",
 			"name": "Луценко Ольга Владиславівна",
 			"description": "Кандидат технічних наук",
@@ -359,6 +368,7 @@
 		},
 		{
 			"id": "oliinyk-eduard-vadymovych",
+			"photo": "/employees/oliinyk-eduard-vadymovych.jpg",
 			"position": "Провідний інженер",
 			"name": "Олійник Едуард Вадимович",
 			"researchDirection": "Встановлення закономірностей та особливостей формування мультифазної структури прокату з низьковуглецевих легованих сталей за безперервного охолодження та в ізотермічних умовах. Розроблення для металургійних та металовиробних підприємств поліпшених технологічних рішень, які дозволяють здійснити перероблення прокату за зменшених матеріальних витрат.",

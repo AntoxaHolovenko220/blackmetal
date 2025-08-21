@@ -2,6 +2,7 @@
 	"title": "Department of Heat Treatment of Metals for Mechanical Engineering",
 	"firstPersonCard": {
 		"id": "parusov-eduard-volodymyrovych",
+		"photo": "/employees/parusov.jpg",
 		"position": "Head of Department",
 		"name": "Parusov Eduard Volodymyrovych",
 		"description": "Doctor of Technical Sciences, Senior Research Fellow",
@@ -54,6 +55,7 @@
 	"staffCards": [
 		{
 			"id": "parusov-eduard-volodymyrovych",
+			"photo": "/employees/parusov.jpg",
 			"position": "Head of Department",
 			"name": "Parusov Eduard Volodymyrovych",
 			"description": "Doctor of Technical Sciences, Senior Research Fellow",
@@ -88,6 +90,7 @@
 		},
 		{
 			"id": "lutsenko-vladyslav-anatoliiovych",
+			"photo": "/employees/lutsenko-vladyslav-anatoliiovych.jpg",
 			"position": "Leading Research Fellow",
 			"name": "Lutsenko Vladyslav Anatoliiovych",
 			"description": "Doctor of Technical Sciences, Senior Research Fellow",
@@ -122,6 +125,7 @@
 		},
 		{
 			"id": "hubenko-svitlana-ivanivna",
+			"photo": "/employees/hubenko-svitlana-ivanivna.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Hubenko Svitlana Ivanivna",
 			"description": "Professor, Doctor of Technical Sciences",
@@ -156,6 +160,7 @@
 		},
 		{
 			"id": "parusov-oleh-volodymyrovych",
+			"photo": "/employees/parusov-oleh-volodymyrovych.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Parusov Oleh Volodymyrovych",
 			"researchDirection": "Deformation and heat treatment of complex-alloy steels for welding applications and steels for cold bulk stamping characterized by high technological plasticity. Development and industrial implementation of technologies for producing coil stock from carbon steels.",
@@ -190,6 +195,7 @@
 		},
 		{
 			"id": "chuiko-ihor-mykolaiovych",
+			"photo": "/employees/chuiko-ihor-mykolaiovych.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Chuiko Ihor Mykolaiovych",
 			"description": "Candidate of Technical Sciences (PhD equivalent), Senior Researcher",
@@ -224,6 +230,7 @@
 		},
 		{
 			"id": "sahura-liudmyla-volodymyrivna",
+			"photo":"/employees/parusov.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Sahura Liudmyla Volodymyrivna",
 			"description": "Candidate of Technical Sciences (PhD equivalent)",
@@ -258,6 +265,7 @@
 		},
 		{
 			"id": "holubenko-tetiana-mykolaivna",
+			"photo":"/employees/holubenko-tetiana-mykolaivna.jpg",
 			"position": "Senior Research Fellow",
 			"name": "Holubenko Tetiana Mykolaivna",
 			"description": "Candidate of Technical Sciences (PhD equivalent)",
@@ -292,6 +300,7 @@
 		},
 		{
 			"id": "lutsenko-olha-vladyslavivna",
+			"photo":"/employees/lutsenko-olha-vladyslavivna.jpg",
 			"position": "Research Fellow",
 			"name": "Lutsenko Olha Vladyslavivna",
 			"description": "Candidate of Technical Sciences (PhD equivalent)",
