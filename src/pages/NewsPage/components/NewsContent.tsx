@@ -1,9 +1,64 @@
-import { Box, Typography, Link } from '@mui/material'
+import { Box, Typography, Link as MUILink } from '@mui/material'
 import { NewsContentItem } from '@/pages/HomePage/components/News/NewsTypes'
+import { Link } from 'react-router-dom'
 
 interface NewsContentProps {
 	content: NewsContentItem[]
 	title: string
+}
+
+const renderInline = (item: NewsContentItem, index: number) => {
+	if (item.type === 'link') {
+		return (
+			<MUILink
+				key={index}
+				href={item.href}
+				target='_blank'
+				rel='noopener noreferrer'
+				sx={{
+					color: 'primary.main',
+					textDecoration: 'none',
+					display: 'inline',
+				}}
+			>
+				{item.value}
+			</MUILink>
+		)
+	}
+
+	if (item.type === 'navlink') {
+		return (
+			<Link
+				key={index}
+				to={`/person/${item.href}`}
+				rel='noopener noreferrer'
+				style={{ color: '#2D7A84', textDecoration: 'none', display: 'inline' }}
+			>
+				{item.value}
+			</Link>
+		)
+	}
+
+	if (item.type === 'bold') {
+		return (
+			<span
+				key={index}
+				style={{
+					display: 'inline',
+					fontWeight: 700,
+				}}
+			>
+				{item.value}
+			</span>
+		)
+	}
+
+	// простой текст как span
+	return (
+		<span key={index} style={{ display: 'inline' }}>
+			{item.value}
+		</span>
+	)
 }
 
 const renderContent = (item: NewsContentItem, index: number) => {
@@ -51,20 +106,6 @@ const renderContent = (item: NewsContentItem, index: number) => {
 		)
 	}
 
-	if (item.type === 'link') {
-		return (
-			<Link
-				key={index}
-				href={item.href}
-				target='_blank'
-				rel='noopener noreferrer'
-				sx={{ color: 'primary.main', textDecoration: 'underline' }}
-			>
-				{item.value}
-			</Link>
-		)
-	}
-
 	if (item.type === 'text') {
 		if (item.children && item.children.length > 0) {
 			return (
@@ -79,7 +120,7 @@ const renderContent = (item: NewsContentItem, index: number) => {
 						textAlign: 'justify',
 					}}
 				>
-					{item.children.map((child, idx) => renderContent(child, idx))}
+					{item.children.map((child, idx) => renderInline(child, idx))}
 				</Typography>
 			)
 		}
@@ -104,7 +145,7 @@ const renderContent = (item: NewsContentItem, index: number) => {
 	return null
 }
 
-const NewsContent = ({ content, title }: NewsContentProps) => {
+const NewsContent = ({ content }: NewsContentProps) => {
 	return (
 		<Box sx={{ mb: 3 }}>
 			{content.map((item, index) => renderContent(item, index))}
