@@ -11,9 +11,9 @@ const NewsHeader = ({ title, date }: NewsHeaderProps) => {
 		<Box
 			sx={theme => ({
 				display: 'flex',
-				flexDirection: { xs: 'column' },
+				flexDirection: { xxs: 'column' },
 				// , lg: 'row'
-				alignItems: { xs: 'center', lg: 'center' },
+				alignItems: { xxs: 'center', lg: 'center' },
 				justifyContent: { lg: 'space-between' },
 
 				mb: 3,
@@ -30,15 +30,15 @@ const NewsHeader = ({ title, date }: NewsHeaderProps) => {
 				variant='caption'
 				sx={{
 					color: 'text.secondary',
-					fontSize: { xs: '0.95rem', sm: '1rem', lg: '0.9rem' },
+					fontSize: { xxs: '0.95rem', sm: '1rem', lg: '0.9rem' },
 					whiteSpace: 'normal',
 					flexShrink: 0,
-					textAlign: { xs: 'center', sm: 'center', lg: 'left' },
+					textAlign: { xxs: 'center', sm: 'center', lg: 'left' },
 					display: 'block',
-					ml: { xs: 0, lg: 2 },
-					mt: { xs: 0, lg: 0 },
+					ml: { xxs: 0, lg: 2 },
+					mt: { xxs: 0, lg: 0 },
 					maxWidth: '100%',
-					width: { xs: '100%', lg: 'auto' },
+					width: { xxs: '100%', lg: 'auto' },
 					wordBreak: 'break-word',
 				}}
 			>

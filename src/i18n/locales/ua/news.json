@@ -15,7 +15,7 @@
 					"value": "/blackmetal/news/1-2.jpg"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "Доктор технічних наук Олексій МЕРКУЛОВ працює в лабораторіях CIMR"
 				},
 				{
@@ -42,7 +42,7 @@
 					"value": "/blackmetal/news/2-2.jpeg"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "Президент НАН України Анатолій ЗАВГОРОДНІЙ вручає диплом директору ІЧМ НАН України Олександру БАБАЧЕНКО"
 				},
 				{
@@ -92,7 +92,7 @@
 					"value": "/blackmetal/news/4-2.png"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "B. Beausir and J.-J. Fundenberger, Analysis Tools For Electron And X-ray diffraction, ATEX - software, www.atex-software.eu, Université de Lorraine - Metz, 2017"
 				}
 			]
@@ -115,7 +115,7 @@
 					"value": "/blackmetal/news/5-2.jpg"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "к.т.н., доц. Тетяна КІМСТАЧ відвідує одну з лабораторій TU Bergakademie Freiberg"
 				}
 			]
@@ -161,7 +161,7 @@
 					"value": "/blackmetal/news/7-2.jpg"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "доповідь чл.-кор НАН України , д.т.н. Олександр БАБАЧЕНКО"
 				},
 				{
@@ -270,7 +270,7 @@
 					"value": "/blackmetal/news/10-2.jpg"
 				},
 				{
-					"type": "text",
+					"type": "desc",
 					"value": "Президент НАН України Анатолій ЗАВГОРОДНІЙ вручає диплом переможця співробітниці ІЧМ НАН України, аспірантки Олені Сафроновій"
 				},
 				{

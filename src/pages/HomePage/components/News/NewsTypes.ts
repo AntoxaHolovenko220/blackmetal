@@ -1,6 +1,8 @@
 export interface NewsContentItem {
-	type: 'image' | 'text'
+	type: 'image' | 'text' | 'desc' | 'link'
 	value: string
+	href?: string
+	children?: NewsContentItem[]
 }
 
 export interface NewsItem {
