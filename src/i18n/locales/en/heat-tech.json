@@ -22,10 +22,6 @@
                     "value": "https://scholar.google.com.ua/citations?user=MA7tga8AAAAJ"
                 },
                 {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/chajjka-oleksijj-leonidovich"
-                },
-                {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
                 }
@@ -135,10 +131,6 @@
             "specialization": "",
             "contacts": [
                 {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/izyumskijj-mikola-mikitovich"
-                },
-                {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=6508212473"
                 }
@@ -167,10 +159,6 @@
                 {
                     "type": "Google Scholar",
                     "value": "https://scholar.google.com.ua/citations?user=_yXSDsEAAAAJ&hl=uk"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/merkulov-oleksijj-ehvgenovich"
                 },
                 {
                     "type": "Scopus Author ID",
@@ -203,10 +191,6 @@
                     "value": "https://scholar.google.com.ua/citations?user=t-cys_4AAAAJ&hl=uk"
                 },
                 {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/gubinskijj-mikhajjlo-volodimirovich"
-                },
-                {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=56196705500"
                 }
@@ -233,10 +217,6 @@
                     "value": "https://scholar.google.com.ua/citations?hl=ru&user=_YNGgb0AAAAJ"
                 },
                 {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/sibir-artem-vitalijjovich"
-                },
-                {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57204763192"
                 }
@@ -261,10 +241,6 @@
                 {
                     "type": "Google Scholar",
                     "value": "https://scholar.google.com.ua/citations?hl=ru&user=QBLfMSQAAAAJ"
-                },
-                {
-                    "type": "UA Patents ID",
-                    "value": "https://uapatents.com/patents/fedorov-sergijj-sergijjovich"
                 },
                 {
                     "type": "Scopus Author ID",

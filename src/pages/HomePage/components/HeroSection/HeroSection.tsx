@@ -121,10 +121,34 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 				))}
 				{overlay && (
 					<Overlay>
-						<Container maxWidth='lg' sx={{ display: 'flex', alignItems: 'center' }}>
-							<ContentWrapper>
-								<Hashtag variant='h1'>Інститут чорної металургії ім. З.І. Некрасова НАН України</Hashtag>
-							</ContentWrapper>
+<Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center' }}>
+              <ContentWrapper sx={{ mt: -40, ml: -20 }}> 
+                <Typography
+                  component="div"
+                  sx={{
+                    fontSize: '35px',
+                    fontWeight: 600,
+                    lineHeight: 0,
+                    color: '#fff',
+                    marginBottom: 0
+                  }}
+                >
+                  Інститут чорної металургії ім. З.І. Некрасова
+                </Typography>
+                <Typography
+                  component="div"
+                  sx={{
+                    fontSize: '35px',
+                    fontWeight: 600,
+                    lineHeight: 1,
+                    color: '#fff',
+                    marginTop: 0
+                  }}
+                >
+                  Націонанальна академія наук України
+                </Typography>
+              </ContentWrapper>
+
 						</Container>
 					</Overlay>
 				)}

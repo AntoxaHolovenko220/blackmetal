@@ -22,10 +22,6 @@
 				"value": "https://scholar.google.com.ua/citations?hl=ru&user=Jl1jc0AAAAAJ"
 			},
 			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/molchanov-lavr-sergijjovich"
-			},
-			{
 				"type": "Scopus Author ID",
 				"value": "https://www.scopus.com/authid/detail.uri?authorId=57193955317"
 			}
@@ -64,10 +60,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=Jl1jc0AAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/molchanov-lavr-sergijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57193955317"
 				}
@@ -99,10 +91,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=ka4Gt5kAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/chernyatevich-anatolijj-grigorovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=7003888776"
 				}
@@ -115,7 +103,7 @@
 			"name": "Piptiuk Vitalii Petrovych",
 			"description": "Candidate of Technical Sciences",
 			"researchDirection": "Development of new and improvement of existing technologies and equipment for extra-furnace steel processing in the directions of saving energy and material resources; development of new low-alloyed steel grades for metal products of improved quality with enhanced consumer properties and for import substitution purposes.",
-			"specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
+			"specialization": "05.16.02 Metallurgy of ferrous and non-ferrous metals and special alloys\"",
 			"contacts": [
 				{
 					"type": "Email",
@@ -128,10 +116,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=Z5PGmsUAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/piptyuk-vitalijj-petrovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -159,10 +143,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=MCr1GRcAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/semikin-sergijj-ivanovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -195,10 +175,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=uLtbwsUAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/golub-tetyana-sergivna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56090113300"
 				}
@@ -226,10 +202,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=02fBjYMAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/grekov-stanislav-viktorovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -260,10 +232,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=MhyQ7lEAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/dudchenko-sergijj-oleksandrovich"
 				},
 				{
 					"type": "Scopus Author ID",

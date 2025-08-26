@@ -1,12 +1,10 @@
 import { FC, useState, useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { DocumentTitleSearch } from '@/components'
 import {
 	Grid,
 	CircularProgress,
-	Alert,
 	Box,
-	Typography,
 	useTheme,
 	useMediaQuery,
 } from '@mui/material'
@@ -22,7 +20,8 @@ const parseDate = (dateString: string) => {
 
 export const NewsGrid: FC = () => {
 	const navigate = useNavigate()
-	const { data: translationData, loading, error } = useTranslationData<TranslatedNewsData>('news')
+	const [searchParams, setSearchParams] = useSearchParams()
+	const { data: translationData, loading } = useTranslationData<TranslatedNewsData>('news')
 
 	const [news, setNews] = useState<NewsItem[]>([])
 	const [currentPage, setCurrentPage] = useState(1)
@@ -47,12 +46,28 @@ export const NewsGrid: FC = () => {
 			}))
 
 			setNews(loadedNews)
-			setCurrentPage(1)
 		}
 	}, [translationData, navigate])
 
+	useEffect(() => {
+		const pageParam = parseInt(searchParams.get('page') || '1', 10)
+		const totalPages = Math.max(1, Math.ceil(news.length / ITEMS_PER_PAGE))
+		const clamped = isNaN(pageParam) ? 1 : Math.min(Math.max(pageParam, 1), totalPages)
+		if (clamped !== currentPage) {
+			setCurrentPage(clamped)
+		}
+		if (!searchParams.get('page')) {
+			const next = new URLSearchParams(searchParams)
+			next.set('page', String(clamped))
+			setSearchParams(next)
+		}
+	}, [searchParams, setSearchParams, news.length, ITEMS_PER_PAGE])
+
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page)
+		const next = new URLSearchParams(searchParams)
+		next.set('page', String(page))
+		setSearchParams(next)
 		if ((isMobile || isTablet) && newsTitleRef.current) {
 			newsTitleRef.current.scrollIntoView({
 				behavior: 'smooth',

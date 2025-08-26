@@ -21,9 +21,7 @@ export const getContactDisplayValue = (contactType: string, t: (key: string) => 
 		return t('contacts.scopus')
 	} else if (normalized === 'webofscience' || normalized === 'webofscienceid' || normalized === 'researcherid') {
 		return t('contacts.webofscience')
-	} else if (type === 'ua patents id') {
-		return t('contacts.uaPatents')
-	} else {
+	}  else {
 		return null
 	}
 } 

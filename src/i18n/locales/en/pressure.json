@@ -66,10 +66,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=ru&user=TSYO5asAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/razdobrehehv-valerijj-gurijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602379313"
 				}				
@@ -84,11 +80,7 @@
 				{
 					"type": "Email",
 					"value": "kirill.shaman.k@gmail.com"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/klyuchnikov-kirilo-yurijjovich"
-				}				
+				}		
 			]
 		},
 		{
@@ -163,10 +155,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=Inxha04AAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/korennojj-volodimir-vitalijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56028846800"
 				}
@@ -181,10 +169,6 @@
 				{
 					"type": "Email",
 					"value": "office.isi@nas.gov.ua"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/mazur-vyacheslav-valerijjovich"
 				},
 				{
 					"type": "Scopus Author ID",

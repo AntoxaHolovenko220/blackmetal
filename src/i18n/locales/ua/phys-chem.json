@@ -3,11 +3,11 @@
 	"firstPersonCard": {
 		"id": "stepanenko",
 		"photo": "/employees/stepanenko.jpg",
-		"position": "Керівник відділу",
+		"position": "Завідуючий відділом",
 		"name": "Степаненко Дмитро Олександрович",
 		"description": "Кандидат технічних наук",
 		"researchDirection": "Створення баз експериментальних даних, дослідження структури та властивостей оксидних систем та їх розплавів. Експериментальні дослідження та оптимізація складу шлакоутворюючих сумішей при виборі раціональних шлакових режимів металургійних процесів.",
-		"specialization": " 05.16.02 «Металургія чорних і кольорових металів, та спеціальних сплавів».",
+		"specialization": " 05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
 		"contacts": [
 			{
 				"type": "Email",
@@ -20,10 +20,6 @@
 			{
 				"type": "Google Scholar",
 				"value": "https://scholar.google.com.ua/citations?user=u-pZEKoAAAAJ"
-			},
-			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/stepanenko-dmitro-oleksandrovich"
 			},
 			{
 				"type": "Scopus Author ID",
@@ -49,7 +45,7 @@
 			"name": "Тогобицька Дар'я Миколаївна",
 			"description": "Професор, доктор технічних наук",
 			"researchDirection": "Методологічні та теоретичні основи оптимізації металургійних технологій на основі комплексного вико­ристання математичного та фізико-хімічного моделювання. Створення бази знань та інтелектуальних систем прийняття рішень при управлінні металургійними процесами.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів, та спеціальних сплавів».",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Email",
@@ -68,10 +64,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=NFNXbqIAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/togobicka-darya-mikolavna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602585340"
 				}
@@ -82,9 +74,9 @@
 			"photo": "/employees/belkova.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Бєлькова Алла Іванівна",
-			"description": "Старший науковий співробітник, кандидат технічних наук",
+			"description": "Кандидат технічних наук",
 			"researchDirection": "Інформаційні технології. Фізико-хімічне та математичне моделювання властивостей шихтових матеріалів, їх  розплавів та процесів їх взаємодії, алгоритмічне забезпечення систем управління металургійними процесами.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів, та спеціальних сплавів».",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Email",
@@ -99,43 +91,8 @@
 					"value": "https://scholar.google.com.ua/citations?user=8JoI9noAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/belkova-alla-ivanivna"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6506286433"
-				}
-			]
-		},
-		{
-			"id": "stepanenko",
-			"photo": "/employees/stepanenko.jpg",
-			"position": "Керівник відділу",
-			"name": "Степаненко Дмитро Олександрович",
-			"description": "Кандидат технічних наук",
-			"researchDirection": "Створення баз експериментальних даних, дослідження структури та властивостей оксидних систем та їх розплавів. Експериментальні дослідження та оптимізація складу шлакоутворюючих сумішей при виборі раціональних шлакових режимів металургійних процесів.",
-			"specialization": " 05.16.02 «Металургія чорних і кольорових металів, та спеціальних сплавів».",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "d.gorodenskiy@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0002-0184-8295"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=u-pZEKoAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/stepanenko-dmitro-oleksandrovich"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=56974001300"
 				}
 			]
 		},
@@ -146,7 +103,7 @@
 			"name": "Кукса Олег Володимирович",
 			"description": "Кандидат технічних наук",
 			"researchDirection": "Фізико-хімічні дослідження металургійних процесів в окислювальних і відновних умовах з використанням методики міжатомної взаємодії в металургійних розплавах.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів, та спеціальних сплавів».",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Email",
@@ -168,8 +125,8 @@
 			"position": "Старший науковий співробітник",
 			"name": "Цюпа Наталя Олександрівна",
 			"description": "Кандидат технічних наук",
-			"researchDirection": "Вплив лугів на властивості оксидних систем та їх розплавів. Моделювання процесів взаємодії лужних сполук в системах «шлак-метал-газ- футерівка».",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів».",
+			"researchDirection": "Вплив лугів на властивості оксидних систем та їх розплавів. Моделювання процесів взаємодії лужних сполук в системах «шлак-метал-газ-футерівка».",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Email",
@@ -178,10 +135,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?user=OSMX5ncAAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/civata-natalya-oleksandrivna"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -196,7 +149,7 @@
 			"name": "Поворотня Ірина Романівна",
 			"description": "Кандидат технічних наук",
 			"researchDirection": "Моделювання властивостей металургійних розплавів та розподілу елементів при їх взаємодії.",
-			"specialization": "05.16.02 «Металургія чорних і кольорових металів та спеціальних сплавів».",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Email",
@@ -232,9 +185,9 @@
 					"value": "https://scholar.google.com.ua/citations?user=HKXghRQAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/likhachov-yurijj-mikhajjlovich"
-				}				
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0000-0003-3168-7813"
+				}			
 			]
 		},
 		{
@@ -251,6 +204,10 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?user=5u71LRkAAAAJ"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0000-0002-6958-4636"
 				}
 			]
 		},
@@ -260,11 +217,20 @@
 			"position": "Старший науковий співробітник",
 			"name": "Гришин Олександр Михайлович",
 			"description": "Доцент, кандидат технічних наук",
-			"researchDirection": "Фізико-хімічні методи дослідження відновлювальних процесів.",
+			"researchDirection": "Теоретичні та експериментальні дослідження процесів твердо фазного відновлення металів з їх оксидів.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com/citations?hl=uk&user=bseKcuwAAAAJ&view_op=list_works&sortby=pubdate"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0009-0000-0665-1179"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=55118646900 "
 				}				
 			]
 		},
@@ -298,6 +264,7 @@
 			"position": "Старший науковий співробітник",
 			"name": "Лісова Людмила Олександрівна",
 			"researchDirection": "Дослідження спеціальних процесів плавки; термодинамічні розрахунки рівноважного стану системи газ-шлак-метал; вивчення структури та властивостей шлакових розплавів.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
 			"contacts": [
 				{
 					"type": "Google Scholar",
@@ -306,6 +273,10 @@
 				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-6298-9115"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/inward/authorDetails.url?authorID=57200641385&partnerID=MN8TOARS"
 				}
 			]
 		}

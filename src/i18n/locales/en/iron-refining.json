@@ -21,10 +21,6 @@
 				"value": "https://scholar.google.com.ua/citations?hl=uk&user=KHwOJrgAAAAJ"
 			},
 			{
-				"type": "UA Patents ID",
-				"value": "https://uapatents.com/patents/kislyakov-volodimir-gennadijjovich"
-			},
-			{
 				"type": "Scopus Author ID",
 				"value": "https://www.scopus.com/authid/detail.uri?authorId=6602476409"
 			}
@@ -62,10 +58,6 @@
 					"value": "https://scholar.google.com.ua/citations?hl=uk&user=KHwOJrgAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/kislyakov-volodimir-gennadijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602476409"
 				}
@@ -92,10 +84,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=g2z8WMkAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/shevchenko-anatolijj-pilipovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=7201468398"
 				}
@@ -120,10 +108,6 @@
 				{
 					"type": "Google Scholar",
 					"value": "https://scholar.google.com.ua/citations?hl=uk&user=Cja-Sf8AAAAJ"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/dvoskin-boris-vulfovich"
 				},
 				{
 					"type": "Scopus Author ID",
@@ -174,10 +158,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=MPdv2eQAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/manachin-ivan-oleksandrovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=55540277500"
 				}
@@ -226,10 +206,6 @@
 					"value": "https://scholar.google.com.ua/citations?user=vS3c7ykAAAAJ"
 				},
 				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/shevchenko-sergijj-anatolijjovich"
-				},
-				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57219386529"
 				}
@@ -259,10 +235,6 @@
 				{
 					"type": "ORCID ID",
 					"value": "https://orcid.org/0000-0001-5939-4479"
-				},
-				{
-					"type": "UA Patents ID",
-					"value": "https://uapatents.com/patents/chubin-kostyantin-ivanovich"
 				},
 				{
 					"type": "Scopus Author ID",

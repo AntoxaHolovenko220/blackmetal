@@ -28,8 +28,6 @@ export const ContactIcon = ({ contactType }: ContactIconProps) => {
 	} else if (normalized === 'webofscience' || normalized === 'webofscienceid' || normalized === 'researcherid') {
 		return <ContactsIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else if (type === 'encyclopedia' || type === 'енциклопедія') {
-		return <LanguageIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
-	} else if (type === 'ua patents id') {
 		return <ScienceIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else {
 		return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />

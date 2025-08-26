@@ -7,6 +7,7 @@ import { Box, Typography } from '@mui/material'
 interface LaboratoryData {
   title: string
   staffCards: PersonCardInterface[]
+  firstPersonCard?: PersonCardInterface
 }
 
 const LaboratoryPage = () => {
@@ -33,9 +34,10 @@ const LaboratoryPage = () => {
     <PersonInfoLayout
       title={data.title}
       staffCards={data.staffCards}
+      firstPersonCard={data.firstPersonCard}
       searchEnabled={false}
     />
   )
 }
 
-export default LaboratoryPage 
+export default LaboratoryPage

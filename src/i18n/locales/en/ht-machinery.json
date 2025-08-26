@@ -21,10 +21,6 @@
         "value": "https://scholar.google.com.ua/citations?hl=uk&user=eE1rZKgAAAAJ"
       },
       {
-        "type": "UA Patents ID",
-        "value": "https://uapatents.com/patents/parusov-eduard-volodimirovich"
-      },
-      {
         "type": "Scopus Author ID",
         "value": "https://www.scopus.com/authid/detail.uri?authorId=8367262600"
       }
@@ -69,10 +65,6 @@
           "value": "https://scholar.google.com.ua/citations?hl=uk&user=eE1rZKgAAAAJ"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/parusov-eduard-volodimirovich"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=8367262600"
         }
@@ -97,10 +89,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?user=eQUn2zkAAAAJ&hl=uk"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/lucenko-vladislav-anatolijjovich"
         },
         {
           "type": "Scopus Author ID",
@@ -129,10 +117,6 @@
           "value": "https://scholar.google.com.ua/citations?user=-foE3k4AAAAJ&hl=uk"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/gubenko-svitlana-ivanivna"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=7006727582"
         }
@@ -157,10 +141,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?hl=uk&user=m-WmSpEAAAAJ"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/parusov-oleg-volodimirovich"
         },
         {
           "type": "Scopus Author ID",
@@ -189,10 +169,6 @@
           "value": "https://scholar.google.com.ua/citations?user=TaoMBcwAAAAJ&hl=uk"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/chujjko-igor-mikolajjovich"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=57211226481"
         }
@@ -217,10 +193,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?user=veOM61cAAAAJ&hl=uk"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/sagura-lyudmila-volodimirivna"
         },
         {
           "type": "Scopus Author ID",
@@ -249,10 +221,6 @@
           "value": "https://scholar.google.com.ua/citations?user=94wgLBcAAAAJ&hl=uk"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/golubenko-tetyana-mikolavna"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=54968707900"
         }
@@ -277,10 +245,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?user=mllGpnYAAAAJ&hl=uk"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/lucenko-olga-vladislavivna"
         },
         {
           "type": "Scopus Author ID",
@@ -308,10 +272,6 @@
           "value": "https://scholar.google.com.ua/citations?user=xt-cSUwAAAAJ&hl=uk"
         },
         {
-          "type": "UA Patents ID",
-          "value": "https://uapatents.com/patents/sivak-ganna-ivanivna"
-        },
-        {
           "type": "Scopus Author ID",
           "value": "https://www.scopus.com/authid/detail.uri?authorId=7006814240"
         }
@@ -335,10 +295,6 @@
         {
           "type": "Google Scholar",
           "value": "https://scholar.google.com.ua/citations?user=Qx5H8ScAAAAJ&hl=uk"
-        },
-        {
-          "type": "UA Patents ID",
-          "value": ""
         },
         {
           "type": "Scopus Author ID",
