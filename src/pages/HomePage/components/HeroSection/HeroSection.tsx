@@ -101,7 +101,7 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 		<>
 			<HeaderContainer
 				sx={{
-					height: 'calc(100vh - 165px)', 
+					height: 'calc(100vh - 165px)',
 					minHeight: '500px',
 					width: '100%',
 					position: 'relative',
@@ -121,34 +121,42 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 				))}
 				{overlay && (
 					<Overlay>
-<Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center' }}>
-              <ContentWrapper sx={{ mt: -40, ml: -20 }}> 
-                <Typography
-                  component="div"
-                  sx={{
-                    fontSize: '35px',
-                    fontWeight: 600,
-                    lineHeight: 0,
-                    color: '#fff',
-                    marginBottom: 0
-                  }}
-                >
-                  Інститут чорної металургії ім. З.І. Некрасова
-                </Typography>
-                <Typography
-                  component="div"
-                  sx={{
-                    fontSize: '35px',
-                    fontWeight: 600,
-                    lineHeight: 1,
-                    color: '#fff',
-                    marginTop: 0
-                  }}
-                >
-                  Націонанальна академія наук України
-                </Typography>
-              </ContentWrapper>
-
+						<Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center' }}>
+							<ContentWrapper
+								sx={{
+									mt: { xs: '-60px', sm: '-90px', md: '-120px', lg: '-150px', xl: '-190px' },
+									ml: { xs: '0', sm: '-16px', md: '-32px', lg: '-60px', xl: '-120px' },
+								}}
+							>
+								<Typography
+									component="div"
+									sx={{
+										fontSize: { xs: '22px', sm: '28px', md: '34px', lg: '40px', xl: '48px' },
+										fontWeight: 700,
+										lineHeight: { xs: 1.2, md: 1.15, lg: 1.1 },
+										color: '#fff',
+										mb: 0,
+										maxWidth: { xs: '100%', md: '80%', lg: '70%', xl: '60%' },
+										wordBreak: 'break-word',
+										hyphens: 'auto',
+										letterSpacing: { xs: 0, sm: '0.2px' },
+									}}
+								>
+									Інститут чорної металургії ім. З.І. Некрасова
+								</Typography>
+								<Typography
+									component="div"
+									sx={{
+										fontSize: { xs: '16px', sm: '20px', md: '24px', lg: '30px', xl: '36px' },
+										fontWeight: 600,
+										lineHeight: { xs: 1.2, md: 1.15 },
+										color: '#fff',
+										mt: 0,
+									}}
+								>
+									Націонанальна академія наук України
+								</Typography>
+							</ContentWrapper>
 						</Container>
 					</Overlay>
 				)}
