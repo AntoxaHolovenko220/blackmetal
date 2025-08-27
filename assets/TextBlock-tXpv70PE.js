@@ -1,0 +1,1 @@
+import{j as x,T as i}from"./index-CkmKULss.js";const n=({content:t,variant:e="text"})=>{const o={title:{fontSize:"20px",fontWeight:600,color:"#2D7A84",mb:"16px"},text:{fontSize:"18px",color:"#333",mb:"24px",textAlign:"justify",lineHeight:1.6}};return x.jsx(i,{sx:o[e],children:t})};export{n as TextBlock};

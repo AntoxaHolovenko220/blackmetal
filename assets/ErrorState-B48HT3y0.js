@@ -1,1 +1,0 @@
-import{f as s,j as r,A as e}from"./index-CLGa8OZG.js";import{C as o}from"./Container-n2ZcaK8S.js";const i=()=>{const{t}=s();return r.jsx(o,{maxWidth:"md",sx:{py:4},children:r.jsx(e,{severity:"error",children:t("notFound.title")})})};export{i as default};
