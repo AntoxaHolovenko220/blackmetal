@@ -89,6 +89,19 @@
 		{
 			"type": "text",
 			"content": "Місце захисту: м.Дніпро, пл. Ак. Стародубова, 1, ауд. 116."
+		},
+		{
+			"type": "documents",
+			"data": [
+				{
+					"title": "Аудіозапис конференції",
+					"link": "https://drive.google.com/file/d/1vMLylMueXmpU0v67D70MnxfqlArcG0KR/view?usp=sharing"
+				},
+				{
+					"title": "Відеозапис конференції",
+					"link": "https://drive.google.com/file/d/1z7kKxCZ3Jqw3VjMY21V1SfhcDR1IuPz7/view?usp=sharing"
+				}
+			]
 		}
 	]
 }

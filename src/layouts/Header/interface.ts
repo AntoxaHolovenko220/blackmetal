@@ -2,6 +2,7 @@ export interface NavItem {
 	id: string
 	label: string
 	href?: string
+	link?: string
 	items?: NavItem[]
 	icon?: React.ReactNode
 }

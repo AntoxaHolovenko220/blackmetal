@@ -67,7 +67,7 @@ const DocumentCard = ({ title, link, date, image }: DocumentCardProps) => {
 							: '#8A8A8A',
 				}}
 			>
-				{fileExtension}
+				{fileExtension === 'view?usp=sharing' ? 'google drive' : fileExtension}
 			</Typography>
 
 			{image && (

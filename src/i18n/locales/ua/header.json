@@ -82,6 +82,22 @@
 					"id": "monographs",
 					"label": "Монографії",
 					"href": "/publishing/monographs"
+				},
+				{
+					"id": "conferences",
+					"label": "Конференції",
+					"items": [
+						{
+							"id": "main-council",
+							"label": "Всеукраїнська конференція «Наука і металургія»",
+							"link": "/blackmetal/Запрошення_на_конференцію_НіМ_20242.pdf"
+						},
+						{
+							"id": "young-scientists",
+							"label": "Міжнародна конференція «HighMatTech»",
+							"link": "/blackmetal/HighMatTech-2025.pdf"
+						}
+					]
 				}
 			]
 		},
@@ -158,7 +174,24 @@
 				{
 					"id": "special-councils",
 					"label": "Разові спеціалізовані вчені ради",
-					"href": "/training/special-councils"
+					"items": [
+						{
+							"id": "metallurgy",
+							"label": "Металургія",
+							"items": [
+								{
+									"id": "phd7744",
+									"label": "PhD 7744 (Арендач Н.А.)",
+									"href": "/training/special-councils/metallurgy/phd7744"
+								}
+							]
+						},
+						{
+							"id": "materials-science",
+							"label": "Матеріалознавство",
+							"href": "/training/special-councils/materials-science"
+						}
+					]
 				},
 				{
 					"id": "specialized-council",

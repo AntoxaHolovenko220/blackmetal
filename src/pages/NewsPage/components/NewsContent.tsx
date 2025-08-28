@@ -67,8 +67,8 @@ const renderContent = (item: NewsContentItem, index: number) => {
 			<Box
 				key={index}
 				sx={{
+					maxWidth: '750px',
 					width: '100%',
-					maxWidth: '600px',
 					mx: 'auto',
 					mb: 2,
 				}}
@@ -78,7 +78,6 @@ const renderContent = (item: NewsContentItem, index: number) => {
 					alt={`Новость - изображение ${index + 1}`}
 					style={{
 						width: '100%',
-						height: '300px',
 						objectFit: 'contain',
 					}}
 				/>

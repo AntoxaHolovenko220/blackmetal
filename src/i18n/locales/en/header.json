@@ -82,6 +82,22 @@
 					"id": "monographs",
 					"label": "Monographs",
 					"href": "/publishing/monographs"
+				},
+				{
+					"id": "conferences",
+					"label": "Conferences",
+					"items": [
+						{
+							"id": "main-council",
+							"label": "All-Ukrainian Conference «Science and Metallurgy»",
+							"link": "/blackmetal/Запрошення_на_конференцію_НіМ_20242.pdf"
+						},
+						{
+							"id": "young-scientists",
+							"label": "International conference «HighMatTech»",
+							"link": "/blackmetal/HighMatTech-2025.pdf"
+						}
+					]
 				}
 			]
 		},

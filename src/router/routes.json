@@ -216,9 +216,9 @@
 		"layout": "MainLayout"
 	},
 	"SpecCouncilsPage": {
-		"path": "/training/special-councils",
+		"path": "/training/special-councils/metallurgy/phd7744",
 		"component": "SpecCouncilsPage",
-		"title": "Разові спеціалізовані ради",
+		"title": "Разова спеціалізована вчена рада PhD 7744",
 		"layout": "MainLayout"
 	},
 	"TestingCenterPage": {
