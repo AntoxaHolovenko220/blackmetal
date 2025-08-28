@@ -1,0 +1,1 @@
+import{f as s,j as r,A as e}from"./index-DTG-Mm7K.js";import{C as o}from"./Container-CtK63q-k.js";const i=()=>{const{t}=s();return r.jsx(o,{maxWidth:"md",sx:{py:4},children:r.jsx(e,{severity:"error",children:t("notFound.title")})})};export{i as default};

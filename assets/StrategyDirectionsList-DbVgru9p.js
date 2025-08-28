@@ -1,0 +1,1 @@
+import{j as r,B as s}from"./index-DTG-Mm7K.js";import i from"./StrategyDirection-Bk2ZE95N.js";const m=({directions:e})=>r.jsx(s,{sx:{display:"flex",flexDirection:"column",gap:2},children:e.map((o,t)=>r.jsx(i,{text:o,index:t},t))});export{m as default};
