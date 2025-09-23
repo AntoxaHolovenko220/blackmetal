@@ -13,6 +13,12 @@ const MainCouncilPage = () => {
 	if (!data) {
 		return null
 	}
+	const sorted = [...(data.data || [])].sort((a, b) => {
+		const aHas = !!a.photo && String(a.photo).trim() !== ''
+		const bHas = !!b.photo && String(b.photo).trim() !== ''
+		if (aHas === bHas) return 0
+		return aHas ? -1 : 1
+	})
 	return (
 		<Box sx={PersonCardWrapper}>
 			<Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
@@ -20,7 +26,7 @@ const MainCouncilPage = () => {
 			</Box>
 			<Box sx={{ maxWidth: '1817px', m: '0px auto' }}>
 				<Box sx={PersonCardAdaptation}>
-					{data.data.map((item, index) => (
+					{sorted.map((item, index) => (
 						<PersonCard
 							key={index}
 							id={item.id}

@@ -13,6 +13,13 @@ const StaffSection = ({ staffCards, staffTitle }: StaffSectionProps) => {
     return null
   }
 
+  const sortedStaff = [...staffCards].sort((a, b) => {
+    const aHasPhoto = !!a.photo && String(a.photo).trim() !== ''
+    const bHasPhoto = !!b.photo && String(b.photo).trim() !== ''
+    if (aHasPhoto === bHasPhoto) return 0
+    return aHasPhoto ? -1 : 1
+  })
+
   return (
     <>
       <Box sx={{ mb: 3 }}>
@@ -31,7 +38,7 @@ const StaffSection = ({ staffCards, staffTitle }: StaffSectionProps) => {
 
       <Box sx={{ maxWidth: '1817px', mb: '30px' }}>
         <Box sx={PersonCardAdaptation}>
-          {staffCards.map((card, index) => (
+          {sortedStaff.map((card, index) => (
             <PersonCard
               key={card.id || index}
               id={card.id}
