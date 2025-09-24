@@ -53,7 +53,6 @@ const renderInline = (item: NewsContentItem, index: number) => {
 		)
 	}
 
-	// простой текст как span
 	return (
 		<span key={index} style={{ display: 'inline' }}>
 			{item.value}

@@ -28,9 +28,14 @@ const YoungCouncilPage = () => {
 					{sorted.map((item, index) => (
 						<PersonCard
 							key={index}
+							id={item.id}
 							photo={item.photo}
 							position={item.position}
 							name={item.name}
+							description={item.description}
+							researchDirection={item.researchDirection}
+							teachingSubjects={item.teachingSubjects}
+							contacts={item.contacts}
 						/>
 					))}
 				</Box>

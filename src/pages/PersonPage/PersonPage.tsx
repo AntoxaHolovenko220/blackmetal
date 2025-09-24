@@ -22,6 +22,8 @@ const PersonPage = () => {
 	const { data: physChemData } = useTranslationData<PersonCardData>('phys-chem')
 	const { data: organizationData } = useTranslationData<PersonCardData>('organization')
 	const { data: qualityData } = useTranslationData<PersonCardData>('quality')
+	const { data: mainCouncilData } = useTranslationData<PersonCardData>('maincouncil')
+	const { data: youngCouncilData } = useTranslationData<PersonCardData>('youngcouncil')
 	const { data: labelsData } = useTranslationData<{
 		contacts: string
 		researchDirection: string
@@ -34,6 +36,8 @@ const PersonPage = () => {
 	let labels = null
 	
 	const dataSources = [
+		mainCouncilData,
+		youngCouncilData,
 		directorateData,
 		heatTechData,
 		flatRollingData,
@@ -67,7 +71,7 @@ const PersonPage = () => {
 				}
 			}
 			
-
+			
 			if (data.firstPersonCard && data.firstPersonCard.id === id) {
 				console.log('Found person in firstPersonCard:', data.firstPersonCard.name)
 				person = data.firstPersonCard
@@ -124,7 +128,7 @@ const PersonPage = () => {
 						contacts={person.contacts}
 						contactsLabel={labels?.contacts || labelsData?.contacts || 'Контакти'}
 					/>
-
+					
 					<PersonContent 
 						position={person.position || ''}
 						name={person.name || ''}

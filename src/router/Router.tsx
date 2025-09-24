@@ -5,6 +5,7 @@ import { RouteConfig } from '@/router/types'
 import Loader from '@/components/Loader'
 import MainLayout from '@/layouts/MainLayout'
 import HeaderOnlyLayout from '@/layouts/HeaderOnlyLayout/HeaderOnlyLayout'
+import ScrollToTop from '@/router/ScrollToTop'
 
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'))
 
@@ -15,6 +16,7 @@ const pages = import.meta.glob('../pages/**/*.tsx') as Record<
 
 const Router = () => (
 	<Suspense fallback={<Loader />}>
+		<ScrollToTop />
 		<Routes>
 			{Object.entries(routes as Record<string, RouteConfig>).map(([key, route]) => {
 				const importPath = `../pages/${route.component}/${route.component}.tsx`

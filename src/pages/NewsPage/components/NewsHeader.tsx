@@ -12,7 +12,6 @@ const NewsHeader = ({ title, date }: NewsHeaderProps) => {
 			sx={theme => ({
 				display: 'flex',
 				flexDirection: { xxs: 'column' },
-				// , lg: 'row'
 				alignItems: { xxs: 'center', lg: 'center' },
 				justifyContent: { lg: 'space-between' },
 
