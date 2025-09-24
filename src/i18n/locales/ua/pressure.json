@@ -3,11 +3,11 @@
 	"firstPersonCard": {
         "id": "prykhodko-ihor-yuriiovych",
         "photo": "/employees/prykhodko.jpg",
-        "position": "Завідуючий відділом",
+        "position": "Завідувач відділом",
         "name": "Приходько Ігор Юрійович",
         "description": "Доктор технічних наук, старший науковий співробітник",
         "researchDirection": "Дослідження, удосконалення існуючих та розробка  нових технологічних процесів гарячої та холодної прокатки штаб",
-        "specialization": "05.03.05 - Процеси та машини обробки тиском",
+        "specialization": "05.03.05 – Процеси та машини обробки тиском",
         "contacts": [
             {
                 "type": "Email",
