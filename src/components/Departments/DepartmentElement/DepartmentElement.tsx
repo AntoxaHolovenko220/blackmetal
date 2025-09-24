@@ -18,14 +18,14 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 			component={Link}
 			to={href}
 			sx={{
-				flex: '1 1 calc(25% - 20px)', 
+				flex: '1 1 calc(25% - 20px)',
 				maxWidth: {
 					xxl: '460px',
 				},
 				minWidth: '260px',
 				minHeight: '120px',
 				height: {
-					xs: '120px',
+					xxs: '120px',
 					xxl: '145px',
 				},
 				display: 'flex',
@@ -52,18 +52,18 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 			<Box
 				sx={{
 					width: {
-						xs: '50px',
+						xxs: '50px',
 						xxl: '80px',
 					},
 					height: {
-						xs: '50px',
+						xxs: '50px',
 						xxl: '80px',
 					},
 					ml: 2,
 					display: 'flex',
 					alignItems: 'center',
-					justifyContent: 'center', 
-					flexShrink: 0, 
+					justifyContent: 'center',
+					flexShrink: 0,
 				}}
 			>
 				<Box
@@ -72,11 +72,11 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 					className='svg-logo'
 					sx={{
 						width: {
-							xs: '50px',
+							xxs: '50px',
 							xxl: '80px',
 						},
 						height: {
-							xs: '50px',
+							xxs: '50px',
 							xxl: '80px',
 						},
 						objectFit: 'contain',
@@ -88,15 +88,16 @@ const DepartmentElement: React.FC<DepartmentElementProps> = ({
 			</Box>
 
 			<Box sx={{ mr: 2 }}>
-			<Box
-				className='department-text'
-				sx={{
-				fontSize: { xs: '19px', xxl: '21px' },
-				color: 'black',
-				transition: 'color 0.3s ease',
-				}}
-			>
-				{fullName}</Box>
+				<Box
+					className='department-text'
+					sx={{
+						fontSize: { xxs: '19px', xxl: '21px' },
+						color: 'black',
+						transition: 'color 0.3s ease',
+					}}
+				>
+					{fullName}
+				</Box>
 			</Box>
 		</Box>
 	)
