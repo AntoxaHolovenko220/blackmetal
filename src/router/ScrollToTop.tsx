@@ -24,12 +24,13 @@ export default function ScrollToTop() {
 			positionsRef.current.set(prevPathRef.current, window.scrollY)
 		}
 
-		if (navigationType === 'POP') {
-			const y = positionsRef.current.get(currentPath) ?? 0
-			window.scrollTo(0, y)
-		} else {
-			window.scrollTo(0, 0)
+		const jumpTo = (y: number) => {
+			window.scrollTo({ top: y, left: 0, behavior: 'auto' })
+			document.documentElement.scrollTop = y
+			document.body.scrollTop = y
 		}
+
+		jumpTo(0)
 
 		prevPathRef.current = currentPath
 	}, [location.pathname, navigationType])
