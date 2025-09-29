@@ -20,4 +20,22 @@ export default defineConfig({
 	},
 	base: '/blackmetal/',
 	plugins: [react()],
+	server: {
+		proxy: {
+			'/api': {
+				target: 'http://localhost:8080',
+				changeOrigin: true,
+				secure: false,
+			},
+		},
+	},
+	preview: {
+		proxy: {
+			'/api': {
+				target: 'http://localhost:8080',
+				changeOrigin: true,
+				secure: false,
+			},
+		},
+	},
 })

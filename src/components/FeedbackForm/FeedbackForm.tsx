@@ -152,22 +152,21 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 		
 		setIsSubmitting(true)
 
-		const submitData = new FormData()
-		submitData.append('access_key', '5e16d64e-2df9-4da9-b887-491e6a6713b9')
-		submitData.append('name', formData.firstName)
-		submitData.append('phone', formData.phone)
-		submitData.append('email', formData.email)
-		submitData.append('message', formData.question === 'other' ? formData.otherQuestion : formData.question)
-
 		try {
-			const response = await fetch('https://api.web3forms.com/submit', {
+			const response = await fetch('/api/send', {
 				method: 'POST',
-				body: submitData
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					name: formData.firstName,
+					phone: formData.phone,
+					email: formData.email,
+					message: formData.question === 'other' ? formData.otherQuestion : formData.question,
+				}),
 			})
-			
+
 			const result = await response.json()
-			
-			if (result.success) {
+
+			if (response.ok && result.success) {
 			setSuccessOpen(true)
 			setFormData({
 				firstName: '',
@@ -180,7 +179,7 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
 			onClose()
 				}, 3000)
 			} else {
-				throw new Error('Web3Forms failed: ' + result.message)
+				throw new Error('Send failed: ' + (result?.message || 'Unknown error'))
 			}
 		} catch (error) {
 			console.error('Email sending failed:', error)
