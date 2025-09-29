@@ -44,7 +44,8 @@ export const PageContent = ({ data }: PageContentProps) => {
 						onClick={() => navigate(routes.KimstachPage.path)}
 						variant='contained'
 						sx={{
-							width: '200px',
+							maxWidth: '600px',
+							width: '100%',
 							height: '42px',
 							m: '0px auto',
 							borderRadius: 0,
