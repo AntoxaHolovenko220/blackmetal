@@ -1,7 +1,6 @@
 import { Box, Link as MUILink } from '@mui/material'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded'
 import InstagramIcon from '@mui/icons-material/Instagram'
-import XIcon from '@mui/icons-material/X'
 import YouTubeIcon from '@mui/icons-material/YouTube'
 
 const SocialLinks = () => {
@@ -22,9 +21,6 @@ const SocialLinks = () => {
 			</MUILink>
 			<MUILink href='' target='_blank' rel='noopener noreferrer'>
 				<InstagramIcon sx={iconsStyle} />
-			</MUILink>
-			<MUILink href='' target='_blank' rel='noopener noreferrer'>
-				<XIcon sx={iconsStyle} />
 			</MUILink>
 			<MUILink href='' target='_blank' rel='noopener noreferrer'>
 				<YouTubeIcon sx={iconsStyle} />

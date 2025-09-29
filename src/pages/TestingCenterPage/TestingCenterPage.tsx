@@ -39,9 +39,8 @@ const TestingCenterPage = () => {
 				pl: { xxs: '0px', md: '50px' },
 			}}
 		>
-			<DocumentTitleSearch title={data.title} search={false} />
 
-			<Box sx={{ mt: '32px', maxWidth: '1200px' }}>
+			<Box sx={{ mt: '32px'}}>
 				<TestingCenterHeader
 					subtitle={data.subtitle}
 					institute={data.institute}

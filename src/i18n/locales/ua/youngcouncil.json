@@ -64,8 +64,31 @@
 			]
 		},
 		{
-			"position": "Секретар",
-			"name": "Снігура Ірина Романівна"
+			"id": "povorotnia",
+			"photo": "/employees/povorotnia.jpg",
+			"position": "Секратар",
+			"name": "Поворотня Ірина Романівна",
+			"description": "Кандидат технічних наук",
+			"researchDirection": "Дослідження процесів розподілу та ефективності засвоєння легуючих елементів в системі «метал-шлак- газ». Вдосконалення технологічних прийомів введення добавок у металевий розплав з метою досягнення максимального ступеня їх засвоєння, поліпшення показників якості сталі, зниження енергетичних і сировинних витрат при виплавці сталі.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "iro4ka01091990@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0001-5872-7403"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=6jebBSwAAAAJ"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57222352527"
+				}
+			]
 		},
 		{
 			"id": "manachyn",
