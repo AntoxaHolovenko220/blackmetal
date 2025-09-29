@@ -90,6 +90,12 @@
 			"fullName": "Відділ стандартизації та управління якістю продукції",
 			"img": "/blackmetal/icons/13.svg",
 			"href": "/technical-departments/quality"
+		},
+		{
+			"id": 3,
+			"fullName": "Відділ головного метролога",
+			"img": "/blackmetal/icons/14.svg",
+			"href": ""
 		}
 	]
 }

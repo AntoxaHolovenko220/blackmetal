@@ -3,11 +3,11 @@
 	"data": [
 		{
 			"id": "babachenko",
-			"photo": "/employees/babachenko.jpg",
-			"position": "Director, Senior Research Fellow",
+			"photo":"/employees/babachenko.jpg",
+			"position": "Director, Corresponding Member of the National Academy of Sciences of Ukraine",
 			"name": "Babachenko Oleksandr Ivanovych",
-			"description": "Doctor of Technical Sciences, Corresponding Member of the National Academy of Sciences of Ukraine",
-			"researchDirection": "Development of scientific principles and technological solutions for new processes of production of wheel-bandage steels and railway wheels and bandages, ensuring a high level of their service life. Research of the influence of the structural state and the complex of properties of various types of steel products on their operational reliability",
+			"description": "Doctor of Technical Sciences, Senior Researcher",
+			"researchDirection": "Development of scientific principles and technological solutions for new production processes of wheel-tyre steels and railway wheels and tyres, ensuring a high level of their resource. Study of the influence of the structural state and complex of properties of various types of steel rolled products on its operational reliability",
 			"specialization": "05.02.01 – Materials Science",
 			"contacts": [
 				{
@@ -38,12 +38,12 @@
 		},
 		{
 			"id": "merkulov",
-			"photo": "/employees/merkulov.jpg",
-			"position": "Deputy Director for Research, Senior Research Fellow",
+			"photo":"/employees/merkulov.jpg",
+			"position": "Deputy Director for Scientific Work, Senior Researcher",
 			"name": "Merkulov Oleksii Yevhenovych",
 			"description": "Doctor of Technical Sciences",
-			"researchDirection": "System analysis of pig iron and steel metallurgy, improvement of fuel utilization in metallurgical processes, development of new energy-saving metallurgical technologies for metal production.",
-			"specialization": "05.16.02 – Ferrous and Non-Ferrous Metallurgy and Special Alloys",
+			"researchDirection": "System analysis of iron and steel metallurgy, improvement of fuel use in metallurgical processes, development of new energy-saving metallurgical technologies for metal production.",
+			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
 			"contacts": [
 				{
 					"type": "Email",
@@ -73,11 +73,11 @@
 		},
 		{
 			"id": "parusov-eduard-volodymyrovych",
-			"photo": "/employees/parusov-eduard-volodymyrovych.jpg",
-			"position": "Deputy Director for Research, Head of Department",
+			"photo":"/employees/parusov-eduard-volodymyrovych.jpg",
+			"position": "Deputy Director for Scientific Work, Head of Department",
 			"name": "Parusov Eduard Volodymyrovych",
-			"description": "Doctor of Technical Sciences, Senior Research Fellow",
-			"researchDirection": "Deformation-thermal treatment of metals and alloys; peculiarities of phase and structural transformations in carbon and alloy steels during continuous and isothermal cooling; development and industrial implementation of through technologies for the production and processing of wire rod from low-carbon, high-carbon, and low-carbon alloy steels.",
+			"description": "Doctor of Technical Sciences, Senior Researcher",
+			"researchDirection": "Thermomechanical processing of metals and alloys; features of phase and structural transformations in carbon and alloy steels during continuous and isothermal cooling; development and industrial implementation of end-to-end technologies for the production and processing of coiled rolled products from low-carbon, high-carbon and low-carbon alloy steels.",
 			"specialization": "05.02.01 – Materials Science",
 			"contacts": [
 				{
@@ -108,12 +108,12 @@
 		},
 		{
 			"id": "harmash",
-			"photo": "/employees/harmash.jpg",
-			"position": "Scientific Secretary, Senior Research Fellow",
+			"photo":"/employees/harmash.jpg",
+			"position": "Scientific Secretary, Senior Researcher",
 			"name": "Harmash Larysa Ivanivna",
 			"description": "Candidate of Technical Sciences",
-			"researchDirection": "Research of metallurgical properties of iron ore raw materials and fuels to improve their quality and enable the use of new types of raw materials (including secondary resources) in ferrous metallurgy. Computational and analytical studies of the influence of iron ore properties on blast furnace smelting parameters. Research on reducing carbon usage in blast furnace production, including when using hydrogen.",
-			"specialization": "05.16.02 – Ferrous and Non-Ferrous Metallurgy and Special Alloys",
+			"researchDirection": "Research of metallurgical properties of iron ore raw materials and fuel in order to improve their quality and the possibility of using new types of raw materials (including secondary resources) in ferrous metallurgy. Computational and analytical studies of the influence of iron ore raw material properties on blast furnace smelting parameters. Research on possibilities for reducing carbon use in blast furnace production, including when using hydrogen.",
+			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
 			"contacts": [
 				{
 					"type": "Email",
@@ -173,6 +173,6 @@
 					"value": ""
 				}
 			]
-		}
+		}	
 	]
 }

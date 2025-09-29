@@ -1,38 +1,39 @@
 {
-    "title": "Laboratory of heat technology and energy-saving technologies of blast furnace smelting",
+    "title": "Laboratory of Heat Engineering and Energy-Saving Technologies of Blast Furnace Smelting",
+    "firstPersonCard": {
+        "id": "chaika-oleksii-leonidovych",
+        "photo": "/employees/chaika-oleksii-leonidovych.jpg",
+        "position": "Head of Laboratory",
+        "name": "Chaika Oleksii Leonidovych",
+        "description": "Senior Researcher, Candidate of Technical Sciences",
+        "researchDirection": "Development and implementation of a new scientific direction in the field of blast furnace production – systemic reliability in pig iron production: search for compromise solutions using formalized methods and based on experimental melts, which ensure the required volume of pig iron of specified quality, minimal consumption of energy resources and ensuring the technical reliability of the blast furnace and its servicing units, minimal harmful impact of production on the environment.",
+        "specialization": "05.16.02  \"Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys\"",
+        "contacts": [
+            {
+                "type": "Email",
+                "value": "chaykadp@gmail.com"
+            },
+            {
+                "type": "ORCID ID",
+                "value": "https://orcid.org/0000-0003-1678-2580"
+            },
+            {
+                "type": "Google Scholar",
+                "value": "https://scholar.google.com/citations?user=MA7tga8AAAAJ&hl=ru"
+            },
+            {
+                "type": "Scopus Author ID",
+                "value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
+            }
+        ]
+    },
     "staffCards": [
         {
-            "id": "chajka",
-            "position": "Head of Laboratory",
-            "name": "Chaika Oleksii Leonidovych",
-            "description": "Senior Research Fellow, Candidate of Technical Sciences",
-            "researchDirection": "Research of thermal and gas-dynamic operation of blast furnaces, technology of rational use of pulverized coal fuel and other fuel additives, development of diagnostic systems for thermal operation of blast furnace and its enclosure, particularly early-stage diagnosis of disturbances in furnace operation.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
-            "contacts": [
-                {
-                    "type": "Email",
-                    "value": "chaykadp@gmail.com"
-                },
-                {
-                    "type": "ORCID ID",
-                    "value": "https://orcid.org/0000-0003-1678-2580"
-                },
-                {
-                    "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=MA7tga8AAAAJ"
-                },
-                {
-                    "type": "Scopus Author ID",
-                    "value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
-                }
-            ]
-        },
-        {
             "id": "dzhigota",
-            "position": "Leading Engineer",
-            "name": "Dzhigota Marina Heorhivna",
+            "position": "Lead Engineer",
+            "name": "Dzhygota Marina Georgiivna",
             "description": "",
-            "researchDirection": "Research of metallurgical properties and behavior of coke in blast furnace, improving efficiency of using various types of fuel in blast furnace production.",
+            "researchDirection": "Research of technological characteristics and limitations of blast furnace operation.",
             "contacts": [
                 {
                     "type": "Email",
@@ -46,11 +47,11 @@
         },
         {
             "id": "lebid",
-            "position": "Senior Research Fellow",
+            "position": "Senior Researcher",
             "name": "Lebid Vitalii Vasylovych",
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Development of theoretical foundations of technology for loading charge materials into blast furnace using modern charging devices, means of controlling gas flow parameters and automated control systems.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
+            "researchDirection": "Research and improvement of blast furnace smelting technology by controlling the distribution of charge and gases using modern control means and mathematical modeling",
+            "specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
             "contacts": [
                 {
                     "type": "Email",
@@ -72,11 +73,11 @@
         },
         {
             "id": "kornilov",
-            "position": "Senior Research Fellow",
+            "position": "Senior Researcher",
             "name": "Kornilov Bohdan Volodymyrovych",
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Research of thermal and gas-dynamic operation of blast furnaces, technology of rational use of pulverized coal fuel and other fuel additives.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
+            "researchDirection": "Development of mathematical models for thermal performance and monitoring of heat losses, lining wear in the shaft and hearth of blast furnaces, heat losses of the blast furnace, including for diagnosing disorders in furnace operation at early stages. Improvement of existing technologies and development of new technologies (including the use of hydrogen-containing fuel) aimed at decarbonization of blast furnace production.",
+            "specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
             "contacts": [
                 {
                     "type": "Email",
@@ -98,11 +99,11 @@
         },
         {
             "id": "moskalina",
-            "position": "",
+            "position": "Researcher",
             "name": "Moskalina Andrii Oleksandrovych",
             "description": "Candidate of Technical Sciences",
-            "researchDirection": "Research of thermal operation of blast furnaces aimed at improving energy efficiency and reducing harmful emissions to the atmosphere when injecting pulverized coal fuel.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
+            "researchDirection": "Research and analysis of directions for increasing energy efficiency and improving environmental indicators based on the development and improvement of the complete energy balance of blast furnace smelting.",
+            "specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
             "contacts": [
                 {
                     "type": "Email",
@@ -120,68 +121,82 @@
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57207828832"
                 }
-            ]            
+            ]
         },
         {
             "id": "izjumsjkyj",
-            "position": "Directorate Advisor for Agglomeration-Blast Furnace Production",
+            "position": "Junior Researcher",
             "name": "Iziumskyi Mykola Mykytovych",
             "description": "",
-            "researchDirection": "Development and mastering of rational loading regimes and measures for improving operation of charging system equipment, ensuring achievement of resource-saving and energy-efficient smelting regime.",
+            "researchDirection": "Research of the raw material and energy base of blast furnace production.",
             "specialization": "",
             "contacts": [
+                {
+					"type": "Email",
+					"value": "izumnick@gmail.com"
+				},
+                {
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-5164-4450"
+				},
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=6508212473"
                 }
             ]
         },
-        {
-            "id": "merkulov",
-            "position": "Senior Research Fellow",
-            "name": "Merkulov Oleksii Yevhenovych",
-            "description": "Doctor of Technical Sciences",
-            "researchDirection": "System analysis of processes and prospects for development of iron and alloy metallurgy.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
-            "contacts": [
-                {
-                    "type": "Email",
-                    "value": "merkulov1@ukr.net"
-                },
-                {
+		{
+			"id": "merkulov",
+			"photo":"/employees/merkulov.jpg",
+			"position": "Deputy Director for Scientific Work, Senior Researcher",
+			"name": "Merkulov Oleksii Yevhenovych",
+			"description": "Doctor of Technical Sciences",
+			"researchDirection": "System analysis of pig iron and steel metallurgy, improvement of fuel utilization in metallurgical processes, development of new energy-saving metallurgical technologies for metal production.",
+			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "merkulov1@ukr.net"
+				},
+				{
 					"type": "Encyclopedia",
 					"value": "https://esu.com.ua/article-885114"
 				},
-                {
-                    "type": "ORCID ID",
-                    "value": "https://orcid.org/0000-0002-7867-0659"
-                },
-                {
-                    "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=_yXSDsEAAAAJ&hl=uk"
-                },
-                {
-                    "type": "Scopus Author ID",
-                    "value": "https://www.scopus.com/authid/detail.uri?authorId=35771153100"
-                }
-            ]
-        },
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=_yXSDsEAAAAJ&hl=uk"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0000-0002-7867-0659"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=35771153100"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
+				}
+			]
+		},
         {
             "id": "gubinskij",
-            "position": "Leading Research Fellow",
-            "name": "Gubinskyi Mykhailo Volodymyrovych",
-            "description": "Professor, Doctor of Technical Sciences",
-            "researchDirection": "High-temperature electrothermal processes in fluidized bed. Chemical catalysis processes based on fluidized and dense bed. Thermal methods of graphite refining. Technologies for hydrogen and carbon production based on hydrocarbons. Optimization of thermal regimes of metallurgical furnaces. Development of innovative research equipment for laboratory testing",
-            "specialization": "05.14.06 \"Technical thermophysics and industrial heat power engineering\"",
+            "photo": "/employees/gubinskij.jpg",
+            "position": "Leading Researcher",
+            "name": "Hubinskyi Mykhailo Volodymyrovych",
+            "description": "Doctor of Technical Sciences",
+            "researchDirection": "Increasing the energy efficiency of metallurgical production and using alternative energy sources. Development of scientific foundations for energy auditing of full-cycle metallurgical enterprises. Development of technologies for thermal processing of biomass and carbon-containing materials in suspended and dense layers.",
+            "specialization": "05.14.06 – Technical Thermophysics and Industrial Heat Power Engineering",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "gubinm58@gmail.com"
                 },
                 {
-					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-32219"
-				},
+                    "type": "Encyclopedia",
+                    "value": "https://esu.com.ua/article-32219"
+                },
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-3770-4397"
@@ -198,11 +213,11 @@
         },
         {
             "id": "sibir",
-            "position": "Senior Research Fellow",
-            "name": "Sybir Artem Vitaliovych",
+            "position": "Senior Researcher",
+            "name": "Sybir Artem Vitaliiovych",
             "description": "Associate Professor, Candidate of Technical Sciences",
-            "researchDirection": "High-temperature electrothermal processes in fluidized bed. Chemical catalysis processes based on fluidized and dense bed. Thermal methods of graphite refining. Technologies for hydrogen and carbon production based on hydrocarbons. Optimization of thermal regimes of metallurgical furnaces. Development of innovative research equipment for laboratory testing",
-            "specialization": "05.14.06 \"Technical thermophysics and industrial heat power engineering\"",
+            "researchDirection": "Implementation of modern modeling methods for calculating thermal performance and hydrodynamic processes of metallurgical furnaces.",
+            "specialization": "05.14.06 – Technical Thermophysics and Industrial Heat Power Engineering",
             "contacts": [
                 {
                     "type": "Email",
@@ -224,15 +239,15 @@
         },
         {
             "id": "fedorov",
-            "position": "Senior Research Fellow",
-            "name": "Fedorov Serhii Serhiovych",
+            "position": "Senior Researcher",
+            "name": "Fedorov Serhii Serhiiovych",
             "description": "Professor, Doctor of Technical Sciences",
-            "researchDirection": "High-temperature electrothermal processes in fluidized bed. Chemical catalysis processes based on fluidized and dense bed. Thermal methods of graphite refining. Technologies for hydrogen and carbon production based on hydrocarbons. Optimization of thermal regimes of metallurgical furnaces. Development of innovative research equipment for laboratory testing",
-            "specialization": "05.14.06 \"Technical thermophysics and industrial heat power engineering\"",
+            "researchDirection": "High-temperature reactors and processes; heat power engineering; thermal engineering processes; heat and mass transfer; modeling of thermal processes; reactors with dense and fluidized beds; new types of energy.",
+            "specialization": "05.14.06 – Technical Thermophysics and Industrial Heat Power Engineering",
             "contacts": [
                 {
                     "type": "Email",
-                    "value": "fedorov.pte@gmail.com"
+                    "value": " fedorov.pte@gmail.com"
                 },
                 {
                     "type": "ORCID ID",
@@ -250,11 +265,12 @@
         },
         {
             "id": "shatoha",
-            "position": "Leading Research Fellow",
+            "photo": "/employees/shatoha.jpg",
+            "position": "Leading Researcher",
             "name": "Shatokha Volodymyr Ivanovych",
             "description": "Professor, Doctor of Technical Sciences",
-            "researchDirection": "Heat and mass transfer in metallurgical processes. High-temperature properties of iron ore materials. Thermodynamic modeling of metal-slag interaction. Gasification of solid fuel. Utilization of iron-containing waste. Sustainable development of metallurgical industry.",
-            "specialization": "05.16.02 \"Metallurgy of ferrous and non-ferrous metals and special alloys\"",
+            "researchDirection": "Heat and mass transfer in metallurgical processes; high-temperature properties of iron ore materials; thermodynamic modeling of metal-slag interaction, gasification of solid fuel; utilization of iron-containing waste; sustainable development.",
+            "specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
             "contacts": [
                 {
                     "type": "Email",
@@ -266,7 +282,7 @@
                 },
                 {
                     "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=879GDlMAAAAJ&hl=en"
+                    "value": "https://scholar.google.com.ua/citations?user=879GDlMAAAAJ&hl=en147EAAAAJ&hl=en"
                 },
                 {
                     "type": "Scopus Author ID",

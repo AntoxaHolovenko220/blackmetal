@@ -2,13 +2,13 @@
 	"title": "Plagiarism Check",
 	"data": [
 		{
-			"title": "Anti-Plagiarism: Lithuanian Proposal",
-			"link": "/Антиплагіат-Литовська-пропозиція.docx",
+			"title": "Anti-Plagiarism Lithuanian Proposal",
+			"link": "/antiplagiat/Антиплагіат-Литовська-пропозиція.docx",
 			"date": "13.12.2018"
 		},
 		{
 			"title": "Cooperation Agreement with Unicheck",
-			"link": "/Договір-ІЧМ-НАНУ_Антиплагіат.pdf"
+			"link": "/antiplagiat/Договір-ІЧМ-НАНУ_Антиплагіат.pdf"
 		}
 	]
 }

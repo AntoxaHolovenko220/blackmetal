@@ -1,52 +1,54 @@
 {
-    "title": "Laboratory of Flat Rolled Products Production Issues",
+    "title": "Laboratory of Flat Rolled Products Production Problems",
+    "firstPersonCard": {
+        "id": "prykhodko-ihor-yuriiovych",
+        "photo": "/employees/prykhodko.jpg",
+        "position": "Head of Department",
+        "name": "Prykhodko Ihor Yuriiovych",
+        "description": "Doctor of Technical Sciences, Senior Researcher",
+        "researchDirection": "Research, improvement of existing and development of new technological processes for hot and cold rolling of strips",
+        "specialization": "05.03.05 – Processes and Machines of Metal Forming",
+        "contacts": [
+            {
+                "type": "Email",
+                "value": "isi@ukr.net"
+            },
+            {
+                "type": "Encyclopedia",
+                "value": "https://esu.com.ua/article-878141"
+            },
+            {
+                "type": "ORCID ID",
+                "value": "https://orcid.org/0000-0001-5651-8106"
+            },
+            {
+                "type": "Google Scholar",
+                "value": "https://scholar.google.com.ua/citations?hl=ru&user=1a4kQMUAAAAJ"
+            },
+            {
+                "type": "Scopus Author ID",
+                "value": "https://www.scopus.com/authid/detail.uri?authorId=6701369789"
+            }
+        ]
+    },
     "staffCards": [
         {
-            "id": "prykhodko-ihor-yuriiovych",
-            "position": "Head of Department, Head of Laboratory",
-            "name": "Ihor Yuriiovych Prykhodko",
-            "description": "Doctor of Technical Sciences, Senior Researcher",
-            "researchDirection": "Research, improvement of existing and development of new technological processes of hot and cold strip rolling",
-            "specialization": "05.03.05 “Processes and Machines of Pressure Metal Forming”",
-            "contacts": [
-                {
-                    "type": "Email",
-                    "value": "isi@ukr.net"
-                },
-                {
-					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-878141"
-				},
-                {
-                    "type": "ORCID ID",
-                    "value": "https://orcid.org/0000-0001-5651-8106"
-                },
-                {
-                    "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?hl=ru&user=1a4kQMUAAAAJ"
-                },
-                {
-                    "type": "Scopus Author ID",
-                    "value": "https://www.scopus.com/authid/detail.uri?authorId=6701369789"
-                }
-            ]
-        },
-        {
             "id": "vorobej-sergij-oleksandrovich",
-            "name": "Serhii Oleksandrovych Vorobei",
+            "photo": "/employees/vorobej-sergij-oleksandrovich.jpg",
+            "name": "Vorobei Serhii Oleksandrovych",
             "position": "Senior Researcher",
             "description": "Doctor of Technical Sciences",
-            "researchDirection": "Research, improvement of existing and development of new technological processes of continuous strip, section rolling and wire rod production",
-            "specialization": "05.03.05 “Processes and Machines of Pressure Metal Forming”",
+            "researchDirection": "Research, improvement of existing and development of new technological processes for continuous rolling of bar, section rolled products and wire rod",
+            "specialization": "05.03.05 – Processes and Machines of Metal Forming",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "vso54@ukr.net"
                 },
                 {
-					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-878715"
-				},
+                    "type": "Encyclopedia",
+                    "value": "https://esu.com.ua/article-878715"
+                },
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-0119-3935"
@@ -59,13 +61,14 @@
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=6508350878"
                 }
-            ]            
+            ]
         },
         {
             "id": "raznosilin-valentin-vjacheslavovich",
-            "name": "Valentyn Viacheslavovych Raznosilin",
+            "name": "Raznosilin Valentin Viacheslavovych",
             "position": "Junior Researcher",
             "researchDirection": "Mathematical modeling of rolling processes, development of rolling process control systems",
+            "specialization": "05.03.05 – Processes and Machines of Metal Forming",
             "contacts": [
                 {
                     "type": "Email",
@@ -87,24 +90,29 @@
         },
         {
             "id": "klemeshov-jevgen-sergijovich",
-            "name": "Yevhen Serhiiovych Klemeshov",
+            "photo": "/employees/klemeshov-jevgen-sergijovich.jpg",
+            "name": "Klemeshov Yevhen Serhiiovych",
             "position": "Researcher",
             "description": "Candidate of Technical Sciences",
             "researchDirection": "Mathematical modeling of metal forming processes",
-            "specialization": "05.03.05 “Processes and Machines of Pressure Metal Forming”",
+            "specialization": "05.03.05 – Processes and Machines of Metal Forming",
             "contacts": [
                 {
                     "type": "Email",
                     "value": "klemeshov.evgen@gmail.com"
                 },
                 {
+                    "type": "ORCID ID",
+                    "value": "https://www.scopus.com/authid/detail.uri?authorId=57217104095"
+                },
+                {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57217104095"
                 },
                 {
-					"type": "webofscience",
-					"value": "https://www.webofscience.com/wos/author/record/55757155"
-				}
+                    "type": "webofscience",
+                    "value": "https://www.webofscience.com/wos/author/record/55757155"
+                }
             ]
         }
     ]

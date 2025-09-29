@@ -1,97 +1,75 @@
 {
-	"title": "For applicants",
+	"title": "For Applicants",
 	"data": [
 		{
-			"title": "132 Curriculum 2023-2024",
-			"link": "/132-Навчальний-план-2023-2024.pdf"
+			"title": "Admission Rules",
+			"link": "/applicants/Правила-прийому_2.pdf"
 		},
 		{
-			"title": "136 Curriculum 2023-2024",
-			"link": "/136-Навчальний-план-2023-2024.pdf"
+			"title": "Entrance Exam Program 132 — 2023",
+			"link": "/applicants/2023-програма-вступного-іспиту-132.pdf"
 		},
 		{
-			"title": "Educational-scientific program 2021-2022 PhD 136",
-			"link": "/Освітньо-наукова-програма_2021.pdf"
+			"title": "Entrance Exam Program 136 — 2023",
+			"link": "/applicants/2023-програма-вступного-іспиту-136.pdf"
+		},
+
+		{
+			"title": "Requirements for the Abstract",
+			"link": "/applicants/заява.docx"
 		},
 		{
-			"title": "Educational-scientific program 2022-2023 PhD 136",
-			"link": "/освітньо-наукова-програма-2022-PhD-136.pdf"
+			"title": "Application for Admission",
+			"link": "/applicants/заява (5).docx"
 		},
 		{
-			"title": "Educational-scientific program 2023-2024 PhD 132",
-			"link": "/освітньо-наукова-програма-132-2023-2024.pdf"
+			"title": "Rules for Admission to Graduate School 2024",
+			"link": "/applicants/правила-вступу-до-аспірантури-2024.pdf"
 		},
 		{
-			"title": "Admission rules",
-			"link": "/Правила-прийому_2.pdf"
+			"title": "Regulations on Graduate School and Doctoral Studies",
+			"link": "/applicants/Положення-про-аспірантуру-та-докторантуру.pdf"
+		},
+
+		{
+			"title": "Regulations on the Graduation Department",
+			"link": "/applicants/Положення-про-випусковий-відділ.pdf"
 		},
 		{
-			"title": "Entrance exam program 132 - 2023",
-			"link": "/2023-програма-вступного-іспиту-132.pdf"
+			"title": "Regulations on Mobility",
+			"link": "/applicants/Положення-про-мобільність.pdf"
 		},
 		{
-			"title": "Entrance exam program 136 - 2023",
-			"link": "/2023-програма-вступного-іспиту-136.pdf"
+			"title": "Regulations on the Organization of the Educational Process",
+			"link": "/applicants/Положення-про-організацію-навчального-процесу.pdf"
 		},
 		{
-			"title": "PhD standard 136 Metallurgy",
-			"link": "/освітньо-наукова-програма-2022-PhD-136.pdf"
+			"title": "Regulations on the Organization of Occupational Safety Work",
+			"link": "/applicants/ПОЛОЖЕННЯ-ПРО-ОРГАНІЗАЦІЮ-РОБОТИ-З-ОХОРОНИ-ПРАЦІ-В-ІНСТИТУТІ-ЧОРНОЇ-МЕТАЛУРГІЇ-ПАН-УКРАЇНИ.pdf"
 		},
 		{
-			"title": "Abstract requirements",
-			"link": "/заява.docx"
+			"title": "Regulations on Teaching Practice",
+			"link": "/applicants/Положення-про-навчально-педагогічну-практику.pdf"
 		},
 		{
-			"title": "Application for admission",
-			"link": "/заява (5).docx"
+			"title": "Regulations on the Admissions Committee",
+			"link": "/applicants/Положення-про-приймальну-комісію.pdf"
 		},
 		{
-			"title": "Postgraduate admission rules 2024",
-			"link": "/правила-вступу-до-аспірантури-2024.pdf"
+			"title": "Regulations on Course Selection 132",
+			"link": "/applicants/Положення-про-вибір-дисциплін-132.pdf"
 		},
 		{
-			"title": "Regulations on postgraduate and doctoral studies",
-			"link": "/Положення-про-аспірантуру-та-докторантуру.pdf"
+			"title": "Procedure for Program Development",
+			"link": "/applicants/Порядок-розробки-програм.pdf"
 		},
 		{
-			"title": "Regulations on the graduation department",
-			"link": "/Положення-про-випусковий-відділ.pdf"
+			"title": "Educational Concept of the Institute of Ferrous Metallurgy 2023",
+			"link": "/applicants/Освітня_концепція-ІЧМ_2023.pdf"
 		},
 		{
-			"title": "Mobility regulations",
-			"link": "/Положення-про-мобільність.pdf"
-		},
-		{
-			"title": "Regulations on the organization of the educational process",
-			"link": "/Положення-про-організацію-навчального-процесу.pdf"
-		},
-		{
-			"title": "Regulations on occupational safety organization",
-			"link": "/ПОЛОЖЕННЯ-ПРО-ОРГАНІЗАЦІЮ-РОБОТИ-З-ОХОРОНИ-ПРАЦІ-В-ІНСТИТУТІ-ЧОРНОЇ-МЕТАЛУРГІЇ-ПАН-УКРАЇНИ.pdf"
-		},
-		{
-			"title": "Regulations on teaching practice",
-			"link": "/Положення-про-навчально-педагогічну-практику.pdf"
-		},
-		{
-			"title": "Regulations on the admissions committee",
-			"link": "/Положення-про-приймальну-комісію.pdf"
-		},
-		{
-			"title": "Regulations on course selection 132",
-			"link": "/Положення-про-вибір-дисциплін-132.pdf"
-		},
-		{
-			"title": "Program development procedure",
-			"link": "/Порядок-розробки-програм.pdf"
-		},
-		{
-			"title": "Educational concept ICHM 2023",
-			"link": "/Освітня_концепція-ІЧМ_2023.pdf"
-		},
-		{
-			"title": "Results announcement",
-			"link": "/Оголошення-результатів (1).docx"
+			"title": "Announcement of Results",
+			"link": "/applicants/Оголошення-результатів (1).docx"
 		}
 	]
 }

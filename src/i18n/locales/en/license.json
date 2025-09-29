@@ -3,16 +3,16 @@
 	"data": [
 		{
 			"title": "License",
-			"link": "/Ліцензія.pdf",
+			"link": "/license/Ліцензія.pdf",
 			"date": "13.12.2013"
 		},
 		{
-			"title": "Order of the Ministry of Education and Science of Ukraine No. 56-L",
-			"link": "/Наказ-МОН-України-56-Л.pdf"
+			"title": "Order of the Ministry of Education and Science of Ukraine 56-L",
+			"link": "/license/Наказ-МОН-України-56-Л.pdf"
 		},
 		{
-			"title": "Directive of the NAS of Ukraine",
-			"link": "/Розпорядження-НАНУ.jpg"
+			"title": "Directive",
+			"link": "/license/Розпорядження-НАНУ.jpg"
 		}
 	]
 }

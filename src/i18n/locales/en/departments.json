@@ -2,94 +2,100 @@
 	"titles": {
 		"scientific": "Scientific Departments",
 		"laboratories": "Laboratories",
-		"technical": "Technical Departments"
+		"technical": "Scientific and Technical Departments"
 	},
 	"common": {
-		"staffTitle": "Department staff:",
-		"activitiesTitle": "Main activity directions:"
+		"staffTitle": "Scientific Staff of the Department:",
+		"activitiesTitle": "Main Areas of Activity:"
 	},
 	"ScientificDepartments": [
 		{
 			"id": 1,
 			"fullName": "Department of Physical and Chemical Problems of Metallurgical Processes",
-			"img": "/blackmetal/FIT.svg",
+			"img": "/blackmetal/icons/1.svg",
 			"href": "/scientific-departments/phys-chem"
 		},
 		{
 			"id": 2,
 			"fullName": "Department of Pig Iron Metallurgy",
-			"img": "/blackmetal/FIT.svg",
+			"img": "/blackmetal/icons/2.svg",
 			"href": "/scientific-departments/pig-iron"
 		},
 		{
 			"id": 3,
-			"fullName": "Department of Out-of-Furnace Treatment of Cast Iron",
-			"img": "/blackmetal/FIT.svg",
+			"fullName": "Department of Extra-Furnace Iron Refining",
+			"img": "/blackmetal/icons/3.svg",
 			"href": "/scientific-departments/iron-refining"
 		},
 		{
 			"id": 4,
 			"fullName": "Department of Physical and Technical Problems of Steel Metallurgy",
-			"img": "/blackmetal/FIT.svg",
+			"img": "/blackmetal/icons/4.svg",
 			"href": "/scientific-departments/phys-tech"
 		},
 		{
 			"id": 5,
-			"fullName": "Department of Processes and Machines for Metal Pressure Treatment",
-			"img": "/blackmetal/FIT.svg",
+			"fullName": "Department of Metal Forming Processes and Machinery",
+			"img": "/blackmetal/icons/5.svg",
 			"href": "/scientific-departments/pressure"
 		},
 		{
 			"id": 6,
-			"fullName": "Department of Problems of Deformation-Thermal Treatment of Structural Steels",
-			"img": "/blackmetal/FIT.svg",
+			"fullName": "Department of Problems of Thermomechanical Treatment of Structural Steels",
+			"img": "/blackmetal/icons/6.svg",
 			"href": "/scientific-departments/dto-steel"
 		},
 		{
 			"id": 7,
-			"fullName": "Department of Heat Treatment of Metal for Mechanical Engineering",
-			"img": "/blackmetal/FIT.svg",
+			"fullName": "Department of Heat Treatment of Metal for Machinery",
+			"img": "/blackmetal/icons/7.svg",
 			"href": "/scientific-departments/ht-machinery"
 		},
 		{
 			"id": 8,
 			"fullName": "Department of Technological Equipment and Control Systems",
-			"img": "/blackmetal/FIT.svg",
+			"img": "/blackmetal/icons/8.svg",
 			"href": "/scientific-departments/equipment"
 		}
 	],
 	"Laboratories": [
 		{
 			"id": 1,
-			"fullName": "Laboratory of heat engineering and energy-saving technologies of blast furnace smelting",
-			"img": "/blackmetal/FIT.svg",
-			"href": "/laboratories/heat-tech"
+			"fullName": "Laboratory of Heat Engineering and Energy-Saving Blast Furnace Smelting Technologies",
+			"img": "/blackmetal/icons/9.svg",
+			"href": "/scientific-departments/lab-heat-tech"
 		},
 		{
 			"id": 2,
-			"fullName": "Laboratory of Flat Rolling Production Problems",
-			"img": "/blackmetal/FIT.svg",
-			"href": "/laboratories/flat-rolling"
+			"fullName": "Laboratory of Flat Rolled Products Production Problems",
+			"img": "/blackmetal/icons/10.svg",
+			"href": "/scientific-departments/lab-flat-rolling"
 		},
 		{
 			"id": 3,
-			"fullName": "Laboratory of Structure Formation and Properties of Ferrous Metals Problems (LSV)",
-			"img": "/blackmetal/FIT.svg",
-			"href": "/laboratories/structure-properties"
+			"fullName": "Laboratory of Structure Formation and Properties of Ferrous Metals",
+			"img": "/blackmetal/icons/11.svg",
+			"href": "/scientific-departments/lab-structure-properties"
 		}
 	],
 	"TechnicalDepartments": [
 		{
 			"id": 1,
 			"fullName": "Scientific and Organizational Department",
-			"img": "/blackmetal/FIT.svg",
+			"img": "/blackmetal/icons/12.svg",
 			"href": "/technical-departments/organization"
 		},
 		{
 			"id": 2,
-			"fullName": "Department of Standardization and Quality Management",
-			"img": "/blackmetal/FIT.svg",
+			"fullName": "Department of Standardization and Product Quality Management",
+			"img": "/blackmetal/icons/13.svg",
 			"href": "/technical-departments/quality"
+		},
+		{
+			"id": 3,
+			"fullName": "Chief Metrologist's Department",
+			"img": "/blackmetal/icons/14.svg",
+			"href": ""
 		}
 	]
 }

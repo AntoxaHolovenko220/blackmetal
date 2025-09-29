@@ -7,7 +7,7 @@
 			"items": [
 				{
 					"id": "developments",
-					"label": "Key Developments",
+					"label": "Main Developments",
 					"href": "/about/developments"
 				},
 				{
@@ -53,11 +53,11 @@
 				},
 				{
 					"id": "scientific-councils",
-					"label": "Institute Scientific Councils",
+					"label": "Institute Academic Councils",
 					"items": [
 						{
 							"id": "main-council",
-							"label": "Scientific Council",
+							"label": "Academic Council",
 							"href": "/structure/councils/main"
 						},
 						{
@@ -89,12 +89,12 @@
 					"items": [
 						{
 							"id": "main-council",
-							"label": "All-Ukrainian Conference «Science and Metallurgy»",
+							"label": "All-Ukrainian Conference 'Science and Metallurgy'",
 							"link": "/blackmetal/Запрошення_на_конференцію_НіМ_20242.pdf"
 						},
 						{
 							"id": "young-scientists",
-							"label": "International conference «HighMatTech»",
+							"label": "International Conference 'HighMatTech'",
 							"link": "/blackmetal/HighMatTech-2025.pdf"
 						}
 					]
@@ -115,18 +115,18 @@
 							"href": "/training/postgraduate/applicants"
 						},
 						{
-							"id": "schedule",
+							"id": "sсhedule",
 							"label": "Class Schedule",
 							"href": "/training/postgraduate/schedule"
 						},
 						{
 							"id": "individual-plans",
-							"label": "Training Plans",
+							"label": "Study Plans",
 							"href": "/training/postgraduate/plans"
 						},
 						{
 							"id": "education-programs",
-							"label": "Educational and Research Plans",
+							"label": "Educational and Scientific Programs",
 							"href": "/training/postgraduate/programs"
 						},
 						{
@@ -174,7 +174,24 @@
 				{
 					"id": "special-councils",
 					"label": "Ad Hoc Specialized Academic Councils",
-					"href": "/training/special-councils"
+					"items": [
+						{
+							"id": "metallurgy",
+							"label": "Metallurgy",
+							"items": [
+								{
+									"id": "phd7744",
+									"label": "PhD 7744 (Arench N.A.)",
+									"href": "/training/special-councils/metallurgy/phd7744"
+								}
+							]
+						},
+						{
+							"id": "materials-science",
+							"label": "Materials Science",
+							"href": "/training/special-councils/materials-science"
+						}
+					]
 				},
 				{
 					"id": "specialized-council",
@@ -189,7 +206,7 @@
 			"items": [
 				{
 					"id": "equipment-center",
-					"label": "Shared Research Equipment Center (SREC)",
+					"label": "Center for Collective Use of Scientific Instruments (CCUSI)",
 					"href": "/services/equipment-center"
 				},
 				{

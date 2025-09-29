@@ -1,20 +1,19 @@
 {
-	"title": "Testing Center",
 	"subtitle": "Scientific and Technical Center",
-	"institute": "of the Iron and Steel Institute of the National Academy of Sciences of Ukraine",
-	"description": "Based on the ISI NAS of Ukraine, there is a Scientific and Technical Center for testing metal products, which has equipment and specialists for conducting tests:",
+	"institute": "of the Institute of Ferrous Metallurgy of the National Academy of Sciences of Ukraine",
+	"description": "The Institute of Ferrous Metallurgy of the NAS of Ukraine hosts a Scientific and Technical Center for testing metal products, which has the equipment and specialists to conduct the following tests:",
 	"tests": [
-		"tensile testing at room and elevated (150...800°C) temperatures;",
-		"dynamic three-point bending at room, elevated and reduced temperatures;",
-		"hardness according to Brinell, Rockwell, Vickers;",
+		"tensile tests at room and elevated (150...800°C) temperatures;",
+		"dynamic three-point bending at room, elevated, and reduced temperatures;",
+		"hardness tests by Brinell, Rockwell, Vickers methods;",
 		"microhardness;",
 		"fracture toughness K₁c;",
 		"weight wear and contact fatigue;",
 		"steel hardenability;",
-		"cyclic loading tests;",
-		"microstructure studies with determination of grain size, layer thickness, phase composition, contamination with non-metallic inclusions;",
-		"corrosion resistance tests in a mildly aggressive environment with periodic immersion of samples in electrolyte;",
-		"other types of tests according to the center's authorization scope."
+		"tests under cyclic loading;",
+		"microstructure studies with determination of grain size, layer thickness, phase composition, contamination by non-metallic inclusions;",
+		"corrosion resistance tests in a weakly aggressive environment with periodic immersion of samples in electrolyte;",
+		"other types of tests according to the center's field of authorization."
 	],
 	"certification": "Tests are carried out on verified and calibrated equipment with the issuance of protocols. The Scientific and Technical Center is accredited by the State Standard of Ukraine.",
 	"deputy": "Deputy Head of the Scientific and Technical Center:",
@@ -35,15 +34,15 @@
 	],
 	"documents": [
 		{
-			"title": "Authorization Certificate",
+			"title": "Certificate of Authorization",
 			"link": "/Свідоцтво.jpg"
 		},
 		{
-			"title": "Authorization Field",
+			"title": "Field of Authorization",
 			"link": "/Галузь-1.jpg"
 		},
 		{
-			"title": "Authorization Field 2",
+			"title": "Field of Authorization 2",
 			"link": "/Галузь-2.jpg"
 		},
 		{
@@ -55,7 +54,7 @@
 			"link": "/Свідоцтво-про-уповноваження.pdf"
 		},
 		{
-			"title": "Authorization Field 3",
+			"title": "Field of Authorization 3",
 			"link": "/Галузь-уповноваження.pdf"
 		}
 	]

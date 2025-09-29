@@ -1,5 +1,5 @@
 {
-	"title": "Ad Hoc Specialized Academic Council PhD 7744",
+	"title": "One-time Specialized Academic Council PhD 7744",
 	"blocks": [
 		{
 			"type": "text",
@@ -7,11 +7,11 @@
 		},
 		{
 			"type": "text",
-			"content": "Applicant: Natalia Anatoliivna Arendach"
+			"content": "Applicant: Arendach Nataliia Anatoliivna"
 		},
 		{
 			"type": "text",
-			"content": "Dissertation Topic: Development of Technological Foundations for Oxidative Blowing in a Ladle During the Production of Low-Carbon Steel"
+			"content": "Dissertation Topic: Development of Technological Foundations for Oxidative Blowing in a Ladle during the Production of Low-Carbon Steel"
 		},
 		{
 			"type": "documents",
@@ -32,15 +32,15 @@
 		},
 		{
 			"type": "text",
-			"content": "Order No. 16 dated February 3, 2025 'On the Establishment of an Ad Hoc Specialized Academic Council for Awarding the Degree of Doctor of Philosophy'"
+			"content": "Order No. 16 dated 03.02.2025 'On the Establishment of a One-time Specialized Academic Council for Awarding the Degree of Doctor of Philosophy'"
 		},
 		{
 			"type": "text",
-			"content": "Chairman of the Ad Hoc Council – Anatoliy Hryhorovych Chernyatevych, Doctor of Technical Sciences, Professor, Chief Research Fellow at the Department of Physical and Technical Problems of Steel Metallurgy, Z.I. Nekrasov Iron and Steel Institute of the National Academy of Sciences of Ukraine."
+			"content": "Chairman of the One-time Council – Chernyatevych Anatolii Hryhorovych, Doctor of Technical Sciences, Professor, Chief Researcher of the Department of Physical and Technical Problems of Steel Metallurgy of the Z.I. Nekrasov Institute of Ferrous Metallurgy of the National Academy of Sciences of Ukraine."
 		},
 		{
 			"type": "text",
-			"content": "Official Opponent – Oleksandr Volodymyrovych Zhadanos, Candidate of Technical Sciences, Associate Professor, Associate Professor at the Department of Electrometallurgy named after Academician M.I. Gasik, Dniprovsk Metallurgical Institute of the Ukrainian State University of Science and Technology, Ministry of Education and Science of Ukraine."
+			"content": "Official Opponent – Zhadanos Oleksandr Volodymyrovych, Candidate of Technical Sciences, Associate Professor, Associate Professor of the Department of Electrometallurgy named after Academician M.I. Gasik of the Dnipro Metallurgical Institute of the Ukrainian State University of Science and Technology of the Ministry of Education and Science of Ukraine."
 		},
 		{
 			"type": "document",
@@ -51,7 +51,7 @@
 		},
 		{
 			"type": "text",
-			"content": "Official Opponent – Oleksiy Mykolaiovych Smirnov, Doctor of Technical Sciences, Professor, Head of the Department of Magnetic Hydrodynamics at the Physical and Technological Institute of Metals and Alloys."
+			"content": "Official Opponent — Smirnov Oleksii Mykolaiovych, Doctor of Technical Sciences, Professor, Head of the Department of Magnetic Hydrodynamics of the Physical and Technological Institute of Metals and Alloys."
 		},
 		{
 			"type": "document",
@@ -62,7 +62,7 @@
 		},
 		{
 			"type": "text",
-			"content": "Reviewer – Volodymyr Hennadiyovych Kysliakov, Candidate of Technical Sciences, Head of the Department of Out-of-Furnace Iron Processing at the Z.I. Nekrasov Iron and Steel Institute of the National Academy of Sciences of Ukraine."
+			"content": "Reviewer – Kysliakov Volodymyr Hennadiiovych, Candidate of Technical Sciences, Head of the Department of External Cast Iron Treatment of the Z.I. Nekrasov Institute of Ferrous Metallurgy of the National Academy of Sciences of Ukraine."
 		},
 		{
 			"type": "document",
@@ -73,7 +73,7 @@
 		},
 		{
 			"type": "text",
-			"content": "Reviewer – Vitaliy Petrovych Piptiuk, Candidate of Technical Sciences, Senior Research Fellow, Senior Research Fellow at the Department of Physical and Technical Problems of Steel Metallurgy, Z.I. Nekrasov Iron and Steel Institute of the National Academy of Sciences of Ukraine."
+			"content": "Reviewer – Piptiuk Vitalii Petrovych, Candidate of Technical Sciences, Senior Researcher, Senior Researcher of the Department of Physical and Technical Problems of Steel Metallurgy of the Z.I. Nekrasov Institute of Ferrous Metallurgy of the National Academy of Sciences of Ukraine."
 		},
 		{
 			"type": "document",
@@ -84,11 +84,24 @@
 		},
 		{
 			"type": "text",
-			"content": "Defense Date and Time: April 1, 2025, starting at 10:00."
+			"content": "Date and Time of Defense: April 1, 2025, starting at 10:00."
 		},
 		{
 			"type": "text",
-			"content": "Defense Location: Dnipro, Academician Starodubov Square, 1, Room 116."
+			"content": "Place of Defense: Dnipro, Academician Starodubov Square, 1, Room 116."
+		},
+		{
+			"type": "documents",
+			"data": [
+				{
+					"title": "Conference Audio Recording",
+					"link": "https://drive.google.com/file/d/1vMLylMueXmpU0v67D70MnxfqlArcG0KR/view?usp=sharing"
+				},
+				{
+					"title": "Conference Video Recording",
+					"link": "https://drive.google.com/file/d/1z7kKxCZ3Jqw3VjMY21V1SfhcDR1IuPz7/view?usp=sharing"
+				}
+			]
 		}
 	]
 }

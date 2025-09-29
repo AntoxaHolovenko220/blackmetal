@@ -2,21 +2,21 @@
 	"title": "Accreditation",
 	"data": [
 		{
-			"title": "Self-Assessment Report for Educational Program 132 - Materials Science and Metal Processing",
-			"link": "/Відомості-про-самооцінювання-ОНП-Матеріалознавство-та-обробка-металів-132-Матеріалознавство.pdf",
+			"title": "Self-Assessment Information for EPP - 132",
+			"link": "/accreditation/Відомості-про-самооцінювання-ОНП-Матеріалознавство-та-обробка-металів-132-Матеріалознавство.pdf",
 			"date": "13.12.2013"
 		},
 		{
-			"title": "Self-Assessment Report for Educational Program 136",
-			"link": "/Відомості-про-самооцінювання-136.pdf"
+			"title": "Self-Assessment Information for EPP - 136",
+			"link": "/accreditation/Відомості-про-самооцінювання-136.pdf"
 		},
 		{
 			"title": "Materials Science",
-			"link": "/Матеріалознавство.pdf"
+			"link": "/accreditation/Матеріалознавство.pdf"
 		},
 		{
 			"title": "Metallurgy",
-			"link": "/Металургія.pdf"
+			"link": "/accreditation/Металургія.pdf"
 		}
 	]
 }

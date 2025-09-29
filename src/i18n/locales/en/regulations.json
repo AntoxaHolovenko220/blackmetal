@@ -3,72 +3,72 @@
 	"data": [
 		{
 			"title": "Code of Academic Integrity",
-			"link": "/Кодекс-академічної-доброчесності.pdf",
+			"link": "/regulations/Кодекс-академічної-доброчесності.pdf",
 			"date": "13.12.2013"
 		},
 		{
 			"title": "Regulations on Academic Mobility",
-			"link": "/Положення-про-академічну-мобільність.pdf"
+			"link": "/regulations/Положення-про-академічну-мобільність.pdf"
 		},
 		{
-			"title": "Regulations on the Appeals Committee",
-			"link": "/Положення-про-апеляційну-комісію.pdf"
+			"title": "Regulations on the Appeals Commission",
+			"link": "/regulations/Положення-про-апеляційну-комісію.pdf"
 		},
 		{
 			"title": "Regulations on Course Selection",
-			"link": "/Положення-про-вибір-дисциплін.pdf"
+			"link": "/regulations/Положення-про-вибір-дисциплін.pdf"
 		},
 		{
 			"title": "Regulations on the Graduation Department",
-			"link": "/Положення-про-випусковий-відділ (1).pdf"
+			"link": "/regulations/Положення-про-випусковий-відділ (1).pdf"
 		},
 		{
 			"title": "Regulations on the Postgraduate and Doctoral Department",
-			"link": "/Положення-про-відділ-аспірантури-та-докторантури.pdf"
+			"link": "/regulations/Положення-про-відділ-аспірантури-та-докторантури.pdf"
 		},
 		{
 			"title": "Regulations on Internal Quality Assurance of Education",
-			"link": "/Положення-про-внутрішнє-забезпечення-якості-освіти.pdf"
+			"link": "/regulations/Положення-про-внутрішнє-забезпечення-якості-освіти.pdf"
 		},
 		{
-			"title": "Regulations on the Ethics Committee",
-			"link": "/Положення-про-комісію-з-питань-доброчесності.pdf"
+			"title": "Regulations on the Integrity Commission",
+			"link": "/regulations/Положення-про-комісію-з-питань-доброчесності.pdf"
 		},
 		{
-			"title": "Regulations on Research and Teaching Practice",
-			"link": "/Положення-про-науково-педагогічну-практику.pdf"
+			"title": "Regulations on Scientific and Pedagogical Practice",
+			"link": "/regulations/Положення-про-науково-педагогічну-практику.pdf"
 		},
 		{
 			"title": "Regulations on the Organization of the Educational Process",
-			"link": "/Положення-про-організацію-навчального-процесу (1).pdf"
+			"link": "/regulations/Положення-про-організацію-навчального-процесу (1).pdf"
 		},
 		{
-			"title": "Regulations on Occupational Safety Organization at the Institute of Ferrous Metallurgy of NAS of Ukraine",
-			"link": "/ПОЛОЖЕННЯ-ПРО-ОРГАНІЗАЦІЮ-РОБОТИ-З-ОХОРОНИ-ПРАЦІ-В-ІНСТИТУТІ-ЧОРНОЇ-МЕТАЛУРГІЇ-ПАН-УКРАЇНИ (1).pdf"
+			"title": "Regulations on the Organization of Occupational Safety Work at the Institute of Ferrous Metallurgy of the NAS of Ukraine",
+			"link": "/regulations/ПОЛОЖЕННЯ-ПРО-ОРГАНІЗАЦІЮ-РОБОТИ-З-ОХОРОНИ-ПРАЦІ-В-ІНСТИТУТІ-ЧОРНОЇ-МЕТАЛУРГІЇ-ПАН-УКРАЇНИ (1).pdf"
 		},
 		{
-			"title": "Regulations on the Admissions Committee",
-			"link": "/Положення-про-приймальну-комісію (1).pdf"
+			"title": "Regulations on the Admissions Commission",
+			"link": "/regulations/Положення-про-приймальну-комісію (1).pdf"
 		},
 		{
 			"title": "Regulations on the Council of Young Scientists",
-			"link": "/Положення-про-раду-молодих-вчених.pdf"
+			"link": "/regulations/Положення-про-раду-молодих-вчених.pdf"
 		},
 		{
-			"title": "Procedure for Staff Professional Development",
-			"link": "/Порядок-підвищення-кваліфікації-працівників.pdf"
+			"title": "Procedure for Employee Professional Development",
+			"link": "/regulations/Порядок-підвищення-кваліфікації-працівників.pdf"
 		},
 		{
-			"title": "Program Development Procedure",
-			"link": "/Порядок-розробки-програм (1).pdf"
+			"title": "Procedure for Program Development",
+			"link": "/regulations/Порядок-розробки-програм (1).pdf"
 		},
 		{
-			"title": "Code of Conduct for Students",
-			"link": "/Правила-поведінки-здобувачів-освіти-.pdf"
+			"title": "Rules of Conduct for Education Seekers",
+			"link": "/regulations/Правила-поведінки-здобувачів-освіти-.pdf"
 		},
 		{
-			"title": "Workplace Regulations for Employees",
-			"link": "/Правила-трудового-распорядку-працівників.pdf"
+			"title": "Internal Labor Regulations for Employees",
+			"link": "/regulations/Правила-трудового-распорядку-працівників.pdf"
 		}
 	]
 }

@@ -1,33 +1,33 @@
 {
   "title": "Scientific and Technical Services",
-  "mainDescription": "The Institute of Ferrous Metallurgy provides scientific and technical services in the field of metallurgical production with the development of recommendations, approvals and expert conclusions, design, scientific and technical documents, regulations, standards in the following areas:",
+  "mainDescription": "The Institute of Ferrous Metallurgy provides scientific and technical services in the field of metallurgical production, developing recommendations, approvals, expert opinions, design, scientific and technical documents, regulations, and standards in the following areas:",
   "services": [
-    "Cast iron production",
+    "Pig iron production",
     "Steel production",
-    "Out-of-furnace treatment of cast iron and steel",
-    "Production of long and flat products",
-    "Thermomechanical treatment of metals and alloys",
+    "External treatment of pig iron and steel",
+    "Production of long and flat rolled products",
+    "Thermomechanical processing of metals and alloys",
     "Briquetting of materials"
   ],
-  "clientsDescription": "IFM employees provide scientific services to industrial enterprises of the metallurgical and mining complex of Ukraine and the world, educational institutions, government agencies and other organizations.",
+  "clientsDescription": "IFM employees provide scientific services to industrial enterprises of the Ukrainian and global mining and metals complex, educational institutions, government authorities, and other organizations.",
   "scientificServicesTitle": "IFM provides scientific services in the form of:",
   "scientificServices": [
-    "Research work on order",
-    "Expert conclusions on the possibility of applying new technical solutions, technologies, etc.",
-    "Technical support of important technological operations, for example, shutdown and commissioning of blast furnaces and other equipment",
-    "Development of recommendations and technical solutions for the implementation of new technologies for the production of metal products",
-    "Research of properties and quality of new types of raw materials and fuel",
+    "Contract research work",
+    "Expert opinions on the possibility of applying new technical solutions, technologies, etc.",
+    "Technical support for important technological operations, for example, shutdown and commissioning of blast furnaces and other equipment to design capacity",
+    "Development of recommendations and technical solutions for the implementation of new technologies for manufacturing metal products",
+    "Conducting research on the properties and quality of new types of raw materials and fuel",
     "Technical conclusions on product quality",
-    "Development of automatic control systems for equipment and expert systems, decision-making systems",
-    "Development of technical re-equipment projects for enterprises or individual sections of the production process",
-    "Participation in the work of commissions and committees dealing with the development of the metallurgical and mining complex of Ukraine"
+    "Development of automatic equipment control systems, expert systems, and decision support systems",
+    "Development of projects for technical re-equipment of enterprises or individual sections of the production process",
+    "Participation in the work of commissions and committees dealing with the development of Ukraine's mining and metals complex"
   ],
   "numberedServices": [
     "Decarbonization and gradual transition to low-carbon technologies in blast furnace production",
-    "Development of energy-efficient technology for steel smelting in oxygen converters with increased scrap metal content, which provides a two-stage process",
-    "Development of new and improvement of existing technologies for the production of metal products for urgent needs and post-war reconstruction of Ukraine",
-    "Improvement of service properties of thick plate rolled products used for the production of metal products of critical purpose, including for the defense industry, by improving smelting and deoxidation technology of steel, improving its chemical composition and developing effective heat treatment modes",
-    "Expansion of fundamental research in the field of additive technologies to increase Ukraine's defense capability",
-    "Development of new technologies for complex thermal, deformation-thermal and cryogenic treatment"
+    "Development of energy-efficient technology for steel smelting in oxygen converters with an increased share of scrap metal, involving a two-stage process",
+    "Development of new and improvement of existing technologies for the production of metal rolled products for urgent needs and post-war recovery of Ukraine",
+    "Improving the service properties of heavy plate used for manufacturing critical metal products, including for the defense industry, by improving steel smelting and deoxidation technology, refining its chemical composition, and developing effective heat treatment regimes",
+    "Expansion of fundamental research in the field of additive technologies to enhance Ukraine's defense capabilities",
+    "Development of new technologies for complex heat, deformation-thermal, and cryogenic treatment"
   ]
-} 
+}
