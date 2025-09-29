@@ -14,9 +14,9 @@ const SocialLinks = () => {
 			color: '#2D7A84',
 		},
 	}
-	
+
 	return (
-		<Box sx={{ display: 'flex', gap: '10px' }}>
+		<Box sx={{ display: 'flex', gap: '10px', height: '28px' }}>
 			<MUILink href='' target='_blank' rel='noopener noreferrer'>
 				<FacebookRoundedIcon sx={iconsStyle} />
 			</MUILink>

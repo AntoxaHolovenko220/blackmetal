@@ -103,7 +103,7 @@ const Header = () => {
 							sx={{
 								display: { xxs: 'none', sm: 'flex' },
 								alignItems: 'center',
-								gap: '10px',
+								gap: '20px',
 								transition: 'all 0.5s ease-in-out',
 							}}
 							onMouseEnter={() => setIsSearchExpanded(true)}
@@ -142,8 +142,9 @@ const Header = () => {
 							/> */}
 						</Box>
 
-						{/* <LanguageSwitcher /> */}
-
+						<Box sx={{ ml: '20px' }}>
+							<LanguageSwitcher />
+						</Box>
 						<BurgerMenu navItems={navigationData.navItems} />
 					</Box>
 				</Box>
