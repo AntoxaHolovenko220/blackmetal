@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import PersonIcon from '@mui/icons-material/Person'
 import { PersonCardInterface } from './PersonCardInterface'
 import { CommonTextStyles, CommonButtonStyles } from '../../utils'
+import { useTranslation } from 'react-i18next'
 
 const PersonCard = ({
 	id,
@@ -18,6 +19,7 @@ const PersonCard = ({
 	labels,
 }: PersonCardInterface) => {
 	const navigate = useNavigate()
+	const { t } = useTranslation()
 
 	const hasDetailedInfo = !!(
 		biography ||
@@ -209,7 +211,7 @@ const PersonCard = ({
 						},
 					}}
 				>
-					Детальніше
+					{t('common.readMore')}
 				</Button>
 			)}
 		</Box>

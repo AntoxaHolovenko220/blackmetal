@@ -11,6 +11,7 @@ import image5 from '../../../../assets/images/5.jpg'
 import image6 from '../../../../assets/images/6.jpg'
 import { Modal } from '../../../../components/Modal'
 import { FeedbackForm } from '../../../../components/FeedbackForm/FeedbackForm'
+import { useTranslation } from 'react-i18next'
 
 const HeaderContainer = styled(Box)({
 	width: '100%',
@@ -84,6 +85,12 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 	const [currentImageIndex, setCurrentImageIndex] = useState(0)
 	const [isModalOpen, setIsModalOpen] = useState(false)
 	const images = [image1, image2, image3, image4, image5, image6]
+	const { t } = useTranslation()
+
+	const logoText = t('logo.text')
+	const logoParts = logoText.split('<br />')
+	const titleText = logoParts.length > 1 ? `${logoParts[0]} ${logoParts[1]}` : logoText
+	const subtitleText = logoParts.length > 2 ? logoParts.slice(2).join(' ') : ''
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -142,7 +149,7 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 										letterSpacing: { xs: 0, sm: '0.2px' },
 									}}
 								>
-									Інститут чорної металургії ім. З.І. Некрасова
+									{titleText}
 								</Typography>
 								<Typography
 									component="div"
@@ -154,7 +161,7 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 										mt: 0,
 									}}
 								>
-									Націонанальна академія наук України
+									{subtitleText}
 								</Typography>
 							</ContentWrapper>
 						</Container>

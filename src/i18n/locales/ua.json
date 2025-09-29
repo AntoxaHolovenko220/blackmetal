@@ -51,6 +51,9 @@
 	"buttonNews": {
 		"go": "Перейти"
 	},
+	"common": {
+		"readMore": "Детальніше"
+	},
 	"notFound": {
 		"title": "Сторінка не знайдена",
 		"backButton": "Повернутись на головну"

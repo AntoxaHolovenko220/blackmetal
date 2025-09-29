@@ -41,6 +41,9 @@
 	"buttonNews": {
 		"go": "Read more"
 	},
+	"common": {
+		"readMore": "Read more"
+	},
 	"notFound": {
 		"title": "Page not found",
 		"backButton": "Back to home"
