@@ -19,7 +19,7 @@ const DocumentCard = ({ title, link, date, image }: DocumentCardProps) => {
 
 	const fileName = getFileNameFromUrl(link)
 	const fileExtension = getFileExtensionFromUrl(fileName)
-	const fileLink = `/${link}`
+	const fileLink = `${link}`
 	const imageLink = `/${image}`
 
 	return (
