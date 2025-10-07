@@ -756,6 +756,172 @@
 					"value": "For the team of the Institute, this is not only a recognition of Oleksii Yevhenovych's professional level, but also evidence of the important role of applied metallurgical science in the development of the economy, industry and technological security of the state."
 				}
 			]
+		},
+		{
+			"id": 13,
+			"title": "PhD student Ihor Liubeka successfully completed the international Science2Business program",
+			"text": "PhD student Ihor Liubeka successfully completed the international Science2Business program",
+			"content": [
+				{
+					"type": "text",
+					"value": "On July 10, 2025, PhD student of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine, Ihor Liubeka, successfully completed the intensive Science2Business (S2B) training program and received an official certificate."
+				},
+				{
+					"type": "text",
+					"value": "The program lasted 7 weeks (60 hours) in an online format and was organized within the framework of the European Seeds of Bravery initiative, supported by the European Innovation Council (EIC) and funded by the European Union. Leading partners such as INNOU8, Aalto University, EIT Health, and Erasmus Centre for Entrepreneurship participated in its implementation."
+				},
+				{
+					"type": "image",
+					"value": "/news/13-2.png"
+				},
+				{
+					"type": "minititle",
+					"value": "About the Science2Business program"
+				},
+				{
+					"type": "text",
+					"value": "Science2Business aims to help young scientists and innovators transform scientific ideas into commercially viable business solutions. The course covered the following key areas:"
+				},
+				{
+					"type": "list",
+					"children": [
+						{
+							"type": "text",
+							"value": "development of entrepreneurial competencies,"
+						},
+						{ "type": "text", "value": "formation of innovation ecosystems" },
+						{ "type": "text", "value": "inclusive entrepreneurship" },
+						{ "type": "text", "value": "project scaling" }
+					]
+				},
+				{
+					"type": "text",
+					"children": [
+						{
+							"type": "text",
+							"value": "The classes were conducted by international experts and mentors, including representatives of "
+						},
+						{
+							"type": "bold",
+							"value": "Erasmus Centre for Entrepreneurship"
+						},
+						{
+							"type": "text",
+							"value": ", who have extensive experience in entrepreneurship and innovation."
+						}
+					]
+				},
+				{
+					"type": "image",
+					"value": "/news/13-3.png"
+				},
+				{
+					"type": "minititle",
+					"value": "Importance for the scientific community"
+				},
+				{
+					"type": "text",
+					"children": [
+						{
+							"type": "text",
+							"value": "The participation of Ihor Liubeka in the "
+						},
+						{
+							"type": "bold",
+							"value": "Science2Business"
+						},
+						{
+							"type": "text",
+							"value": " program opens new opportunities for integrating the scientific results obtained at the Iron and Steel Institute into the global innovation space. It also contributes to strengthening the role of Ukrainian researchers in the development of high-tech industries and the creation of competitive, science-intensive products."
+						}
+					]
+				},
+				{
+					"type": "image",
+					"value": "/news/13-4.png"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"title": "Deputy Director for Research of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine presents green metallurgy developments at the ICSTI 2025 World Congress in Beijing",
+			"text": "Deputy Director for Research of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine, Doctor of Technical Sciences Oleksii Merkulov, took part in the 10th International Congress on Science and Technology of Ironmaking (ICSTI 2025), held on August 25–29, 2025, in Beijing (China).",
+			"content": [
+				{
+					"type": "text",
+					"children": [
+						{
+							"type": "text",
+							"value": "Deputy Director for Research of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine, Doctor of Technical Sciences "
+						},
+						{
+							"type": "navlink",
+							"value": "Oleksii Merkulov",
+							"href": "merkulov"
+						},
+						{
+							"type": "text",
+							"value": " took part in the 10th International Congress on Science and Technology of Ironmaking (ICSTI 2025), held on August 25–29, 2025, in Beijing (China)."
+						}
+					]
+				},
+				{
+					"type": "image",
+					"value": "/news/14-2.jpg"
+				},
+				{
+					"type": "text",
+					"value": "This year's event brought together about 400 participants from 32 countries — leading scientists, researchers, and representatives of the metallurgical industry. Since 1994, ICSTI has been held every 3–4 years in different countries and is a key international platform for discussing modern solutions in iron and steel production."
+				},
+				{
+					"type": "text",
+					"children": [
+						{
+							"type": "text",
+							"value": "As part of the scientific program, "
+						},
+						{
+							"type": "navlink",
+							"value": "Oleksii Merkulov",
+							"href": "merkulov"
+						},
+						{
+							"type": "text",
+							"value": " presented a report “Blast furnace smelting with injection of coal gasification products”, demonstrating the latest developments of the Institute aimed at reducing coke consumption and cutting CO₂ emissions in blast furnace production. The scientist emphasized that although hydrogen metallurgy is a promising direction, in the short and medium term, it cannot be the only solution due to the high cost of 'green' hydrogen."
+						}
+					]
+				},
+				{
+					"type": "text",
+					"children": [
+						{
+							"type": "text",
+							"value": "In addition, at the invitation of the organizing committee, "
+						},
+						{
+							"type": "navlink",
+							"value": "Oleksii Merkulov",
+							"href": "merkulov"
+						},
+						{
+							"type": "text",
+							"value": " served as co-chair of the section “Hydrogen (H2)-based Ironmaking for Graduate Students”, where young scientists from leading universities in Australia, Austria, India, Indonesia, Korea, and China presented the results of their research."
+						}
+					]
+				},
+				{
+					"type": "image",
+					"value": "/news/14-3.jpg"
+				},
+				{
+					"type": "text",
+					"value": "The participation of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine in such events provides access to the latest information on global trends, allows assessing the competitiveness of its own developments, and helps establish cooperation with international partners. The presented achievements of Ukrainian scientists aroused great interest and were positively received by both the academic community and representatives of the global steel industry."
+				},
+				{
+					"type": "image",
+					"value": "/news/14-4.jpg"
+				}
+			]
 		}
 	]
 }
