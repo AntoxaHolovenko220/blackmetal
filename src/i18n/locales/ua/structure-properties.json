@@ -73,6 +73,14 @@
                 {
                     "type": "webofscience",
                     "value": "https://www.webofscience.com/wos/author/record/2510802"
+                },
+                {
+                    "type": "sciprofiles",
+                    "value": "https://sciprofiles.com/profile/1477338"
+                },
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Sergey-Bobyr?ev=hdr_xprf"
                 }
             ]
         },

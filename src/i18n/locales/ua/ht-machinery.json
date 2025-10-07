@@ -32,7 +32,11 @@
 			{
 				"type": "Web Of Science",
 				"value": "https://www.webofscience.com/wos/author/record/504824 "
-			}
+			},
+            {
+                "type": "researchgate",
+                "value": "https://www.researchgate.net/profile/Eduard-Parusov-2"
+            }
 		]
 	},
 	"activities": {
@@ -122,7 +126,11 @@
 				{
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/2289447 "
-				}
+				},
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Svetlana-Gubenko"
+                }
 			]
 		},
 		{
@@ -192,7 +200,11 @@
 				{
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/1661603 "
-				}
+				},
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Ihor-Chuiko"
+                }
 			]
 		},
 		{
@@ -227,7 +239,11 @@
 				{
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/67060399 "
-				}
+				},
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Liudmyla-Sahura"
+                }
 			]
 		},
 		{
@@ -262,7 +278,11 @@
 				{
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/48556896 "
-				}
+				},
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Tatyana-Golubenko"
+                }
 			]
 		},
 		{

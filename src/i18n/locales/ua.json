@@ -26,7 +26,9 @@
 		"googleScholar": "Google Scholar",
 		"orcid": "ORCID iD",
 		"scopus": "Scopus Author ID",
-		"webofscience": "Web of Science"
+		"webofscience": "Web of Science",
+		"sciprofiles": "SciProfiles",
+		"researchgate": "ResearchGate"
 	},
 	"departments": {
 		"common": {

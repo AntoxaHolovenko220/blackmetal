@@ -4,8 +4,9 @@ import SchoolIcon from '@mui/icons-material/School'
 import PublicIcon from '@mui/icons-material/Public'
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks'
 import ContactsIcon from '@mui/icons-material/Contacts'
-import LanguageIcon from '@mui/icons-material/Language'
 import ScienceIcon from '@mui/icons-material/Science'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle'
+import GroupWorkIcon from '@mui/icons-material/GroupWork'
 
 interface ContactIconProps {
 	contactType: string
@@ -29,6 +30,10 @@ export const ContactIcon = ({ contactType }: ContactIconProps) => {
 		return <ContactsIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else if (type === 'encyclopedia' || type === 'енциклопедія') {
 		return <ScienceIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+	} else if (normalized === 'sciprofiles' || normalized === 'sciprofile') {
+		return <AccountCircleIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+	} else if (normalized === 'researchgate') {
+		return <GroupWorkIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else {
 		return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	}

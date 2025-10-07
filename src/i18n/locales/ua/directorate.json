@@ -103,7 +103,11 @@
 				{
 					"type": "Web Of Science",
 					"value": "https://www.webofscience.com/wos/author/record/504824 "
-				}
+				},
+                {
+                    "type": "researchgate",
+                    "value": "https://www.researchgate.net/profile/Eduard-Parusov-2"
+                }
 			]
 		},
 		{
