@@ -1,6 +1,6 @@
 {
 	"title": "Center for Collective Use of Scientific Instruments (CCUSI)",
-	"viewRegulation": "View CCUSI Regulations",
+	"viewRegulation": "CCUSI Regulations",
 	"equipment1": "1. Benchtop scanning electron microscope with thermionic cathode «Coxem EM-40», «COXEM CO., LTD», Republic of Korea.",
 	"equipmentDescriptionTitle": "Equipment Description:",
 	"equipmentDescription": "Benchtop scanning electron microscope with thermionic cathode, model: «Coxem EM-40», brand: «Coxem», manufacturer: «COXEM CO., LTD», country of origin: Republic of Korea (South Korea), year of manufacture/supply to CCUSI: 2024.",
@@ -38,7 +38,10 @@
 		{
 			"category": "Loading System",
 			"items": [
-				["Test load, N", "10gf (0.098N), 25gf (0.245N), 50gf (0.49N), 100gf (0.98N), 200gf (1.96N), 300gf (2.94N), 500gf (4.9N), 1000gf (9.8N)"],
+				[
+					"Test load, N",
+					"10gf (0.098N), 25gf (0.245N), 50gf (0.49N), 100gf (0.98N), 200gf (1.96N), 300gf (2.94N), 500gf (4.9N), 1000gf (9.8N)"
+				],
 				["Minimum measurable object", "0.03125 µm"],
 				["Force measurement method", "automatic (loading, hold, unloading)"]
 			]
@@ -50,15 +53,24 @@
 				["Measurement result indication", "on full-color touch screen"],
 				["Data output", "to microcomputer or computer monitor"],
 				["Indenter type", "to flash drive via USB port or PC"],
-				["Measurement accuracy", "Vickers indenter, genuine diamond with apex angle of 136°"],
-				["Hardness value repeatability", "according to ISO, ASTM and JIS standards"],
+				[
+					"Measurement accuracy",
+					"Vickers indenter, genuine diamond with apex angle of 136°"
+				],
+				[
+					"Hardness value repeatability",
+					"according to ISO, ASTM and JIS standards"
+				],
 				["Measuring stage size, mm", "micrometer camera optics"],
 				["Working stage travel, mm", "100×100"],
 				["Optical microscope magnification (not less than)", "25×25"],
 				["Maximum sample height, mm", "×400 (measurement), ×100 (overview)"],
 				["Distance from indenter to device body, mm", "90"],
 				["Hardness scale conversion functions", "120"],
-				["Obtaining test data in Microsoft Excel directly via USB drive, without PC", "✓"],
+				[
+					"Obtaining test data in Microsoft Excel directly via USB drive, without PC",
+					"✓"
+				],
 				["Measurement of diagonals D1 and D2", "manual and automatic"]
 			]
 		},
@@ -89,9 +101,7 @@
 		},
 		{
 			"category": "Accelerating Voltage",
-			"items": [
-				["Accelerating voltage", "1-30 kV"]
-			]
+			"items": [["Accelerating voltage", "1-30 kV"]]
 		},
 		{
 			"category": "Vacuum System",
@@ -122,9 +132,15 @@
 		{
 			"category": "Additional Equipment",
 			"items": [
-				["TV camera for visualization of the sample chamber, as well as the electron-optical system", "✓"],
+				[
+					"TV camera for visualization of the sample chamber, as well as the electron-optical system",
+					"✓"
+				],
 				["Fast scanning mode: 13 frames/s at 800×600 resolution", "✓"],
-				["Possibility of upgrading the microscope with modern EDS (Energy Dispersive X-ray Spectroscopy) and EBSD (Electron Backscatter Diffraction) detectors", "✓"]
+				[
+					"Possibility of upgrading the microscope with modern EDS (Energy Dispersive X-ray Spectroscopy) and EBSD (Electron Backscatter Diffraction) detectors",
+					"✓"
+				]
 			]
 		}
 	]

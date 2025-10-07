@@ -2,7 +2,7 @@
 	"title": "Department of Technological Equipment and Control Systems",
 	"firstPersonCard": {
 		"id": "semenov-yuriy-stanislavovych",
-		"photo":"/employees/semenov-yuriy-stanislavovych.jpg",
+		"photo": "/employees/semenov-yuriy-stanislavovych.jpg",
 		"position": "Head of Department, Senior Researcher",
 		"name": "Semenov Yurii Stanislavovych",
 		"description": "Candidate of Technical Sciences",
@@ -46,7 +46,7 @@
 	"staffCards": [
 		{
 			"id": "baiul-kostiantyn-vasylovych",
-			"photo":"/employees/baiul-kostiantyn-vasylovych.jpg",
+			"photo": "/employees/baiul-kostiantyn-vasylovych.jpg",
 			"position": "Senior Researcher",
 			"name": "Baiul Kostiantyn Vasylovych",
 			"description": "Doctor of Technical Sciences, Senior Researcher",
@@ -77,7 +77,7 @@
 		},
 		{
 			"id": "vereniov-valentyn-volodymyrovych",
-			"photo":"/employees/vereniov-valentyn-volodymyrovych.jpg",
+			"photo": "/employees/vereniov-valentyn-volodymyrovych.jpg",
 			"position": "Senior Researcher",
 			"name": "Vereniov Valentyn Volodymyrovych",
 			"description": "Doctor of Technical Sciences",
@@ -108,7 +108,7 @@
 		},
 		{
 			"id": "vashchenko-serhii-volodymyrovych",
-			"photo":"/employees/vashchenko-serhii-volodymyrovych.jpg",
+			"photo": "/employees/vashchenko-serhii-volodymyrovych.jpg",
 			"position": "Senior Researcher",
 			"name": "Vashchenko Serhii Volodymyrovych",
 			"description": "Candidate of Technical Sciences, Senior Researcher",
@@ -139,7 +139,7 @@
 		},
 		{
 			"id": "solodka-natalia-oleksandrivna",
-			"photo":"/employees/solodka-natalia-oleksandrivna.jpg",
+			"photo": "/employees/solodka-natalia-oleksandrivna.jpg",
 			"position": "Researcher",
 			"name": "Solodka Nataliia Oleksandrivna",
 			"description": "Candidate of Technical Sciences, Associate Professor",
@@ -170,7 +170,7 @@
 		},
 		{
 			"id": "khudyakov-oleksandr-yuriiovych",
-			"photo":"/employees/khudyakov-oleksandr-yuriiovych.jpg",
+			"photo": "/employees/khudyakov-oleksandr-yuriiovych.jpg",
 			"position": "Senior Researcher",
 			"name": "Khudiakov Oleksandr Yuriiovych",
 			"description": "Candidate of Technical Sciences, Senior Researcher",
@@ -201,7 +201,7 @@
 		},
 		{
 			"id": "shumelchyk-yevhen-ihorovych",
-			"photo":"/employees/shumelchyk-yevhen-ihorovych.jpg",
+			"photo": "/employees/shumelchyk-yevhen-ihorovych.jpg",
 			"position": "Senior Researcher",
 			"name": "Shumelchyk Yevhen Ihorovych",
 			"description": "Candidate of Technical Sciences, Senior Researcher",
@@ -232,7 +232,7 @@
 		},
 		{
 			"id": "frolova-liliia-anatoliivna",
-			"photo":"/employees/frolova-liliia-anatoliivna.jpg",
+			"photo": "/employees/frolova-liliia-anatoliivna.jpg",
 			"position": "Senior Researcher",
 			"name": "Frolova Liliia Anatoliivna",
 			"description": "Doctor of Technical Sciences, Associate Professor",
@@ -257,7 +257,7 @@
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=56725733400"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=55505810700"
 				}
 			]
 		},

@@ -2,7 +2,7 @@
 	"title": "Відділ технологічного обладнання та систем управління",
 	"firstPersonCard": {
 		"id": "semenov-yuriy-stanislavovych",
-		"photo":"/employees/semenov-yuriy-stanislavovych.jpg",
+		"photo": "/employees/semenov-yuriy-stanislavovych.jpg",
 		"position": "Завідувач відділу, старший науковий співробітник",
 		"name": "Семенов Юрій Станіславович",
 		"description": "Кандидат технічних наук",
@@ -46,7 +46,7 @@
 	"staffCards": [
 		{
 			"id": "baiul-kostiantyn-vasylovych",
-			"photo":"/employees/baiul-kostiantyn-vasylovych.jpg",
+			"photo": "/employees/baiul-kostiantyn-vasylovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Баюл Костянтин  Васильович",
 			"description": "Доктор технічних наук, старший дослідник",
@@ -77,7 +77,7 @@
 		},
 		{
 			"id": "vereniov-valentyn-volodymyrovych",
-			"photo":"/employees/vereniov-valentyn-volodymyrovych.jpg",
+			"photo": "/employees/vereniov-valentyn-volodymyrovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Вереньов Валентин Володимирович",
 			"description": "Доктор технічних наук",
@@ -108,7 +108,7 @@
 		},
 		{
 			"id": "vashchenko-serhii-volodymyrovych",
-			"photo":"/employees/vashchenko-serhii-volodymyrovych.jpg",
+			"photo": "/employees/vashchenko-serhii-volodymyrovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Ващенко Сергій Володимирович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -139,7 +139,7 @@
 		},
 		{
 			"id": "solodka-natalia-oleksandrivna",
-			"photo":"/employees/solodka-natalia-oleksandrivna.jpg",
+			"photo": "/employees/solodka-natalia-oleksandrivna.jpg",
 			"position": "Науковий співробітник",
 			"name": "Солодка Наталія Олександрівна",
 			"description": "Кандидат технічних наук, доцент",
@@ -170,7 +170,7 @@
 		},
 		{
 			"id": "khudyakov-oleksandr-yuriiovych",
-			"photo":"/employees/khudyakov-oleksandr-yuriiovych.jpg",
+			"photo": "/employees/khudyakov-oleksandr-yuriiovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Худяков Олександр Юрійович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -201,7 +201,7 @@
 		},
 		{
 			"id": "shumelchyk-yevhen-ihorovych",
-			"photo":"/employees/shumelchyk-yevhen-ihorovych.jpg",
+			"photo": "/employees/shumelchyk-yevhen-ihorovych.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Шумельчик Євген Ігорович",
 			"description": "Кандидат технічних наук, старший дослідник",
@@ -232,7 +232,7 @@
 		},
 		{
 			"id": "frolova-liliia-anatoliivna",
-			"photo":"/employees/frolova-liliia-anatoliivna.jpg",
+			"photo": "/employees/frolova-liliia-anatoliivna.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Фролова Лілія Анатоліївна",
 			"description": "Доктор технічних наук, доцент",
@@ -257,7 +257,7 @@
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=56725733400"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=55505810700"
 				}
 			]
 		},
@@ -292,4 +292,4 @@
 			]
 		}
 	]
-} 
+}

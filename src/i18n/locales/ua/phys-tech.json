@@ -127,7 +127,7 @@
 		},
 		{
 			"id": "holub-tetiana-serhiivna",
-			"photo":"/employees/holub.jpg",
+			"photo": "/employees/holub.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Голуб Тетяна Сергіївна",
 			"description": "Кандидат технічних наук, дослідник",
@@ -149,12 +149,12 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56090113300"
-				}				
+				}
 			]
 		},
 		{
 			"id": "hrekov-stanislav-viktorovych",
-			"photo":"/employees/hrekov.jpg",
+			"photo": "/employees/hrekov.jpg",
 			"position": "Науковий співробітник",
 			"name": "Греков Станіслав Вікторович",
 			"researchDirection": "Оптимізація процесів плавлення або розчинення феросплавів, що додаються на різних етапах позапічної обробки сталі в залежності від масообмінних процесів, гідродинамічного і теплового стану шлакометалевого розплаву, властивості яких визначаються їх структурою з використанням концепції направленого хімічного зв’язку.",
@@ -175,7 +175,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=24070262400"
-				}				
+				}
 			]
 		},
 		{
@@ -184,7 +184,7 @@
 			"name": "Дудченко Сергій Олександрович",
 			"description": "Кандидат технічних наук",
 			"researchDirection": "Теорія та практика конвертерних процесів щодо розроблення та дослідження енергоефективного дуттьового режиму конвертерної плавки в умовах накладення низьковольтних електричних потенціалів.",
-			"specialization":  "G10 Металургія",
+			"specialization": "G10 Металургія",
 			"contacts": [
 				{
 					"type": "Email",
@@ -227,7 +227,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56770109300"
-				}				
+				}
 			]
 		},
 		{
@@ -252,7 +252,7 @@
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=5922020570"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=59220205700"
 				}
 			]
 		},
@@ -285,7 +285,7 @@
 		},
 		{
 			"id": "kakushkin-yevhenii-zvitozarovych",
-			"photo":"/employees/kakushkin.jpg",
+			"photo": "/employees/kakushkin.jpg",
 			"position": "Провідний інженер",
 			"name": "Какушкін Євгеній Світозарович",
 			"description": "",
@@ -304,7 +304,7 @@
 		},
 		{
 			"id": "koveria-andrii-serhiiovych",
-			"photo":"/employees/koveria.jpg",
+			"photo": "/employees/koveria.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Коверя Андрій Сергійович",
 			"description": "Кандидат технічних наук, доцент",
@@ -331,7 +331,7 @@
 		},
 		{
 			"id": "minay-oleksandr-m",
-			"photo":"/employees/minay.jpg",
+			"photo": "/employees/minay.jpg",
 			"position": "Старший науковий співробітник",
 			"name": "Мінай Олександр Миколайович",
 			"description": "Доктор філософії",

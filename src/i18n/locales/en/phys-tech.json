@@ -127,7 +127,7 @@
 		},
 		{
 			"id": "holub-tetiana-serhiivna",
-			"photo":"/employees/holub.jpg",
+			"photo": "/employees/holub.jpg",
 			"position": "Senior Researcher",
 			"name": "Holub Tetiana Serhiivna",
 			"description": "Candidate of Technical Sciences, Researcher",
@@ -149,12 +149,12 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56090113300"
-				}				
+				}
 			]
 		},
 		{
 			"id": "hrekov-stanislav-viktorovych",
-			"photo":"/employees/hrekov.jpg",
+			"photo": "/employees/hrekov.jpg",
 			"position": "Researcher",
 			"name": "Hrekov Stanislav Viktorovych",
 			"researchDirection": "Optimization of processes for melting or dissolving ferroalloys added at different stages of secondary steel treatment depending on mass transfer processes, hydrodynamic and thermal state of the slag-metal melt, the properties of which are determined by their structure using the concept of directed chemical bonding.",
@@ -175,7 +175,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=24070262400"
-				}				
+				}
 			]
 		},
 		{
@@ -184,7 +184,7 @@
 			"name": "Dudchenko Serhii Oleksandrovych",
 			"description": "Candidate of Technical Sciences",
 			"researchDirection": "Theory and practice of converter processes regarding the development and research of energy-efficient blowing regime for converter smelting under conditions of applying low-voltage electrical potentials.",
-			"specialization":  "G10 Metallurgy",
+			"specialization": "G10 Metallurgy",
 			"contacts": [
 				{
 					"type": "Email",
@@ -227,7 +227,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=56770109300"
-				}				
+				}
 			]
 		},
 		{
@@ -252,7 +252,7 @@
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=5922020570"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=59220205700"
 				}
 			]
 		},
@@ -285,7 +285,7 @@
 		},
 		{
 			"id": "kakushkin-yevhenii-zvitozarovych",
-			"photo":"/employees/kakushkin.jpg",
+			"photo": "/employees/kakushkin.jpg",
 			"position": "Lead Engineer",
 			"name": "Kakushkin Yevhenii Zvitozarovych",
 			"description": "",
@@ -304,7 +304,7 @@
 		},
 		{
 			"id": "koveria-andrii-serhiiovych",
-			"photo":"/employees/koveria.jpg",
+			"photo": "/employees/koveria.jpg",
 			"position": "Senior Researcher",
 			"name": "Koveria Andrii Serhiiovych",
 			"description": "Candidate of Technical Sciences, Associate Professor",
@@ -331,7 +331,7 @@
 		},
 		{
 			"id": "minay-oleksandr-m",
-			"photo":"/employees/minay.jpg",
+			"photo": "/employees/minay.jpg",
 			"position": "Senior Researcher",
 			"name": "Minay Oleksandr Mykolaiovych",
 			"description": "Doctor of Philosophy",
