@@ -92,9 +92,6 @@ export const HeroSection: FC<HeroSectionProps> = ({
 
 	const logoText = t('logo.text')
 	const logoParts = logoText.split('<br />')
-	const titleText =
-		logoParts.length > 1 ? `${logoParts[0]} ${logoParts[1]}` : logoText
-	const subtitleText = logoParts.length > 2 ? logoParts.slice(2).join(' ') : ''
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -154,6 +151,7 @@ export const HeroSection: FC<HeroSectionProps> = ({
 									},
 								}}
 							>
+							{logoParts[0] && (
 								<Typography
 									component='div'
 									sx={{
@@ -174,8 +172,10 @@ export const HeroSection: FC<HeroSectionProps> = ({
 										letterSpacing: { xs: 0, sm: '0.2px' },
 									}}
 								>
-									{titleText}
+									{logoParts[0]}
 								</Typography>
+							)}
+							{logoParts[1] && (
 								<Typography
 									component='div'
 									sx={{
@@ -192,8 +192,29 @@ export const HeroSection: FC<HeroSectionProps> = ({
 										mt: 0,
 									}}
 								>
-									{subtitleText}
+									{logoParts[1]}
 								</Typography>
+							)}
+							{logoParts[2] && (
+								<Typography
+									component='div'
+									sx={{
+										fontSize: {
+											xs: '16px',
+											sm: '20px',
+											md: '24px',
+											lg: '30px',
+											xl: '36px',
+										},
+										fontWeight: 600,
+										lineHeight: { xs: 1.2, md: 1.15 },
+										color: '#fff',
+										mt: 0,
+									}}
+								>
+									{logoParts[2]}
+								</Typography>
+							)}
 							</ContentWrapper>
 						</Container>
 					</Overlay>
