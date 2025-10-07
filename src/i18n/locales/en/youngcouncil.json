@@ -152,22 +152,26 @@
 			"researchDirection": "Development of mathematical models of thermal operation and monitoring of heat losses, lining wear of the shaft and hearth of blast furnaces, heat losses of the blast furnace, including for diagnosing disorders in the furnace operation at early stages. Improvement of existing technologies and development of new technologies (including the use of hydrogen-containing fuel) aimed at decarbonization of blast furnace production.",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys",
 			"contacts": [
-				{
-					"type": "Email",
-					"value": "balesan2209@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0002-5544-3023"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=eRjJNjQAAAAJ"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=57204979621"
-				}
+                {
+                    "type": "Email",
+                    "value": "balesan2209@gmail.com"
+                },
+                {
+                    "type": "ORCID ID",
+                    "value": "https://orcid.org/0000-0002-5544-3023"
+                },
+                {
+                    "type": "Google Scholar",
+                    "value": "https://scholar.google.com.ua/citations?user=eRjJNjQAAAAJ"
+                },
+                {
+                    "type": "Scopus Author ID",
+                    "value": "https://www.scopus.com/authid/detail.uri?authorId=57204979621"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0024770"
+                }
 			]
 		},
 		{

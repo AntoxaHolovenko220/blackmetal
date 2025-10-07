@@ -68,7 +68,11 @@
 				{
 					"type": "webofscience",
 					"value": ""
-				}
+				},
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
+                }
 			]
 		},
 		{

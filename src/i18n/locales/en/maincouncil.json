@@ -68,7 +68,11 @@
 				{
 					"type": "webofscience",
 					"value": ""
-				}
+				},
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
+                }
 			]
 		},
 		{
@@ -343,22 +347,26 @@
 			"researchDirection": "Research and improvement of blast furnace smelting technology by controlling the distribution of charge and gases using modern means of control and mathematical modeling",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys",
 			"contacts": [
-				{
-					"type": "Email",
-					"value": "vitalii.lebid@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0009-0006-6193-5530"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=oeJjP4EAAAAJ"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
-				}
+                {
+                    "type": "Email",
+                    "value": "vitalii.lebid@gmail.com"
+                },
+                {
+                    "type": "ORCID ID",
+                    "value": "https://orcid.org/0009-0006-6193-5530"
+                },
+                {
+                    "type": "Google Scholar",
+                    "value": "https://scholar.google.com.ua/citations?user=oeJjP4EAAAAJ"
+                },
+                {
+                    "type": "Scopus Author ID",
+                    "value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0011794"
+                }
 			]
 		},
 		{
@@ -598,6 +606,10 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
+				},
+				{
+					"type": "bibliographic",
+					"value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0013008"
 				}
 			]
 		},

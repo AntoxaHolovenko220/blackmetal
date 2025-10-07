@@ -9,22 +9,26 @@
         "researchDirection": "Development and implementation of a new scientific direction in the field of blast furnace production – systemic reliability in pig iron production: search for compromise solutions using formalized methods and based on experimental melts, which ensure the required volume of pig iron of specified quality, minimal consumption of energy resources and ensuring the technical reliability of the blast furnace and its servicing units, minimal harmful impact of production on the environment.",
         "specialization": "05.16.02  \"Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys\"",
         "contacts": [
-            {
-                "type": "Email",
-                "value": "chaykadp@gmail.com"
-            },
-            {
-                "type": "ORCID ID",
-                "value": "https://orcid.org/0000-0003-1678-2580"
-            },
-            {
-                "type": "Google Scholar",
-                "value": "https://scholar.google.com/citations?user=MA7tga8AAAAJ&hl=ru"
-            },
-            {
-                "type": "Scopus Author ID",
-                "value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
-            }
+			{
+				"type": "Email",
+				"value": "chaykadp@gmail.com"
+			},
+			{
+				"type": "ORCID ID",
+				"value": "https://orcid.org/0000-0003-1678-2580"
+			},
+			{
+				"type": "Google Scholar",
+				"value": "https://scholar.google.com/citations?user=MA7tga8AAAAJ&hl=ru"
+			},
+			{
+				"type": "Scopus Author ID",
+				"value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
+			},
+			{
+				"type": "bibliographic",
+				"value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0013008"
+			}
         ]
     },
     "staffCards": [
@@ -42,7 +46,11 @@
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-3062-5127"
-                }
+                },
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57327615900"
+				}
             ]
         },
         {
@@ -68,6 +76,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0011794"
                 }
             ]
         },
@@ -94,6 +106,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57204979621"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0024770"
                 }
             ]
         },
@@ -177,7 +193,11 @@
 				{
 					"type": "webofscience",
 					"value": ""
-				}
+				},
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
+                }
 			]
 		},
         {
@@ -208,6 +228,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=56196705500"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0013986"
                 }
             ]
         },
@@ -234,6 +258,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57204763192"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0027127"
                 }
             ]
         },
@@ -260,6 +288,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=55505831300"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0021561"
                 }
             ]
         },
@@ -287,6 +319,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=55941002700"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0003741"
                 }
             ]
         }

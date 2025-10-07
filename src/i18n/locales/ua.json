@@ -28,7 +28,8 @@
 		"scopus": "Scopus Author ID",
 		"webofscience": "Web of Science",
 		"sciprofiles": "SciProfiles",
-		"researchgate": "ResearchGate"
+		"researchgate": "ResearchGate",
+		"bibliographic": "Bibliographic"
 	},
 	"departments": {
 		"common": {

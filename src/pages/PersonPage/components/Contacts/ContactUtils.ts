@@ -25,6 +25,8 @@ export const getContactDisplayValue = (contactType: string, t: (key: string) => 
 		return t('contacts.sciprofiles')
 	} else if (normalized === 'researchgate') {
 		return t('contacts.researchgate')
+	} else if (normalized === 'bibliographic' || normalized === 'bibliography') {
+		return t('contacts.bibliographic')
 	}  else {
 		return null
 	}
