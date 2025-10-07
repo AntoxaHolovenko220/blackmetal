@@ -90,12 +90,12 @@
 						{
 							"id": "main-council",
 							"label": "Всеукраїнська конференція «Наука і металургія»",
-							"link": "/blackmetal/Запрошення_на_конференцію_НіМ_20242.pdf"
+							"link": "/Запрошення_на_конференцію_НіМ_20242.pdf"
 						},
 						{
 							"id": "young-scientists",
 							"label": "Міжнародна конференція «HighMatTech»",
-							"link": "/blackmetal/HighMatTech-2025.pdf"
+							"link": "/HighMatTech-2025.pdf"
 						}
 					]
 				}

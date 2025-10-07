@@ -21,7 +21,7 @@ const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
 
 	const fileName = getFileNameFromUrl(link)
 	const fileExtension = getFileExtensionFromUrl(fileName)
-	const fileLink = `/blackmetal${link}`
+	const fileLink = `/${link}`
 
 	return (
 		<Box
@@ -42,7 +42,7 @@ const MonoCard = ({ image, title, description, link }: MonoCardProps) => {
 					width: '40%',
 					aspectRatio: '0.7505 / 1',
 					bgcolor: '#FFFFFF',
-					backgroundImage: image ? `url(/blackmetal${image})` : 'none',
+					backgroundImage: image ? `url(${image})` : 'none',
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'contain',
 					backgroundPosition: 'center',

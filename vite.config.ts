@@ -18,7 +18,7 @@ export default defineConfig({
 			'@utils': '/src/utils',
 		},
 	},
-	base: '/blackmetal/',
+	base: '/',
 	plugins: [react()],
 	server: {
 		proxy: {

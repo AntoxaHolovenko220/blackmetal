@@ -13,7 +13,7 @@ export const PersonPhoto = ({ photo }: PersonPhotoProps) => {
 				aspectRatio: '0.75 / 1',
 				overflow: 'hidden',
 				backgroundColor: '#2D7A84',
-				backgroundImage: photo ? `url(/blackmetal${photo})` : 'none',
+				backgroundImage: photo ? `url(${photo})` : 'none',
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
@@ -33,4 +33,4 @@ export const PersonPhoto = ({ photo }: PersonPhotoProps) => {
 			)}
 		</Box>
 	)
-} 
+}

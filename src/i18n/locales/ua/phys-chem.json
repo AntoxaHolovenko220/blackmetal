@@ -70,6 +70,29 @@
 			]
 		},
 		{
+			"id": "hryshyn",
+			"photo": "/employees/hryshyn.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Гришин Олександр Михайлович",
+			"description": "Доцент, доктор технічних наук",
+			"researchDirection": "Теоретичні та експериментальні дослідження процесів твердо фазного відновлення металів з їх оксидів.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
+			"contacts": [
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com/citations?hl=uk&user=bseKcuwAAAAJ&view_op=list_works&sortby=pubdate"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0009-0000-0665-1179"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=55118646900 "
+				}
+			]
+		},
+		{
 			"id": "belkova",
 			"photo": "/employees/belkova.jpg",
 			"position": "Старший науковий співробітник",
@@ -97,33 +120,6 @@
 			]
 		},
 		{
-			"id": "kuksa",
-			"photo": "/employees/kuksa.jpg",
-			"position": "Науковий співробітник",
-			"name": "Кукса Олег Володимирович",
-			"description": "Кандидат технічних наук",
-			"researchDirection": "Фізико-хімічні дослідження металургійних процесів в окислювальних і відновних умовах з використанням методики міжатомної взаємодії в металургійних розплавах.",
-			"specialization": "05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "olegsteelmaster@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0002-6268-0692"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=E4JMR08AAAAJ"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=57222352909"
-				}				
-			]
-		},
-		{
 			"id": "tsiupa",
 			"photo": "/employees/tsiupa.jpg",
 			"position": "Старший науковий співробітник",
@@ -147,7 +143,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57203586351"
-				}				
+				}
 			]
 		},
 		{
@@ -178,6 +174,29 @@
 			]
 		},
 		{
+			"id": "lisova",
+			"photo": "/employees/lisova.jpg",
+			"position": "Старший науковий співробітник",
+			"name": "Лісова Людмила Олександрівна",
+			"description": "Кандидат технічних наук",
+			"researchDirection": "Дослідження спеціальних процесів плавки; термодинамічні розрахунки рівноважного стану системи газ-шлак-метал; вивчення структури та властивостей шлакових розплавів.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
+			"contacts": [
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com/citations?hl=uk&user=xNEAOkoAAAAJ"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0001-6298-9115"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/inward/authorDetails.url?authorID=57200641385&partnerID=MN8TOARS"
+				}
+			]
+		},
+		{
 			"id": "likhachov",
 			"photo": "/employees/likhachov.jpg",
 			"position": "Науковий співробітник",
@@ -195,7 +214,7 @@
 				{
 					"type": "ORCID iD",
 					"value": "https://orcid.org/0000-0003-3168-7813"
-				}			
+				}
 			]
 		},
 		{
@@ -219,32 +238,10 @@
 				}
 			]
 		},
-		{
-			"id": "hryshyn",
-			"photo": "/employees/hryshyn.jpg",
-			"position": "Старший науковий співробітник",
-			"name": "Гришин Олександр Михайлович",
-			"description": "Доцент, доктор технічних наук",
-			"researchDirection": "Теоретичні та експериментальні дослідження процесів твердо фазного відновлення металів з їх оксидів.",
-			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
-			"contacts": [
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com/citations?hl=uk&user=bseKcuwAAAAJ&view_op=list_works&sortby=pubdate"
-				},
-				{
-					"type": "ORCID iD",
-					"value": "https://orcid.org/0009-0000-0665-1179"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=55118646900 "
-				}				
-			]
-		},
+
 		{
 			"id": "shevchenko-valentina-m",
-			"photo":"/employees/shevchenko-valentina-m.jpg",
+			"photo": "/employees/shevchenko-valentina-m.jpg",
 			"position": "Провідний інженер",
 			"name": "Шевченко Валентина Миколаївна",
 			"researchDirection": "Аналіз багатовимірних експерименттальних даних про властивості металургій-них систем та технологічних даних.",
@@ -257,7 +254,7 @@
 		},
 		{
 			"id": "bocharov",
-			"photo":"/employees/bocharov.jpg",
+			"photo": "/employees/bocharov.jpg",
 			"position": "Провідний інженер",
 			"name": "Бочаров Антон Вікторович ",
 			"researchDirection": "Аналіз багатовимірних експериментальних даних про властивості металургій-них систем та розробка моделей.",
@@ -269,25 +266,29 @@
 			]
 		},
 		{
-			"id": "lisova",
-			"photo": "/employees/lisova.jpg",
-			"position": "Старший науковий співробітник",
-			"name": "Лісова Людмила Олександрівна",
+			"id": "kuksa",
+			"photo": "/employees/kuksa.jpg",
+			"position": "Науковий співробітник",
+			"name": "Кукса Олег Володимирович",
 			"description": "Кандидат технічних наук",
-			"researchDirection": "Дослідження спеціальних процесів плавки; термодинамічні розрахунки рівноважного стану системи газ-шлак-метал; вивчення структури та властивостей шлакових розплавів.",
-			"specialization": "05.16.02 – Металургія чорних і кольорових металів та спеціальних сплавів.",
+			"researchDirection": "Фізико-хімічні дослідження металургійних процесів в окислювальних і відновних умовах з використанням методики міжатомної взаємодії в металургійних розплавах.",
+			"specialization": "05.16.02 – Металургія чорних і кольорових металів, та спеціальних сплавів.",
 			"contacts": [
 				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com/citations?hl=uk&user=xNEAOkoAAAAJ"
+					"type": "Email",
+					"value": "olegsteelmaster@gmail.com"
 				},
 				{
 					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0001-6298-9115"
+					"value": "https://orcid.org/0000-0002-6268-0692"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=E4JMR08AAAAJ"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/inward/authorDetails.url?authorID=57200641385&partnerID=MN8TOARS"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57222352909"
 				}
 			]
 		}

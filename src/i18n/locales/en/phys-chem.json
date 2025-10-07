@@ -42,7 +42,7 @@
 			"id": "tohobitska",
 			"photo": "/employees/tohobitska.jpg",
 			"position": "Leading Researcher",
-			"name": "Tohobitska Daria Mykolaivna",
+			"name": "Tohobitskaya Dariya Mykolaivna",
 			"description": "Professor, Doctor of Technical Sciences",
 			"researchDirection": "Methodological and theoretical foundations for optimizing metallurgical technologies based on the integrated use of mathematical and physico-chemical modeling. Creation of a knowledge base and intelligent decision support systems for managing metallurgical processes.",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
@@ -66,6 +66,29 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602585340"
+				}
+			]
+		},
+		{
+			"id": "hryshyn",
+			"photo": "/employees/hryshyn.jpg",
+			"position": "Senior Researcher",
+			"name": "Hryshyn Oleksandr Mykhailovych",
+			"description": "Associate Professor, Doctor of Technical Sciences",
+			"researchDirection": "Theoretical and experimental studies of solid-phase reduction processes of metals from their oxides.",
+			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
+			"contacts": [
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com/citations?hl=uk&user=bseKcuwAAAAJ&view_op=list_works&sortby=pubdate"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0009-0000-0665-1179"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=55118646900 "
 				}
 			]
 		},
@@ -96,33 +119,7 @@
 				}
 			]
 		},
-		{
-			"id": "kuksa",
-			"photo": "/employees/kuksa.jpg",
-			"position": "Researcher",
-			"name": "Kuksa Oleh Volodymyrovych",
-			"description": "Candidate of Technical Sciences",
-			"researchDirection": "Physico-chemical studies of metallurgical processes in oxidizing and reducing conditions using the methodology of interatomic interaction in metallurgical melts.",
-			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "olegsteelmaster@gmail.com"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0002-6268-0692"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=E4JMR08AAAAJ"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=57222352909"
-				}				
-			]
-		},
+
 		{
 			"id": "tsiupa",
 			"photo": "/employees/tsiupa.jpg",
@@ -147,7 +144,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57203586351"
-				}				
+				}
 			]
 		},
 		{
@@ -178,6 +175,29 @@
 			]
 		},
 		{
+			"id": "lisova",
+			"photo": "/employees/lisova.jpg",
+			"position": "Senior Researcher",
+			"name": "Lisova Lyudmyla Oleksandrivna",
+			"description": "Candidate of Technical Sciences",
+			"researchDirection": "Research of special smelting processes; thermodynamic calculations of the equilibrium state of the gas-slag-metal system; study of the structure and properties of slag melts.",
+			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
+			"contacts": [
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com/citations?hl=uk&user=xNEAOkoAAAAJ"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0001-6298-9115"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/inward/authorDetails.url?authorID=57200641385&partnerID=MN8TOARS"
+				}
+			]
+		},
+		{
 			"id": "likhachov",
 			"photo": "/employees/likhachov.jpg",
 			"position": "Researcher",
@@ -195,7 +215,7 @@
 				{
 					"type": "ORCID iD",
 					"value": "https://orcid.org/0000-0003-3168-7813"
-				}			
+				}
 			]
 		},
 		{
@@ -219,32 +239,10 @@
 				}
 			]
 		},
-		{
-			"id": "hryshyn",
-			"photo": "/employees/hryshyn.jpg",
-			"position": "Senior Researcher",
-			"name": "Hryshyn Oleksandr Mykhailovych",
-			"description": "Associate Professor, Doctor of Technical Sciences",
-			"researchDirection": "Theoretical and experimental studies of solid-phase reduction processes of metals from their oxides.",
-			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
-			"contacts": [
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com/citations?hl=uk&user=bseKcuwAAAAJ&view_op=list_works&sortby=pubdate"
-				},
-				{
-					"type": "ORCID iD",
-					"value": "https://orcid.org/0009-0000-0665-1179"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=55118646900 "
-				}				
-			]
-		},
+
 		{
 			"id": "shevchenko-valentina-m",
-			"photo":"/employees/shevchenko-valentina-m.jpg",
+			"photo": "/employees/shevchenko-valentina-m.jpg",
 			"position": "Lead Engineer",
 			"name": "Shevchenko Valentyna Mykolaivna",
 			"researchDirection": "Analysis of multidimensional experimental data on the properties of metallurgical systems and technological data.",
@@ -257,7 +255,7 @@
 		},
 		{
 			"id": "bocharov",
-			"photo":"/employees/bocharov.jpg",
+			"photo": "/employees/bocharov.jpg",
 			"position": "Lead Engineer",
 			"name": "Bocharov Anton Viktorovych",
 			"researchDirection": "Analysis of multidimensional experimental data on the properties of metallurgical systems and model development.",
@@ -268,26 +266,31 @@
 				}
 			]
 		},
+
 		{
-			"id": "lisova",
-			"photo": "/employees/lisova.jpg",
-			"position": "Senior Researcher",
-			"name": "Lisova Lyudmyla Oleksandrivna",
+			"id": "kuksa",
+			"photo": "/employees/kuksa.jpg",
+			"position": "Researcher",
+			"name": "Kuksa Oleh Volodymyrovych",
 			"description": "Candidate of Technical Sciences",
-			"researchDirection": "Research of special smelting processes; thermodynamic calculations of the equilibrium state of the gas-slag-metal system; study of the structure and properties of slag melts.",
+			"researchDirection": "Physico-chemical studies of metallurgical processes in oxidizing and reducing conditions using the methodology of interatomic interaction in metallurgical melts.",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",
 			"contacts": [
 				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com/citations?hl=uk&user=xNEAOkoAAAAJ"
+					"type": "Email",
+					"value": "olegsteelmaster@gmail.com"
 				},
 				{
 					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0001-6298-9115"
+					"value": "https://orcid.org/0000-0002-6268-0692"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=E4JMR08AAAAJ"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/inward/authorDetails.url?authorID=57200641385&partnerID=MN8TOARS"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57222352909"
 				}
 			]
 		}

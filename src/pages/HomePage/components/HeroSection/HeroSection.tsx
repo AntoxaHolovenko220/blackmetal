@@ -80,7 +80,10 @@ const StyledButton = styled(Button)(({ theme }) => ({
 	},
 }))
 
-export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => {
+export const HeroSection: FC<HeroSectionProps> = ({
+	image,
+	overlay = true,
+}) => {
 	const navigate = useNavigate()
 	const [currentImageIndex, setCurrentImageIndex] = useState(0)
 	const [isModalOpen, setIsModalOpen] = useState(false)
@@ -89,7 +92,8 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 
 	const logoText = t('logo.text')
 	const logoParts = logoText.split('<br />')
-	const titleText = logoParts.length > 1 ? `${logoParts[0]} ${logoParts[1]}` : logoText
+	const titleText =
+		logoParts.length > 1 ? `${logoParts[0]} ${logoParts[1]}` : logoText
 	const subtitleText = logoParts.length > 2 ? logoParts.slice(2).join(' ') : ''
 
 	useEffect(() => {
@@ -128,17 +132,38 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 				))}
 				{overlay && (
 					<Overlay>
-						<Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center' }}>
+						<Container
+							maxWidth='lg'
+							sx={{ display: 'flex', alignItems: 'center' }}
+						>
 							<ContentWrapper
 								sx={{
-									mt: { xs: '-60px', sm: '-90px', md: '-120px', lg: '-150px', xl: '-190px' },
-									ml: { xs: '0', sm: '-16px', md: '-32px', lg: '-60px', xl: '-120px' },
+									mt: {
+										xs: '-60px',
+										sm: '-90px',
+										md: '-120px',
+										lg: '-150px',
+										xl: '-190px',
+									},
+									ml: {
+										xs: '0',
+										sm: '-16px',
+										md: '-32px',
+										lg: '-60px',
+										xl: '-120px',
+									},
 								}}
 							>
 								<Typography
-									component="div"
+									component='div'
 									sx={{
-										fontSize: { xs: '22px', sm: '28px', md: '34px', lg: '40px', xl: '48px' },
+										fontSize: {
+											xs: '22px',
+											sm: '28px',
+											md: '34px',
+											lg: '40px',
+											xl: '48px',
+										},
 										fontWeight: 700,
 										lineHeight: { xs: 1.2, md: 1.15, lg: 1.1 },
 										color: '#fff',
@@ -152,9 +177,15 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 									{titleText}
 								</Typography>
 								<Typography
-									component="div"
+									component='div'
 									sx={{
-										fontSize: { xs: '16px', sm: '20px', md: '24px', lg: '30px', xl: '36px' },
+										fontSize: {
+											xs: '16px',
+											sm: '20px',
+											md: '24px',
+											lg: '30px',
+											xl: '36px',
+										},
 										fontWeight: 600,
 										lineHeight: { xs: 1.2, md: 1.15 },
 										color: '#fff',
@@ -169,7 +200,11 @@ export const HeroSection: FC<HeroSectionProps> = ({ image, overlay = true }) => 
 				)}
 			</HeaderContainer>
 
-			<Modal open={isModalOpen} onClose={() => setIsModalOpen(false)} title="Зворотний зв'язок">
+			<Modal
+				open={isModalOpen}
+				onClose={() => setIsModalOpen(false)}
+				title="Зворотний зв'язок"
+			>
 				<FeedbackForm onClose={() => setIsModalOpen(false)} />
 			</Modal>
 		</>

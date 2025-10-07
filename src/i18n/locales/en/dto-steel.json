@@ -1,37 +1,37 @@
 {
 	"title": "Department of Problems of Thermomechanical Processing of Structural Steels",
 	"firstPersonCard": {
-		"id": "kononenko-hanna-andriivna",
-		"photo": "/employees/kononenko.jpg",
-		"position": "Senior Researcher",
-		"name": "Kononenko Hanna Andriivna",
-		"description": "Doctor of Technical Sciences, Senior Researcher",
-		"researchDirection": "Improvement of existing and development of new steel grades for the production of railway-purpose metal products, ensuring high wear resistance and increased resistance to thermal influence during operation. Development of theoretical principles on the influence of hot plastic deformation on the formation of the final structure, taking into account the hereditary influence of the primary dendritic-grain structure in comparison with the chemical heterogeneity that arises during crystallization. Development of scientific and technological principles of effective processes for forming the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
-		"specialization": "05.02.01 — Materials Science",
+		"id": "podolskyi-rostyslav-viacheslavovych",
+		"photo": "/employees/podolskyi.jpg",
+		"position": "Acting Head of Department",
+		"name": "Podolskyi Rostyslav Viacheslavovych",
+		"description": "Doctor of Philosophy (PhD)",
+		"researchDirection": "Development of a scientifically based complex of technological solutions for the production of railway rails and research of the influence of the structural state on mechanical properties, ensuring high operational stability. Research of the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
+		"specialization": "132 – Materials Science",
 		"contacts": [
 			{
 				"type": "Email",
-				"value": "perlit@ua.fm"
+				"value": "rostislavpodolskij@gmail.com"
 			},
 			{
 				"type": "Encyclopedia",
-				"value": "https://esu.com.ua/article-885097"
+				"value": ""
 			},
 			{
 				"type": "ORCID ID",
-				"value": "https://orcid.org/0000-0001-7446-4105"
+				"value": "https://orcid.org/0000-0002-0288-0641"
 			},
 			{
 				"type": "Google Scholar",
-				"value": "https://scholar.google.com.ua/citations?user=BJW8bsEAAAAJ&hl=ru"
+				"value": "https://scholar.google.com.ua/citations?hl=ru&user=xUHD_2wAAAAJ"
 			},
 			{
 				"type": "Scopus Author ID",
-				"value": "https://www.scopus.com/authid/detail.uri?authorId=7007038178"
+				"value": "https://www.scopus.com/authid/detail.uri?authorId=57244145000"
 			},
 			{
 				"type": "webofscience",
-				"value": "https://www.webofscience.com/wos/author/record/23626556"
+				"value": "https://www.webofscience.com/wos/author/record/32788823"
 			}
 		]
 	},
@@ -45,7 +45,7 @@
 	"staffCards": [
 		{
 			"id": "babachenko",
-			"photo":"/employees/babachenko.jpg",
+			"photo": "/employees/babachenko.jpg",
 			"position": "Director, Corresponding Member of the National Academy of Sciences of Ukraine",
 			"name": "Babachenko Oleksandr Ivanovych",
 			"description": " Doctor of Technical Sciences, Senior Researcher",
@@ -183,7 +183,7 @@
 		},
 		{
 			"id": "puchikov-oleksandr-volodymyrovych",
-			"photo":"/employees/puchikov.jpg",
+			"photo": "/employees/puchikov.jpg",
 			"position": "Senior Researcher",
 			"name": "Puchikov Oleksandr Volodymyrovych",
 			"researchDirection": "Development of scientific and technological principles of effective processes for forming the structure and a specified set of properties of bar and sheet rolled products through their thermomechanical strengthening. Research of acicular ferrite.",
@@ -283,7 +283,7 @@
 		},
 		{
 			"id": "klynova-olha-pylypivna",
-			"photo":"/employees/klynova.jpg",
+			"photo": "/employees/klynova.jpg",
 			"position": "Lead Engineer",
 			"name": "Klynova Olha Pylypivna",
 			"researchDirection": "Research of the processes of forming the structural state and complex of properties of low-alloy steels during their interrupted cooling and subsequent self-tempering.",
@@ -317,7 +317,7 @@
 		},
 		{
 			"id": "shpak-olena-adolfivna",
-			"photo":"/employees/shpak.jpg",
+			"photo": "/employees/shpak.jpg",
 			"position": "Junior Researcher",
 			"name": "Shpak Olena Adolfivna",
 			"researchDirection": "Development of scientific and technological principles of effective processes for forming the structure and a specified set of properties of bar and sheet rolled products through their thermomechanical strengthening. Research of acicular ferrite.",
@@ -350,43 +350,43 @@
 			]
 		},
 		{
-			"id": "podolskyi-rostyslav-viacheslavovych",
-			"photo": "/employees/podolskyi.jpg",
-			"position": "Acting Head of Department",
-			"name": "Podolskyi Rostyslav Viacheslavovych",
-			"description": "Doctor of Philosophy (PhD)",
-			"researchDirection": "Development of a scientifically based complex of technological solutions for the production of railway rails and research of the influence of the structural state on mechanical properties, ensuring high operational stability. Research of the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
-			"specialization": "132 – Materials Science",
+			"id": "kononenko-hanna-andriivna",
+			"photo": "/employees/kononenko.jpg",
+			"position": "Senior Researcher",
+			"name": "Kononenko Hanna Andriivna",
+			"description": "Doctor of Technical Sciences, Senior Researcher",
+			"researchDirection": "Improvement of existing and development of new steel grades for the production of railway-purpose metal products, ensuring high wear resistance and increased resistance to thermal influence during operation. Development of theoretical principles on the influence of hot plastic deformation on the formation of the final structure, taking into account the hereditary influence of the primary dendritic-grain structure in comparison with the chemical heterogeneity that arises during crystallization. Development of scientific and technological principles of effective processes for forming the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
+			"specialization": "05.02.01 — Materials Science",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "rostislavpodolskij@gmail.com"
+					"value": "perlit@ua.fm"
 				},
 				{
 					"type": "Encyclopedia",
-					"value": ""
+					"value": "https://esu.com.ua/article-885097"
 				},
 				{
 					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0002-0288-0641"
+					"value": "https://orcid.org/0000-0001-7446-4105"
 				},
 				{
 					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?hl=ru&user=xUHD_2wAAAAJ"
+					"value": "https://scholar.google.com.ua/citations?user=BJW8bsEAAAAJ&hl=ru"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=57244145000"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=7007038178"
 				},
 				{
 					"type": "webofscience",
-					"value": "https://www.webofscience.com/wos/author/record/32788823"
+					"value": "https://www.webofscience.com/wos/author/record/23626556"
 				}
 			]
 		},
 		{
 			"id": "safronova-olena-anatoliivna",
-			"photo":"/employees/safronova.jpg",
+			"photo": "/employees/safronova.jpg",
 			"position": "Researcher",
 			"name": "Safronova Olena Anatoliivna",
 			"researchDirection": "Development of scientific principles and technological solutions for new processes of producing railway axles, research of the influence of the structural state and complex of properties on operational reliability.",
@@ -420,7 +420,7 @@
 		},
 		{
 			"id": "kimstach-tetiana-volodymyrivna",
-			"photo":"/employees/kimstach.jpg",
+			"photo": "/employees/kimstach.jpg",
 			"position": "Senior Researcher",
 			"name": "Kimstach Tetiana Volodymyrivna",
 			"description": "Associate Professor, Candidate of Technical Sciences",

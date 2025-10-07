@@ -35,7 +35,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/1-2.jpg"
+					"value": "/news/1-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -131,7 +131,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/2-2.jpeg"
+					"value": "/news/2-2.jpeg"
 				},
 				{
 					"type": "desc",
@@ -154,7 +154,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/3-1.jpeg"
+					"value": "/news/3-1.jpeg"
 				},
 				{
 					"type": "text",
@@ -208,7 +208,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/4-2.png"
+					"value": "/news/4-2.png"
 				},
 				{
 					"type": "desc",
@@ -263,7 +263,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/5-2.jpg"
+					"value": "/news/5-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -410,7 +410,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/7-2.jpg"
+					"value": "/news/7-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -472,7 +472,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/8-2.jpg"
+					"value": "/news/8-2.jpg"
 				},
 				{
 					"type": "text",
@@ -513,7 +513,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/9-2.jpg"
+					"value": "/news/9-2.jpg"
 				},
 				{
 					"type": "text",
@@ -521,7 +521,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/9-3.jpg"
+					"value": "/news/9-3.jpg"
 				},
 				{
 					"type": "text",
@@ -607,7 +607,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/10-2.jpg"
+					"value": "/news/10-2.jpg"
 				},
 				{
 					"type": "desc",

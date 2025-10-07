@@ -14,7 +14,7 @@
 							"value": "In October 2023, Deputy Director of the Z.I. Nekrasov Iron and Steel Institute of the National Academy of Sciences of Ukraine (Dnipro), Doctor of Technical Sciences "
 						},
 						{
-								"type": "navlink",
+							"type": "navlink",
 							"value": "Oleksii Merkulov",
 							"href": "merkulov"
 						},
@@ -35,7 +35,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/1-2.jpg"
+					"value": "/news/1-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -81,8 +81,8 @@
 		},
 		{
 			"id": 2,
-			"title": "Employees of the ISM of the NAS of Ukraine awarded the Z.I. Nekrasov Prize",
-			"text": "Employees of the ISM of the NAS of Ukraine Dr. Sc. (Tech.), Sen. Res. O.I. Babachenko, Dr. Sc. (Tech.), Sen. Res. H.A. Kononenko, PhD in Philology R.V. Podolskyi were awarded the Z.I. Nekrasov Prize – for outstanding scientific works in the field of metallurgy",
+			"title": "Employees of the ISI of the NAS of Ukraine awarded the Z.I. Nekrasov Prize",
+			"text": "Employees of the ISI of the NAS of Ukraine Dr. Sc. (Tech.), Sen. Res. O.I. Babachenko, Dr. Sc. (Tech.), Sen. Res. H.A. Kononenko, PhD in Philology R.V. Podolskyi were awarded the Z.I. Nekrasov Prize – for outstanding scientific works in the field of metallurgy",
 			"content": [
 				{
 					"type": "text",
@@ -131,11 +131,11 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/2-2.jpeg"
+					"value": "/news/2-2.jpeg"
 				},
 				{
 					"type": "desc",
-					"value": "President of the NAS of Ukraine Anatolii ZAVHORODNII presents a diploma to the Director of the ISM of the NAS of Ukraine Oleksandr BABACHENKO"
+					"value": "President of the NAS of Ukraine Anatolii ZAVHORODNII presents a diploma to the Director of the ISI of the NAS of Ukraine Oleksandr BABACHENKO"
 				},
 				{
 					"type": "text",
@@ -145,7 +145,7 @@
 		},
 		{
 			"id": 3,
-			"title": "Congratulations to the Director of the ISM of the NAS of Ukraine Dr. Sc. (Tech.), Sen. Res. O.I. Babachenko on his election as a Corresponding Member of the NAS of Ukraine",
+			"title": "Congratulations to the Director of the ISI of the NAS of Ukraine Dr. Sc. (Tech.), Sen. Res. O.I. Babachenko on his election as a Corresponding Member of the NAS of Ukraine",
 			"text": "Following the session of the General Meeting of the NAS of Ukraine, the Director of the Z.I. Nekrasov Iron and Steel Institute of the NAS of Ukraine, Doctor of Technical Sciences Oleksandr Ivanovych Babachenko was elected a Corresponding Member of the National Academy of Sciences of Ukraine",
 			"content": [
 				{
@@ -154,7 +154,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/3-1.jpeg"
+					"value": "/news/3-1.jpeg"
 				},
 				{
 					"type": "text",
@@ -169,7 +169,7 @@
 		{
 			"id": 4,
 			"title": "Update of ATEX © software",
-			"text": "On August 15, 2024, the ISM of the NAS of Ukraine received an official license for the non-commercial use of ATEX© software",
+			"text": "On August 15, 2024, the ISI of the NAS of Ukraine received an official license for the non-commercial use of ATEX© software",
 			"content": [
 				{
 					"type": "text",
@@ -208,7 +208,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/4-2.png"
+					"value": "/news/4-2.png"
 				},
 				{
 					"type": "desc",
@@ -263,7 +263,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/5-2.jpg"
+					"value": "/news/5-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -273,7 +273,7 @@
 		},
 		{
 			"id": 6,
-			"title": "Business trip to Austria of employees of the ISM of the NAS of Ukraine",
+			"title": "Business trip to Austria of employees of the ISI of the NAS of Ukraine",
 			"text": "Business trip to Austria of Acting Head of Department Dr. Sc. (Tech.), Sen. Res. H.A. Kononenko and Junior Researcher, Postgraduate Student O.A. Safronova",
 			"content": [
 				{
@@ -361,8 +361,8 @@
 		},
 		{
 			"id": 7,
-			"title": "Participation of employees of the ISM of the NAS of Ukraine in the 7th International Conference 'WRT2024' in Yaremche",
-			"text": "Participation of employees of the ISM of the NAS of Ukraine in the work of the conference 'Welding and Related Technologies 2024', Yaremche, Ukraine",
+			"title": "Participation of employees of the ISI of the NAS of Ukraine in the 7th International Conference 'WRT2024' in Yaremche",
+			"text": "Participation of employees of the ISI of the NAS of Ukraine in the work of the conference 'Welding and Related Technologies 2024', Yaremche, Ukraine",
 			"content": [
 				{
 					"type": "text",
@@ -410,7 +410,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/7-2.jpg"
+					"value": "/news/7-2.jpg"
 				},
 				{
 					"type": "desc",
@@ -428,8 +428,8 @@
 		},
 		{
 			"id": 8,
-			"title": "Participation of employees of the ISM of the NAS of Ukraine in the international conference 'Innovative Manufacturing Engineering & Energy 2024', Athens, Greece",
-			"text": "Participation of employees of the ISM of the NAS of Ukraine in the work of the conference 'Innovative Manufacturing Engineering & Energy 2024', Athens, Greece",
+			"title": "Participation of employees of the ISI of the NAS of Ukraine in the international conference 'Innovative Manufacturing Engineering & Energy 2024', Athens, Greece",
+			"text": "Participation of employees of the ISI of the NAS of Ukraine in the work of the conference 'Innovative Manufacturing Engineering & Energy 2024', Athens, Greece",
 			"content": [
 				{
 					"type": "text",
@@ -472,7 +472,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/8-2.jpg"
+					"value": "/news/8-2.jpg"
 				},
 				{
 					"type": "text",
@@ -486,8 +486,8 @@
 		},
 		{
 			"id": 9,
-			"title": "New equipment in the Center for Shared Use of Scientific Equipment of the ISM of the NAS of Ukraine",
-			"text": "The Center for Shared Use of Scientific Equipment of the ISM of the NAS of Ukraine received new equipment",
+			"title": "New equipment in the Center for Shared Use of Scientific Equipment of the ISI of the NAS of Ukraine",
+			"text": "The Center for Shared Use of Scientific Equipment of the ISI of the NAS of Ukraine received new equipment",
 			"content": [
 				{
 					"type": "text",
@@ -513,7 +513,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/9-2.jpg"
+					"value": "/news/9-2.jpg"
 				},
 				{
 					"type": "text",
@@ -521,7 +521,7 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/9-3.jpg"
+					"value": "/news/9-3.jpg"
 				},
 				{
 					"type": "text",
@@ -584,8 +584,8 @@
 		},
 		{
 			"id": 10,
-			"title": "Employee of the ISM of the NAS of Ukraine won the 'Best Young Scientist of the Academy 2024' competition",
-			"text": "Junior Researcher of the ISM of the NAS of Ukraine, Postgraduate Student Olena SAFRONOVA won the 'Best Young Scientist of the Academy 2024' competition in the 'Postgraduate Students' category",
+			"title": "Employee of the ISI of the NAS of Ukraine won the 'Best Young Scientist of the Academy 2024' competition",
+			"text": "Junior Researcher of the ISI of the NAS of Ukraine, Postgraduate Student Olena SAFRONOVA won the 'Best Young Scientist of the Academy 2024' competition in the 'Postgraduate Students' category",
 			"content": [
 				{
 					"type": "text",
@@ -607,11 +607,11 @@
 				},
 				{
 					"type": "image",
-					"value": "/blackmetal/news/10-2.jpg"
+					"value": "/news/10-2.jpg"
 				},
 				{
 					"type": "desc",
-					"value": "President of the NAS of Ukraine Anatolii ZAVHORODNII presents the winner's diploma to the employee of the ISM of the NAS of Ukraine, postgraduate student Olena Safronova"
+					"value": "President of the NAS of Ukraine Anatolii ZAVHORODNII presents the winner's diploma to the employee of the ISI of the NAS of Ukraine, postgraduate student Olena Safronova"
 				},
 				{
 					"type": "text",
@@ -629,8 +629,8 @@
 		},
 		{
 			"id": 11,
-			"title": "Employees of the ISM of the NAS of Ukraine became laureates of the Verkhovna Rada of Ukraine Prize for Young Scientists for 2024",
-			"text": "A team of young scientists from the ISM of the NAS of Ukraine won the Verkhovna Rada of Ukraine Prize for Young Scientists 2024",
+			"title": "Employees of the ISI of the NAS of Ukraine became laureates of the Verkhovna Rada of Ukraine Prize for Young Scientists for 2024",
+			"text": "A team of young scientists from the ISI of the NAS of Ukraine won the Verkhovna Rada of Ukraine Prize for Young Scientists 2024",
 			"content": [
 				{
 					"type": "text",

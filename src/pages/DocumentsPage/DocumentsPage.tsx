@@ -16,7 +16,7 @@ const DocumentsPage = () => {
 					mb: '30px',
 				}}
 			>
-				<PresentationPlayer pdfUrl='/blackmetal/reg_doc.pdf' />
+				<PresentationPlayer pdfUrl='/reg_doc.pdf' />
 			</Box>
 
 			<Box
@@ -36,7 +36,7 @@ const DocumentsPage = () => {
 					}}
 				>
 					<img
-						src='/blackmetal/certificate1.png'
+						src='/certificate1.png'
 						alt='Сертифікат 1'
 						style={{
 							width: '100%',
@@ -55,7 +55,7 @@ const DocumentsPage = () => {
 					}}
 				>
 					<img
-						src='/blackmetal/certificate2.png'
+						src='/certificate2.png'
 						alt='Сертифікат 2'
 						style={{
 							width: '100%',

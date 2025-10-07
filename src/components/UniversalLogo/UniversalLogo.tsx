@@ -4,7 +4,10 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import { UniversalLogoProps } from './LogoInterface'
 import { useTranslation } from 'react-i18next'
 
-const UniversalLogo: React.FC<UniversalLogoProps> = ({ size, type = 'icon' }) => {
+const UniversalLogo: React.FC<UniversalLogoProps> = ({
+	size,
+	type = 'icon',
+}) => {
 	const navigate = useNavigate()
 	const location = useLocation()
 	const { t } = useTranslation()
@@ -37,7 +40,7 @@ const UniversalLogo: React.FC<UniversalLogoProps> = ({ size, type = 'icon' }) =>
 			{type === 'icon' ? (
 				<Box
 					component='img'
-					src='/blackmetal/isi.jpg'
+					src='/isi.jpg'
 					alt='logo'
 					sx={{
 						height: size,
@@ -55,7 +58,7 @@ const UniversalLogo: React.FC<UniversalLogoProps> = ({ size, type = 'icon' }) =>
 				>
 					<Box
 						component='img'
-						src='/blackmetal/isi.jpg'
+						src='/isi.jpg'
 						alt='logo'
 						sx={{
 							width: { xxs: '40px', sm: '60px' },

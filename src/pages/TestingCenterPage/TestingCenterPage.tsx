@@ -39,35 +39,36 @@ const TestingCenterPage = () => {
 				pl: { xxs: '0px', md: '50px' },
 			}}
 		>
-
-			<Box sx={{ mt: '32px'}}>
+			<Box sx={{ mt: '32px' }}>
 				<TestingCenterHeader
 					subtitle={data.subtitle}
 					institute={data.institute}
 				/>
 
-				<Box sx={{ 
-					mb: '32px',
-					mt: '16px'
-				}}>
-					<video 
+				<Box
+					sx={{
+						mb: '32px',
+						mt: '16px',
+					}}
+				>
+					<video
 						controls
-						style={{ 
-							width: '100%',    
-							height: '60vh',        
+						style={{
+							width: '100%',
+							height: '60vh',
 						}}
-						preload="metadata"
+						preload='metadata'
 						onLoadStart={() => console.log('Video loading started')}
 						onLoadedData={() => console.log('Video data loaded')}
 						onCanPlay={() => console.log('Video can play')}
-						onError={(e) => {
-							console.error('Video error details:', e);
-							const videoElement = e.target as HTMLVideoElement;
-							console.log('Video element:', videoElement);
-							console.log('Video src:', videoElement.src);
-							console.log('Video error code:', videoElement.error);
-							
-							const parent = videoElement.parentElement;
+						onError={e => {
+							console.error('Video error details:', e)
+							const videoElement = e.target as HTMLVideoElement
+							console.log('Video element:', videoElement)
+							console.log('Video src:', videoElement.src)
+							console.log('Video error code:', videoElement.error)
+
+							const parent = videoElement.parentElement
 							if (parent) {
 								parent.innerHTML = `
 									<div style="
@@ -80,18 +81,18 @@ const TestingCenterPage = () => {
 										justify-content: center;
 										align-items: center;
 									">
-										<a href="/blackmetal/video/file_692.mp4" download style="
+										<a href="/video/file_692.mp4" download style="
 											text-decoration: none;
 											padding: 10px 20px;
 										">
 											Завантажити відео
 										</a>
 									</div>
-								`;
+								`
 							}
 						}}
 					>
-						<source src="/blackmetal/video/3.mp4" type="video/mp4" />
+						<source src='/video/3.mp4' type='video/mp4' />
 						Ваш браузер не поддерживает видео.
 					</video>
 				</Box>

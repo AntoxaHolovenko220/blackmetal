@@ -101,7 +101,7 @@ const PersonCard = ({
 						width: '43%',
 						aspectRatio: '0.7505 / 1',
 						bgcolor: '#FFFFFF',
-						backgroundImage: photo ? `url(/blackmetal${photo})` : 'none',
+						backgroundImage: photo ? `url(${photo})` : 'none',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
 						backgroundSize: 'cover',

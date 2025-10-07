@@ -36,7 +36,7 @@ const EquipmentCenterPage = () => {
 
 			<EquipmentItem
 				title={data.equipment1}
-				imageSrc='/blackmetal/SREC_img2.png'
+				imageSrc='/SREC_img2.png'
 				imageAlt='Desktop scanning electron microscope Coxem EM-40'
 				equipmentDescriptionTitle={data.equipmentDescriptionTitle}
 				equipmentDescription={data.equipmentDescription}
@@ -48,7 +48,7 @@ const EquipmentCenterPage = () => {
 
 			<EquipmentItem
 				title={data.equipment2}
-				imageSrc='/blackmetal/SREC_img3.png'
+				imageSrc='/SREC_img3.png'
 				imageAlt='Optical microscope AXIOVERT 200M MAT'
 				equipmentDescriptionTitle={data.equipmentDescriptionTitle}
 				equipmentDescription={data.equipment2Description}
@@ -59,7 +59,7 @@ const EquipmentCenterPage = () => {
 
 			<EquipmentItem
 				title={data.equipment3}
-				imageSrc='/blackmetal/SREC_img4.png'
+				imageSrc='/SREC_img4.png'
 				imageAlt='Microhardness tester LHV5-1000Z'
 				equipmentDescriptionTitle={data.equipmentDescriptionTitle}
 				equipmentDescription={data.equipment3Description}

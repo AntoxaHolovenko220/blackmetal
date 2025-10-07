@@ -12,49 +12,49 @@
 		{
 			"id": 1,
 			"fullName": "Department of Physical and Chemical Problems of Metallurgical Processes",
-			"img": "/blackmetal/icons/1.svg",
+			"img": "/icons/1.svg",
 			"href": "/scientific-departments/phys-chem"
 		},
 		{
 			"id": 2,
 			"fullName": "Department of Pig Iron Metallurgy",
-			"img": "/blackmetal/icons/2.svg",
+			"img": "/icons/2.svg",
 			"href": "/scientific-departments/pig-iron"
 		},
 		{
 			"id": 3,
 			"fullName": "Department of Extra-Furnace Iron Refining",
-			"img": "/blackmetal/icons/3.svg",
+			"img": "/icons/3.svg",
 			"href": "/scientific-departments/iron-refining"
 		},
 		{
 			"id": 4,
 			"fullName": "Department of Physical and Technical Problems of Steel Metallurgy",
-			"img": "/blackmetal/icons/4.svg",
+			"img": "/icons/4.svg",
 			"href": "/scientific-departments/phys-tech"
 		},
 		{
 			"id": 5,
 			"fullName": "Department of Metal Forming Processes and Machinery",
-			"img": "/blackmetal/icons/5.svg",
+			"img": "/icons/5.svg",
 			"href": "/scientific-departments/pressure"
 		},
 		{
 			"id": 6,
 			"fullName": "Department of Problems of Thermomechanical Treatment of Structural Steels",
-			"img": "/blackmetal/icons/6.svg",
+			"img": "/icons/6.svg",
 			"href": "/scientific-departments/dto-steel"
 		},
 		{
 			"id": 7,
 			"fullName": "Department of Heat Treatment of Metal for Machinery",
-			"img": "/blackmetal/icons/7.svg",
+			"img": "/icons/7.svg",
 			"href": "/scientific-departments/ht-machinery"
 		},
 		{
 			"id": 8,
 			"fullName": "Department of Technological Equipment and Control Systems",
-			"img": "/blackmetal/icons/8.svg",
+			"img": "/icons/8.svg",
 			"href": "/scientific-departments/equipment"
 		}
 	],
@@ -62,19 +62,19 @@
 		{
 			"id": 1,
 			"fullName": "Laboratory of Heat Engineering and Energy-Saving Blast Furnace Smelting Technologies",
-			"img": "/blackmetal/icons/9.svg",
+			"img": "/icons/9.svg",
 			"href": "/scientific-departments/lab-heat-tech"
 		},
 		{
 			"id": 2,
 			"fullName": "Laboratory of Flat Rolled Products Production Problems",
-			"img": "/blackmetal/icons/10.svg",
+			"img": "/icons/10.svg",
 			"href": "/scientific-departments/lab-flat-rolling"
 		},
 		{
 			"id": 3,
 			"fullName": "Laboratory of Structure Formation and Properties of Ferrous Metals",
-			"img": "/blackmetal/icons/11.svg",
+			"img": "/icons/11.svg",
 			"href": "/scientific-departments/lab-structure-properties"
 		}
 	],
@@ -82,19 +82,19 @@
 		{
 			"id": 1,
 			"fullName": "Scientific and Organizational Department",
-			"img": "/blackmetal/icons/12.svg",
+			"img": "/icons/12.svg",
 			"href": "/technical-departments/organization"
 		},
 		{
 			"id": 2,
 			"fullName": "Department of Standardization and Product Quality Management",
-			"img": "/blackmetal/icons/13.svg",
+			"img": "/icons/13.svg",
 			"href": "/technical-departments/quality"
 		},
 		{
 			"id": 3,
 			"fullName": "Chief Metrologist's Department",
-			"img": "/blackmetal/icons/14.svg",
+			"img": "/icons/14.svg",
 			"href": ""
 		}
 	]

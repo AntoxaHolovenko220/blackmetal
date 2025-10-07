@@ -3,7 +3,7 @@
 	"data": [
 		{
 			"id": "babachenko",
-			"photo":"/employees/babachenko.jpg",
+			"photo": "/employees/babachenko.jpg",
 			"position": "Director, Corresponding Member of the NAS of Ukraine",
 			"name": "Babachenko Oleksandr Ivanovych",
 			"description": "Doctor of Technical Sciences, Senior Researcher",
@@ -108,7 +108,7 @@
 		},
 		{
 			"id": "harmash",
-			"photo":"/employees/harmash.jpg",
+			"photo": "/employees/harmash.jpg",
 			"position": "Scientific Secretary, Senior Researcher",
 			"name": "Harmash Larysa Ivanivna",
 			"description": "Candidate of Technical Sciences",
@@ -547,7 +547,7 @@
 			"id": "tohobitska",
 			"photo": "/employees/tohobitska.jpg",
 			"position": "Leading Researcher",
-			"name": "Tohobitska Daria Mykolaivna",
+			"name": "Tohobitskaya Dariaya Mykolaivna",
 			"description": "Professor, Doctor of Technical Sciences",
 			"researchDirection": "Methodological and theoretical foundations for optimizing metallurgical technologies based on the integrated use of mathematical and physico-chemical modeling. Creation of a knowledge base and intelligent decision support systems for managing metallurgical processes.",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys.",

@@ -13,35 +13,37 @@ interface ImageSliderProps {
 	useRegDocs?: boolean
 }
 
-const ImageSlider: React.FC<ImageSliderProps> = ({ 
-	images = [], 
-	title, 
-	alt, 
-	useRegDocs = false 
+const ImageSlider: React.FC<ImageSliderProps> = ({
+	images = [],
+	title,
+	alt,
+	useRegDocs = false,
 }) => {
 	const [currentIndex, setCurrentIndex] = useState(0)
 	const theme = useTheme()
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 	const isPhone = useMediaQuery(theme.breakpoints.down('sm'))
 
-	const defaultImages = useRegDocs ? [
-		'/blackmetal/reg_doc1.png',
-		'/blackmetal/reg_doc2.png',
-		'/blackmetal/reg_doc3.png',
-		'/blackmetal/reg_doc4.png',
-		'/blackmetal/reg_doc5.png'
-	] : []
+	const defaultImages = useRegDocs
+		? [
+				'/reg_doc1.png',
+				'/reg_doc2.png',
+				'/reg_doc3.png',
+				'/reg_doc4.png',
+				'/reg_doc5.png',
+		  ]
+		: []
 
 	const finalImages = images.length > 0 ? images : defaultImages
 
 	const handlePrevious = () => {
-		setCurrentIndex((prevIndex) => 
+		setCurrentIndex(prevIndex =>
 			prevIndex === 0 ? finalImages.length - 1 : prevIndex - 1
 		)
 	}
 
 	const handleNext = () => {
-		setCurrentIndex((prevIndex) => 
+		setCurrentIndex(prevIndex =>
 			prevIndex === finalImages.length - 1 ? 0 : prevIndex + 1
 		)
 	}
@@ -51,9 +53,9 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 		if (elem.requestFullscreen) {
 			elem.requestFullscreen()
 		} else if ((elem as any).webkitRequestFullscreen) {
-			(elem as any).webkitRequestFullscreen()
+			;(elem as any).webkitRequestFullscreen()
 		} else if ((elem as any).msRequestFullscreen) {
-			(elem as any).msRequestFullscreen()
+			;(elem as any).msRequestFullscreen()
 		}
 	}
 
@@ -83,7 +85,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 	if (finalImages.length === 1) {
 		return (
 			<Box sx={{ mb: 4, maxWidth: '100%', mx: 'auto' }}>
-				<Box 
+				<Box
 					sx={{
 						overflow: 'hidden',
 						maxWidth: '100%',
@@ -91,17 +93,17 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 						mx: 'auto',
 						display: 'flex',
 						alignItems: 'center',
-						justifyContent: 'center'
+						justifyContent: 'center',
 					}}
 				>
-					<img 
-						src={finalImages[0]} 
+					<img
+						src={finalImages[0]}
 						alt={alt || title || 'Document image'}
 						style={{
 							width: '100%',
 							height: '100%',
 							objectFit: 'contain',
-							display: 'block'
+							display: 'block',
 						}}
 					/>
 				</Box>
@@ -111,7 +113,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 
 	return (
 		<Box sx={{ mb: 4, position: 'relative', maxWidth: '100%', mx: 'auto' }}>
-			<Box 
+			<Box
 				sx={{
 					position: 'relative',
 					overflow: 'hidden',
@@ -131,7 +133,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 							backgroundColor: 'rgba(255, 255, 255, 0.9)',
 							border: '1px solid #e0e0e0',
 							'&:hover': {
-								backgroundColor: 'rgba(255, 255, 255, 1)'
+								backgroundColor: 'rgba(255, 255, 255, 1)',
 							},
 						}}
 					>
@@ -150,16 +152,16 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 						flex: isPhone ? '1' : 'none',
 					}}
 				>
-					<img 
-						src={finalImages[currentIndex]} 
+					<img
+						src={finalImages[currentIndex]}
 						alt={`${alt || title || 'Document image'} ${currentIndex + 1}`}
 						style={{
 							width: '100%',
 							height: '100%',
 							objectFit: 'contain',
-							transition: 'transform 0.3s ease-in-out'
+							transition: 'transform 0.3s ease-in-out',
 						}}
-						onError={(e) => {
+						onError={e => {
 							console.error('Error loading image:', finalImages[currentIndex])
 						}}
 					/>
@@ -175,9 +177,9 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 									transform: 'translateY(-50%)',
 									backgroundColor: 'rgba(255, 255, 255, 0.9)',
 									'&:hover': {
-										backgroundColor: 'rgba(255, 255, 255, 1)'
+										backgroundColor: 'rgba(255, 255, 255, 1)',
 									},
-									zIndex: 2
+									zIndex: 2,
 								}}
 							>
 								<ChevronLeftIcon />
@@ -192,9 +194,9 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 									transform: 'translateY(-50%)',
 									backgroundColor: 'rgba(255, 255, 255, 0.9)',
 									'&:hover': {
-										backgroundColor: 'rgba(255, 255, 255, 1)'
+										backgroundColor: 'rgba(255, 255, 255, 1)',
 									},
-									zIndex: 2
+									zIndex: 2,
 								}}
 							>
 								<ChevronRightIcon />
@@ -210,7 +212,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 							backgroundColor: 'rgba(255, 255, 255, 0.9)',
 							border: '1px solid #e0e0e0',
 							'&:hover': {
-								backgroundColor: 'rgba(255, 255, 255, 1)'
+								backgroundColor: 'rgba(255, 255, 255, 1)',
 							},
 						}}
 					>
@@ -226,11 +228,11 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 					justifyContent: 'center',
 					gap: 2,
 					mt: 2,
-					flexWrap: 'wrap'
+					flexWrap: 'wrap',
 				}}
 			>
 				<LinearProgress
-					variant="determinate"
+					variant='determinate'
 					value={(currentIndex / (finalImages.length - 1)) * 100}
 					sx={{
 						flex: 1,
@@ -240,21 +242,21 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 						backgroundColor: '#e0e0e0',
 						'& .MuiLinearProgress-bar': {
 							backgroundColor: '#2D7A84',
-							borderRadius: 2
-						}
+							borderRadius: 2,
+						},
 					}}
 				/>
-				<Typography variant="body2" color="text.secondary">
+				<Typography variant='body2' color='text.secondary'>
 					{currentIndex + 1} / {finalImages.length}
 				</Typography>
 				<IconButton
 					onClick={handleFullscreen}
-					size="small"
+					size='small'
 					sx={{
 						color: '#666',
 						'&:hover': {
-							color: '#2D7A84'
-						}
+							color: '#2D7A84',
+						},
 					}}
 				>
 					<FullscreenIcon />
@@ -264,4 +266,4 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 	)
 }
 
-export default ImageSlider 
+export default ImageSlider

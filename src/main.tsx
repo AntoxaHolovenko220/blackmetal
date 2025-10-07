@@ -7,7 +7,7 @@ import './i18n/i18n.config'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<BrowserRouter basename='/blackmetal'>
+		<BrowserRouter basename='/'>
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>
