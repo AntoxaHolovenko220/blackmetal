@@ -130,91 +130,114 @@ export const HeroSection: FC<HeroSectionProps> = ({
 				{overlay && (
 					<Overlay>
 						<Container
-							maxWidth='lg'
-							sx={{ display: 'flex', alignItems: 'center' }}
+							sx={{
+								display: 'flex',
+								alignItems: 'center',
+								maxWidth: '1920px',
+								width: '100%',
+							}}
 						>
 							<ContentWrapper
 								sx={{
 									mt: {
-										xs: '-60px',
+										xxs: '-60px',
 										sm: '-90px',
 										md: '-120px',
 										lg: '-150px',
 										xl: '-190px',
 									},
 									ml: {
-										xs: '0',
+										xxs: '0',
 										sm: '-16px',
 										md: '-32px',
 										lg: '-60px',
 										xl: '-120px',
 									},
+									maxWidth: '1920px',
+									width: '100%',
 								}}
 							>
-							{logoParts[0] && (
-								<Typography
-									component='div'
-									sx={{
-										fontSize: {
-											xs: '22px',
-											sm: '28px',
-											md: '34px',
-											lg: '40px',
-											xl: '48px',
-										},
-										fontWeight: 700,
-										lineHeight: { xs: 1.2, md: 1.15, lg: 1.1 },
-										color: '#fff',
-										mb: 0,
-										maxWidth: { xs: '100%', md: '80%', lg: '70%', xl: '60%' },
-										wordBreak: 'break-word',
-										hyphens: 'auto',
-										letterSpacing: { xs: 0, sm: '0.2px' },
-									}}
-								>
-									{logoParts[0]}
-								</Typography>
-							)}
-							{logoParts[1] && (
-								<Typography
-									component='div'
-									sx={{
-										fontSize: {
-											xs: '16px',
-											sm: '20px',
-											md: '24px',
-											lg: '30px',
-											xl: '36px',
-										},
-										fontWeight: 600,
-										lineHeight: { xs: 1.2, md: 1.15 },
-										color: '#fff',
-										mt: 0,
-									}}
-								>
-									{logoParts[1]}
-								</Typography>
-							)}
-							{logoParts[2] && (
-								<Typography
-									component='div'
-									sx={{
-										fontSize: {
-											xs: '16px',
-											sm: '20px',
-											md: '24px',
-											lg: '30px',
-											xl: '36px',
-										},
-										fontWeight: 600,
-										lineHeight: { xs: 1.2, md: 1.15 },
-										color: '#fff',
-										mt: 0,
-									}}
-								>
-									{logoParts[2]}
-								</Typography>
-							)}
+								<Box sx={{ width: '100%' }}>
+									{logoParts[0] && (
+										<Typography
+											component='div'
+											sx={{
+												fontSize: {
+													xxs: '22px',
+													sm: '28px',
+													md: '34px',
+													lg: '40px',
+													xl: '48px',
+												},
+												fontWeight: 700,
+												lineHeight: { xs: 1.2, md: 1.15, lg: 1.1 },
+												color: '#fff',
+												mb: 0,
+												maxWidth: {
+													xxs: '100%',
+													md: '80%',
+													lg: '70%',
+													xl: '60%',
+												},
+												width: '100%',
+												wordBreak: 'break-word',
+												hyphens: 'auto',
+												letterSpacing: { xs: 0, sm: '0.2px' },
+											}}
+										>
+											{logoParts[0]}
+										</Typography>
+									)}
+									{logoParts[1] && (
+										<Typography
+											component='div'
+											sx={{
+												fontSize: {
+													xxs: '22px',
+													sm: '28px',
+													md: '34px',
+													lg: '40px',
+													xl: '48px',
+												},
+												fontWeight: 700,
+												lineHeight: { xxs: 1.2, md: 1.15, lg: 1.1 },
+												color: '#fff',
+												mb: 0,
+												maxWidth: {
+													xxs: '100%',
+													md: '80%',
+													lg: '70%',
+													xl: '60%',
+												},
+												wordBreak: 'break-word',
+												hyphens: 'auto',
+												letterSpacing: { xxs: 0, sm: '0.2px' },
+											}}
+										>
+											{logoParts[1]}
+										</Typography>
+									)}
+								</Box>
+								{logoParts[2] && (
+									<Typography
+										component='div'
+										sx={{
+											fontSize: {
+												xxs: '16px',
+												sm: '20px',
+												md: '24px',
+												lg: '30px',
+												xl: '36px',
+											},
+											fontWeight: 600,
+											lineHeight: { xxs: 1.2, md: 1.15 },
+											color: '#fff',
+											mt: 0,
+										}}
+									>
+										{logoParts[2]}
+									</Typography>
+								)}
 							</ContentWrapper>
 						</Container>
 					</Overlay>
