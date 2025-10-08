@@ -1,5 +1,13 @@
 export interface NewsContentItem {
-	type: 'image' | 'text' | 'desc' | 'link' | 'navlink' | 'bold'
+	type:
+		| 'image'
+		| 'text'
+		| 'desc'
+		| 'link'
+		| 'navlink'
+		| 'bold'
+		| 'minititle'
+		| 'list'
 	value: string
 	href?: string
 	children?: NewsContentItem[]

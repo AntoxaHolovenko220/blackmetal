@@ -59,6 +59,16 @@
 			"id": 12,
 			"imageUrl": "/news/12-1.jpg",
 			"date": "16.07.2025"
+		},
+		{
+			"id": 13,
+			"imageUrl": "/news/13-1.png",
+			"date": "10.07.2025"
+		},
+		{
+			"id": 14,
+			"imageUrl": "/news/14-1.jpg",
+			"date": "01.09.2025"
 		}
 	]
 }

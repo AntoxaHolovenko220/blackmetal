@@ -1,4 +1,4 @@
-import { Box, Typography, Link as MUILink } from '@mui/material'
+import { Box, Typography, Link as MUILink, List, ListItem } from '@mui/material'
 import { NewsContentItem } from '@/pages/HomePage/components/News/NewsTypes'
 import { Link } from 'react-router-dom'
 
@@ -76,6 +76,7 @@ const renderContent = (item: NewsContentItem, index: number) => {
 					src={item.value}
 					alt={`Новость - изображение ${index + 1}`}
 					style={{
+						maxHeight: '600px',
 						width: '100%',
 						objectFit: 'contain',
 					}}
@@ -137,6 +138,56 @@ const renderContent = (item: NewsContentItem, index: number) => {
 			>
 				{item.value}
 			</Typography>
+		)
+	}
+
+	if (item.type === 'minititle') {
+		return (
+			<Typography
+				key={index}
+				variant='body1'
+				sx={{
+					fontSize: '1.1rem',
+					fontWeight: 700,
+					lineHeight: 1.7,
+					color: '#333333',
+					ml: 4,
+					mb: 2,
+					textAlign: 'justify',
+				}}
+			>
+				{item.value}
+			</Typography>
+		)
+	}
+
+	if (item.type === 'list') {
+		return (
+			<List
+				key={index}
+				sx={{
+					listStyleType: 'disc',
+					pl: 6,
+					color: '#333333',
+					mb: 2,
+				}}
+			>
+				{item.children?.map((child, idx) => (
+					<ListItem
+						key={idx}
+						sx={{
+							display: 'list-item',
+							py: 0,
+							fontSize: '1.1rem',
+							lineHeight: 1.7,
+						}}
+					>
+						{child.children && child.children.length > 0
+							? child.children.map((c, i) => renderInline(c, i))
+							: child.value}
+					</ListItem>
+				))}
+			</List>
 		)
 	}
 

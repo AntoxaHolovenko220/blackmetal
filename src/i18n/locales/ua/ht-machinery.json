@@ -33,10 +33,10 @@
 				"type": "Web Of Science",
 				"value": "https://www.webofscience.com/wos/author/record/504824 "
 			},
-            {
-                "type": "researchgate",
-                "value": "https://www.researchgate.net/profile/Eduard-Parusov-2"
-            }
+			{
+				"type": "researchgate",
+				"value": "https://www.researchgate.net/profile/Eduard-Parusov-2"
+			}
 		]
 	},
 	"activities": {
@@ -127,10 +127,10 @@
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/2289447 "
 				},
-                {
-                    "type": "researchgate",
-                    "value": "https://www.researchgate.net/profile/Svetlana-Gubenko"
-                }
+				{
+					"type": "researchgate",
+					"value": "https://www.researchgate.net/profile/Svetlana-Gubenko"
+				}
 			]
 		},
 		{
@@ -201,10 +201,10 @@
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/1661603 "
 				},
-                {
-                    "type": "researchgate",
-                    "value": "https://www.researchgate.net/profile/Ihor-Chuiko"
-                }
+				{
+					"type": "researchgate",
+					"value": "https://www.researchgate.net/profile/Ihor-Chuiko"
+				}
 			]
 		},
 		{
@@ -240,10 +240,10 @@
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/67060399 "
 				},
-                {
-                    "type": "researchgate",
-                    "value": "https://www.researchgate.net/profile/Liudmyla-Sahura"
-                }
+				{
+					"type": "researchgate",
+					"value": "https://www.researchgate.net/profile/Liudmyla-Sahura"
+				}
 			]
 		},
 		{
@@ -279,10 +279,10 @@
 					"type": "webofscience",
 					"value": "https://www.webofscience.com/wos/author/record/48556896 "
 				},
-                {
-                    "type": "researchgate",
-                    "value": "https://www.researchgate.net/profile/Tatyana-Golubenko"
-                }
+				{
+					"type": "researchgate",
+					"value": "https://www.researchgate.net/profile/Tatyana-Golubenko"
+				}
 			]
 		},
 		{
@@ -322,7 +322,7 @@
 		},
 		{
 			"id": "sivak-hanna-ivanivna",
-			"photo":"/employees/sivak-hanna-ivanivna.jpg",
+			"photo": "/employees/sivak-hanna-ivanivna.jpg",
 			"position": "Науковий співробітник",
 			"name": "Сівак Ганна Іванівна",
 			"researchDirection": "Особливості перебігу фазових та структурних перетворень в вуглецевих, легованих та складнолегованих сталях за умови безперервного та ізотермічного охолодження.  трансформація неметалевих включень за послідовних або комплексних обробках.",
@@ -380,7 +380,7 @@
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=600420632000"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=60042063200&origin=resultslist"
 				},
 				{
 					"type": "webofscience",
