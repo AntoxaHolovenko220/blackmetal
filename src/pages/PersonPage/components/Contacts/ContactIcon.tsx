@@ -7,6 +7,7 @@ import ContactsIcon from '@mui/icons-material/Contacts'
 import ScienceIcon from '@mui/icons-material/Science'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 import GroupWorkIcon from '@mui/icons-material/GroupWork'
+import MenuBookIcon from '@mui/icons-material/MenuBook'
 
 interface ContactIconProps {
 	contactType: string
@@ -34,6 +35,8 @@ export const ContactIcon = ({ contactType }: ContactIconProps) => {
 		return <AccountCircleIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else if (normalized === 'researchgate') {
 		return <GroupWorkIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
+    } else if (normalized === 'bibliographic' || normalized === 'bibliography') {
+        return <MenuBookIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	} else {
 		return <EmailOutlinedIcon sx={{ color: '#2D7A84', fontSize: '20px' }} />
 	}

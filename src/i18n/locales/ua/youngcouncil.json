@@ -167,7 +167,11 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=57204979621"
-				}
+				},
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0024770"
+                }
 			]
 		},
 		{

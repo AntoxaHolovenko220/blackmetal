@@ -24,6 +24,10 @@
             {
                 "type": "Scopus Author ID",
                 "value": "https://www.scopus.com/authid/detail.uri?authorId=15044043200"
+            },
+            {
+                "type": "bibliographic",
+                "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0013008"
             }
         ]
     },
@@ -42,7 +46,11 @@
                 {
                     "type": "ORCID ID",
                     "value": "https://orcid.org/0000-0003-3062-5127"
-                }
+                },
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57327615900"
+				}
             ]
         },
         {
@@ -68,6 +76,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0011794"
                 }
             ]
         },
@@ -94,6 +106,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57204979621"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0024770"
                 }
             ]
         },
@@ -177,7 +193,11 @@
 				{
 					"type": "webofscience",
 					"value": ""
-				}
+				},
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
+                }
 			]
 		},
         {
@@ -208,6 +228,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=56196705500"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0013986"
                 }
             ]
         },
@@ -234,6 +258,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=57204763192"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0027127"
                 }
             ]
         },
@@ -247,7 +275,7 @@
             "contacts": [
                 {
                     "type": "Email",
-                    "value": " fedorov.pte@gmail.com"
+                    "value": "fedorov.pte@gmail.com"
                 },
                 {
                     "type": "ORCID ID",
@@ -260,6 +288,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=55505831300"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0021561"
                 }
             ]
         },
@@ -287,6 +319,10 @@
                 {
                     "type": "Scopus Author ID",
                     "value": "https://www.scopus.com/authid/detail.uri?authorId=55941002700"
+                },
+                {
+                    "type": "bibliographic",
+                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0003741"
                 }
             ]
         }
