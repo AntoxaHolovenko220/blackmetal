@@ -1,5 +1,13 @@
 import { useState } from 'react'
-import { Box, IconButton, Drawer, useTheme, Typography, Divider } from '@mui/material'
+import {
+	Box,
+	IconButton,
+	Drawer,
+	useTheme,
+	Typography,
+	Divider,
+	Link as MUILink,
+} from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import { NavItem } from '../NavItem'
@@ -16,7 +24,9 @@ interface BurgerMenuProps {
 
 export const BurgerMenu = ({ navItems }: BurgerMenuProps) => {
 	const [open, setOpen] = useState(false)
-	const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>({})
+	const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>(
+		{}
+	)
 	const theme = useTheme()
 	const navigate = useNavigate()
 
@@ -36,14 +46,16 @@ export const BurgerMenu = ({ navItems }: BurgerMenuProps) => {
 		}))
 	}
 
-
 	const handleNavigation = (path: string) => {
 		setExpandedItems({})
 		setOpen(false)
 		navigate(path)
 	}
 
-	const renderMobileNavItems = (items: NavigationData['navItems'], level = 0) => {
+	const renderMobileNavItems = (
+		items: NavigationData['navItems'],
+		level = 0
+	) => {
 		return items.map(item => (
 			<Box
 				key={item.id}
@@ -87,6 +99,47 @@ export const BurgerMenu = ({ navItems }: BurgerMenuProps) => {
 							</Typography>
 						</Box>
 					</Box>
+				) : item.link ? (
+					<MUILink
+						href={item.link}
+						rel='noopener noreferrer'
+						target='_blank'
+						sx={{ textDecoration: 'none' }}
+						onClick={() => setOpen(false)}
+					>
+						<Box
+							sx={{
+								textDecoration: 'none',
+								width: '100%',
+								display: 'block',
+								cursor: 'pointer',
+							}}
+						>
+							<Box
+								sx={{
+									display: 'flex',
+									alignItems: 'center',
+									justifyContent: 'space-between',
+									width: '100%',
+									py: 1.5,
+									cursor: 'pointer',
+									'&:hover': {
+										backgroundColor: 'rgba(0,0,0,0.05)',
+									},
+								}}
+							>
+								<Typography
+									sx={{
+										fontSize: '1.2rem',
+										fontWeight: 'bold',
+										color: '#373737',
+									}}
+								>
+									{item.label}
+								</Typography>
+							</Box>
+						</Box>
+					</MUILink>
 				) : (
 					<Box
 						sx={{
