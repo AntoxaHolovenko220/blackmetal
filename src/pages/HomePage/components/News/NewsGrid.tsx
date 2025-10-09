@@ -1,5 +1,5 @@
 import { FC, useState, useEffect, useRef } from 'react'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { DocumentTitleSearch } from '@/components'
 import {
 	Grid,
@@ -20,7 +20,6 @@ const parseDate = (dateString: string) => {
 
 export const NewsGrid: FC = () => {
 	const navigate = useNavigate()
-	const [searchParams, setSearchParams] = useSearchParams()
 	const { data: translationData, loading } = useTranslationData<TranslatedNewsData>('news')
 
 	const [news, setNews] = useState<NewsItem[]>([])
@@ -50,24 +49,15 @@ export const NewsGrid: FC = () => {
 	}, [translationData, navigate])
 
 	useEffect(() => {
-		const pageParam = parseInt(searchParams.get('page') || '1', 10)
 		const totalPages = Math.max(1, Math.ceil(news.length / ITEMS_PER_PAGE))
-		const clamped = isNaN(pageParam) ? 1 : Math.min(Math.max(pageParam, 1), totalPages)
+		const clamped = Math.min(Math.max(currentPage, 1), totalPages)
 		if (clamped !== currentPage) {
 			setCurrentPage(clamped)
 		}
-		if (!searchParams.get('page')) {
-			const next = new URLSearchParams(searchParams)
-			next.set('page', String(clamped))
-			setSearchParams(next)
-		}
-	}, [searchParams, setSearchParams, news.length, ITEMS_PER_PAGE])
+	}, [news.length, ITEMS_PER_PAGE, currentPage])
 
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page)
-		const next = new URLSearchParams(searchParams)
-		next.set('page', String(page))
-		setSearchParams(next)
 		if ((isMobile || isTablet) && newsTitleRef.current) {
 			newsTitleRef.current.scrollIntoView({
 				behavior: 'smooth',
