@@ -1,37 +1,37 @@
 {
 	"title": "Department of Problems of Thermomechanical Processing of Structural Steels",
 	"firstPersonCard": {
-		"id": "podolskyi-rostyslav-viacheslavovych",
-		"photo": "/employees/podolskyi.jpg",
-		"position": "Acting Head of Department",
-		"name": "Podolskyi Rostyslav Viacheslavovych",
-		"description": "Doctor of Philosophy (PhD)",
-		"researchDirection": "Development of a scientifically based complex of technological solutions for the production of railway rails and research of the influence of the structural state on mechanical properties, ensuring high operational stability. Research of the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
-		"specialization": "132 – Materials Science",
+		"id": "babachenko",
+		"photo": "/employees/babachenko.jpg",
+		"position": "Head of Department",
+		"name": "Babachenko Oleksandr Ivanovych",
+		"description": " Doctor of Technical Sciences, Senior Researcher",
+		"researchDirection": "Development of scientific principles and technological solutions for new processes of producing wheel-tyre steels and railway wheels and tyres, ensuring a high level of their resource. Research on the influence of the structural state and complex of properties of various types of steel rolled products on their operational reliability",
+		"specialization": "05.02.01 – Materials Science",
 		"contacts": [
 			{
 				"type": "Email",
-				"value": "rostislavpodolskij@gmail.com"
+				"value": "a_babachenko@i.ua"
 			},
 			{
 				"type": "Encyclopedia",
-				"value": ""
-			},
-			{
-				"type": "ORCID ID",
-				"value": "https://orcid.org/0000-0002-0288-0641"
+				"value": "https://esu.com.ua/article-878708 "
 			},
 			{
 				"type": "Google Scholar",
-				"value": "https://scholar.google.com.ua/citations?hl=ru&user=xUHD_2wAAAAJ"
+				"value": "https://scholar.google.com.ua/citations?hl=ru&user=0P3Q8GUAAAAJ "
+			},
+			{
+				"type": "ORCID iD",
+				"value": "https://orcid.org/0000-0003-4710-0343 "
 			},
 			{
 				"type": "Scopus Author ID",
-				"value": "https://www.scopus.com/authid/detail.uri?authorId=57244145000"
+				"value": "https://www.scopus.com/authid/detail.uri?authorId=6602718336"
 			},
 			{
 				"type": "webofscience",
-				"value": "https://www.webofscience.com/wos/author/record/32788823"
+				"value": "https://www.webofscience.com/wos/author/record/2510193 "
 			}
 		]
 	},
@@ -44,37 +44,37 @@
 	},
 	"staffCards": [
 		{
-			"id": "babachenko",
-			"photo": "/employees/babachenko.jpg",
-			"position": "Director, Corresponding Member of the National Academy of Sciences of Ukraine",
-			"name": "Babachenko Oleksandr Ivanovych",
-			"description": " Doctor of Technical Sciences, Senior Researcher",
-			"researchDirection": "Development of scientific principles and technological solutions for new processes of producing wheel-tyre steels and railway wheels and tyres, ensuring a high level of their resource. Research on the influence of the structural state and complex of properties of various types of steel rolled products on their operational reliability",
-			"specialization": "05.02.01 – Materials Science",
+			"id": "podolskyi-rostyslav-viacheslavovych",
+			"photo": "/employees/podolskyi.jpg",
+			"position": "Senior Researcher",
+			"name": "Podolskyi Rostyslav Viacheslavovych",
+			"description": "Doctor of Philosophy (PhD)",
+			"researchDirection": "Development of a scientifically based complex of technological solutions for the production of railway rails and research of the influence of the structural state on mechanical properties, ensuring high operational stability. Research of the structural state and complex of mechanical properties of products manufactured by additive production methods for use in various operating conditions.",
+			"specialization": "132 – Materials Science",
 			"contacts": [
 				{
 					"type": "Email",
-					"value": "a_babachenko@i.ua"
+					"value": "rostislavpodolskij@gmail.com"
 				},
 				{
 					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-878708 "
+					"value": ""
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-0288-0641"
 				},
 				{
 					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?hl=ru&user=0P3Q8GUAAAAJ "
-				},
-				{
-					"type": "ORCID iD",
-					"value": "https://orcid.org/0000-0003-4710-0343 "
+					"value": "https://scholar.google.com.ua/citations?hl=ru&user=xUHD_2wAAAAJ"
 				},
 				{
 					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=6602718336"
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57244145000"
 				},
 				{
 					"type": "webofscience",
-					"value": "https://www.webofscience.com/wos/author/record/2510193 "
+					"value": "https://www.webofscience.com/wos/author/record/32788823"
 				}
 			]
 		},

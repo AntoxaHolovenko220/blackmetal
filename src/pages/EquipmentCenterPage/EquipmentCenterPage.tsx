@@ -31,6 +31,8 @@ const EquipmentCenterPage = () => {
 			<EquipmentCenterHeader
 				title={data.title}
 				viewRegulation={data.viewRegulation}
+				viewRegulation2={data.viewRegulation2}
+				viewRegulation3={data.viewRegulation3}
 				onViewRegulation={handleViewRegulation}
 			/>
 

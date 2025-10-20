@@ -64,7 +64,7 @@
 	"staffCards": [
 		{
 			"id": "harmash",
-			"photo":"/employees/harmash.jpg",
+			"photo": "/employees/harmash.jpg",
 			"position": "Academic Secretary, Senior Researcher",
 			"name": "Harmash Larysa Ivanivna",
 			"description": "Candidate of Technical Sciences",
@@ -99,7 +99,7 @@
 		},
 		{
 			"id": "muraviova",
-			"photo":"/employees/muraviova.jpg",
+			"photo": "/employees/muraviova.jpg",
 			"position": "Leading Researcher",
 			"name": "Muraviova Iryna Hennadiivna",
 			"description": "Doctor of Technical Sciences, Senior Researcher",
@@ -185,7 +185,7 @@
 			"position": "Researcher",
 			"name": "Vyshniakov Valerii Ivanovych",
 			"researchDirection": "Study of charge material loading processes and their distribution in the blast furnace, mathematical modeling.",
-			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",			
+			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
 			"contacts": [
 				{
 					"type": "Email",
@@ -210,7 +210,7 @@
 			"position": "Lead Engineer",
 			"name": "Yermolina Kateryna Petrivna",
 			"researchDirection": "Research, analysis and generalization of technological operating conditions of blast furnaces.",
-			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",			
+			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
 			"contacts": [
 				{
 					"type": "Email",
@@ -265,7 +265,7 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=6508134704"
-				}		
+				}
 			]
 		},
 		{
@@ -305,6 +305,7 @@
 		{
 			"id": "lytar",
 			"position": "Junior Researcher",
+			"photo": "/employees/litar.png",
 			"name": "Lytar Eduard Ihorovych",
 			"researchDirection": "Search for optimal operating regimes of blast furnaces and carbon lining to prevent its active destruction. Study of the composition and properties of various types of secondary resources in the composition of agglomeration and blast furnace charge.",
 			"specialization": " 05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",
@@ -326,6 +327,7 @@
 		{
 			"id": "zahovorska",
 			"position": "",
+			"photo": "/employees/zavgorodska.png",
 			"name": "Zahorovska Nataliia Mykhailivna",
 			"researchDirection": "Study of the behavior features of iron ore raw materials in the blast furnace and the behavior features of smelting products in the blast furnace hearth and their influence on the stability of its operation.",
 			"specialization": "05.16.02 – Metallurgy of Ferrous, Non-Ferrous Metals and Special Alloys",

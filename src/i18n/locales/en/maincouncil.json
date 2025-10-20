@@ -37,45 +37,6 @@
 			]
 		},
 		{
-			"id": "merkulov",
-			"photo": "/employees/merkulov.jpg",
-			"position": "Deputy Director for Scientific Work, Senior Researcher",
-			"name": "Merkulov Oleksii Yevhenovych",
-			"description": "Doctor of Technical Sciences",
-			"researchDirection": "System analysis of cast iron and steel metallurgy, improvement of fuel utilization in metallurgical processes, development of new energy-saving metallurgical technologies for metal production.",
-			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "merkulov1@ukr.net"
-				},
-				{
-					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-885114"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?user=_yXSDsEAAAAJ&hl=uk"
-				},
-				{
-					"type": "ORCID iD",
-					"value": "https://orcid.org/0000-0002-7867-0659"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=35771153100"
-				},
-				{
-					"type": "webofscience",
-					"value": ""
-				},
-                {
-                    "type": "bibliographic",
-                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
-                }
-			]
-		},
-		{
 			"id": "parusov-eduard-volodymyrovych",
 			"photo": "/employees/parusov-eduard-volodymyrovych.jpg",
 			"position": "Deputy Director for Scientific Work, Head of Department",
@@ -110,6 +71,46 @@
 				}
 			]
 		},
+		{
+			"id": "merkulov",
+			"photo": "/employees/merkulov.jpg",
+			"position": "Deputy Director for Scientific Work, Senior Researcher",
+			"name": "Merkulov Oleksii Yevhenovych",
+			"description": "Doctor of Technical Sciences",
+			"researchDirection": "System analysis of cast iron and steel metallurgy, improvement of fuel utilization in metallurgical processes, development of new energy-saving metallurgical technologies for metal production.",
+			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "merkulov1@ukr.net"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": "https://esu.com.ua/article-885114"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=_yXSDsEAAAAJ&hl=uk"
+				},
+				{
+					"type": "ORCID iD",
+					"value": "https://orcid.org/0000-0002-7867-0659"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=35771153100"
+				},
+				{
+					"type": "webofscience",
+					"value": ""
+				},
+				{
+					"type": "bibliographic",
+					"value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0015295"
+				}
+			]
+		},
+
 		{
 			"id": "harmash",
 			"photo": "/employees/harmash.jpg",
@@ -247,37 +248,6 @@
 			]
 		},
 		{
-			"id": "vorobej-sergij-oleksandrovich",
-			"photo": "/employees/vorobej-sergij-oleksandrovich.jpg",
-			"name": "Vorobei Serhii Oleksandrovych",
-			"position": "Senior Researcher",
-			"description": "Doctor of Technical Sciences",
-			"researchDirection": "Research, improvement of existing and development of new technological processes for continuous rolling of bar, section products and wire rod",
-			"specialization": "05.03.05 – Processes and Machines of Metal Forming",
-			"contacts": [
-				{
-					"type": "Email",
-					"value": "vso54@ukr.net"
-				},
-				{
-					"type": "Encyclopedia",
-					"value": "https://esu.com.ua/article-878715"
-				},
-				{
-					"type": "ORCID ID",
-					"value": "https://orcid.org/0000-0003-0119-3935"
-				},
-				{
-					"type": "Google Scholar",
-					"value": "https://scholar.google.com.ua/citations?hl=ru&user=P9EWr5UAAAAJ"
-				},
-				{
-					"type": "Scopus Author ID",
-					"value": "https://www.scopus.com/authid/detail.uri?authorId=6508350878"
-				}
-			]
-		},
-		{
 			"id": "kysliakov",
 			"photo": "/employees/kysliakov.jpg",
 			"position": "Head of Department, Senior Researcher",
@@ -342,31 +312,32 @@
 		{
 			"id": "lebid",
 			"position": "Senior Researcher",
+			"photo": "/employees/lebid.jpg",
 			"name": "Lebid Vitalii Vasylovych",
 			"description": "Candidate of Technical Sciences",
 			"researchDirection": "Research and improvement of blast furnace smelting technology by controlling the distribution of charge and gases using modern means of control and mathematical modeling",
 			"specialization": "05.16.02 – Metallurgy of ferrous, non-ferrous metals and special alloys",
 			"contacts": [
-                {
-                    "type": "Email",
-                    "value": "vitalii.lebid@gmail.com"
-                },
-                {
-                    "type": "ORCID ID",
-                    "value": "https://orcid.org/0009-0006-6193-5530"
-                },
-                {
-                    "type": "Google Scholar",
-                    "value": "https://scholar.google.com.ua/citations?user=oeJjP4EAAAAJ"
-                },
-                {
-                    "type": "Scopus Author ID",
-                    "value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
-                },
-                {
-                    "type": "bibliographic",
-                    "value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0011794"
-                }
+				{
+					"type": "Email",
+					"value": "vitalii.lebid@gmail.com"
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0009-0006-6193-5530"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=oeJjP4EAAAAJ"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=12780526000"
+				},
+				{
+					"type": "bibliographic",
+					"value": "https://nbuviap.gov.ua/bpnu/bpnu_profile.php?bpnuid=BUN0011794"
+				}
 			]
 		},
 		{
@@ -641,6 +612,41 @@
 				{
 					"type": "Scopus Author ID",
 					"value": "https://www.scopus.com/authid/detail.uri?authorId=7003888776"
+				}
+			]
+		},
+		{
+			"id": "chuiko-ihor-mykolaiovych",
+			"photo": "/employees/chuiko-ihor-mykolaiovych.jpg",
+			"position": "Senior Researcher",
+			"name": "Chuiko Ihor Mykolaiovych",
+			"description": "Candidate of Technical Sciences, Senior Researcher",
+			"researchDirection": "Solving scientific and applied problems of producing high-efficiency types of steel rolled products for various purposes and their further processing at metal production enterprises. Development of scientific and technological foundations for controlling the structure and properties of alloy steels, taking into account the features of the formation and transformation of metastable phases. Creation of energy-saving technologies for thermomechanical processing of carbon and alloy steels to improve the physical-mechanical and operational properties of metal products for critical purposes.",
+			"specialization": "05.16.01 – Metal Science and Heat Treatment of Metals",
+			"contacts": [
+				{
+					"type": "Email",
+					"value": "ferrosplav@ukr.net"
+				},
+				{
+					"type": "Encyclopedia",
+					"value": ""
+				},
+				{
+					"type": "ORCID ID",
+					"value": "https://orcid.org/0000-0002-4753-614X"
+				},
+				{
+					"type": "Google Scholar",
+					"value": "https://scholar.google.com.ua/citations?user=TaoMBcwAAAAJ&hl=uk"
+				},
+				{
+					"type": "Scopus Author ID",
+					"value": "https://www.scopus.com/authid/detail.uri?authorId=57211226481"
+				},
+				{
+					"type": "webofscience",
+					"value": "https://www.webofscience.com/wos/author/record/1661603 "
 				}
 			]
 		},
